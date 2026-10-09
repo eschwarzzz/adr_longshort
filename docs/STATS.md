@@ -1,6 +1,6 @@
 # Backtest statistics: random-forest Chinese ADR long-short
 
-All numbers are out of sample in the sense that no model saw data from its test year; the design (features, universe, model menu, the $10m floor) was fixed with the research and its literature in view. Window January 2010 to August 2026. Generated from the files in `results/` by `docs/make_stats.py`.
+All numbers are out of sample in the sense that no model saw data from its test year; the design (features, universe, model menu, the $3m floor) was fixed with the research and its literature in view. Window January 2010 to August 2026. Generated from the files in `results/` by `docs/make_stats.py`.
 
 ## 1. Forecast quality
 
@@ -30,7 +30,7 @@ Files: `quintile_stats_liquid_ew.csv`; monthly series in `quintile_returns_rf.cs
 | Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | 1.31 / 0.99 / 1.19 |
 | Calendar years, long-short gross (%) | 2010 +33, 2011 +73, 2012 −4, 2013 +28, 2014 +36, 2015 +57, 2016 +53, 2017 +7, 2018 −17, 2019 −7, 2020 +226, 2021 +48, 2022 +23, 2023 +44, 2024 +54, 2025 +30, 2026 (to August) +82 |
 
-## 3. Borrow at retail scale and the $10m short-leg rule
+## 3. Borrow at retail scale and the $3m short-leg rule
 
 File: `borrow_variants_rf.csv`.
 
@@ -40,8 +40,8 @@ Schedules by daily dollar volume, assumed not quoted: base 1% above $25m, 4% at 
 |---|---|---|---|---|---|
 | All liquid names, flat 3% borrow | 1.19 | 3% | 0.96 | 1.00 | 12 |
 | All liquid names, tiered | 1.19 | 16 / 29% | 0.60 / 0.24 | 0.68 / 0.36 | 12 |
-| Names above $3m a day | 1.37 | 7 / 14% | 1.02 / 0.81 | 1.18 / 1.00 | 9 |
-| **Names above $10m a day (exported rule)** | **1.04** | **2 / 5%** | **0.84 / 0.77** | **0.91 / 0.84** | **7** |
+| **Names above $3m a day (exported rule)** | **1.37** | **7 / 14%** | **1.02 / 0.81** | **1.18 / 1.00** | **9** |
+| Names above $10m a day | 1.04 | 2 / 5% | 0.84 / 0.77 | 0.91 / 0.84 | 7 |
 | Names above $25m a day | 0.50 | 1 / 2% | 0.35 / 0.33 | 0.39 / 0.36 | 6 |
 | Long leg, short PGJ at 1% | 0.53 | 1% | 0.36 | −0.07 | |
 
@@ -53,40 +53,50 @@ Daily P&L on the monthly holdings; dollars a side = min(80%, 10% ÷ σ) × equit
 
 | | Random forest (headline) | Same account on the ensemble forecasts |
 |---|---|---|
-| Final equity from $500,000 | **$1.74m** | $1.56m |
-| CAGR / volatility | **7.7% / 10.8%** | 7.1% / 10.7% |
-| Sharpe, daily / monthly | **0.75 / 0.86** | 0.70 / 0.76 |
-| Worst drawdown | −19.3% (Nov 2017 to Mar 2019, recovered Jun 2020) | −16.6% |
-| Worst month / hit rate | −8.4% / 57% | −8.3% / 55% |
-| Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | 0.78 / 0.61 / 0.86 | 0.57 / 0.63 / 0.87 |
-| Exposure a side, average (range) | 28% (12 to 44%) | 28% |
-| Margin pledged, average / peak (Reg T initial); maintenance peak; call days | 28% / 49%; 27%; 0 | |
-| Commissions and spread / borrow (2.3% a year) / cash interest earned | $224k / $95k / +$211k | |
-| Flat months (too few names) | 11 (Dec 2009, Jul 2010, Dec 2011, May 2012, Jun 2012, Jul 2012, Aug 2012, Sep 2012, Oct 2012, Nov 2012, Feb 2013) | |
+| Final equity from $500,000 | **$1.81m** | $1.36m |
+| CAGR / volatility | **8.0% / 11.1%** | 6.2% / 10.9% |
+| Sharpe, daily / monthly | **0.75 / 1.01** | 0.60 / 0.81 |
+| Worst drawdown | −15.0% (Oct 2017 to Mar 2019, recovered Mar 2020) | −12.2% |
+| Worst month / hit rate | −4.6% / 58% | −5.0% / 56% |
+| Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | 0.55 / 0.76 / 0.99 | 0.32 / 0.64 / 0.92 |
+| Exposure a side, average (range) | 24% (5 to 37%) | 24% |
+| Margin pledged, average / peak (Reg T initial); maintenance peak; call days | 24% / 41%; 22%; 0 | |
+| Commissions and spread / borrow (6.6% a year) / cash interest earned | $200k / $232k / +$209k | |
+| Flat months (too few names) | 10 (Dec 2009, Jul 2010, Dec 2011, May 2012, Jun 2012, Jul 2012, Aug 2012, Sep 2012, Oct 2012, Nov 2012) | |
 
-Calendar years, return on the account (%): 2010 +13.6, 2011 +15.4, 2012 −0.6, 2013 +11.6, 2014 +4.6, 2015 −0.7, 2016 +18.8, 2017 +11.0, 2018 −6.4, 2019 −10.6, 2020 +25.1, 2021 +10.7, 2022 +9.6, 2023 +1.1, 2024 −0.8, 2025 +10.4, 2026 (to August) +24.8. The best five months are 28% of the P&L, the best ten 50%.
+Calendar years, return on the account (%): 2010 +10.6, 2011 +14.2, 2012 −0.4, 2013 +3.0, 2014 +4.5, 2015 +5.2, 2016 +12.0, 2017 +1.8, 2018 −1.0, 2019 −5.5, 2020 +31.3, 2021 +10.6, 2022 +11.4, 2023 −2.5, 2024 +12.0, 2025 +12.7, 2026 (to August) +19.8. The best five months are 25% of the P&L, the best ten 47%.
 
-Sizing and cost variants (final equity, CAGR, Sharpe daily, worst drawdown): 15% vol target $2.80m, 10.9%, 0.72, −28%; 20% target $4.38m, 13.9%, 0.71, −37%; fixed 50% a side $4.18m, 13.5%, 0.74, −31%; fixed 80% a side $10.61m, 20.1%, 0.73, −46% with 0 margin-call days; harsh borrow 0.69; flat 8% borrow 0.60; no borrow 0.81; 10 bp costs 0.82; 40 bp costs 0.62.
+Sizing (the same holdings, different exposure rules; all after costs, borrow and cash interest):
+
+| Sizing | CAGR | Final equity | Volatility | Sharpe daily / monthly | Worst drawdown | Margin peak (Reg T initial) |
+|---|---|---|---|---|---|---|
+| **10% volatility target (headline)** | 8.0% | $1.81m | 11.1% | 0.75 / 1.01 | −15% | 41% |
+| 15% volatility target | 11.4% | $3.02m | 16.7% | 0.73 / 0.96 | −23% | 62% |
+| 20% volatility target | 14.7% | $4.91m | 22.4% | 0.72 / 0.94 | −29% | 85% |
+| Fixed 50% a side | 16.5% | $6.45m | 24.8% | 0.74 / 1.02 | −23% | 73% |
+| Fixed 80% a side | 25.3% | $21.61m | 40.6% | 0.76 / 0.99 | −36% | 130% |
+
+Cost and borrow variants (Sharpe daily): harsh borrow 0.60; flat 8% borrow 0.72; no borrow 0.89; 10 bp costs 0.81; 40 bp costs 0.63; 60-day volatility without the long-run blend 0.72. Short-leg floor at $10m instead of $3m: $1.54m, CAGR 7.0%, Sharpe 0.75 / 0.85, drawdown −19%; at $25m: $863k, 0.40.
 
 ## 5. Monte Carlo and nulls
 
 File: `bt500k_rf_mc.json`; figure 4.
 
-Block bootstrap, 12-month blocks, 10,000 paths of 200 months: Sharpe median 0.87, 90% interval 0.47 to 1.28, above zero in every path; final equity $950k (5th percentile), $1.74m (median), $3.18m (95th); CAGR 3.9 to 11.7%; worst drawdown median −16%, one path in twenty worse than −25%, one in a hundred worse than −31%; one-year P&L −$43k / $44k / $135k at the 5th / 50th / 95th percentiles, 19% chance of a losing year; 3.0% chance of being down after five years. Beats the long leg alone in 88% of paired paths and the full-short-leg account in 94%. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
+Block bootstrap, 12-month blocks, 10,000 paths of 200 months: Sharpe median 1.01, 90% interval 0.62 to 1.40, above zero in every path; final equity $1.04m (5th percentile), $1.80m (median), $3.20m (95th); CAGR 4.5 to 11.8%; worst drawdown median −11%, one path in twenty worse than −19%, one in a hundred worse than −23%; one-year P&L −$25k / $33k / $134k at the 5th / 50th / 95th percentiles, 15% chance of a losing year; 1.5% chance of being down after five years. Beats the long leg alone in 95% of paired paths and the full-short-leg account in 100%. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
 
-Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe −0.55 on average (sd 0.25), 95th percentile −0.11, maximum +0.09; none reaches the observed 0.86. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $10m a day, a drag the forecasts have to overcome first.
+Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe −0.59 on average (sd 0.26), 95th percentile −0.15, maximum +0.11; none reaches the observed 1.01. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $3m a day, a drag the forecasts have to overcome first.
 
-Stale forecasts (rank by the forecast made s months earlier; unit long-short, gross Sharpe): 1.04 at s = 0, 0.85 at 1, 0.67 at 2, 0.58 at 3, 0.05 at 6, −0.03 at 12.
+Stale forecasts (rank by the forecast made s months earlier; unit long-short, gross Sharpe): 1.37 at s = 0, 0.89 at 1, 0.92 at 2, 0.76 at 3, 0.41 at 6, 0.14 at 12.
 
-Deflated Sharpe: with the dispersion of the 13 strategies examined on the research panel, the expected maximum Sharpe under a no-skill null is 0.79 for 13 trials and 1.11 for 70. The account's monthly Sharpe of 0.86 (skew −0.02, kurtosis 3.5) gives a deflated-Sharpe probability of 0.62 at 13 trials and 0.16 at 70. The random forest was the best of the eight models on this panel, so the 70-trial reading is the honest one.
+Deflated Sharpe: with the dispersion of the 13 strategies examined on the research panel, the expected maximum Sharpe under a no-skill null is 0.79 for 13 trials and 1.11 for 70. The account's monthly Sharpe of 1.01 (skew 0.45, kurtosis 3.3) gives a deflated-Sharpe probability of 0.83 at 13 trials and 0.33 at 70. The random forest was the best of the eight models on this panel, so the 70-trial reading is the honest one.
 
 ## 6. The last five years as a fresh account
 
 September 2021 to August 2026. Files: `bt500k_rf_5y_*`; figures 5 and 6, `bt500k_rf_5y_pages.pdf`.
 
-Final equity $804k (+$304k, of which $80k is cash interest), CAGR 9.9%, volatility 11.3%, Sharpe 0.89 daily / 1.22 monthly, worst drawdown −13.0% (April 2024 to November 2024, recovered January 2026), worst month −4.9%, hit rate 63%; exposure 24% a side on average; borrow 2.4%; by year 2021 (Sep–Dec) +7.3%, 2022 +9.5%, 2023 +0.7%, 2024 −1.2%, 2025 +10.2%, 2026 (to August) +24.7%. Bootstrap Sharpe median 1.22, 90% interval 0.30 to 2.53; final equity $555k to $1.21m; worst drawdown median −8%, one in twenty −14%; 1.1% chance of being down after five years. Random-sort null on the 60 months: none of 300 random sorts reaches 1.22 (maximum 0.52). Deflated Sharpe 0.81 / 0.59. The rolling five-year Sharpe of the 2010-start account is 1.25 today against a median of 0.73 and a range of 0.24 to 1.25 over 141 windows. The long leg alone lost money over the five years (−1.3% a year): the result is the short leg.
+Final equity $852k (+$352k, of which $83k is cash interest), CAGR 11.2%, volatility 11.3%, Sharpe 1.00 daily / 1.43 monthly, worst drawdown −8.8% (February 2025 to May 2025, recovered July 2025), worst month −3.4%, hit rate 70%; exposure 23% a side on average; borrow 6.5%; by year 2021 (Sep–Dec) +5.0%, 2022 +11.3%, 2023 −2.9%, 2024 +11.6%, 2025 +12.5%, 2026 (to August) +19.6%. Bootstrap Sharpe median 1.42, 90% interval 0.72 to 2.49; final equity $654k to $1.16m; worst drawdown median −5%, one in twenty −7%; 0.0% chance of being down after five years. Random-sort null on the 60 months: none of 300 random sorts reaches 1.43 (maximum 0.79). Deflated Sharpe 0.91 / 0.75. The rolling five-year Sharpe of the 2010-start account is 1.46 today against a median of 0.83 and a range of 0.32 to 1.46 over 141 windows. The long leg alone lost money over the five years (−0.9% a year): the result is the short leg.
 
 ## 7. Cross-checks and limits
 - Price data: Yahoo and an independent archive agree on 99.95% of overlapping stock-months. Two data bugs were found and fixed in review (an asymmetric return filter that turned bad prints into −100% months, and a label-indexing error in the cleaning step that nulled unrelated days when sources were concatenated); the numbers here are from the corrected pipeline.
 - Survivorship: names that delisted after April 2020, other than twelve SOEs carried through Hong Kong, are missing for their final months. The volume-weighted universe correlates 0.92 with PGJ and trails it by 4% a year in 2021–26, so the survivor premium is not driving the recent numbers; the small-cap delistings sit in the short leg and remain unmeasured.
-- Concentration: the pool above $10m a day was 10 to 25 names until 2017, so the short leg was its minimum of five names; it has been 7 to 12 since 2018.
+- Concentration: the pool above $3m a day was 14 to 58 names a month until 2017 and 43 to 108 since, so the short leg has held 5 to 11 names before 2018 and 8 to 21 since; at the minimum of five names a single short is 20% of the leg.

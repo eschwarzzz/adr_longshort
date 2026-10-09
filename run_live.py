@@ -15,7 +15,7 @@ month = M[(M.ym == ym) & M.tradeable].copy(); month["p_RF"] = predict(bundle, mo
 h = holdings(month)
 if h is None: print(f"{ym}: flat (too few names)"); sys.exit()
 dollars = dollars_a_side(equity, None)
-print(f"\n{ym}: {h['n_liquid']} liquid names, {h['n_short_pool']} above $10m a day; forecast gap {h['forecast_gap']*100:.2f}% a month; ${dollars:,.0f} a side on ${equity:,.0f}")
+print(f"\n{ym}: {h['n_liquid']} liquid names, {h['n_short_pool']} above $3m a day; forecast gap {h['forecast_gap']*100:.2f}% a month; ${dollars:,.0f} a side on ${equity:,.0f}")
 print("long :", ", ".join(h["long"])); print("short:", ", ".join(h["short"]))
 w = pd.Series(weights(h, dollars)).round(0).sort_values(); print(w.to_string())
 w.rename("dollars").to_csv(f"{ROOT}/results/positions_{ym}.csv"); print(f"written results/positions_{ym}.csv")

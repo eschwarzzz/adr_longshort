@@ -1,6 +1,6 @@
-"""From forecasts to positions: the quintile rule with the $10m short-leg floor, and the volatility-targeted sizing used in the $500k backtest."""
+"""From forecasts to positions: the quintile rule with the $3m short-leg floor, and the volatility-targeted sizing used in the $500k backtest."""
 import numpy as np, pandas as pd
-LIQ = 1e6; SHORT_FLOOR = 1e7; MIN_N = 25; MIN_SHORT_POOL = 10; MIN_SHORT = 5
+LIQ = 1e6; SHORT_FLOOR = 3e6; MIN_N = 25; MIN_SHORT_POOL = 10; MIN_SHORT = 5
 TARGET = 0.10; CAP = 0.80; PRIOR_VOL = 0.40
 
 def holdings(month, col="p_RF", liq=LIQ, short_floor=SHORT_FLOOR, min_n=MIN_N):

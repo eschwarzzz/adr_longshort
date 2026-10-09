@@ -1,6 +1,6 @@
 # adr_longshort
 
-A random-forest cross-sectional long-short on US-listed Chinese companies (ADRs and direct listings), after Gu, Kelly and Xiu, "Empirical Asset Pricing via Machine Learning" (2020): sixteen price-and-volume characteristics, annual refits, equal-weight quintiles, with the short leg restricted to names trading at least $10m a day so that retail borrow stays cheap. Everything needed to rebuild the model, reproduce the backtest and generate this month's positions is in the repository, data included.
+A random-forest cross-sectional long-short on US-listed Chinese companies (ADRs and direct listings), after Gu, Kelly and Xiu, "Empirical Asset Pricing via Machine Learning" (2020): sixteen price-and-volume characteristics, annual refits, equal-weight quintiles, with the short leg restricted to names trading at least $3m a day, the cut below which retail borrow eats the spread. Everything needed to rebuild the model, reproduce the backtest and generate this month's positions is in the repository, data included.
 
 - `docs/MODEL.md`: the model, its inputs, the refit protocol, what it has learned, and the rule that turns forecasts into positions.
 - `docs/STATS.md`: forecast quality, quintile portfolios, borrow sensitivity, the $500,000 account backtest, Monte Carlo, the last five years, cross-checks.
@@ -37,7 +37,7 @@ The full chain from raw prices is `fetch_data.py → build_panel.py → refit.py
 
 ```
 adr_longshort/      the package: clean_prices (daily cleaning), features (16 characteristics, ranks, targets), rf_model (fit / refit / load / predict),
-                    portfolio (quintile rule with the $10m floor, volatility-targeted sizing), data (loaders)
+                    portfolio (quintile rule with the $3m floor, volatility-targeted sizing), data (loaders)
 data/               yf_prices.csv.gz (Yahoo, currently listed names, with the SOE extensions), kaggle_patch/stocks/*.csv (delisted names to April 2020),
                     fred_DTB4WK.csv, benchmarks_monthly.csv, universe.csv; provenance in data/README.md
 model/              rf_2026.joblib (behind the 2026 backtest months), rf_next.joblib (for the next refit cycle), rf_hyperparams_by_year.csv,

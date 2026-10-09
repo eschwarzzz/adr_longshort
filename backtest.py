@@ -6,7 +6,7 @@
 Part 1, quintile statistics (results/quintile_stats_liquid_ew.csv, quintile_returns_rf.csv): equal-weight quintiles on the liquid universe
 (>= $1m a day, 25 or more names), long-short gross and net of 20 bp a side plus 3% borrow, sub-periods.
 Part 2, borrow variants (results/borrow_variants_rf.csv): flat and volume-tiered borrow schedules, short-leg floors, ETF-hedged long leg.
-Part 3, the $500,000 account (results/bt500k_rf_*): daily P&L on the monthly holdings with the short leg above $10m a day, exposure per side =
+Part 3, the $500,000 account (results/bt500k_rf_*): daily P&L on the monthly holdings with the short leg above $3m a day, exposure per side =
 min(80%, 10% / sigma) x equity, 20 bp a side, borrow per name by volume, cash interest, Reg T margin; variants; block bootstrap of Sharpe,
 P&L and drawdown; random-sort null; stale forecasts; deflated Sharpe. Then the same for a fresh account over the last five years.
 Random seeds are fixed, so the output reproduces the tables in docs/STATS.md."""
@@ -15,7 +15,7 @@ from scipy.stats import norm, skew, kurtosis
 from adr_longshort import load_prices, load_rf, load_benchmarks, load_predictions, clean, holdings, sizing_vol, ROOT
 warnings.filterwarnings("ignore"); pd.set_option("display.width", 250); pd.set_option("display.max_columns", 30)
 R = f"{ROOT}/results"; QUICK = "--quick" in sys.argv; rng = np.random.default_rng(42)
-CAPITAL = 500_000.0; TARGET = 0.10; CAP = 0.80; COST = 0.002; MIN_N = 25; SHORT_FLOOR = 1e7; MODEL = "RF"; ALT = "ENS"; ALT_NAME = "Ensemble"; TAG = "bt500k_rf"
+CAPITAL = 500_000.0; TARGET = 0.10; CAP = 0.80; COST = 0.002; MIN_N = 25; SHORT_FLOOR = 3e6; MODEL = "RF"; ALT = "ENS"; ALT_NAME = "Ensemble"; TAG = "bt500k_rf"
 BORROW = {"base": [(25e6, 0.01), (10e6, 0.04), (3e6, 0.12), (0, 0.35)], "harsh": [(25e6, 0.02), (10e6, 0.08), (3e6, 0.25), (0, 0.60)], "flat3": [(0, 0.03)], "flat8": [(0, 0.08)], "zero": [(0, 0.0)]}
 START = "2010-01"; END = "2026-08"; SUBS = {"2010-15": ("2010", "2015"), "2016-20": ("2016", "2020"), "2021-26": ("2021", "2026")}
 def sharpe_m(x): return np.nan if x.std() == 0 else x.mean() / x.std() * np.sqrt(12)
@@ -146,26 +146,26 @@ def stats(d, m, capital=CAPITAL):
                 fees_usd=d["fees"].sum(), borrow_usd=d["borrow"].sum(), interest_usd=d["interest"].sum(), borrow_rate_pct=m["borrow_rate"].mean() * 100, n_short=m[m.n_short > 0]["n_short"].mean(),
                 peak_maint_pct=d["maint_pct"].max() * 100, call_days=int((d["maint_pct"] > 1).sum()), flat_months=int((m["exposure"] == 0).sum()))
 
-t0 = time.time(); H_full = hold_all(short_floor=0.0); H_25 = hold_all(short_floor=2.5e7); H_alt = hold_all(model=ALT) if has_alt else None
-variants = {"Headline: $10m short leg, 10% vol target": dict()}
+t0 = time.time(); H_full = hold_all(short_floor=0.0); H_10 = hold_all(short_floor=1e7); H_25 = hold_all(short_floor=2.5e7); H_alt = hold_all(model=ALT) if has_alt else None
+variants = {"Headline: $3m short leg, 10% vol target": dict()}
 if has_alt: variants[f"{ALT_NAME} forecasts, 10% vol"] = dict(H=H_alt)
-variants.update({"Full short leg (>= $1m), tiered borrow, 10% vol": dict(H=H_full), "$25m short leg, 10% vol": dict(H=H_25), "Long leg only, 10% vol": dict(long_only=True), "Long leg, short PGJ, 10% vol": dict(hedge="PGJ"),
+variants.update({"Full short leg (>= $1m), tiered borrow, 10% vol": dict(H=H_full), "$10m short leg, 10% vol": dict(H=H_10), "$25m short leg, 10% vol": dict(H=H_25), "Long leg only, 10% vol": dict(long_only=True), "Long leg, short PGJ, 10% vol": dict(hedge="PGJ"),
                  "Headline, 15% vol target": dict(target=0.15), "Headline, 20% vol target": dict(target=0.20), "Headline, fixed 50% a side": dict(fixed=0.50), "Headline, fixed 80% a side": dict(fixed=0.80),
                  "Headline, 60-day vol only": dict(vol=V60), "Headline, harsh borrow": dict(borrow="harsh"), "Headline, flat 3% borrow": dict(borrow="flat3"), "Headline, flat 8% borrow": dict(borrow="flat8"),
                  "Headline, no borrow cost": dict(borrow="zero"), "Headline, cost 10 bp/side": dict(cost=0.001), "Headline, cost 40 bp/side": dict(cost=0.004)})
 runs = {k: simulate(**kw) for k, kw in variants.items()}; S = pd.DataFrame({k: stats(*v) for k, v in runs.items()}).T
 print(f"\n[3] Account results, $500,000 start, Jan 2010 - Aug 2026, {COST*1e4:.0f} bp per side, tiered borrow [{time.time()-t0:.0f}s]:")
 print(S[["final_equity", "pnl_usd", "cagr_pct", "vol_pct", "sharpe", "sharpe_monthly", "maxdd_pct", "worst_month_pct", "hit_pct", "avg_side_pct", "peak_margin_pct", "call_days", "fees_usd", "borrow_usd", "interest_usd"]].round(2).to_string())
-d, m = runs["Headline: $10m short leg, 10% vol target"]; ls = (m["long_ret"] - m["short_ret"]).dropna()
+d, m = runs["Headline: $3m short leg, 10% vol target"]; ls = (m["long_ret"] - m["short_ret"]).dropna()
 print(f"unit check (1x a side, gross): monthly Sharpe {sharpe_m(ls):+.2f}, {ls.mean()*1200:+.1f}%/yr, long {m['long_ret'].mean()*1200:+.1f}%, short {m['short_ret'].mean()*1200:+.1f}%")
 yr = pd.DataFrame({"pnl_usd": d["pnl"].groupby(d.index.year).sum(), "ret_pct": d["ret"].groupby(d.index.year).apply(lambda x: (1 + x).prod() - 1) * 100, "equity_end": d["equity"].groupby(d.index.year).last(),
                    "avg_side_pct": m["exposure"].groupby(m.index.year).mean() * 100, "sigma_pct": m["sigma"].groupby(m.index.year).mean() * 100, "borrow_usd": d["borrow"].groupby(d.index.year).sum(),
                    "peak_margin_pct": d["margin_pct"].groupby(d.index.year).max() * 100, "sharpe": d["ret"].groupby(d.index.year).apply(lambda x: x.mean() / x.std() * np.sqrt(252))})
 print("\nby calendar year:"); print(yr.round(1).to_string())
-sub = {k: {s: (lambda x: x.mean() / x.std() * np.sqrt(252))(runs[k][0]["ret"].loc[a:b]) for s, (a, b) in SUBS.items()} for k in list(variants)[:6]}; SUBT = pd.DataFrame(sub).T; print("\nsub-period Sharpe:"); print(SUBT.round(2).to_string())
+sub = {k: {s: (lambda x: x.mean() / x.std() * np.sqrt(252))(runs[k][0]["ret"].loc[a:b]) for s, (a, b) in SUBS.items()} for k in list(variants)[:7]}; SUBT = pd.DataFrame(sub).T; print("\nsub-period Sharpe:"); print(SUBT.round(2).to_string())
 
 # Monte Carlo
-keys = {"Headline": "Headline: $10m short leg, 10% vol target", **({ALT_NAME: f"{ALT_NAME} forecasts, 10% vol"} if has_alt else {}), "Full short leg": "Full short leg (>= $1m), tiered borrow, 10% vol", "Long leg only": "Long leg only, 10% vol", "Long leg, short PGJ": "Long leg, short PGJ, 10% vol"}
+keys = {"Headline": "Headline: $3m short leg, 10% vol target", **({ALT_NAME: f"{ALT_NAME} forecasts, 10% vol"} if has_alt else {}), "Full short leg": "Full short leg (>= $1m), tiered borrow, 10% vol", "Long leg only": "Long leg only, 10% vol", "Long leg, short PGJ": "Long leg, short PGJ, 10% vol"}
 M = pd.DataFrame({k: runs[v][1]["ret"] for k, v in keys.items()}); T = len(M); NB = 10000; LB = 12; q = [5, 25, 50, 75, 95]
 def bootstrap(M, rng, L=LB, capital=CAPITAL):
     T = len(M); nb = int(np.ceil(T / L)); starts = rng.integers(0, T, (NB, nb)); bidx = ((starts[:, :, None] + np.arange(L)[None, None, :]).reshape(NB, -1) % T)[:, :T]; boot = {}; paths = {}
@@ -235,7 +235,7 @@ v5 = {k: variants[k] for k in variants if k not in ("Headline, 60-day vol only",
 runs5 = {k: simulate(**{**kw, "start": START5}) for k, kw in v5.items()}; S5 = pd.DataFrame({k: stats(*v) for k, v in runs5.items()}).T
 print(f"\n===== LAST FIVE YEARS: fresh $500,000 account, Sep 2021 - Aug 2026 =====")
 print(S5[["final_equity", "pnl_usd", "cagr_pct", "vol_pct", "sharpe", "sharpe_monthly", "maxdd_pct", "worst_month_pct", "hit_pct", "avg_side_pct", "peak_margin_pct", "fees_usd", "borrow_usd", "interest_usd"]].round(2).to_string())
-d5, m5 = runs5["Headline: $10m short leg, 10% vol target"]
+d5, m5 = runs5["Headline: $3m short leg, 10% vol target"]
 yr5 = pd.DataFrame({"pnl_usd": d5["pnl"].groupby(d5.index.year).sum(), "ret_pct": d5["ret"].groupby(d5.index.year).apply(lambda x: (1 + x).prod() - 1) * 100, "equity_end": d5["equity"].groupby(d5.index.year).last(),
                     "avg_side_pct": m5["exposure"].groupby(m5.index.year).mean() * 100, "borrow_usd": d5["borrow"].groupby(d5.index.year).sum(), "peak_margin_pct": d5["margin_pct"].groupby(d5.index.year).max() * 100, "sharpe": d5["ret"].groupby(d5.index.year).apply(lambda x: x.mean() / x.std() * np.sqrt(252))})
 print("by calendar year:"); print(yr5.round(1).to_string())

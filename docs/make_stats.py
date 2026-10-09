@@ -7,7 +7,7 @@ F = pd.read_csv(f"{R}/forecast_eval.csv", index_col=0); Q = pd.read_csv(f"{R}/qu
 V = pd.read_csv(f"{R}/bt500k_rf_variants.csv", index_col=0); Y = pd.read_csv(f"{R}/bt500k_rf_by_year.csv", index_col=0); SUB = pd.read_csv(f"{R}/bt500k_rf_subperiods.csv", index_col=0)
 MC = json.load(open(f"{R}/bt500k_rf_mc.json")); V5 = pd.read_csv(f"{R}/bt500k_rf_5y_variants.csv", index_col=0); Y5 = pd.read_csv(f"{R}/bt500k_rf_5y_by_year.csv", index_col=0); MC5 = json.load(open(f"{R}/bt500k_rf_5y_mc.json"))
 QR = pd.read_csv(f"{R}/quintile_returns_rf.csv"); M = pd.read_csv(f"{R}/bt500k_rf_monthly.csv", index_col=0, parse_dates=True); D = pd.read_csv(f"{R}/bt500k_rf_daily.csv", index_col=0, parse_dates=True)
-H = "Headline: $10m short leg, 10% vol target"; E = "Ensemble forecasts, 10% vol"; has_ens = E in V.index
+H = "Headline: $3m short leg, 10% vol target"; E = "Ensemble forecasts, 10% vol"; has_ens = E in V.index
 r = Q.loc["RF"]; e = Q.loc["ENS"] if "ENS" in Q.index else None
 q = QR.copy(); q["ls"] = q.q5 - q.q1; q["year"] = pd.PeriodIndex(q.ym, freq="M").year; ls_yr = q.groupby("year").ls.apply(lambda x: ((1 + x).prod() - 1) * 100)
 yr_txt = ", ".join(f"{y}{' (to August)' if y == 2026 else ''} {v:+.0f}" for y, v in ls_yr.items())
@@ -30,12 +30,15 @@ D5 = pd.read_csv(f"{R}/bt500k_rf_5y_daily.csv", index_col=0, parse_dates=True); 
 eq5 = D5.equity; dd5 = eq5 / eq5.cummax() - 1; tr5 = dd5.idxmin(); pk5 = eq5.loc[:tr5].idxmax(); rec5 = eq5.loc[tr5:][eq5.loc[tr5:] >= eq5.loc[pk5]].index
 roll = M.ret.rolling(60).apply(lambda x: x.mean() / x.std() * np.sqrt(12)); roll_txt = f"{roll.iloc[-1]:.2f} today against a median of {roll.median():.2f} and a range of {roll.min():.2f} to {roll.max():.2f} over {roll.notna().sum()} windows"
 lo5 = V5.loc["Long leg only, 10% vol"]
+Fp = pd.read_csv(f"{R}/predictions_rf.csv"); Fp["ym"] = pd.PeriodIndex(Fp.ym, freq="M"); Lp = Fp[Fp.liquid]; pool = Lp[Lp.adv >= 3e6].groupby("ym").size(); ns = mm.n_short
+early = pool[pool.index < "2018-01"]; late = pool[pool.index >= "2018-01"]
+conc = f"the pool above $3m a day was {early.min()} to {early.max()} names a month until 2017 and {late.min()} to {late.max()} since, so the short leg has held {int(ns[ns.index < '2018-01'].min())} to {int(ns[ns.index < '2018-01'].max())} names before 2018 and {int(ns[ns.index >= '2018-01'].min())} to {int(ns[ns.index >= '2018-01'].max())} since; at the minimum of five names a single short is 20% of the leg."
 ens_col = (lambda k: f" {usd(row('final_equity', E)) if k == 'fe' else ''}")
 def vline(k, extra=""):
     v = V.loc[k]; return f"| {extra or k} | {usd(v.final_equity)} | {pct(v.cagr_pct)} / {pct(v.vol_pct)} | {v.sharpe:.2f} / {v.sharpe_monthly:.2f} | −{-v.maxdd_pct:.1f}% | {v.worst_month_pct:.1f}% / {v.hit_pct:.0f}% | {v.avg_side_pct:.0f}% |"
 out = f"""# Backtest statistics: random-forest Chinese ADR long-short
 
-All numbers are out of sample in the sense that no model saw data from its test year; the design (features, universe, model menu, the $10m floor) was fixed with the research and its literature in view. Window January 2010 to August 2026. Generated from the files in `results/` by `docs/make_stats.py`.
+All numbers are out of sample in the sense that no model saw data from its test year; the design (features, universe, model menu, the $3m floor) was fixed with the research and its literature in view. Window January 2010 to August 2026. Generated from the files in `results/` by `docs/make_stats.py`.
 
 ## 1. Forecast quality
 
@@ -63,7 +66,7 @@ Files: `quintile_stats_liquid_ew.csv`; monthly series in `quintile_returns_rf.cs
 | Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | {r['ls_sharpe_2010-15']:.2f} / {r['ls_sharpe_2016-20']:.2f} / {r['ls_sharpe_2021-26']:.2f} |
 | Calendar years, long-short gross (%) | {yr_txt} |
 
-## 3. Borrow at retail scale and the $10m short-leg rule
+## 3. Borrow at retail scale and the $3m short-leg rule
 
 File: `borrow_variants_rf.csv`.
 
@@ -73,7 +76,7 @@ Schedules by daily dollar volume, assumed not quoted: base 1% above $25m, 4% at 
 |---|---|---|---|---|---|
 | All liquid names, flat 3% borrow | {BV.loc['flat borrow 3%', 'sharpe']:.2f} | 3% | {BV.loc['flat borrow 3%', 'net_sharpe']:.2f} | {BV.loc['flat borrow 3%', 'net_2021_26']:.2f} | {BV.loc['flat borrow 3%', 'n_short']:.0f} |
 | All liquid names, tiered | {BV.loc['tiered borrow (base)', 'sharpe']:.2f} | {BV.loc['tiered borrow (base)', 'borrow_pct']:.0f} / {BV.loc['tiered borrow (harsh)', 'borrow_pct']:.0f}% | {BV.loc['tiered borrow (base)', 'net_sharpe']:.2f} / {BV.loc['tiered borrow (harsh)', 'net_sharpe']:.2f} | {BV.loc['tiered borrow (base)', 'net_2021_26']:.2f} / {BV.loc['tiered borrow (harsh)', 'net_2021_26']:.2f} | {BV.loc['tiered borrow (base)', 'n_short']:.0f} |
-""" + "".join(f"| {'**' if lab == '$10m' else ''}Names above {lab} a day{' (exported rule)**' if lab == '$10m' else ''} | {'**' if lab == '$10m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'sharpe']:.2f}{'**' if lab == '$10m' else ''} | {'**' if lab == '$10m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'borrow_pct']:.0f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'borrow_pct']:.0f}%{'**' if lab == '$10m' else ''} | {'**' if lab == '$10m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'net_sharpe']:.2f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'net_sharpe']:.2f}{'**' if lab == '$10m' else ''} | {'**' if lab == '$10m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'net_2021_26']:.2f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'net_2021_26']:.2f}{'**' if lab == '$10m' else ''} | {'**' if lab == '$10m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'n_short']:.0f}{'**' if lab == '$10m' else ''} |\n" for lab in ["$3m", "$10m", "$25m"]) + f"""| Long leg, short PGJ at 1% | {BV.loc['long leg, short PGJ', 'sharpe']:.2f} | 1% | {BV.loc['long leg, short PGJ', 'net_sharpe']:.2f} | {BV.loc['long leg, short PGJ', 'net_2021_26']:.2f} | |
+""" + "".join(f"| {'**' if lab == '$3m' else ''}Names above {lab} a day{' (exported rule)**' if lab == '$3m' else ''} | {'**' if lab == '$3m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'sharpe']:.2f}{'**' if lab == '$3m' else ''} | {'**' if lab == '$3m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'borrow_pct']:.0f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'borrow_pct']:.0f}%{'**' if lab == '$3m' else ''} | {'**' if lab == '$3m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'net_sharpe']:.2f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'net_sharpe']:.2f}{'**' if lab == '$3m' else ''} | {'**' if lab == '$3m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'net_2021_26']:.2f} / {BV.loc[f'short leg >= {lab}/day, tiered (harsh)', 'net_2021_26']:.2f}{'**' if lab == '$3m' else ''} | {'**' if lab == '$3m' else ''}{BV.loc[f'short leg >= {lab}/day, tiered (base)', 'n_short']:.0f}{'**' if lab == '$3m' else ''} |\n" for lab in ["$3m", "$10m", "$25m"]) + f"""| Long leg, short PGJ at 1% | {BV.loc['long leg, short PGJ', 'sharpe']:.2f} | 1% | {BV.loc['long leg, short PGJ', 'net_sharpe']:.2f} | {BV.loc['long leg, short PGJ', 'net_2021_26']:.2f} | |
 
 ## 4. The $500,000 account, 2010–26
 
@@ -96,7 +99,12 @@ Daily P&L on the monthly holdings; dollars a side = min(80%, 10% ÷ σ) × equit
 
 Calendar years, return on the account (%): {yr_acct}. The best five months are {best5:.0%} of the P&L, the best ten {best10:.0%}.
 
-Sizing and cost variants (final equity, CAGR, Sharpe daily, worst drawdown): 15% vol target {usd(row('final_equity', 'Headline, 15% vol target'))}, {pct(row('cagr_pct', 'Headline, 15% vol target'))}, {row('sharpe', 'Headline, 15% vol target'):.2f}, −{-row('maxdd_pct', 'Headline, 15% vol target'):.0f}%; 20% target {usd(row('final_equity', 'Headline, 20% vol target'))}, {pct(row('cagr_pct', 'Headline, 20% vol target'))}, {row('sharpe', 'Headline, 20% vol target'):.2f}, −{-row('maxdd_pct', 'Headline, 20% vol target'):.0f}%; fixed 50% a side {usd(row('final_equity', 'Headline, fixed 50% a side'))}, {pct(row('cagr_pct', 'Headline, fixed 50% a side'))}, {row('sharpe', 'Headline, fixed 50% a side'):.2f}, −{-row('maxdd_pct', 'Headline, fixed 50% a side'):.0f}%; fixed 80% a side {usd(row('final_equity', 'Headline, fixed 80% a side'))}, {pct(row('cagr_pct', 'Headline, fixed 80% a side'))}, {row('sharpe', 'Headline, fixed 80% a side'):.2f}, −{-row('maxdd_pct', 'Headline, fixed 80% a side'):.0f}% with {int(row('call_days', 'Headline, fixed 80% a side'))} margin-call days; harsh borrow {row('sharpe', 'Headline, harsh borrow'):.2f}; flat 8% borrow {row('sharpe', 'Headline, flat 8% borrow'):.2f}; no borrow {row('sharpe', 'Headline, no borrow cost'):.2f}; 10 bp costs {row('sharpe', 'Headline, cost 10 bp/side'):.2f}; 40 bp costs {row('sharpe', 'Headline, cost 40 bp/side'):.2f}.
+Sizing (the same holdings, different exposure rules; all after costs, borrow and cash interest):
+
+| Sizing | CAGR | Final equity | Volatility | Sharpe daily / monthly | Worst drawdown | Margin peak (Reg T initial) |
+|---|---|---|---|---|---|---|
+""" + "".join(f"| {lab} | {V.loc[k, 'cagr_pct']:.1f}% | {usd(V.loc[k, 'final_equity'])} | {V.loc[k, 'vol_pct']:.1f}% | {V.loc[k, 'sharpe']:.2f} / {V.loc[k, 'sharpe_monthly']:.2f} | −{-V.loc[k, 'maxdd_pct']:.0f}% | {V.loc[k, 'peak_margin_pct']:.0f}%{' (' + str(int(V.loc[k, 'call_days'])) + ' margin-call days)' if V.loc[k, 'call_days'] > 0 else ''} |\n" for lab, k in [("**10% volatility target (headline)**", H), ("15% volatility target", "Headline, 15% vol target"), ("20% volatility target", "Headline, 20% vol target"), ("Fixed 50% a side", "Headline, fixed 50% a side"), ("Fixed 80% a side", "Headline, fixed 80% a side")]) + f"""
+Cost and borrow variants (Sharpe daily): harsh borrow {row('sharpe', 'Headline, harsh borrow'):.2f}; flat 8% borrow {row('sharpe', 'Headline, flat 8% borrow'):.2f}; no borrow {row('sharpe', 'Headline, no borrow cost'):.2f}; 10 bp costs {row('sharpe', 'Headline, cost 10 bp/side'):.2f}; 40 bp costs {row('sharpe', 'Headline, cost 40 bp/side'):.2f}; 60-day volatility without the long-run blend {row('sharpe', 'Headline, 60-day vol only'):.2f}. Short-leg floor at $10m instead of $3m: {usd(row('final_equity', '$10m short leg, 10% vol'))}, CAGR {row('cagr_pct', '$10m short leg, 10% vol'):.1f}%, Sharpe {row('sharpe', '$10m short leg, 10% vol'):.2f} / {row('sharpe_monthly', '$10m short leg, 10% vol'):.2f}, drawdown −{-row('maxdd_pct', '$10m short leg, 10% vol'):.0f}%; at $25m: {usd(row('final_equity', '$25m short leg, 10% vol'))}, {row('sharpe', '$25m short leg, 10% vol'):.2f}.
 
 ## 5. Monte Carlo and nulls
 
@@ -104,7 +112,7 @@ File: `bt500k_rf_mc.json`; figure 4.
 
 Block bootstrap, 12-month blocks, 10,000 paths of {len(M)} months: Sharpe median {hb['p50']:.2f}, 90% interval {hb['p05']:.2f} to {hb['p95']:.2f}, above zero in {'every path' if hb['prob_gt0'] >= 0.9995 else f'{hb["prob_gt0"]:.0%} of paths'}; final equity {usd(hp['final_p05'])} (5th percentile), {usd(hp['final_p50'])} (median), {usd(hp['final_p95'])} (95th); CAGR {hp['cagr_p05']:.1f} to {hp['cagr_p95']:.1f}%; worst drawdown median −{-hp['maxdd_p50']:.0f}%, one path in twenty worse than −{-hp['maxdd_p05']:.0f}%, one in a hundred worse than −{-hp['maxdd_p01']:.0f}%; one-year P&L {usd(hp['pnl1y_p05'])} / {usd(hp['pnl1y_p50'])} / {usd(hp['pnl1y_p95'])} at the 5th / 50th / 95th percentiles, {hp['prob_loss_1y']:.0%} chance of a losing year; {hp['prob_loss_5y']:.1%} chance of being down after five years. Beats the long leg alone in {hb['prob_beats_longonly']:.0%} of paired paths and the full-short-leg account in {hb['prob_beats_full']:.0%}. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
 
-Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe {nl['null_mean']:.2f} on average (sd {nl['null_sd']:.2f}), 95th percentile {nl['null_p95']:.2f}, maximum {nl['null_max']:+.2f}; {"none reaches" if nl['p_null'] == 0 else f"{nl['p_null']:.1%} reach"} the observed {nl['observed']:.2f}. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $10m a day, a drag the forecasts have to overcome first.
+Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe {nl['null_mean']:.2f} on average (sd {nl['null_sd']:.2f}), 95th percentile {nl['null_p95']:.2f}, maximum {nl['null_max']:+.2f}; {"none reaches" if nl['p_null'] == 0 else f"{nl['p_null']:.1%} reach"} the observed {nl['observed']:.2f}. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $3m a day, a drag the forecasts have to overcome first.
 
 Stale forecasts (rank by the forecast made s months earlier; unit long-short, gross Sharpe): {", ".join(f"{v['gross_sharpe']:.2f} at s = {k}" if k == '0' else f"{v['gross_sharpe']:.2f} at {k}" for k, v in st.items() if k in ('0', '1', '2', '3', '6', '12'))}.
 
@@ -119,7 +127,7 @@ Final equity {usd(h5.final_equity)} (+{usd(h5.pnl_usd)}, of which {usd(h5.intere
 ## 7. Cross-checks and limits
 - Price data: Yahoo and an independent archive agree on 99.95% of overlapping stock-months. Two data bugs were found and fixed in review (an asymmetric return filter that turned bad prints into −100% months, and a label-indexing error in the cleaning step that nulled unrelated days when sources were concatenated); the numbers here are from the corrected pipeline.
 - Survivorship: names that delisted after April 2020, other than twelve SOEs carried through Hong Kong, are missing for their final months. The volume-weighted universe correlates 0.92 with PGJ and trails it by 4% a year in 2021–26, so the survivor premium is not driving the recent numbers; the small-cap delistings sit in the short leg and remain unmeasured.
-- Concentration: the pool above $10m a day was 10 to 25 names until 2017, so the short leg was its minimum of five names; it has been 7 to 12 since 2018.
+- Concentration: {conc}
 """
 import re; out = re.sub(r"(?<![\w\u2013-])-(?=\d)", "\u2212", out)
 open(f"{DOCS}/STATS.md", "w").write(out); print("docs/STATS.md written")
