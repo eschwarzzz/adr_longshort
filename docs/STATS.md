@@ -28,7 +28,7 @@ Files: `quintile_stats_liquid_ew.csv`; monthly series in `quintile_returns_rf.cs
 | Top quintile minus equal-weight universe, Sharpe | 0.89 |
 | Turnover, long / short leg | 48% / 58% a month |
 | Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | 1.31 / 0.99 / 1.19 |
-| Calendar years, long-short gross (%) | 2010 +33, 2011 +73, 2012 −4, 2013 +28, 2014 +36, 2015 +57, 2016 +53, 2017 +7, 2018 −17, 2019 −7, 2020 +226, 2021 +48, 2022 +23, 2023 +44, 2024 +54, 2025 +30, 2026 +82 (2026 to August) |
+| Calendar years, long-short gross (%) | 2010 +33, 2011 +73, 2012 −4, 2013 +28, 2014 +36, 2015 +57, 2016 +53, 2017 +7, 2018 −17, 2019 −7, 2020 +226, 2021 +48, 2022 +23, 2023 +44, 2024 +54, 2025 +30, 2026 (to August) +82 |
 
 ## 3. Borrow at retail scale and the $10m short-leg rule
 
@@ -64,17 +64,15 @@ Daily P&L on the monthly holdings; dollars a side = min(80%, 10% ÷ σ) × equit
 | Commissions and spread / borrow (2.3% a year) / cash interest earned | $224k / $95k / +$211k | |
 | Flat months (too few names) | 11 (Dec 2009, Jul 2010, Dec 2011, May 2012, Jun 2012, Jul 2012, Aug 2012, Sep 2012, Oct 2012, Nov 2012, Feb 2013) | |
 
-Calendar years, return on the account (%): 2010 +13.6, 2011 +15.4, 2012 −0.6, 2013 +11.6, 2014 +4.6, 2015 −0.7, 2016 +18.8, 2017 +11.0, 2018 −6.4, 2019 −10.6, 2020 +25.1, 2021 +10.7, 2022 +9.6, 2023 +1.1, 2024 −0.8, 2025 +10.4, 2026 +24.8 (2026 to August). The best five months are 28% of the P&L, the best ten 50%.
+Calendar years, return on the account (%): 2010 +13.6, 2011 +15.4, 2012 −0.6, 2013 +11.6, 2014 +4.6, 2015 −0.7, 2016 +18.8, 2017 +11.0, 2018 −6.4, 2019 −10.6, 2020 +25.1, 2021 +10.7, 2022 +9.6, 2023 +1.1, 2024 −0.8, 2025 +10.4, 2026 (to August) +24.8. The best five months are 28% of the P&L, the best ten 50%.
 
 Sizing and cost variants (final equity, CAGR, Sharpe daily, worst drawdown): 15% vol target $2.80m, 10.9%, 0.72, −28%; 20% target $4.38m, 13.9%, 0.71, −37%; fixed 50% a side $4.18m, 13.5%, 0.74, −31%; fixed 80% a side $10.61m, 20.1%, 0.73, −46% with 0 margin-call days; harsh borrow 0.69; flat 8% borrow 0.60; no borrow 0.81; 10 bp costs 0.82; 40 bp costs 0.62.
-
-Other legs on the same account: full short leg at retail borrow (16% a year) $1.13m, Sharpe 0.38; short leg above $25m $815k, 0.34; long leg alone $987k, 0.48; long leg hedged with PGJ $794k, 0.34.
 
 ## 5. Monte Carlo and nulls
 
 File: `bt500k_rf_mc.json`; figure 4.
 
-Block bootstrap, 12-month blocks, 10,000 paths of 200 months: Sharpe median 0.87, 90% interval 0.47 to 1.28, above zero in 100% of paths; final equity $950k (5th percentile), $1.74m (median), $3.18m (95th); CAGR 3.9 to 11.7%; worst drawdown median −16%, one path in twenty worse than −25%, one in a hundred worse than −31%; one-year P&L −$43k / $44k / $135k at the 5th / 50th / 95th percentiles, 19% chance of a losing year; 3.0% chance of being down after five years. Beats the long leg alone in 88% of paired paths and the full-short-leg account in 94%. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
+Block bootstrap, 12-month blocks, 10,000 paths of 200 months: Sharpe median 0.87, 90% interval 0.47 to 1.28, above zero in every path; final equity $950k (5th percentile), $1.74m (median), $3.18m (95th); CAGR 3.9 to 11.7%; worst drawdown median −16%, one path in twenty worse than −25%, one in a hundred worse than −31%; one-year P&L −$43k / $44k / $135k at the 5th / 50th / 95th percentiles, 19% chance of a losing year; 3.0% chance of being down after five years. Beats the long leg alone in 88% of paired paths and the full-short-leg account in 94%. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
 
 Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe −0.55 on average (sd 0.25), 95th percentile −0.11, maximum +0.09; none reaches the observed 0.86. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $10m a day, a drag the forecasts have to overcome first.
 

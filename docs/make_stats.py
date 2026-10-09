@@ -10,7 +10,7 @@ QR = pd.read_csv(f"{R}/quintile_returns_rf.csv"); M = pd.read_csv(f"{R}/bt500k_r
 H = "Headline: $10m short leg, 10% vol target"; E = "Ensemble forecasts, 10% vol"; has_ens = E in V.index
 r = Q.loc["RF"]; e = Q.loc["ENS"] if "ENS" in Q.index else None
 q = QR.copy(); q["ls"] = q.q5 - q.q1; q["year"] = pd.PeriodIndex(q.ym, freq="M").year; ls_yr = q.groupby("year").ls.apply(lambda x: ((1 + x).prod() - 1) * 100)
-yr_txt = ", ".join(f"{y} {v:+.0f}" for y, v in ls_yr.items())
+yr_txt = ", ".join(f"{y}{' (to August)' if y == 2026 else ''} {v:+.0f}" for y, v in ls_yr.items())
 def row(v, k): return V.loc[k, v]
 def pct(x, d=1): return f"{x:.{d}f}%"
 def usd(x): return ("−" if x < 0 else "") + (f"${abs(x)/1e6:.2f}m" if abs(x) >= 1e6 else f"${abs(x)/1e3:,.0f}k")
@@ -19,7 +19,7 @@ hb = MC["bootstrap_sharpe"]["Headline"]; hp = MC["bootstrap_pnl"]["Headline"]; n
 hb5 = MC5["bootstrap_sharpe"]["Headline"]; hp5 = MC5["bootstrap_pnl"]["Headline"]; nl5 = MC5["nulls"]; ds5 = MC5["deflated"]
 eq = D.equity; dd = eq / eq.cummax() - 1; trough = dd.idxmin(); peak = eq.loc[:trough].idxmax(); rec = eq.loc[trough:][eq.loc[trough:] >= eq.loc[peak]].index
 mm = M[M.n_short > 0]; best5 = M.pnl.nlargest(5).sum() / M.pnl.sum(); best10 = M.pnl.nlargest(10).sum() / M.pnl.sum()
-yrs = Y.dropna(); yr_acct = ", ".join(f"{int(y)} {v:+.1f}" for y, v in yrs.ret_pct.items())
+yrs = Y.dropna(); yr_acct = ", ".join(f"{int(y)}{' (to August)' if int(y) == 2026 else ''} {v:+.1f}" for y, v in yrs.ret_pct.items())
 flat = M.index[M.exposure == 0]; flat_txt = (f"{len(flat)} (" + ", ".join(pd.Series(flat).dt.strftime("%b %Y")) + ")") if len(flat) else "0"
 from scipy.stats import norm
 T = pd.read_csv(f"{R}/research_quintile_returns.csv"); trial = T.assign(ls=T.q5 - T.q1).groupby("strategy").ls.apply(lambda s: s.mean() / s.std()); NT = len(trial); dsr_k = f"dsr_{NT}"; _g = 0.5772156649
@@ -61,7 +61,7 @@ Files: `quintile_stats_liquid_ew.csv`; monthly series in `quintile_returns_rf.cs
 | Top quintile minus equal-weight universe, Sharpe | {r.long_excess_sharpe:.2f} |
 | Turnover, long / short leg | {r.turnover_q5*100:.0f}% / {r.turnover_q1*100:.0f}% a month |
 | Sub-period Sharpe 2010–15 / 2016–20 / 2021–26 | {r['ls_sharpe_2010-15']:.2f} / {r['ls_sharpe_2016-20']:.2f} / {r['ls_sharpe_2021-26']:.2f} |
-| Calendar years, long-short gross (%) | {yr_txt} (2026 to August) |
+| Calendar years, long-short gross (%) | {yr_txt} |
 
 ## 3. Borrow at retail scale and the $10m short-leg rule
 
@@ -94,17 +94,15 @@ Daily P&L on the monthly holdings; dollars a side = min(80%, 10% ÷ σ) × equit
 | Commissions and spread / borrow ({row('borrow_rate_pct', H):.1f}% a year) / cash interest earned | {usd(row('fees_usd', H))} / {usd(row('borrow_usd', H))} / +{usd(row('interest_usd', H))} |{" |" if has_ens else ""}
 | Flat months (too few names) | {flat_txt} |{" |" if has_ens else ""}
 
-Calendar years, return on the account (%): {yr_acct} (2026 to August). The best five months are {best5:.0%} of the P&L, the best ten {best10:.0%}.
+Calendar years, return on the account (%): {yr_acct}. The best five months are {best5:.0%} of the P&L, the best ten {best10:.0%}.
 
 Sizing and cost variants (final equity, CAGR, Sharpe daily, worst drawdown): 15% vol target {usd(row('final_equity', 'Headline, 15% vol target'))}, {pct(row('cagr_pct', 'Headline, 15% vol target'))}, {row('sharpe', 'Headline, 15% vol target'):.2f}, −{-row('maxdd_pct', 'Headline, 15% vol target'):.0f}%; 20% target {usd(row('final_equity', 'Headline, 20% vol target'))}, {pct(row('cagr_pct', 'Headline, 20% vol target'))}, {row('sharpe', 'Headline, 20% vol target'):.2f}, −{-row('maxdd_pct', 'Headline, 20% vol target'):.0f}%; fixed 50% a side {usd(row('final_equity', 'Headline, fixed 50% a side'))}, {pct(row('cagr_pct', 'Headline, fixed 50% a side'))}, {row('sharpe', 'Headline, fixed 50% a side'):.2f}, −{-row('maxdd_pct', 'Headline, fixed 50% a side'):.0f}%; fixed 80% a side {usd(row('final_equity', 'Headline, fixed 80% a side'))}, {pct(row('cagr_pct', 'Headline, fixed 80% a side'))}, {row('sharpe', 'Headline, fixed 80% a side'):.2f}, −{-row('maxdd_pct', 'Headline, fixed 80% a side'):.0f}% with {int(row('call_days', 'Headline, fixed 80% a side'))} margin-call days; harsh borrow {row('sharpe', 'Headline, harsh borrow'):.2f}; flat 8% borrow {row('sharpe', 'Headline, flat 8% borrow'):.2f}; no borrow {row('sharpe', 'Headline, no borrow cost'):.2f}; 10 bp costs {row('sharpe', 'Headline, cost 10 bp/side'):.2f}; 40 bp costs {row('sharpe', 'Headline, cost 40 bp/side'):.2f}.
-
-Other legs on the same account: full short leg at retail borrow ({row('borrow_rate_pct', 'Full short leg (>= $1m), tiered borrow, 10% vol'):.0f}% a year) {usd(row('final_equity', 'Full short leg (>= $1m), tiered borrow, 10% vol'))}, Sharpe {row('sharpe', 'Full short leg (>= $1m), tiered borrow, 10% vol'):.2f}; short leg above $25m {usd(row('final_equity', '$25m short leg, 10% vol'))}, {row('sharpe', '$25m short leg, 10% vol'):.2f}; long leg alone {usd(row('final_equity', 'Long leg only, 10% vol'))}, {row('sharpe', 'Long leg only, 10% vol'):.2f}; long leg hedged with PGJ {usd(row('final_equity', 'Long leg, short PGJ, 10% vol'))}, {row('sharpe', 'Long leg, short PGJ, 10% vol'):.2f}.
 
 ## 5. Monte Carlo and nulls
 
 File: `bt500k_rf_mc.json`; figure 4.
 
-Block bootstrap, 12-month blocks, 10,000 paths of {len(M)} months: Sharpe median {hb['p50']:.2f}, 90% interval {hb['p05']:.2f} to {hb['p95']:.2f}, above zero in {hb['prob_gt0']:.0%} of paths; final equity {usd(hp['final_p05'])} (5th percentile), {usd(hp['final_p50'])} (median), {usd(hp['final_p95'])} (95th); CAGR {hp['cagr_p05']:.1f} to {hp['cagr_p95']:.1f}%; worst drawdown median −{-hp['maxdd_p50']:.0f}%, one path in twenty worse than −{-hp['maxdd_p05']:.0f}%, one in a hundred worse than −{-hp['maxdd_p01']:.0f}%; one-year P&L {usd(hp['pnl1y_p05'])} / {usd(hp['pnl1y_p50'])} / {usd(hp['pnl1y_p95'])} at the 5th / 50th / 95th percentiles, {hp['prob_loss_1y']:.0%} chance of a losing year; {hp['prob_loss_5y']:.1%} chance of being down after five years. Beats the long leg alone in {hb['prob_beats_longonly']:.0%} of paired paths and the full-short-leg account in {hb['prob_beats_full']:.0%}. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
+Block bootstrap, 12-month blocks, 10,000 paths of {len(M)} months: Sharpe median {hb['p50']:.2f}, 90% interval {hb['p05']:.2f} to {hb['p95']:.2f}, above zero in {'every path' if hb['prob_gt0'] >= 0.9995 else f'{hb["prob_gt0"]:.0%} of paths'}; final equity {usd(hp['final_p05'])} (5th percentile), {usd(hp['final_p50'])} (median), {usd(hp['final_p95'])} (95th); CAGR {hp['cagr_p05']:.1f} to {hp['cagr_p95']:.1f}%; worst drawdown median −{-hp['maxdd_p50']:.0f}%, one path in twenty worse than −{-hp['maxdd_p05']:.0f}%, one in a hundred worse than −{-hp['maxdd_p01']:.0f}%; one-year P&L {usd(hp['pnl1y_p05'])} / {usd(hp['pnl1y_p50'])} / {usd(hp['pnl1y_p95'])} at the 5th / 50th / 95th percentiles, {hp['prob_loss_1y']:.0%} chance of a losing year; {hp['prob_loss_5y']:.1%} chance of being down after five years. Beats the long leg alone in {hb['prob_beats_longonly']:.0%} of paired paths and the full-short-leg account in {hb['prob_beats_full']:.0%}. The bootstrap resamples this one history; it measures sampling noise around these sixteen years, not the chance that the next cycle differs.
 
 Random-sort null: 500 random rankings through the same universe, construction, exposure path, costs and borrow give Sharpe {nl['null_mean']:.2f} on average (sd {nl['null_sd']:.2f}), 95th percentile {nl['null_p95']:.2f}, maximum {nl['null_max']:+.2f}; {"none reaches" if nl['p_null'] == 0 else f"{nl['p_null']:.1%} reach"} the observed {nl['observed']:.2f}. The null sits below zero because a random version of the rule is long an average liquid name and short an average name above $10m a day, a drag the forecasts have to overcome first.
 
