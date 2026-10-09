@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/panel.csv
+results/positions_*.csv
+results/_*
+docs/results/
+*.log
+.DS_Store

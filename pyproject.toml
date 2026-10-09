@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adr_longshort"
+version = "1.0.0"
+description = "Random-forest cross-sectional long-short on US-listed Chinese companies: model, portfolio rule, data and backtest"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas>=2.0", "scikit-learn==1.7.2", "joblib", "scipy"]
+
+[project.optional-dependencies]
+charts = ["matplotlib"]
+data = ["yfinance"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["adr_longshort"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

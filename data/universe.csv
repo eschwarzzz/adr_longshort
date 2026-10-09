@@ -1,0 +1,454 @@
+ticker,name,ipo_year,first_list,last_list,src
+AACG,(prev.  ATAI)  ATA Creativity  Global (prev.  ATA Inc.),2008.0,2020,2026,screener+uscc+uscc2025
+AAM,AA Mission  Acquisition Corp.,2024.0,2025,2025,uscc2025
+AAPG,Ascentage Pharma  Group International,2025.0,2025,2026,screener+uscc2025
+ABLV,Able View Global  Inc.,2022.0,2025,2026,screener+uscc2025
+ABTS,Abits Group Inc Ordinary Shares,,2026,2026,screener
+ACH,Aluminum  Corporation of  China Limited,2001.0,2019,2020,uscc
+ACMR,"ACM Research, Inc.",2017.0,2025,2025,uscc2025
+ADAG,Adagene,2021.0,2025,2026,screener+uscc2025
+AEHL,Antelope  Enterprise Holdings,2010.0,2025,2026,screener+uscc2025
+AGMH,AGM Group  Holdings,2018.0,2025,2025,uscc2025
+AHG,Akso Health Group,2017.0,2025,2026,screener+uscc2025
+AIFU,AIX Inc.,2007.0,2025,2026,screener+uscc2025
+AIH,Aesthetic  Medical  International  Holdings Group  Limited,2019.0,2020,2020,uscc
+AIHS,Senmiao  Technology  Limited,2018.0,2019,2025,uscc+uscc2025
+AIOS,AIOS Tech Inc. Class A Common Shares,2016.0,2026,2026,screener
+AIXI,XIAO-I Corporation,2023.0,2025,2026,screener+uscc2025
+AMBO,Ambow  Education  Holding Ltd.,2018.0,2019,2026,screener+uscc+uscc2025
+AMCN,AirMedia  Group Inc,2007.0,2019,2019,uscc
+ANL,Adlai Nortye Ltd,2023.0,2025,2025,uscc2025
+ANPC,AnPac Bio- Medical Science,2020.0,2020,2020,uscc
+ANTE,(prev.  AMCN)  AirNet  Technology Inc.  (previously  AirMedia Group  Inc.),2007.0,2020,2025,uscc+uscc2025
+API,Agora,2020.0,2025,2026,screener+uscc2025
+ASPC,A SPAC III Acquisition Corp. Class A Ordinary Shares,2025.0,2026,2026,screener
+ATAI,ATA Inc.,2008.0,2019,2019,uscc
+ATAT,Atour Lifestyle  Holdings,2022.0,2025,2026,screener+uscc2025
+ATGL,Alpha Technology Group Limited Class A Ordinary Shares,2023.0,2026,2026,screener
+ATHM,Autohome Inc.,2013.0,2020,2026,screener+uscc+uscc2025
+ATV,"Acorn  International,  Inc.",2007.0,2019,2020,uscc
+ATXG,Addentax Group  Corp.,2022.0,2025,2026,screener+uscc2025
+AZI,Autozi Internet  Technology,2024.0,2025,2026,screener+uscc2025
+BABA,Alibaba Group  Holding  Limited,2014.0,2019,2026,screener+uscc+uscc2025
+BAOS,Baosheng Media  Group Holdings,2021.0,2025,2026,screener+uscc2025
+BCAC,Bison Capital  Acquisition  Corp.,2017.0,2019,2019,uscc
+BDMD,Baird Medical Investment Holdings Ltd Ordinary Share,,2026,2026,screener
+BEDU,Bright Scholar  Education  Holdings  Limited,2017.0,2019,2025,uscc+uscc2025
+BEKE,KE Holdings  (Beike  Zhaofang),2020.0,2020,2026,screener+uscc+uscc2025
+BEST,(prev.  BSTI)  BEST Inc.,2017.0,2020,2025,uscc+uscc2025
+BGIN,Bgin Blockchain Limited Class A Ordinary Shares,2025.0,2026,2026,screener
+BGM,BGM Group Ltd,2021.0,2025,2026,screener+uscc2025
+BHAT,Blue Hat  Interactive  Entertainment  Technology,2019.0,2020,2025,uscc+uscc2025
+BIDU,"Baidu, Inc.",2005.0,2019,2026,screener+uscc+uscc2025
+BILI,Bilibili Inc.,2018.0,2019,2026,screener+uscc+uscc2025
+BIQI,"Renmin Tianli  Group, Inc.",2010.0,2019,2019,uscc
+BITA,Bitauto  Holdings  Limited,2010.0,2019,2020,uscc
+BIYA,Baiya International Group Inc Class A Ordinary Shares,2025.0,2026,2026,screener
+BLCT,Blue City  Holdings,2020.0,2020,2020,uscc
+BNR,Burning Rock  Biotech,2020.0,2020,2026,screener+uscc+uscc2025
+BON,Bon Natural Life  Limited,2021.0,2025,2026,screener+uscc2025
+BORN,China New  Borun  Corporation,2010.0,2019,2019,uscc
+BQ,Boqii Holding,2020.0,2025,2025,uscc2025
+BRQS,"Borqs  Technologies,  Inc.",2015.0,2019,2020,uscc
+BTBT,(prev.  DNJR)  Golden Bull  Limited,2018.0,2020,2020,uscc
+BTCM,BIT Mining,2013.0,2025,2025,uscc2025
+BTCT,BTC Digital Ltd.,2018.0,2025,2026,screener+uscc2025
+BVC,BitVentures Limited Ordinary Shares,2021.0,2026,2026,screener
+BYAH,Park Ha Biological Technology Co. Ltd. Class A Ordinary Shares,2024.0,2026,2026,screener
+BZ,Kanzhun Limited,2021.0,2025,2026,screener+uscc2025
+BZUN,Baozun Inc.,2015.0,2019,2026,screener+uscc+uscc2025
+CAAS,"China  Automotive  Systems, Inc.",2003.0,2019,2026,screener+uscc+uscc2025
+CAN,Canaan Creative,2019.0,2020,2026,screener+uscc+uscc2025
+CANG,Cango Inc.,2018.0,2020,2026,screener+uscc+uscc2025
+CASI,"CASI  Pharmaceuticals,  Inc.",1996.0,2025,2025,uscc2025
+CBAT,"CBAK Energy  Technology, Inc.",2005.0,2025,2026,screener+uscc2025
+CBPO,"China Biologic  Products  Holdings, Inc.",2010.0,2019,2020,uscc
+CCCL,"China Ceramics  Co., Ltd.",2010.0,2019,2020,uscc
+CCG,"Cheche Group Inc.  $90    $18 Finance n/a  121 LSE§ Leishen Energy  Holding Co., Ltd.",2024.0,2025,2026,screener+uscc2025
+CCIH,ChinaCache  International  Holdings Ltd.,2010.0,2019,2019,uscc
+CCM,Concord  Medical  Services  Holdings  Limited,2009.0,2019,2026,screener+uscc+uscc2025
+CCNC,(prev.  TMSR)  Code Chain New  Continent  (previously  TMSR Holding  Company),2015.0,2020,2020,uscc
+CCRC,"China  Customer  Relations  Centers, Inc.",2015.0,2019,2020,uscc
+CCTG,CCSC Technology  Internationl  Holdings Ltd,2024.0,2025,2025,uscc2025
+CD,ChinData,2020.0,2020,2026,screener+uscc
+CDTG,CDT Environmental  Technology  Investment  Holdings Ltd,2024.0,2025,2026,screener+uscc2025
+CEA,China Eastern  Airlines  Corporation  Ltd.,1997.0,2019,2020,uscc
+CEO,CNOOC Limited,2001.0,2020,2020,uscc
+CGA,"China Green  Agriculture,  Inc.",2008.0,2019,2020,uscc
+CGTL,Creative Global Technology Holdings Limited Class A Ordinary Shares,2024.0,2026,2026,screener
+CHA,China Telecom  Corp Ltd,2002.0,2019,2026,screener+uscc
+CHL,China Mobile  Limited,1997.0,2020,2020,uscc
+CHNR,"China Natural  Resources, Inc.",1996.0,2025,2025,uscc2025
+CHR,"Cheer Holding, Inc",2021.0,2025,2026,screener+uscc2025
+CHSN,Chanson  International  Holding,2023.0,2025,2026,screener+uscc2025
+CHU,China Unicom,2000.0,2020,2020,uscc
+CIFS,China Internet  Nationwide,2017.0,2019,2019,uscc
+CIH,China Index  Holdings,2019.0,2020,2020,uscc
+CJJD,"China Jo-Jo  Drugstores, Inc.",2010.0,2020,2020,uscc
+CLEU,China Liberal  Education Holdings,2020.0,2025,2025,uscc2025
+CLPS,CLPS  Incorporation,2018.0,2019,2026,screener+uscc+uscc2025
+CLWT,Euro Tech Holdings  Company Limited,1997.0,2025,2025,uscc2025
+CMCM,Cheetah Mobile,2014.0,2020,2026,screener+uscc+uscc2025
+CMSS,CM Seven Star  Acquisition  Corporation,2017.0,2019,2019,uscc
+CNET,"ChinaNet Online  Holdings, Inc.",2010.0,2020,2026,screener+uscc+uscc2025
+CNEY,CN Energy Group,2021.0,2025,2026,screener+uscc2025
+CNF,CNFinance  Holdings Limited,2018.0,2020,2025,uscc+uscc2025
+CNTB,Connect Biopharma  Holdings Limited,2021.0,2025,2026,screener+uscc2025
+CNTF,China  TechFaith  Wireless  Communicatio n Technology  Limited,2005.0,2019,2019,uscc
+CO,Global Cord  Blood  Corporation,2009.0,2020,2020,uscc
+COE,China Online  Education  Group,2016.0,2019,2026,screener+uscc+uscc2025
+CPHI,"China Pharma  Holdings, Inc.",2009.0,2020,2026,screener+uscc+uscc2025
+CPOP,Pop Culture Group,2021.0,2025,2026,screener+uscc2025
+CREG,China Recycling  Energy  Corporation,2010.0,2020,2025,uscc+uscc2025
+CSIQ,Canadian Solar  Inc.,2006.0,2019,2025,uscc+uscc2025
+CTK,CooTek  (Cayman) Inc.,2018.0,2020,2020,uscc
+CTRP,"Ctrip.com  International,  Ltd.",2003.0,2019,2019,uscc
+CXDC,China XD  Plastics  Company  Limited,2007.0,2019,2020,uscc
+CYOU,Changyou.com  Limited,2009.0,2019,2019,uscc
+DADA,Dada Nexus,2020.0,2020,2025,uscc+uscc2025
+DAO,Youdao Inc ADR  Class A,2019.0,2020,2026,screener+uscc+uscc2025
+DDC,DDC Enterprise Ltd,2023.0,2025,2025,uscc2025
+DDL,Dingdong (Cayman)  Limited,2021.0,2025,2025,uscc2025
+DL,China Distance  Education  Holdings  Limited,2008.0,2019,2020,uscc
+DNJR,GOLDEN BULL  LIMITED,2018.0,2019,2019,uscc
+DOGZ,Dogness  (International)  Corporation,2017.0,2019,2026,screener+uscc+uscc2025
+DOYU,Douyu,2019.0,2020,2026,screener+uscc+uscc2025
+DPU,Top KingWin Ltd Class A Ordinary Shares,2023.0,2026,2026,screener
+DQ,DAQO New  Energy Corp.,2010.0,2019,2026,screener+uscc+uscc2025
+DSC,DSC Holdings Ltd. American Depositary Shares,2026.0,2026,2026,screener
+DSWL,"Deswell Industries,  Inc.",1995.0,2025,2025,uscc2025
+DSY,Big Tree Cloud Holdings Limited Class A Ordinary Shares,,2026,2026,screener
+DSYWW,Big Tree Cloud Holdings Limited Warrants,,2026,2026,screener
+DTSS,Datasea Inc.,2017.0,2019,2026,screener+uscc+uscc2025
+DUO,FangDD,2019.0,2020,2026,screener+uscc+uscc2025
+DXF,Dunxin  Financial  Holdings  Limited,2010.0,2019,2019,uscc
+DXST,Decent Holding Inc.,2025.0,2025,2026,screener+uscc2025
+EBON,Ebang International  Holdings,2020.0,2025,2026,screener+uscc2025
+ECX,ECARX Holdings Inc. Class A Ordinary shares,,2026,2026,screener
+ECXWW,ECARX Holdings Inc. Warrants,,2026,2026,screener
+EDTK,Skillful Craftsman  Education  Technology Limited,2020.0,2025,2026,screener+uscc2025
+EDU,"New Oriental  Education &  Technology  Group, Inc.",2006.0,2019,2026,screener+uscc+uscc2025
+EH,Ehang,2019.0,2020,2026,screener+uscc+uscc2025
+EHGO,EShallGo Inc.,2024.0,2025,2026,screener+uscc2025
+EHIC,eHi Car  Services  Limited,2014.0,2019,2019,uscc
+EJH,E-Home Household  Service Holdings  Limited,2021.0,2025,2026,screener+uscc2025
+ELOG,Eastern International Ltd. Ordinary Shares,2025.0,2026,2026,screener
+ELPW,Elong Power Holding Limited Class A Ordinary Shares,,2026,2026,screener
+EM,Smart Share Global  Limited,2021.0,2025,2025,uscc2025
+ENFY,"Enlightify, Inc.",2009.0,2025,2025,uscc2025
+EPOW,"Sunrise New Energy  Co., Ltd.",2021.0,2025,2026,screener+uscc2025
+EPWK,EPWK Holdings Ltd.,2025.0,2025,2025,uscc2025
+EZGO,EZGO Technologies,2021.0,2025,2026,screener+uscc2025
+FAMI,"FARMMI, INC.",2018.0,2019,2026,screener+uscc+uscc2025
+FANH,Fanhua Inc.,2007.0,2019,2020,uscc
+FEBO,Fenbo Holdings Ltd,2023.0,2025,2025,uscc2025
+FEDU,Four Seasons  Education  (Cayman) Inc.,2017.0,2020,2025,uscc+uscc2025
+FENG,Phoenix New  Media Limited,2011.0,2019,2026,screener+uscc+uscc2025
+FFHL,"Fuwei Films  (Holdings) Co.,  Ltd.",2006.0,2019,2020,uscc
+FINV,(prev.  PPDF)  FinVolution  Group  (previously  PPDAI Group  Inc.),2017.0,2020,2025,uscc+uscc2025
+FLX,BingEx Ltd,2024.0,2025,2026,screener+uscc2025
+FNGR,"FingerMotion, Inc.",2016.0,2025,2025,uscc2025
+FORK,Fuling Global  Inc.,2015.0,2019,2020,uscc
+FTFT,Future FinTech  Group Inc.,2004.0,2020,2026,screener+uscc+uscc2025
+FVN,Future Vision II Acquisition Corporation Ordinary shares,2024.0,2026,2026,screener
+FVNNR,Future Vision II Acquisition Corporation Right,2024.0,2026,2026,screener
+FVNNU,Future Vision II  Acquisition Corp.,2024.0,2025,2026,screener+uscc2025
+FXHO,UTime Limited Class A Ordinary Shares,2021.0,2026,2026,screener
+GCT,GigaCloud  Technology Inc,2022.0,2025,2025,uscc2025
+GDC,GD Culture Group  Ltd.,2015.0,2025,2025,uscc2025
+GDHG,Golden Heaven  Group Holdings Ltd.,2023.0,2025,2026,screener+uscc2025
+GDS,GDS Holdings  Limited,2016.0,2019,2026,screener+uscc+uscc2025
+GHG,GreenTree  Hospitality  Group,2018.0,2020,2025,uscc+uscc2025
+GLAC,Greenland  Acquisition  Corporation,2018.0,2019,2025,uscc+uscc2025
+GLG,"China Bat  Group, Inc.",2013.0,2019,2020,uscc
+GMHS,Gamehaus Holdings Inc. Class A Ordinary Shares,,2026,2026,screener
+GMM,Global Mofy  Metaverse Ltd,2023.0,2025,2026,screener+uscc2025
+GOTU,"Gaotu Techedu,  Inc.",2019.0,2025,2026,screener+uscc2025
+GRNQ,Greenpro  Capital Corp.,2014.0,2019,2026,screener+uscc+uscc2025
+GSH,Guangshen  Railway  Company  Limited,1996.0,2019,2020,uscc
+GSUM,Gridsum  Holding Inc.,2016.0,2019,2020,uscc
+GSUN,Golden Sun  Education Group  Limited,2022.0,2025,2026,screener+uscc2025
+GSX,GSX Technology,2019.0,2020,2020,uscc
+GTEC,Greenland  Technologies,2018.0,2020,2026,screener+uscc+uscc2025
+GTH,Genetron  Health,2020.0,2020,2020,uscc
+GURE,"Gulf Resources,  Inc.",1994.0,2020,2026,screener+uscc+uscc2025
+HAO,Haoxi Health  Technology Ltd,2024.0,2025,2026,screener+uscc2025
+HAPP,Happiness  Biotech Group,2019.0,2020,2020,uscc
+HCAI,"Huachen AI Parking  Management  Technology Holding  Co., Ltd",2025.0,2025,2026,screener+uscc2025
+HCM,HUTCHMED (China)  Limited,2016.0,2025,2025,uscc2025
+HEBT,"Hebron  Technology  Co., Ltd.",2016.0,2019,2020,uscc
+HERE,Here Group Limited American Depositary Shares,2023.0,2026,2026,screener
+HGSH,"China HGS Real  Estate, Inc.",2006.0,2019,2020,uscc
+HIHO,Highway Holdings  Limited,1996.0,2025,2025,uscc2025
+HKIT,Hitek Global Inc.,2023.0,2025,2026,screener+uscc2025
+HLG,Hailiang  Education  Group Inc.,2015.0,2019,2020,uscc
+HLP,Hongli Group Inc.,2023.0,2025,2026,screener+uscc2025
+HMI,Huami  Corporation,2018.0,2019,2020,uscc
+HNP,"Huaneng  Power  International,  Inc.",1994.0,2019,2020,uscc
+HPH,Highest  Performances  Holdings Inc,2019.0,2025,2025,uscc2025
+HPJ,Highpower  International  Inc,2008.0,2019,2019,uscc
+HSAI,Hesai Group,2023.0,2025,2026,screener+uscc2025
+HTHT,Huazhu Group  Limited,2010.0,2019,2026,screener+uscc+uscc2025
+HTT,High Templar Tech Limited American depositary shares each representing one Class A ordinary share,2017.0,2026,2026,screener
+HUDI,Huadi International  Group,2021.0,2025,2026,screener+uscc2025
+HUHU,HUHUTECH  International Group  Inc.,2024.0,2025,2026,screener+uscc2025
+HUIZ,Huize Holding,2020.0,2020,2026,screener+uscc+uscc2025
+HUYA,HUYA Inc.,2018.0,2020,2025,uscc+uscc2025
+HX,Hexindai Inc.,2017.0,2019,2020,uscc
+HXHX,Haoxin Holdings Limited Class A Ordinary Shares,2025.0,2026,2026,screener
+ICG,"Intchains Group,  Ltd.",2023.0,2025,2026,screener+uscc2025
+ICLK,iClick Interactive  Asia Group Ltd,2017.0,2025,2025,uscc2025
+IFBD,Infobird,2021.0,2025,2026,screener+uscc2025
+IH,iHuman,2020.0,2025,2025,uscc2025
+ILAG,Intelligent Living  Application Group  Inc.,2022.0,2025,2025,uscc2025
+IMAB,I-Mab  Biopharma,2020.0,2020,2020,uscc
+INLF,INLIF Ltd,2025.0,2025,2026,screener+uscc2025
+IQ,"iQIYI, Inc.",2018.0,2019,2026,screener+uscc+uscc2025
+ITOC,iTonic Holdings Ltd Class A Ordinary Shares,2024.0,2026,2026,screener
+ITP,(prev.  ONP)  IT Tech  Packaging  (previously  Orient Paper  Inc.),2009.0,2020,2026,screener+uscc
+IZM,ICZOOM Group Inc.,2023.0,2025,2026,screener+uscc2025
+JD,"JD.com, Inc.",2014.0,2019,2026,screener+uscc+uscc2025
+JDZG,JIADE Ltd,2024.0,2025,2026,screener+uscc2025
+JEM,707 Cayman Holdings Limited Ordinary Shares,2025.0,2026,2026,screener
+JF,J and Friends Holdings Limited American Depositary Shares,2018.0,2026,2026,screener
+JFIN,Jiayin Group,2019.0,2020,2026,screener+uscc+uscc2025
+JFU,9F Group,2019.0,2020,2026,screener+uscc+uscc2025
+JG,Aurora Mobile  Limited,2018.0,2019,2026,screener+uscc+uscc2025
+JKS,JinkoSolar  Holding  Company  Limited,2010.0,2019,2026,screener+uscc+uscc2025
+JLHL,Julong Holding Limited Class A Ordinary Shares,2025.0,2026,2026,screener
+JMU,JMU Limited,2015.0,2019,2019,uscc
+JOBS,"51job, Inc.",2004.0,2019,2020,uscc
+JP,Jupai Holdings,2015.0,2020,2020,uscc
+JRJC,China Finance  Online Co.  Limited,2004.0,2019,2020,uscc
+JT,Jianpu  Technology Inc.,2017.0,2020,2020,uscc
+JWEL,Jowell Global Ltd,2021.0,2025,2026,screener+uscc2025
+JXG,JX Luxventure Ltd,2012.0,2025,2026,screener+uscc2025
+JYD,Jayud Global  Logistics Ltd,2023.0,2025,2026,screener+uscc2025
+JZ,Jianzhi Education  Technology Group  Company Limited,2022.0,2025,2026,screener+uscc2025
+JZXN,Jiuzi Holdings Inc,2021.0,2025,2026,screener+uscc2025
+KBSF,KBS Fashion  Group Limited,2012.0,2019,2020,uscc
+KC,Kingsoft Cloud,2020.0,2020,2026,screener+uscc+uscc2025
+KGJI,Kingold  Jewelry Inc.,1999.0,2019,2020,uscc
+KNDI,"Kandi  Technologies  Group, Inc.",2013.0,2019,2026,screener+uscc+uscc2025
+KRKR,36Kr,2019.0,2020,2026,screener+uscc+uscc2025
+KUKE,Kuke Music  Holdings,2021.0,2025,2025,uscc2025
+KXIN,Kaixin Auto  Holdings,2017.0,2025,2026,screener+uscc2025
+LAIX,LAIX Inc.,2018.0,2020,2020,uscc
+LBGJ,Li Bang  International  Corporation Inc.,2024.0,2025,2026,screener+uscc2025
+LEGN,Legend Biotech,2020.0,2020,2020,uscc
+LEJU,Leju Holdings,2014.0,2020,2020,uscc
+LFC,China Life  Insurance  Company  Limited,2003.0,2019,2020,uscc
+LGCL,Lucas GC Ltd,2024.0,2025,2026,screener+uscc2025
+LGHL,Lion Group Holding Ltd. American Depositary Share,,2026,2026,screener
+LHSW,Lianhe Sowell International Group Ltd Class A Ordinary Shares,2025.0,2026,2026,screener
+LI,Li Auto,2020.0,2020,2026,screener+uscc+uscc2025
+LICN,Lichen China Ltd,2023.0,2025,2026,screener+uscc2025
+LITB,"LightInTheBox  Holding Co.,  Ltd.",2013.0,2019,2026,screener+uscc+uscc2025
+LIZI,Lizhi Inc.,2020.0,2020,2020,uscc
+LKCO,Luokung  Technology  Corp,2010.0,2019,2025,uscc+uscc2025
+LLIT,Lianluo Smart  Limited,2010.0,2019,2020,uscc
+LOAC,Longevity  Acquisition  Corporation,2018.0,2019,2020,uscc
+LOBO,LOBO EV  TECHNOLOGIES  LTD,2024.0,2025,2026,screener+uscc2025
+LOT,Lotus Technology Inc. American Depositary Shares,,2026,2026,screener
+LSE,Leishen Energy Holding Co. Ltd. Class A Ordinary Shares,2024.0,2026,2026,screener
+LU,Lufax,2020.0,2025,2026,screener+uscc2025
+LUD,Luda Technology  Group Limited,2025.0,2025,2025,uscc2025
+LX,LexinFintech  Holdings Ltd.,2017.0,2019,2026,screener+uscc+uscc2025
+LXEH,Lixiang Education  Holding,2020.0,2025,2026,screener+uscc2025
+LYL,Dragon Victory  International  Limited,2017.0,2019,2020,uscc
+LZMH,LZ Technology  Holdings Limited,2025.0,2025,2026,screener+uscc2025
+MAAS,Maase Inc. Class A Ordinary Shares,2019.0,2026,2026,screener
+MASK,3 E Network  Technology Group  Ltd,2025.0,2025,2026,screener+uscc2025
+MATH,Metalpha  Technology Holding  Limited,2017.0,2025,2026,screener+uscc2025
+MDJH,MDJM LTD,2019.0,2020,2020,uscc
+MF,MindForge Inc. Class A Ordinary Shares,2024.0,2026,2026,screener
+MFH,(prev.  JMU)  JMU Limited,2015.0,2020,2025,uscc+uscc2025
+MGIH,Millennium Group  International  Holdings Ltd,2023.0,2025,2025,uscc2025
+MHUA,"Meihua  International  Medical  Technologies Co.,  Ltd.",2022.0,2025,2025,uscc2025
+MKD,Molecular Data  Inc.,2019.0,2020,2020,uscc
+MNSO,Miniso,2020.0,2025,2026,screener+uscc2025
+MOGU,MOGU Inc.,2018.0,2020,2025,uscc+uscc2025
+MOHO,ECMOHO  Limited,2019.0,2020,2020,uscc
+MOMO,Momo Inc.,2014.0,2019,2026,screener+uscc+uscc2025
+MOXC,"Moxian, Inc.",2016.0,2019,2020,uscc
+MSC,Studio City  International  Holdings Limited,2018.0,2020,2025,uscc+uscc2025
+MTC,"MMTec, Inc.",2019.0,2019,2026,screener+uscc+uscc2025
+MTEN,Mingteng  International Corp  Inc.,2024.0,2025,2026,screener+uscc2025
+MVST,"Microvast Holdings,  Inc.",2021.0,2025,2025,uscc2025
+MYT,"Urban Tea, Inc.",2012.0,2019,2020,uscc
+NAAS,NaaS Technology  Inc.,2017.0,2025,2026,screener+uscc2025
+NAMI,Jinxin Technology  Holding Co,2024.0,2025,2026,screener+uscc2025
+NBP,NovaBridge Biosciences American Depositary Shares,2020.0,2026,2026,screener
+NCT,Intercont (Cayman) Limited Class A Ordinary shares,2025.0,2026,2026,screener
+NCTY,The9 Limited,2004.0,2019,2026,screener+uscc+uscc2025
+NEGG,Newegg Commerce Inc. Common Shares,2010.0,2026,2026,screener
+NEW,Puxin Limited  American  Depositary  Shares,2018.0,2020,2020,uscc
+NEWA,"Newater  Technology,  Inc.",2017.0,2019,2020,uscc
+NFH,New Frontier  Health  Corporation,2018.0,2020,2020,uscc
+NIO,NIO Inc.  American  depositary  shares,2018.0,2020,2025,uscc+uscc2025
+NISN,Nisun International  Enterprise,2016.0,2025,2025,uscc2025
+NIU,Niu  Technologies,2018.0,2019,2026,screener+uscc+uscc2025
+NOAH,Noah Holdings  Ltd.,2010.0,2019,2026,screener+uscc+uscc2025
+NPT,Texxon Holding Limited Ordinary shares,2025.0,2026,2026,screener
+NTCL,NetClass  Technology Inc,2024.0,2025,2026,screener+uscc2025
+NTES,"NetEase, Inc.",2000.0,2019,2026,screener+uscc+uscc2025
+NTP,Nam Tai  Property Inc.,1991.0,2019,2020,uscc
+NWGL,CL Workshop Group Limited American Depositary Shares,2023.0,2026,2026,screener
+NXTT,Next Technology  Holding Inc,2022.0,2025,2026,screener+uscc2025
+OCFT,"OneConnect  Financial  Technology Co., Ltd",2019.0,2025,2025,uscc2025
+OCG,Oriental Culture  Holding,2020.0,2025,2026,screener+uscc2025
+ONC,BeiGene,2016.0,2025,2025,uscc2025
+ONE,OneSmart  International  Education,2018.0,2020,2020,uscc
+ORIS,Oriental Rise  Holdings Ltd,2024.0,2025,2025,uscc2025
+OSN,"Ossen  Innovation Co.,  Ltd.",2010.0,2019,2020,uscc
+OST,"Ostin Technology  Group Co., Ltd.",2022.0,2025,2025,uscc2025
+PAVS,Paranovus  Entertainment  Technology Limited,2019.0,2025,2026,screener+uscc2025
+PDD,Pinduoduo Inc.,2018.0,2019,2026,screener+uscc+uscc2025
+PETZ,"TDH Holdings,  Inc.",2017.0,2019,2026,screener+uscc+uscc2025
+PHCF,"PUHUI  WEALTH  INVESTMENT  MANAGEMEN T CO., LTD.",2018.0,2019,2020,uscc
+PHH,"Park Ha Biological  Technology Co.,  Ltd.",2024.0,2025,2025,uscc2025
+PLAG,Planet Green  Holdings Corp,2006.0,2020,2026,screener+uscc+uscc2025
+PME,Pingtan  Marine  Enterprise Ltd.,2011.0,2019,2020,uscc
+PN,PN Smart Energy Limited Class A Ordinary Shares,2025.0,2026,2026,screener
+POM,POMDOCTOR LIMITED American Depositary Shares,2025.0,2026,2026,screener
+PONY,Pony AI Inc.,2024.0,2025,2026,screener+uscc2025
+PT,Pintec  Technology  Holdings  Limited,2018.0,2019,2025,uscc+uscc2025
+PTHL,Pheton Holdings  Ltd,2024.0,2025,2025,uscc2025
+PTR,PetroChina  Company  Limited,2000.0,2019,2020,uscc
+QD,Qudian Inc.,2017.0,2019,2025,uscc+uscc2025
+QFIN,"360 Finance,  Inc.",2018.0,2019,2026,screener+uscc+uscc2025
+QH,Quhuo Tech,2020.0,2020,2026,screener+uscc+uscc2025
+QK,Q&K  International,2019.0,2020,2020,uscc
+QSG,QuantaSing Group  Ltd,2023.0,2025,2025,uscc2025
+QTT,Qutoutiao Inc.,2018.0,2019,2020,uscc
+RAYA,Erayak Power  Solution Group Inc.,2022.0,2025,2026,screener+uscc2025
+RCON,"Recon  Technology,  Ltd.",2009.0,2019,2026,screener+uscc+uscc2025
+RDAC,Rising Dragon  Acquisition Corp,2024.0,2025,2026,screener+uscc2025
+RDACU,Rising Dragon Acquisition Corp. Unit,2024.0,2026,2026,screener
+RDGT,"Ridgetech, Inc.",2010.0,2025,2026,screener+uscc2025
+REDU,RISE Education  Cayman Ltd,2017.0,2019,2020,uscc
+RENN,Renren Inc.,2011.0,2019,2020,uscc
+RERE,ATRenew Inc.,2021.0,2025,2025,uscc2025
+RETO,"ReTo Eco- Solutions, Inc.",2017.0,2019,2026,screener+uscc+uscc2025
+RLX,RLX Technology,2021.0,2025,2025,uscc2025
+RTC,Baijiayun Group Ltd,2006.0,2025,2025,uscc2025
+RUHN,Ruhnn Holding,2019.0,2020,2020,uscc
+RYB,"RYB Education,  Inc.",2017.0,2020,2020,uscc
+RYET,Ruanyun Edai Technology Inc. Ordinary shares,2025.0,2026,2026,screener
+SCAG,Scage Future American Depositary Shares,,2026,2026,screener
+SCAGW,Scage Future Warrants,,2026,2026,screener
+SECO,Secoo Holding  Limited,2017.0,2020,2020,uscc
+SEED,Origin Agritech  Limited,2004.0,2019,2026,screener+uscc+uscc2025
+SFHG,Samfine Creation  Holdings Group Ltd,2024.0,2025,2025,uscc2025
+SFUN,Fang Holdings  Limited,2010.0,2019,2020,uscc
+SFWL,Shengfeng  Development Ltd,2023.0,2025,2026,screener+uscc2025
+SGOC,"SGOCO Group,  Ltd",2008.0,2019,2020,uscc
+SHI,"SINOPEC  Shangai  Petrochemical  Company, Ltd.",1993.0,2019,2020,uscc
+SINA,Sina  Corporation,2000.0,2019,2020,uscc
+SISI,"Shineco, Inc.",2016.0,2025,2025,uscc2025
+SJ,Scienjoy Holding,2019.0,2025,2026,screener+uscc2025
+SMI,Semiconductor   Manufacturing  International  Corporation,2004.0,2019,2019,uscc
+SNP,China  Petroleum &  Chemical  Corporation,2000.0,2019,2020,uscc
+SNTG,Sentage Holdings,2021.0,2025,2026,screener+uscc2025
+SOGO,Sogou Inc.,2017.0,2020,2020,uscc
+SOGP,Sound Group Inc,2020.0,2025,2026,screener+uscc2025
+SOHU,Sohu.com  Limited,2000.0,2019,2026,screener+uscc+uscc2025
+SOL,Renesola Ltd.,2008.0,2019,2025,uscc+uscc2025
+SORL,"SORL Auto  Parts, Inc.",2006.0,2019,2019,uscc
+SOS,(prev.  XRF)  SOS Limited  (previously  China Rapid  Finance Limited),2017.0,2020,2026,screener+uscc+uscc2025
+SPI,"SPI Energy Co.,  Ltd.",2007.0,2019,2020,uscc
+SSLJ,SSLJ.com  Limited,2018.0,2019,2019,uscc
+STAK,STAK Inc.,2025.0,2025,2026,screener+uscc2025
+STEC,Santech Holdings  Limited,2021.0,2025,2025,uscc2025
+STFS,Star Fashion  Culture Holdings  Ltd,2024.0,2025,2026,screener+uscc2025
+STG,Sunlands Online  Education  Group,2018.0,2020,2025,uscc+uscc2025
+SVA,"Sinovac  Biotech, Ltd.  $460     Health Care    66.  SECO Secoo Holding  Limited",2017.0,2019,2019,uscc
+SXTC,"China SXT  Pharmaceutica ls, Inc.",2019.0,2019,2026,screener+uscc+uscc2025
+SY,SoYoung  Technology,2019.0,2020,2026,screener+uscc+uscc2025
+TAL,TAL Education  Group,2010.0,2019,2026,screener+uscc+uscc2025
+TANH,Tantech  Holdings Ltd.,2015.0,2019,2026,screener+uscc+uscc2025
+TAOP,Taoping Inc. $47    $0  Technology    116.  MDJH MDJM LTD,2019.0,2019,2025,uscc+uscc2025
+TC,TuanChe  Limited,2018.0,2019,2026,screener+uscc+uscc2025
+TCOM,"(prev.  CTRP)  Ctrip.com  International,  Ltd.",2003.0,2020,2026,screener+uscc+uscc2025
+TCTM,TCTM Kids IT  Education Inc.,2014.0,2025,2025,uscc2025
+TEDU,"Tarena  International,  Inc.",2014.0,2019,2020,uscc
+THCH,TH International  Ltd,2021.0,2025,2026,screener+uscc2025
+TIGR,Up Fintech  Holdings,2019.0,2020,2026,screener+uscc+uscc2025
+TIRX,Tian Ruixiang  Holdings,2021.0,2025,2025,uscc2025
+TKAT,Takung Art Co.  Ltd,2017.0,2020,2020,uscc
+TME,Tencent Music  Entertainment  Group,2018.0,2020,2025,uscc+uscc2025
+TMSR,TMSR Holding  Company  Limited,2015.0,2019,2019,uscc
+TOUR,Tuniu  Corporation,2014.0,2019,2026,screener+uscc+uscc2025
+TROO,TROOPS Inc. Ordinary Shares ,,2026,2026,screener
+TUYA,Tuya Inc.,2021.0,2025,2026,screener+uscc2025
+TYHT,"Shineco, Inc.",2016.0,2019,2020,uscc
+UBXG,U-BX Technology  Ltd.,2024.0,2025,2025,uscc2025
+UCAR,U Power Ltd,2023.0,2025,2026,screener+uscc2025
+UCL,uCloudlink Group  Inc.,2020.0,2025,2025,uscc2025
+UK,Ucommune  International,2020.0,2025,2025,uscc2025
+UOKA,MDJM LTD,2019.0,2025,2025,uscc2025
+UPC,Universe  Pharmaceuticals,2021.0,2025,2026,screener+uscc2025
+UTSI,UTStarcom  Holdings Corp,2000.0,2019,2026,screener+uscc+uscc2025
+UXIN,Uxin Limited,2018.0,2019,2026,screener+uscc+uscc2025
+VAI,Valor Energy Incorporated Common Stock,2018.0,2026,2026,screener
+VIOT,"Viomi  Technology  Co., Ltd",2018.0,2019,2026,screener+uscc+uscc2025
+VIPS,Vipshop  Holdings  Limited,2012.0,2019,2026,screener+uscc+uscc2025
+VNET,"21Vianet  Group, Inc.",2011.0,2019,2026,screener+uscc+uscc2025
+VSA,VisionSys AI Inc. American Depositary Shares,2014.0,2026,2026,screener
+WAFU,Wah Fu Education  Group,2019.0,2025,2026,screener+uscc2025
+WAI,Top KingWin Ltd,2023.0,2025,2025,uscc2025
+WB,Weibo  Corporation,2014.0,2019,2026,screener+uscc+uscc2025
+WBAI,500.com,2013.0,2020,2020,uscc
+WDH,"Waterdrop, Inc.",2021.0,2025,2025,uscc2025
+WEI,Weidai Ltd.,2018.0,2020,2020,uscc
+WETH,Wetouch  Technology Inc.,2024.0,2025,2026,screener+uscc2025
+WETO,Webus  International  Limited,2025.0,2025,2026,screener+uscc2025
+WIMI,WiMi Hologram  Cloud,2020.0,2020,2026,screener+uscc+uscc2025
+WINS,Wins Finance  Holdings Inc.,2014.0,2019,2020,uscc
+WNW,Meiwu Technology  Company Limited,2020.0,2025,2026,screener+uscc2025
+WOK,WORK Medical  Technology Group  LTD,2024.0,2025,2026,screener+uscc2025
+WRD,WeRide Inc.,2024.0,2025,2026,screener+uscc2025
+WSG,Wanda Sports  Group,2019.0,2020,2020,uscc
+WTG,Wintergreen Acquisition Corp. Ordinary Shares,2025.0,2026,2026,screener
+WTO,Utime Technology,2021.0,2025,2025,uscc2025
+WXM,WF International Limited Ordinary Shares,2025.0,2026,2026,screener
+WYHG,Wing Yip Food  Holdings Group Ltd,2024.0,2025,2026,screener+uscc2025
+XCH,XCHG Ltd,2024.0,2025,2025,uscc2025
+XHG,XChange TEC.INC,2019.0,2025,2026,screener+uscc2025
+XIN,Xinyuan Real  Estate Co Ltd,2007.0,2019,2025,uscc+uscc2025
+XNET,Xunlei Limited,2014.0,2019,2026,screener+uscc+uscc2025
+XPEV,Xpeng,2020.0,2020,2026,screener+uscc+uscc2025
+XTKG,X3 Holdings Co Ltd,2019.0,2025,2025,uscc2025
+XYF,X Financial,2018.0,2020,2025,uscc+uscc2025
+YAAS,Youxin Technology  Ltd,2024.0,2025,2026,screener+uscc2025
+YALA,Yalla Group,2020.0,2020,2025,uscc+uscc2025
+YB,Yuanbao Inc. American Depositary Shares,2025.0,2026,2026,screener
+YDKG,Yueda Digital Holding Class A Ordinary Share,2007.0,2026,2026,screener
+YGMZ,MingZhu Logistics  Holdings,2020.0,2025,2025,uscc2025
+YI,"111, Inc.",2018.0,2019,2026,screener+uscc+uscc2025
+YIBO,Planet Image  International Ltd,2024.0,2025,2026,screener+uscc2025
+YIN,Yintech  Investment  Holdings  Limited,2016.0,2019,2020,uscc
+YJ,Yunji,2019.0,2020,2026,screener+uscc+uscc2025
+YMM,Full Truck Alliance  Co. Ltd,2021.0,2025,2026,screener+uscc2025
+YMT,Yimutian Inc. American Depositary Shares,2025.0,2026,2026,screener
+YOUL,Youlife Group Inc. American Depositary Shares,,2026,2026,screener
+YQ,17 Education &  Technology Group,2020.0,2025,2026,screener+uscc2025
+YRD,Yirendai Ltd.,2015.0,2019,2026,screener+uscc+uscc2025
+YSG,Yatsen Holding,2020.0,2025,2026,screener+uscc2025
+YSXT,"YSX Tech Co., Ltd",2024.0,2025,2026,screener+uscc2025
+YUMC,Yum China,2016.0,2020,2025,uscc+uscc2025
+YXT,YXT.com Group  Holding Limited,2024.0,2025,2026,screener+uscc2025
+YY,YY Inc.,2012.0,2019,2025,uscc+uscc2025
+ZBAO,Zhibao Technology  Inc.,2024.0,2025,2026,screener+uscc2025
+ZCMD,Zhongchao Inc.,2020.0,2025,2026,screener+uscc2025
+ZEPP,Zepp Health  Corporation,2018.0,2025,2026,screener+uscc2025
+ZH,Zhihu,2021.0,2025,2026,screener+uscc2025
+ZJK,"ZJK Industrial Co.,  Ltd.",2024.0,2025,2026,screener+uscc2025
+ZJYL,Jin Medical  International,2023.0,2025,2026,screener+uscc2025
+ZK,ZEEKR Intelligent  Holding Ltd,2024.0,2025,2025,uscc2025
+ZKH,ZKH Group Ltd,2023.0,2025,2025,uscc2025
+ZKIN,"ZK  International  Group Co., Ltd",2017.0,2019,2026,screener+uscc
+ZLAB,Zai Lab Limited,2017.0,2019,2026,screener+uscc+uscc2025
+ZNH,China  Southern  Airlines  Company  Limited,1997.0,2019,2020,uscc
+ZTO,ZTO Express  (Cayman) Inc.,2016.0,2019,2026,screener+uscc+uscc2025
+ZYBT,Zhengye  Biotechnology  Holding Ltd,2025.0,2025,2026,screener+uscc2025

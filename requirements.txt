@@ -1,0 +1,8 @@
+numpy
+pandas>=2.0
+scikit-learn==1.7.2
+joblib
+scipy
+matplotlib
+yfinance
+pytest
