@@ -7,3 +7,4 @@ results/_*
 docs/results/
 *.log
 .DS_Store
+results/trend_correlation_series.csv

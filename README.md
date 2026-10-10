@@ -27,6 +27,7 @@ Scripts import the `adr_longshort` package from the repository root, so run them
 | `python3 refit.py [--check]` | annual refits 2010–2026 → `results/predictions_rf.csv`, `model/*.joblib`, hyperparameters, importances; `--check` stops if the forecasts differ from the shipped ones | 1 min |
 | `python3 backtest.py [--quick]` | quintile statistics, borrow variants, the $500k account with Monte Carlo and nulls, the last five years → `results/` | 10 min (`--quick`: seconds) |
 | `python3 make_charts.py` | figures 2–6 and the five-year PDF pages from the backtest outputs | 1 min |
+| `python3 trend_correlation.py [sg_trend.csv]` | correlation of the strategy's monthly returns with trend-following: your own SG Trend Index series, or free fund proxies from Yahoo | 1 min |
 | `python3 fetch_data.py [--test]` | refresh prices, T-bill and ETF benchmarks from Yahoo and FRED (the Kaggle archive for delisted names is shipped, not refreshed) | 10 min |
 | `python3 docs/make_stats.py` | regenerate `docs/STATS.md` from the backtest outputs | seconds |
 | `python3 docs/make_pdf.py` | rebuild `docs/CHINA_ADR_RF.pdf` (needs pandoc and tectonic) | 1 min |
