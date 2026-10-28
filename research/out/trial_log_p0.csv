@@ -1,0 +1,23 @@
+trial_id,phase,timestamp,description,metric_summary,file
+P0-001,P0,2026-10-19T15:58:05,"baseline variant shipped: {'real_price': False, 'no_cap': False, 'median_adv': False, 'next_filter': 'shipped'}","rows scored 19,532, liquid 12,061, names 339",research/out/p0_pred_shipped.csv
+P0-002,P0,2026-10-19T15:59:37,"baseline variant fix_price: {'real_price': True, 'no_cap': True, 'median_adv': False, 'next_filter': 'shipped'}","rows scored 21,292, liquid 12,807, names 394",research/out/p0_pred_fix_price.csv
+P0-003,P0,2026-10-19T16:01:12,"baseline variant fix_next: {'real_price': False, 'no_cap': False, 'median_adv': False, 'next_filter': 'truncation'}","rows scored 19,690, liquid 12,156, names 339",research/out/p0_pred_fix_next.csv
+P0-004,P0,2026-10-19T16:03:28,"baseline variant fix_adv: {'real_price': False, 'no_cap': False, 'median_adv': True, 'next_filter': 'shipped'}","rows scored 17,579, liquid 10,721, names 333",research/out/p0_pred_fix_adv.csv
+P0-005,P0,2026-10-19T16:05:49,"baseline variant corrected: {'real_price': True, 'no_cap': True, 'median_adv': True, 'next_filter': 'truncation'}","rows scored 19,150, liquid 11,232, names 388",research/out/p0_pred_corrected.csv
+P0-006,P0,2026-10-19T16:06:11,account on baseline variant shipped,"sharpe 0.75, unit 1.34, final 1,794,470",research/out/p0_monthly_shipped.csv
+P0-007,P0,2026-10-19T16:06:14,account on baseline variant fix_price,"sharpe 0.69, unit 1.24, final 1,672,940",research/out/p0_monthly_fix_price.csv
+P0-008,P0,2026-10-19T16:06:18,account on baseline variant fix_next,"sharpe 0.75, unit 1.32, final 1,800,856",research/out/p0_monthly_fix_next.csv
+P0-009,P0,2026-10-19T16:06:21,account on baseline variant fix_adv,"sharpe 0.56, unit 1.01, final 1,232,060",research/out/p0_monthly_fix_adv.csv
+P0-010,P0,2026-10-19T16:06:24,account on baseline variant corrected,"sharpe 0.68, unit 1.11, final 1,607,804",research/out/p0_monthly_corrected.csv
+P0-011,P0,2026-10-19T16:12:07,"restored-P&L test: corrected, shipped cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv
+P0-012,P0,2026-10-19T16:12:33,"restored-P&L test: corrected, only verified errors removed",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv
+P0-013,P0,2026-10-19T16:13:54,"restored-P&L test: corrected, shipped cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv
+P0-014,P0,2026-10-19T16:14:17,"restored-P&L test: corrected, only verified errors removed",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv
+P0-015,P0,2026-10-19T16:14:39,"restored-P&L test: corrected, no cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv
+P0-016,P0,2026-10-19T16:14:57,"restored-P&L test: shipped book, shipped cleaning",sharpe 0.75 worst month -4.6% call days 0,research/out/p0_restored_accounts.csv
+P0-017,P0,2026-10-19T16:15:19,"restored-P&L test: shipped book, only verified errors removed",sharpe 0.75 worst month -4.6% call days 0,research/out/p0_restored_accounts.csv
+P0-018,P0,2026-10-19T16:15:42,"restored-P&L test: shipped book, no cleaning",sharpe 0.72 worst month -4.5% call days 0,research/out/p0_restored_accounts.csv
+P0-019,P0,2026-10-19T16:16:57,stress test corrected book,"worst intraday single 2.45, shock200 max loss 13.4%",research/out/p0_stress_corrected.csv
+P0-020,P0,2026-10-19T16:17:20,stress test shipped book,"worst intraday single 8.09, shock200 max loss 13.1%",research/out/p0_stress_shipped.csv
+P0-021,P0,2026-10-19T16:23:26,corrected + ticker-reuse truncation,acct sharpe 0.62 unit 0.98,research/out/p0_reuse_compare.csv
+P0-022,P0,2026-10-19T17:17:00,"survivorship sizing from SEC Form 25 (diagnostic, not a selection)",266 China/HK operating issuers finally delisted 2009-26 (+21 delisted to OTC still reporting); 17 have prices through delisting,research/out/p07_by_year.csv

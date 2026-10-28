@@ -1,0 +1,1005 @@
+Stock Code,Name of Securities,Category,Sub-Category,Board Lot,ISIN,Expiry Date,Subject to Stamp Duty,Shortsell Eligible,CAS Eligible,VCM Eligible,Admitted to CCASS,Debt Securities Board Lot (Nominal),Debt Securities Investor Type,POS Eligible,"Spread Table
+1 = Part A
+3 = Part B
+5 = Part D
+4 & 6 = Part E",Trading Currency,RMB Counter,yf
+1865,PENGO HLDG GP,Equity,Equity Securities (Main Board),"12,000",KYG9031S1131,,Y, ,Y, ,Y,,,Y,1,HKD,,1865.HK
+2556,MARKETINGFORCE,Equity,Equity Securities (Main Board),100,KYG6000R1002,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2556.HK
+2388,BOC HONG KONG,Equity,Equity Securities (Main Board),500,HK2388011192,,Y,Y,Y,Y,Y,,,Y,1,HKD,82388.0,2388.HK
+1775,BEXCELLENT GP,Equity,Equity Securities (Main Board),"4,000",KYG108021091,,Y, ,Y, ,Y,,,Y,1,HKD,,1775.HK
+7630,IMPACT THERAP-B,Equity,Equity Securities (Main Board),200,CNE100007LG4,,Y, ,Y,Y,Y,,,Y,1,HKD,,7630.HK
+1029,IRC,Equity,Equity Securities (Main Board),"4,000",HK0001156832,,Y, ,Y, ,Y,,,Y,1,HKD,,1029.HK
+1802,WENYE GROUP,Equity,Equity Securities (Main Board),"2,000",KYG9494A1040,,Y, ,Y, ,Y,,,Y,1,HKD,,1802.HK
+8060,GLOBAL LINK,Equity,Equity Securities (GEM),"10,000",KYG392991132,,Y, ,Y, ,Y,,,Y,1,HKD,,8060.HK
+2099,CHINAGOLDINTL,Equity,Equity Securities (Main Board),100,CA16890P1036,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2099.HK
+798,CEOVU,Equity,Equity Securities (Main Board),"4,000",KYG2119Q1091,,Y, ,Y, ,Y,,,Y,1,HKD,,0798.HK
+2655,GUOXIA TECH,Equity,Equity Securities (Main Board),100,CNE100007C26,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2655.HK
+279,ARTA TECHFIN,Equity,Equity Securities (Main Board),"6,000",KYG366302860,,Y, ,Y, ,Y,,,Y,1,HKD,,0279.HK
+1617,NANFANG COMM,Equity,Equity Securities (Main Board),"4,000",KYG6390W1078,,Y, ,Y, ,Y,,,Y,1,HKD,,1617.HK
+854,WILLAS-ARRAY,Equity,Equity Securities (Main Board),"1,000",BMG9643L1349,,Y, ,Y, ,Y,,,Y,1,HKD,,0854.HK
+9909,POWERLONG CM,Equity,Equity Securities (Main Board),500,KYG7204G1064,,Y, ,Y, ,Y,,,Y,1,HKD,,9909.HK
+2677,DISTINCT HEALTH,Equity,Equity Securities (Main Board),50,KYG2774A1004,,Y, ,Y, ,Y,,,Y,1,HKD,,2677.HK
+2368,EAGLE NICE,Equity,Equity Securities (Main Board),"2,000",KYG2951U1013,,Y, ,Y, ,Y,,,Y,1,HKD,,2368.HK
+392,BEIJING ENT,Equity,Equity Securities (Main Board),500,HK0392044647,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0392.HK
+2298,COSMO LADY,Equity,Equity Securities (Main Board),"1,000",KYG244421080,,Y, ,Y, ,Y,,,Y,1,HKD,,2298.HK
+9983,CC NEW LIFE,Equity,Equity Securities (Main Board),"1,000",KYG206AA1025,,Y, ,Y, ,Y,,,Y,1,HKD,,9983.HK
+3336,JU TENG INTL,Equity,Equity Securities (Main Board),"2,000",KYG521051063,,Y,Y,Y, ,Y,,,Y,1,HKD,,3336.HK
+1988,MINSHENG BANK,Equity,Equity Securities (Main Board),500,CNE100000HF9,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1988.HK
+460,SIHUAN PHARM,Equity,Equity Securities (Main Board),"1,000",BMG8162K1137,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0460.HK
+1216,ZYBANK,Equity,Equity Securities (Main Board),"1,000",CNE100002GY8,,Y,Y,Y, ,Y,,,Y,1,HKD,,1216.HK
+6858,HONMAGOLF,Equity,Equity Securities (Main Board),500,KYG459461037,,Y, ,Y, ,Y,,,Y,1,HKD,,6858.HK
+408,YIP'S CHEMICAL,Equity,Equity Securities (Main Board),"2,000",KYG9842Z1164,,Y, ,Y, ,Y,,,Y,1,HKD,,0408.HK
+8019,HAO WEN HLDGS,Equity,Equity Securities (GEM),"20,000",KYG4286Q1698,,Y, ,Y, ,Y,,,Y,1,HKD,,8019.HK
+1766,CRRC,Equity,Equity Securities (Main Board),"1,000",CNE100000BG0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1766.HK
+1126,DREAM INT'L,Equity,Equity Securities (Main Board),500,HK1126010854,,Y,Y,Y, ,Y,,,Y,1,HKD,,1126.HK
+8455,LAI GROUP,Equity,Equity Securities (GEM),"10,000",KYG5343E1070,,Y, ,Y, ,Y,,,Y,1,HKD,,8455.HK
+775,CKLIFE SCIENCES,Equity,Equity Securities (Main Board),"2,000",KYG2176J1058,,Y,Y,Y, ,Y,,,Y,1,HKD,,0775.HK
+1549,EVER HARVEST GP,Equity,Equity Securities (Main Board),"8,000",KYG3227D1051,,Y, ,Y, ,Y,,,Y,1,HKD,,1549.HK
+701,CNT GROUP,Equity,Equity Securities (Main Board),"2,000",BMG2237T1009,,Y, ,Y, ,Y,,,Y,1,HKD,,0701.HK
+9939,KINTOR PHARMA-B,Equity,Equity Securities (Main Board),500,KYG5273B1077,,Y, ,Y, ,Y,,,Y,1,HKD,,9939.HK
+884,CIFI HOLD GP,Equity,Equity Securities (Main Board),"2,000",KYG2140A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,0884.HK
+2221,NEW CONCEPTS,Equity,Equity Securities (Main Board),"4,000",KYG644671227,,Y, ,Y, ,Y,,,Y,1,HKD,,2221.HK
+475,CENTRAL DEV H,Equity,Equity Securities (Main Board),"2,000",KYG207011019,,Y, ,Y, ,Y,,,Y,1,HKD,,0475.HK
+3,HK & CHINA GAS,Equity,Equity Securities (Main Board),"1,000",HK0003000038,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0003.HK
+470,WUXI LEAD,Equity,Equity Securities (Main Board),100,CNE100007F98,,Y,Y,Y, ,Y,,,Y,1,HKD,,0470.HK
+6036,APEX ACE HLDG,Equity,Equity Securities (Main Board),"5,000",KYG047181055,,Y, ,Y, ,Y,,,Y,1,HKD,,6036.HK
+1588,CHANJET,Equity,Equity Securities (Main Board),200,CNE100001SQ1,,Y, ,Y, ,Y,,,Y,1,HKD,,1588.HK
+491,EMPEROR CULTURE,Equity,Equity Securities (Main Board),"20,000",BMG3036H1079,,Y, ,Y, ,Y,,,Y,1,HKD,,0491.HK
+8349,GUIXIN GROUP,Equity,Equity Securities (GEM),"10,000",KYG5965T1013,,Y, ,Y, ,Y,,,Y,1,HKD,,8349.HK
+8462,OMNIBRIDGE HLDG,Equity,Equity Securities (GEM),"5,000",KYG675071065,,Y, ,Y, ,Y,,,Y,1,HKD,,8462.HK
+1109,CHINA RES LAND,Equity,Equity Securities (Main Board),500,KYG2108Y1052,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1109.HK
+557,TIANYUAN HEALTH,Equity,Equity Securities (Main Board),"2,000",KYG8442J1004,,Y, ,Y, ,Y,,,Y,1,HKD,,0557.HK
+171,SILVER GRANT,Equity,Equity Securities (Main Board),"2,000",HK0171000877,,Y, ,Y, ,Y,,,Y,1,HKD,,0171.HK
+2105,LAEKNA-B,Equity,Equity Securities (Main Board),500,KYG5340S1093,,Y,Y,Y, ,Y,,,Y,1,HKD,,2105.HK
+9857,LINMON MEDIA,Equity,Equity Securities (Main Board),100,KYG5571U1040,,Y, ,Y, ,Y,,,Y,1,HKD,,9857.HK
+690,UNI-BIO GROUP,Equity,Equity Securities (Main Board),"20,000",KYG9198H1406,,Y, ,Y, ,Y,,,Y,1,HKD,,0690.HK
+1563,ALLI INTL ED LE,Equity,Equity Securities (Main Board),"1,000",KYG4815A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,1563.HK
+8169,ECO-TEK HLDGS,Equity,Equity Securities (GEM),"10,000",KYG3039J1004,,Y, ,Y, ,Y,,,Y,1,HKD,,8169.HK
+1963,BCQ,Equity,Equity Securities (Main Board),500,CNE100001QN2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1963.HK
+1055,CHINA SOUTH AIR,Equity,Equity Securities (Main Board),"2,000",CNE1000002T6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1055.HK
+1688,LINGYI ITECH,Equity,Equity Securities (Main Board),660,CNE100007QH1,,Y,Y,Y, ,Y,,,Y,1,HKD,,1688.HK
+760,TALENT PPT GP,Equity,Equity Securities (Main Board),"30,000",BMG8668U2017,,Y, ,Y, ,Y,,,Y,1,HKD,,0760.HK
+2495,VOICECOMM,Equity,Equity Securities (Main Board),20,CNE100006K19,,Y, ,Y, ,Y,,,Y,1,HKD,,2495.HK
+1930,SHINELONG,Equity,Equity Securities (Main Board),"4,000",KYG8105A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,1930.HK
+9633,NONGFU SPRING,Equity,Equity Securities (Main Board),200,CNE100004272,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9633.HK
+968,XINYI SOLAR,Equity,Equity Securities (Main Board),"2,000",KYG9829N1025,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0968.HK
+8428,CBK HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG1991R1699,,Y, ,Y, ,Y,,,Y,1,HKD,,8428.HK
+8372,GBG HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG4136R1020,,Y, ,Y, ,Y,,,Y,1,HKD,,8372.HK
+1689,HUAXIHOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG4643G1029,,Y, ,Y, ,Y,,,Y,1,HKD,,1689.HK
+543,PACIFIC ONLINE,Equity,Equity Securities (Main Board),"1,000",KYG9684P1019,,Y, ,Y, ,Y,,,Y,1,HKD,,0543.HK
+1260,WONDERFUL SKY,Equity,Equity Securities (Main Board),"2,000",KYG9737K1094,,Y, ,Y, ,Y,,,Y,1,HKD,,1260.HK
+675,K & P INT'L,Equity,Equity Securities (Main Board),"2,000",BMG5313X1011,,Y, ,Y, ,Y,,,Y,1,HKD,,0675.HK
+945,MANULIFE-S,Equity,Equity Securities (Main Board),100,CA56501R1064,,Y,Y,Y, ,Y,,,Y,1,HKD,,0945.HK
+2270,DESUN SERVICES,Equity,Equity Securities (Main Board),"2,000",KYG2743D1025,,Y, ,Y, ,Y,,,Y,1,HKD,,2270.HK
+1891,HENG HUP,Equity,Equity Securities (Main Board),"4,000",KYG4505A1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1891.HK
+234,NEW CENTURY GP,Equity,Equity Securities (Main Board),"24,000",BMG644581396,,Y, ,Y, ,Y,,,Y,1,HKD,,0234.HK
+239,PAK FAH YEOW,Equity,Equity Securities (Main Board),"2,500",BMG6873Y1176,,Y, ,Y, ,Y,,,Y,1,HKD,,0239.HK
+1123,CHINA-HK PHOTO,Equity,Equity Securities (Main Board),"2,000",BMG2106Y1075,,Y, ,Y, ,Y,,,Y,1,HKD,,1123.HK
+331,FSE LIFESTYLE,Equity,Equity Securities (Main Board),"1,000",KYG3727N1088,,Y, ,Y, ,Y,,,Y,1,HKD,,0331.HK
+547,DIGITAL DOMAIN,Equity,Equity Securities (Main Board),"5,000",BMG2870G2095,,Y, ,Y, ,Y,,,Y,1,HKD,,0547.HK
+1969,CHINA CHUNLAI,Equity,Equity Securities (Main Board),"1,000",KYG2121L1068,,Y, ,Y, ,Y,,,Y,1,HKD,,1969.HK
+8436,TAKBO GROUP,Equity,Equity Securities (GEM),"5,000",KYG866301032,,Y, ,Y, ,Y,,,Y,1,HKD,,8436.HK
+6978,IMMUNOTECH-B,Equity,Equity Securities (Main Board),"1,000",KYG4721A1004,,Y, ,Y, ,Y,,,Y,1,HKD,,6978.HK
+8622,JOYZYME GROUP,Equity,Equity Securities (GEM),"8,000",KYG4644W1069,,Y, ,Y, ,Y,,,Y,1,HKD,,8622.HK
+2660,ZENGAME,Equity,Equity Securities (Main Board),"2,000",KYG9887S1003,,Y, ,Y, ,Y,,,Y,1,HKD,,2660.HK
+1315,GREEN ECONOMY,Equity,Equity Securities (Main Board),"10,000",KYG937641358,,Y, ,Y, ,Y,,,Y,1,HKD,,1315.HK
+6869,YOFC,Equity,Equity Securities (Main Board),500,CNE100001T72,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6869.HK
+966,CHINA TAIPING,Equity,Equity Securities (Main Board),200,HK0000055878,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0966.HK
+2386,SINOPEC SEG,Equity,Equity Securities (Main Board),500,CNE100001NV2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2386.HK
+2549,CAROTE LTD,Equity,Equity Securities (Main Board),500,KYG1917P1072,,Y, ,Y, ,Y,,,Y,1,HKD,,2549.HK
+3628,RENHENG ENT,Equity,Equity Securities (Main Board),"4,000",KYG750051198,,Y, ,Y, ,Y,,,Y,1,HKD,,3628.HK
+6676,ZG GROUP-W,Equity,Equity Securities (Main Board),500,KYG9898T1058,,Y, ,Y, ,Y,,,Y,1,HKD,,6676.HK
+897,WAI YUEN TONG,Equity,Equity Securities (Main Board),"5,000",BMG9421Y2332,,Y, ,Y, ,Y,,,Y,1,HKD,,0897.HK
+1932,CPM GROUP,Equity,Equity Securities (Main Board),"4,000",KYG2R5391062,,Y, ,Y, ,Y,,,Y,1,HKD,,1932.HK
+3881,CIDI,Equity,Equity Securities (Main Board),100,CNE100007BC4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3881.HK
+3348,CHINA PENGFEI,Equity,Equity Securities (Main Board),"2,000",KYG2164M1024,,Y, ,Y, ,Y,,,Y,1,HKD,,3348.HK
+3638,HUNLICAR GROUP,Equity,Equity Securities (Main Board),"1,000",KYG4644E1301,,Y, ,Y, ,Y,,,Y,1,HKD,,3638.HK
+3311,CHINA STATE CON,Equity,Equity Securities (Main Board),"2,000",KYG216771363,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3311.HK
+9668,CBHB,Equity,Equity Securities (Main Board),500,CNE100003YB7,,Y,Y,Y, ,Y,,,Y,1,HKD,,9668.HK
+6628,TRANSCENTA-B,Equity,Equity Securities (Main Board),500,KYG9005B1041,,Y, ,Y, ,Y,,,Y,1,HKD,,6628.HK
+8496,GLOBAL UIN,Equity,Equity Securities (GEM),"2,500",KYG8237A1085,,Y, ,Y, ,Y,,,Y,1,HKD,,8496.HK
+2496,YZYBIO-B,Equity,Equity Securities (Main Board),200,CNE1000063C4,,Y, ,Y, ,Y,,,Y,1,HKD,,2496.HK
+2457,BUYANG INTL,Equity,Equity Securities (Main Board),"5,000",KYG1739A1067,,Y, ,Y, ,Y,,,Y,1,HKD,,2457.HK
+1632,MSCTECH,Equity,Equity Securities (Main Board),"2,000",KYG6145K1013,,Y, ,Y, ,Y,,,Y,1,HKD,,1632.HK
+1243,WANG ON PPT,Equity,Equity Securities (Main Board),"4,000",BMG9430P1086,,Y, ,Y, ,Y,,,Y,1,HKD,,1243.HK
+6860,FINGERTANGO,Equity,Equity Securities (Main Board),"1,000",KYG3R10G1007,,Y, ,Y, ,Y,,,Y,1,HKD,,6860.HK
+2402,SINOHYTEC,Equity,Equity Securities (Main Board),50,CNE100005RX0,,Y, ,Y, ,Y,,,Y,1,HKD,,2402.HK
+2922,REALORD TEC-OLD,Equity,Equity Securities (Main Board),"8,000",BMG7403L1202,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2922.HK
+8556,S ROBOT EDU,Equity,Equity Securities (GEM),20,KYG8117F1101,,Y, ,Y, ,Y,,,Y,1,HKD,,8556.HK
+6881,CGS,Equity,Equity Securities (Main Board),500,CNE100001NT6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6881.HK
+6067,SENIOR MATERIAL,Equity,Equity Securities (Main Board),500,CNE100007PF7,,Y, ,Y, ,Y,,,Y,1,HKD,,6067.HK
+1375,CC SECURITIES,Equity,Equity Securities (Main Board),"1,000",CNE100001SS7,,Y,Y,Y, ,Y,,,Y,1,HKD,,1375.HK
+6893,HINSANG GROUP,Equity,Equity Securities (Main Board),"2,000",KYG4590V1023,,Y, ,Y, ,Y,,,Y,1,HKD,,6893.HK
+636,KLN,Equity,Equity Securities (Main Board),500,BMG524181036,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0636.HK
+6690,HAIER SMARTHOME,Equity,Equity Securities (Main Board),200,CNE1000048K8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6690.HK
+6666,EVERG SERVICES,Equity,Equity Securities (Main Board),500,KYG3224K1022,,Y, ,Y,Y,Y,,,Y,1,HKD,,6666.HK
+2458,GALA TECH HOLD,Equity,Equity Securities (Main Board),400,KYG3790R1011,,Y, ,Y, ,Y,,,Y,1,HKD,,2458.HK
+1951,JXR,Equity,Equity Securities (Main Board),500,KYG5140J1013,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1951.HK
+8292,VSING,Equity,Equity Securities (GEM),"10,000",KYG9769B1005,,Y, ,Y, ,Y,,,Y,1,HKD,,8292.HK
+1125,LAI FUNG HOLD,Equity,Equity Securities (Main Board),400,KYG5342X1227,,Y, ,Y, ,Y,,,Y,1,HKD,,1125.HK
+401,WANJIA GROUP,Equity,Equity Securities (Main Board),"20,000",KYG9431A1186,,Y, ,Y, ,Y,,,Y,1,HKD,,0401.HK
+687,TYSAN HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG4643K1036,,Y, ,Y, ,Y,,,Y,1,HKD,,0687.HK
+2569,SOFT INTL,Equity,Equity Securities (Main Board),"5,000",KYG8252K1067,,Y, ,Y, ,Y,,,Y,1,HKD,,2569.HK
+6828,BG BLUE SKY,Equity,Equity Securities (Main Board),"8,000",BMG095871098,,Y, ,Y, ,Y,,,Y,1,HKD,,6828.HK
+225,POKFULAM,Equity,Equity Securities (Main Board),"2,000",HK0225001145,,Y, ,Y, ,Y,,,Y,1,HKD,,0225.HK
+2689,ND PAPER,Equity,Equity Securities (Main Board),"1,000",BMG653181005,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2689.HK
+2533,BLACK SESAME,Equity,Equity Securities (Main Board),100,KYG129301068,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2533.HK
+1783,ENVISION GREEN,Equity,Equity Securities (Main Board),"1,000",KYG3962W1107,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1783.HK
+969,HUA LIEN INT'L,Equity,Equity Securities (Main Board),"2,000",KYG4636M1087,,Y, ,Y, ,Y,,,Y,1,HKD,,0969.HK
+1663,S HARBOURHOLD,Equity,Equity Securities (Main Board),"2,000",BMG8188W1091,,Y, ,Y, ,Y,,,Y,1,HKD,,1663.HK
+276,MONGOLIA ENERGY,Equity,Equity Securities (Main Board),"6,000",BMG6260K1595,,Y, ,Y, ,Y,,,Y,1,HKD,,0276.HK
+8112,CORNERSTONE FIN,Equity,Equity Securities (GEM),"24,000",KYG3610T1215,,Y, ,Y, ,Y,,,Y,1,HKD,,8112.HK
+9936,XIMEI RESOURCES,Equity,Equity Securities (Main Board),500,KYG9831K1040,,Y,Y,Y, ,Y,,,Y,1,HKD,,9936.HK
+6831,GREEN TEA GROUP,Equity,Equity Securities (Main Board),400,KYG4102B1077,,Y,Y,Y, ,Y,,,Y,1,HKD,,6831.HK
+1447,SFK,Equity,Equity Securities (Main Board),"2,000",BMG8059A1036,,Y, ,Y, ,Y,,,Y,1,HKD,,1447.HK
+1087,INVESTECH HLDGS,Equity,Equity Securities (Main Board),"2,000",BMG492321127,,Y, ,Y, ,Y,,,Y,1,HKD,,1087.HK
+1038,CKI HOLDINGS,Equity,Equity Securities (Main Board),500,BMG2178K1009,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1038.HK
+1551,GRCB,Equity,Equity Securities (Main Board),"1,000",CNE100002FR4,,Y,Y,Y, ,Y,,,Y,1,HKD,,1551.HK
+2256,ABBISKO-B,Equity,Equity Securities (Main Board),"1,000",KYG0028A1085,,Y,Y,Y, ,Y,,,Y,1,HKD,,2256.HK
+2339,BWI INT'L,Equity,Equity Securities (Main Board),"2,000",KYG1145N1144,,Y, ,Y, ,Y,,,Y,1,HKD,,2339.HK
+1299,AIA,Equity,Equity Securities (Main Board),200,HK0000069689,,Y,Y,Y,Y,Y,,,Y,1,HKD,81299.0,1299.HK
+1130,CHINA ENV RES,Equity,Equity Securities (Main Board),"20,000",KYG215691505,,Y, ,Y, ,Y,,,Y,1,HKD,,1130.HK
+3838,CHINA STARCH,Equity,Equity Securities (Main Board),"5,000",KYG2161A1195,,Y, ,Y, ,Y,,,Y,1,HKD,,3838.HK
+6136,KANGDA ENV,Equity,Equity Securities (Main Board),"1,000",KYG521541048,,Y, ,Y, ,Y,,,Y,1,HKD,,6136.HK
+374,FOUR SEAS MER,Equity,Equity Securities (Main Board),"2,000",KYG365451049,,Y, ,Y, ,Y,,,Y,1,HKD,,0374.HK
+1499,OKG TECH,Equity,Equity Securities (Main Board),"10,000",KYG6730W1069,,Y, ,Y, ,Y,,,Y,1,HKD,,1499.HK
+1460,ICO GROUP,Equity,Equity Securities (Main Board),"8,000",KYG4706W1502,,Y, ,Y, ,Y,,,Y,1,HKD,,1460.HK
+269,CRTG,Equity,Equity Securities (Main Board),"5,000",KYG2162D1126,,Y, ,Y, ,Y,,,Y,1,HKD,,0269.HK
+3308,ZJ INNOLIGHT,Equity,Equity Securities (Main Board),50,CNE100007SR6,,Y,Y,Y, ,Y,,,Y,1,HKD,,3308.HK
+1276,HENGRUI PHARMA,Equity,Equity Securities (Main Board),200,CNE100006XS6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1276.HK
+8095,BEIDA JADE BIRD,Equity,Equity Securities (GEM),"1,000",CNE100000551,,Y, ,Y, ,Y,,,Y,1,HKD,,8095.HK
+769,CHINA RAREEARTH,Equity,Equity Securities (Main Board),"2,000",KYG210891001,,Y, ,Y, ,Y,,,Y,1,HKD,,0769.HK
+3898,TIMES ELECTRIC,Equity,Equity Securities (Main Board),100,CNE1000004X4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3898.HK
+32,CROSS-HAR(HOLD),Equity,Equity Securities (Main Board),"1,000",HK0032009356,,Y, ,Y, ,Y,,,Y,1,HKD,,0032.HK
+922,ANXIANYUAN CH,Equity,Equity Securities (Main Board),"10,000",BMG0400Q1197,,Y, ,Y, ,Y,,,Y,1,HKD,,0922.HK
+465,FUTONG TECH,Equity,Equity Securities (Main Board),"2,000",KYG369921088,,Y, ,Y, ,Y,,,Y,1,HKD,,0465.HK
+1079,PINE TECH,Equity,Equity Securities (Main Board),"10,000",BMG709641044,,Y, ,Y, ,Y,,,Y,1,HKD,,1079.HK
+2633,JACOBSON PHARMA,Equity,Equity Securities (Main Board),"2,000",KYG677291067,,Y, ,Y, ,Y,,,Y,1,HKD,,2633.HK
+1977,ANALOGUE HLDGS,Equity,Equity Securities (Main Board),"2,000",BMG0418N1083,,Y, ,Y, ,Y,,,Y,1,HKD,,1977.HK
+9677,WEIHAI BANK,Equity,Equity Securities (Main Board),"1,000",CNE100004280,,Y, ,Y, ,Y,,,Y,1,HKD,,9677.HK
+8238,JIUFANG DIGITAL,Equity,Equity Securities (GEM),"8,000",KYG9722S1333,,Y, ,Y, ,Y,,,Y,1,HKD,,8238.HK
+3818,CHINA DONGXIANG,Equity,Equity Securities (Main Board),"1,000",KYG2112Y1098,,Y, ,Y, ,Y,,,Y,1,HKD,,3818.HK
+595,AV CONCEPT HOLD,Equity,Equity Securities (Main Board),"2,000",KYG0672U1114,,Y, ,Y, ,Y,,,Y,1,HKD,,0595.HK
+6055,CTIHK,Equity,Equity Securities (Main Board),"1,000",HK0000503208,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6055.HK
+3662,STARJOY W&T,Equity,Equity Securities (Main Board),"1,000",KYG0404F1019,,Y, ,Y, ,Y,,,Y,1,HKD,,3662.HK
+423,HKET HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG4587A1031,,Y, ,Y, ,Y,,,Y,1,HKD,,0423.HK
+2942,STAR GROUP ASIA,Equity,Equity Securities (Main Board),200,KYG8508A1269,,Y, ,Y, ,Y,,,Y,1,HKD,,2942.HK
+1153,JIAYUAN SER,Equity,Equity Securities (Main Board),"1,000",KYG5139K1013,,Y, ,Y, ,Y,,,Y,1,HKD,,1153.HK
+2631,SICC,Equity,Equity Securities (Main Board),100,CNE1000071K0,,Y,Y,Y, ,Y,,,Y,1,HKD,,2631.HK
+1452,DENOX ENV,Equity,Equity Securities (Main Board),"1,000",KYG2810N1088,,Y, ,Y, ,Y,,,Y,1,HKD,,1452.HK
+1301,D&G TECH,Equity,Equity Securities (Main Board),"2,000",KYG2616D1060,,Y, ,Y, ,Y,,,Y,1,HKD,,1301.HK
+674,CHINA TANGSHANG,Equity,Equity Securities (Main Board),"4,000",BMG2197S1008,,Y, ,Y, ,Y,,,Y,1,HKD,,0674.HK
+3360,FE HORIZON,Equity,Equity Securities (Main Board),"1,000",HK0000077468,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3360.HK
+859,ZHONGCHANG INTL,Equity,Equity Securities (Main Board),"2,000",BMG9898M1001,,Y, ,Y, ,Y,,,Y,1,HKD,,0859.HK
+713,WORLD HOUSEWARE,Equity,Equity Securities (Main Board),"2,000",KYG9768F1028,,Y, ,Y, ,Y,,,Y,1,HKD,,0713.HK
+2696,HENLIUS,Equity,Equity Securities (Main Board),100,CNE100003N76,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2696.HK
+1481,SMART GLOBE,Equity,Equity Securities (Main Board),"10,000",KYG8233R1056,,Y, ,Y, ,Y,,,Y,1,HKD,,1481.HK
+1993,ASIARAY,Equity,Equity Securities (Main Board),500,KYG0623M1015,,Y, ,Y, ,Y,,,Y,1,HKD,,1993.HK
+8475,E-STATION GTECH,Equity,Equity Securities (GEM),"5,000",KYG525891191,,Y, ,Y, ,Y,,,Y,1,HKD,,8475.HK
+8193,ASIAPAC FIN INV,Equity,Equity Securities (GEM),"10,000",KYG0542D1584,,Y, ,Y, ,Y,,,Y,1,HKD,,8193.HK
+1351,BRIGHT FUTURE,Equity,Equity Securities (Main Board),"2,000",KYG136931097,,Y, ,Y, ,Y,,,Y,1,HKD,,1351.HK
+1968,HINGTEX HLDGS,Equity,Equity Securities (Main Board),"4,000",KYG459081033,,Y, ,Y, ,Y,,,Y,1,HKD,,1968.HK
+2892,MILLION CITIES,Equity,Equity Securities (Main Board),"2,000",KYG6130M1042,,Y, ,Y, ,Y,,,Y,1,HKD,,2892.HK
+3317,XUNCE,Equity,Equity Securities (Main Board),100,CNE100007CW0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3317.HK
+8277,STEEDORIENTAL,Equity,Equity Securities (GEM),"2,000",KYG846071036,,Y, ,Y, ,Y,,,Y,1,HKD,,8277.HK
+334,CH DISPLAY OPT,Equity,Equity Securities (Main Board),"8,000",BMG2120L1072,,Y, ,Y, ,Y,,,Y,1,HKD,,0334.HK
+1846,EUROEYES,Equity,Equity Securities (Main Board),"1,000",KYG3224D1088,,Y, ,Y, ,Y,,,Y,1,HKD,,1846.HK
+1628,YUZHOU GROUP,Equity,Equity Securities (Main Board),"5,000",KYG9884A1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1628.HK
+8029,CI FIN TECH GP,Equity,Equity Securities (GEM),"5,000",KYG857AT1273,,Y, ,Y, ,Y,,,Y,1,HKD,,8029.HK
+1177,SBP GROUP,Equity,Equity Securities (Main Board),"1,000",KYG8167W1380,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1177.HK
+9669,BEISEN HOLDING,Equity,Equity Securities (Main Board),200,KYG0958D1060,,Y,Y,Y, ,Y,,,Y,1,HKD,,9669.HK
+1205,CITIC RESOURCES,Equity,Equity Securities (Main Board),"2,000",BMG2155Y1075,,Y,Y,Y, ,Y,,,Y,1,HKD,,1205.HK
+681,CHI PEOPLE HOLD,Equity,Equity Securities (Main Board),"2,000",BMG2112G1087,,Y, ,Y, ,Y,,,Y,1,HKD,,0681.HK
+8601,BOLTEK,Equity,Equity Securities (GEM),"10,000",KYG1219A1058,,Y, ,Y, ,Y,,,Y,1,HKD,,8601.HK
+8612,WORLD SUPER,Equity,Equity Securities (GEM),"20,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,8612.HK
+844,GREATIME INTL,Equity,Equity Securities (Main Board),"4,000",VGG4166C1086,,Y, ,Y, ,Y,,,Y,1,HKD,,0844.HK
+2486,PLUS GP HOLDING,Equity,Equity Securities (Main Board),200,KYG7137P1081,,Y, ,Y, ,Y,,,Y,1,HKD,,2486.HK
+1613,SYNERTONE,Equity,Equity Securities (Main Board),"6,400",KYG8650N1732,,Y, ,Y, ,Y,,,Y,1,HKD,,1613.HK
+345,VITASOY INT'L,Equity,Equity Securities (Main Board),"2,000",HK0345001611,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0345.HK
+8049,JILIN CHANGLONG,Equity,Equity Securities (GEM),"4,000",CNE100000130,,Y, ,Y, ,Y,,,Y,1,HKD,,8049.HK
+8319,EXPERT SYS,Equity,Equity Securities (GEM),"10,000",KYG3313K1040,,Y, ,Y, ,Y,,,Y,1,HKD,,8319.HK
+2915,YUNJI-OLD,Equity,Equity Securities (Main Board),500,            ,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2915.HK
+1956,WENGE AI-50,Equity,Equity Securities (Main Board),50,CNE100007N80,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1956.HK
+347,ANGANG STEEL,Equity,Equity Securities (Main Board),"2,000",CNE1000001V4,,Y,Y,Y, ,Y,,,Y,1,HKD,,0347.HK
+8137,HONBRIDGE,Equity,Equity Securities (GEM),"2,000",KYG4587J1123,,Y,Y,Y, ,Y,,,Y,1,HKD,,8137.HK
+1575,REGAL PARTNERS,Equity,Equity Securities (Main Board),"2,000",KYG627281036,,Y, ,Y, ,Y,,,Y,1,HKD,,1575.HK
+602,JIAHUA STORES H,Equity,Equity Securities (Main Board),"2,500",KYG7395Y1061,,Y, ,Y, ,Y,,,Y,1,HKD,,0602.HK
+1065,TIANJIN CAPITAL,Equity,Equity Securities (Main Board),"2,000",CNE1000004G9,,Y, ,Y, ,Y,,,Y,1,HKD,,1065.HK
+563,SH IND URBAN,Equity,Equity Securities (Main Board),"2,000",BMG8065B1037,,Y, ,Y, ,Y,,,Y,1,HKD,,0563.HK
+8567,GF HEALTH-OLD,Equity,Equity Securities (GEM),"2,000",KYG4052M1454,,Y, ,Y, ,Y,,,Y,1,HKD,,8567.HK
+934,SINOPEC KANTONS,Equity,Equity Securities (Main Board),"2,000",BMG8165U1009,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0934.HK
+1777,FANTASIA,Equity,Equity Securities (Main Board),"5,000",KYG3311L1124,,Y, ,Y, ,Y,,,Y,1,HKD,,1777.HK
+2899,ZIJIN MINING,Equity,Equity Securities (Main Board),"2,000",CNE100000502,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2899.HK
+8549,GOLDEN LEAF INT,Equity,Equity Securities (GEM),"5,000",KYG3961S1021,,Y, ,Y, ,Y,,,Y,1,HKD,,8549.HK
+2939,EASY SMART-2K,Equity,Equity Securities (Main Board),"2,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,2939.HK
+368,SUPERLAND GROUP,Equity,Equity Securities (Main Board),"4,000",KYG8588F1028,,Y, ,Y, ,Y,,,Y,1,HKD,,0368.HK
+3683,GREAT HARVEST,Equity,Equity Securities (Main Board),"2,500",KYG4163E1070,,Y, ,Y, ,Y,,,Y,1,HKD,,3683.HK
+3633,ZHONGYU ENERGY,Equity,Equity Securities (Main Board),"1,000",KYG9891U1334,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3633.HK
+661,CDAYENONFER,Equity,Equity Securities (Main Board),"2,000",BMG2125C1029,,Y, ,Y, ,Y,,,Y,1,HKD,,0661.HK
+3759,PHARMARON,Equity,Equity Securities (Main Board),100,CNE100003PG4,,Y,Y,Y, ,Y,,,Y,1,HKD,,3759.HK
+1909,FIRE ROCK,Equity,Equity Securities (Main Board),"2,000",KYG3524S1369,,Y, ,Y, ,Y,,,Y,1,HKD,,1909.HK
+3768,DCWT,Equity,Equity Securities (Main Board),"1,000",CNE100002BH4,,Y, ,Y, ,Y,,,Y,1,HKD,,3768.HK
+1690,LAP KEI ENGRG,Equity,Equity Securities (Main Board),"10,000",KYG5379C1087,,Y, ,Y, ,Y,,,Y,1,HKD,,1690.HK
+1831,SHIFANG HLDG,Equity,Equity Securities (Main Board),"10,000",BMG8126A1100,,Y, ,Y, ,Y,,,Y,1,HKD,,1831.HK
+1561,PAN ASIA DATA H,Equity,Equity Securities (Main Board),"4,000",KYG6883H1048,,Y, ,Y, ,Y,,,Y,1,HKD,,1561.HK
+2310,TIMES UNI GP,Equity,Equity Securities (Main Board),"2,000",HK2310012334,,Y, ,Y, ,Y,,,Y,1,HKD,,2310.HK
+716,SINGAMAS CONT,Equity,Equity Securities (Main Board),"2,000",HK0716002271,,Y, ,Y, ,Y,,,Y,1,HKD,,0716.HK
+2559,DIDA INC-PF,Equity,Equity Securities (Main Board),500,KYG2866S1003,,Y, ,Y, ,Y,,,Y,1,HKD,,2559.HK
+130,MOISELLE INT'L,Equity,Equity Securities (Main Board),"2,000",KYG618641073,,Y, ,Y, ,Y,,,Y,1,HKD,,0130.HK
+711,ASIA ALLIED INF,Equity,Equity Securities (Main Board),"2,000",BMG0578N1048,,Y, ,Y, ,Y,,,Y,1,HKD,,0711.HK
+2415,MEDSCI,Equity,Equity Securities (Main Board),250,KYG5960J1085,,Y, ,Y, ,Y,,,Y,1,HKD,,2415.HK
+300,MIDEA GROUP,Equity,Equity Securities (Main Board),100,CNE100006M58,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0300.HK
+2522,RIMAG GROUP,Equity,Equity Securities (Main Board),500,CNE100006HX9,,Y, ,Y, ,Y,,,Y,1,HKD,,2522.HK
+3303,JUTAL OIL SER,Equity,Equity Securities (Main Board),"2,000",KYG520771075,,Y, ,Y, ,Y,,,Y,1,HKD,,3303.HK
+2285,CHERVON,Equity,Equity Securities (Main Board),100,HK0000811882,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2285.HK
+2177,UNQ HOLDINGS,Equity,Equity Securities (Main Board),200,KYG9412Z1081,,Y, ,Y, ,Y,,,Y,1,HKD,,2177.HK
+1133,HARBIN ELECTRIC,Equity,Equity Securities (Main Board),"2,000",CNE1000003C0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1133.HK
+865,JIANDE INT'L,Equity,Equity Securities (Main Board),"4,000",KYG5139V1077,,Y, ,Y, ,Y,,,Y,1,HKD,,0865.HK
+1420,CHUAN HOLDING,Equity,Equity Securities (Main Board),"4,000",KYG2123Y1061,,Y, ,Y, ,Y,,,Y,1,HKD,,1420.HK
+6698,STAR CM,Equity,Equity Securities (Main Board),100,KYG8438D1097,,Y, ,Y, ,Y,,,Y,1,HKD,,6698.HK
+856,VSTECS,Equity,Equity Securities (Main Board),"2,000",KYG9400C1116,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0856.HK
+3329,BOCOM INTL,Equity,Equity Securities (Main Board),"1,000",HK0000337987,,Y, ,Y, ,Y,,,Y,1,HKD,,3329.HK
+86,SUN HUNG KAI CO,Equity,Equity Securities (Main Board),"1,000",HK0086000525,,Y,Y,Y, ,Y,,,Y,1,HKD,,0086.HK
+1556,CHINNEY KW,Equity,Equity Securities (Main Board),"5,000",BMG2118K1036,,Y, ,Y, ,Y,,,Y,1,HKD,,1556.HK
+73,ASIAN CITRUS,Equity,Equity Securities (Main Board),"1,000",BMG0620W3009,,Y, ,Y, ,Y,,,Y,1,HKD,,0073.HK
+8268,SMART CITY DEV,Equity,Equity Securities (GEM),"8,000",KYG8211U1040,,Y, ,Y, ,Y,,,Y,1,HKD,,8268.HK
+853,MICROPORT,Equity,Equity Securities (Main Board),100,KYG608371046,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0853.HK
+2321,SWANGCHAICHUAN,Equity,Equity Securities (Main Board),"5,000",KYG8601A1067,,Y, ,Y, ,Y,,,Y,1,HKD,,2321.HK
+765,PERFECTECH INTL,Equity,Equity Securities (Main Board),"2,000",BMG7004C1073,,Y, ,Y, ,Y,,,Y,1,HKD,,0765.HK
+118,COSMOS MACH,Equity,Equity Securities (Main Board),"2,000",HK0118000667,,Y, ,Y, ,Y,,,Y,1,HKD,,0118.HK
+2080,AUX INTL,Equity,Equity Securities (Main Board),"2,000",KYG2947D1060,,Y, ,Y, ,Y,,,Y,1,HKD,,2080.HK
+1842,GROWN UP GROUP,Equity,Equity Securities (Main Board),"4,000",KYG4147A1067,,Y, ,Y, ,Y,,,Y,1,HKD,,1842.HK
+1093,CSPC PHARMA,Equity,Equity Securities (Main Board),"2,000",HK1093012172,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1093.HK
+2450,HUAIBEI GD CO,Equity,Equity Securities (Main Board),"1,500",CNE100005RT8,,Y, ,Y, ,Y,,,Y,1,HKD,,2450.HK
+552,CHINACOMSERVICE,Equity,Equity Securities (Main Board),"2,000",CNE1000002G3,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0552.HK
+181,FUJIAN HOLDINGS,Equity,Equity Securities (Main Board),"20,000",HK0181013399,,Y, ,Y, ,Y,,,Y,1,HKD,,0181.HK
+1008,LITU HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG1643V1059,,Y, ,Y, ,Y,,,Y,1,HKD,,1008.HK
+2609,BAYZED HEALTH,Equity,Equity Securities (Main Board),600,KYG0893A1004,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2609.HK
+1752,TOP EDUCATION,Equity,Equity Securities (Main Board),"10,000",AU0000007296,,Y, ,Y, ,Y,,,Y,1,HKD,,1752.HK
+1244,3D MEDICINES,Equity,Equity Securities (Main Board),500,KYG8872R1011,,Y, ,Y, ,Y,,,Y,1,HKD,,1244.HK
+560,CHU KONG SHIP,Equity,Equity Securities (Main Board),"2,000",HK0560006634,,Y, ,Y, ,Y,,,Y,1,HKD,,0560.HK
+2488,LAUNCH TECH,Equity,Equity Securities (Main Board),500,CNE1000000V6,,Y,Y,Y, ,Y,,,Y,1,HKD,,2488.HK
+1999,MAN WAH HLDGS,Equity,Equity Securities (Main Board),400,BMG5800U1071,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1999.HK
+8392,SATU HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG7823H1056,,Y, ,Y, ,Y,,,Y,1,HKD,,8392.HK
+217,CHINA CHENGTONG,Equity,Equity Securities (Main Board),"2,000",HK0217012357,,Y, ,Y, ,Y,,,Y,1,HKD,,0217.HK
+8168,AMASSE CAPITAL,Equity,Equity Securities (GEM),"10,000",KYG024821004,,Y, ,Y, ,Y,,,Y,1,HKD,,8168.HK
+9899,NETEASE MUSIC,Equity,Equity Securities (Main Board),50,KYG2215N1097,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9899.HK
+546,FUFENG GROUP,Equity,Equity Securities (Main Board),"1,000",KYG368441195,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0546.HK
+6911,LANCANG TEA,Equity,Equity Securities (Main Board),200,CNE1000069K4,,Y, ,Y, ,Y,,,Y,1,HKD,,6911.HK
+1948,UJU HOLDING,Equity,Equity Securities (Main Board),"1,000",KYG9445Z1090,,Y,Y,Y, ,Y,,,Y,1,HKD,,1948.HK
+8026,CB GLOBAL-NEW,Equity,Equity Securities (GEM),"1,000",KYG211AJ1037,,Y, ,Y, ,Y,,,Y,1,HKD,,8026.HK
+3893,CROSSTEC,Equity,Equity Securities (Main Board),"12,000",KYG257501299,,Y, ,Y, ,Y,,,Y,1,HKD,,3893.HK
+1996,RSUN PPT,Equity,Equity Securities (Main Board),"1,000",KYG7459A1013,,Y, ,Y, ,Y,,,Y,1,HKD,,1996.HK
+2586,DMALL,Equity,Equity Securities (Main Board),100,VGG3168D1069,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2586.HK
+676,PEGASUS INT'L,Equity,Equity Securities (Main Board),"2,000",BMG6977B1046,,Y, ,Y, ,Y,,,Y,1,HKD,,0676.HK
+2295,MAXICITY,Equity,Equity Securities (Main Board),"5,000",KYG5897S1066,,Y, ,Y, ,Y,,,Y,1,HKD,,2295.HK
+77,AMS TRANSPORT,Equity,Equity Securities (Main Board),"2,000",KYG041561088,,Y, ,Y, ,Y,,,Y,1,HKD,,0077.HK
+9930,HORIZON CD,Equity,Equity Securities (Main Board),"1,000",KYG4R39T1073,,Y,Y,Y, ,Y,,,Y,1,HKD,,9930.HK
+6811,TAI HING GROUP,Equity,Equity Securities (Main Board),"1,000",KYG866191060,,Y, ,Y, ,Y,,,Y,1,HKD,,6811.HK
+6609,HEARTCARE-B,Equity,Equity Securities (Main Board),50,CNE100004MN5,,Y, ,Y, ,Y,,,Y,1,HKD,,6609.HK
+8103,HMVOD,Equity,Equity Securities (GEM),"1,500",KYG4527B1041,,Y, ,Y, ,Y,,,Y,1,HKD,,8103.HK
+1451,MS GROUP HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG507601006,,Y, ,Y, ,Y,,,Y,1,HKD,,1451.HK
+826,TIANGONG INT'L,Equity,Equity Securities (Main Board),"2,000",KYG888311134,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0826.HK
+1166,SOLARTECH INT'L,Equity,Equity Securities (Main Board),"10,000",BMG8252G2538,,Y, ,Y, ,Y,,,Y,1,HKD,,1166.HK
+8059,GLORY FLAME,Equity,Equity Securities (GEM),"5,000",KYG394011079,,Y, ,Y, ,Y,,,Y,1,HKD,,8059.HK
+845,GLORIOUS PPT H,Equity,Equity Securities (Main Board),"1,000",KYG3940K1058,,Y, ,Y, ,Y,,,Y,1,HKD,,0845.HK
+1013,WAI CHUN GROUP,Equity,Equity Securities (Main Board),"10,000",BMG9427H1354,,Y, ,Y, ,Y,,,Y,1,HKD,,1013.HK
+2142,HBM HOLDINGS-B,Equity,Equity Securities (Main Board),"1,000",KYG4403H1002,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2142.HK
+2531,CARLINK TECH,Equity,Equity Securities (Main Board),500,KYG3940A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,2531.HK
+9609,HAIWEI ELEC,Equity,Equity Securities (Main Board),200,CNE1000079X6,,Y, ,Y, ,Y,,,Y,1,HKD,,9609.HK
+1049,CELESTIAL ASIA,Equity,Equity Securities (Main Board),"2,000",BMG2007W1432,,Y, ,Y, ,Y,,,Y,1,HKD,,1049.HK
+8525,BAIYING HOLDING,Equity,Equity Securities (GEM),"2,000",KYG0706A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,8525.HK
+3828,MING FAI INT'L,Equity,Equity Securities (Main Board),"1,000",KYG6141X1079,,Y, ,Y, ,Y,,,Y,1,HKD,,3828.HK
+322,TINGYI,Equity,Equity Securities (Main Board),"2,000",KYG8878S1030,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0322.HK
+1578,BANK OF TIANJIN,Equity,Equity Securities (Main Board),500,CNE100002623,,Y,Y,Y, ,Y,,,Y,1,HKD,,1578.HK
+1888,KB LAMINATES,Equity,Equity Securities (Main Board),500,KYG5257K1076,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1888.HK
+486,RUSAL,Equity,Equity Securities (Main Board),"1,000",RU000A1025V3,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0486.HK
+986,DUFU LIQUOR GP,Equity,Equity Securities (Main Board),"5,000",BMG2125A3043,,Y, ,Y, ,Y,,,Y,1,HKD,,0986.HK
+3896,KINGSOFT CLOUD,Equity,Equity Securities (Main Board),"2,000",KYG5264S1012,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3896.HK
+691,SHANSHUI CEMENT,Equity,Equity Securities (Main Board),"1,000",KYG2116M1015,,Y, ,Y, ,Y,,,Y,1,HKD,,0691.HK
+9856,LIGENT,Equity,Equity Securities (Main Board),100,KYG5486M1069,,Y, ,Y, ,Y,,,Y,1,HKD,,9856.HK
+3699,EB GRAND CHINA,Equity,Equity Securities (Main Board),"2,000",KYG3222R1092,,Y, ,Y, ,Y,,,Y,1,HKD,,3699.HK
+2251,AIRDOC-B,Equity,Equity Securities (Main Board),100,CNE100004QQ9,,Y, ,Y, ,Y,,,Y,1,HKD,,2251.HK
+6993,BLUE MOON GROUP,Equity,Equity Securities (Main Board),500,KYG1193D1097,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6993.HK
+876,QH BIO PHARMA,Equity,Equity Securities (Main Board),"2,000",BMG522112017,,Y, ,Y, ,Y,,,Y,1,HKD,,0876.HK
+2618,JD LOGISTICS,Equity,Equity Securities (Main Board),100,KYG5074S1012,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2618.HK
+8076,SING LEE,Equity,Equity Securities (GEM),"5,000",BMG819641017,,Y, ,Y, ,Y,,,Y,1,HKD,,8076.HK
+1709,DL HOLDINGS GP,Equity,Equity Securities (Main Board),"1,000",KYG3166D1088,,Y,Y,Y, ,Y,,,Y,1,HKD,,1709.HK
+938,MAN SANG INT'L,Equity,Equity Securities (Main Board),"2,000",BMG579461325,,Y, ,Y, ,Y,,,Y,1,HKD,,0938.HK
+1114,BRILLIANCE CHI,Equity,Equity Securities (Main Board),"2,000",BMG1368B1028,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1114.HK
+6168,ZHOU LIU FU,Equity,Equity Securities (Main Board),100,CNE100006Z38,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6168.HK
+1415,COWELL,Equity,Equity Securities (Main Board),"1,000",KYG248141163,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1415.HK
+6838,WINOX,Equity,Equity Securities (Main Board),"2,000",KYG971741098,,Y, ,Y, ,Y,,,Y,1,HKD,,6838.HK
+8412,NEW AMANTE,Equity,Equity Securities (GEM),"10,000",KYG090492094,,Y, ,Y, ,Y,,,Y,1,HKD,,8412.HK
+1448,FU SHOU YUAN,Equity,Equity Securities (Main Board),"1,000",KYG371091086,,Y,Y,Y, ,Y,,,Y,1,HKD,,1448.HK
+8413,ASIA GROCERY,Equity,Equity Securities (GEM),"10,000",KYG0R20R1005,,Y, ,Y, ,Y,,,Y,1,HKD,,8413.HK
+3869,HOSPITAL CORP,Equity,Equity Securities (Main Board),200,KYG4612W1042,,Y, ,Y, ,Y,,,Y,1,HKD,,3869.HK
+456,NEW CITY DEV,Equity,Equity Securities (Main Board),"2,000",KYG648311119,,Y, ,Y, ,Y,,,Y,1,HKD,,0456.HK
+763,ZTE,Equity,Equity Securities (Main Board),200,CNE1000004Y2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0763.HK
+3886,TOWN HEALTH,Equity,Equity Securities (Main Board),"2,000",BMG8979V1046,,Y, ,Y, ,Y,,,Y,1,HKD,,3886.HK
+990,DEEP SOURCE,Equity,Equity Securities (Main Board),"10,000",BMG8800F1876,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0990.HK
+2627,AB&B BIO-TECH-B,Equity,Equity Securities (Main Board),200,CNE1000071P9,,Y, ,Y, ,Y,,,Y,1,HKD,,2627.HK
+426,ONE MEDIA GROUP,Equity,Equity Securities (Main Board),"2,000",KYG6752K1058,,Y, ,Y, ,Y,,,Y,1,HKD,,0426.HK
+3680,RUIHE DATA,Equity,Equity Securities (Main Board),"2,000",KYG8587G1010,,Y,Y,Y, ,Y,,,Y,1,HKD,,3680.HK
+488,LAI SUN DEV,Equity,Equity Securities (Main Board),300,HK0000356821,,Y, ,Y, ,Y,,,Y,1,HKD,,0488.HK
+8403,DEFENG SOLIFE,Equity,Equity Securities (GEM),"4,000",KYG2R05A1100,,Y, ,Y, ,Y,,,Y,1,HKD,,8403.HK
+2411,PAGODA GP,Equity,Equity Securities (Main Board),500,CNE100005RW2,,Y,Y,Y, ,Y,,,Y,1,HKD,,2411.HK
+2211,UNI HEALTH,Equity,Equity Securities (Main Board),"5,000",KYG9302L1288,,Y, ,Y, ,Y,,,Y,1,HKD,,2211.HK
+1011,NT PHARMA,Equity,Equity Securities (Main Board),"10,000",KYG2114L1133,,Y, ,Y, ,Y,,,Y,1,HKD,,1011.HK
+2498,ROBOSENSE,Equity,Equity Securities (Main Board),100,KYG7611S1075,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2498.HK
+264,CN INT DEV CORP,Equity,Equity Securities (Main Board),"4,000",KYG2121T1094,,Y, ,Y, ,Y,,,Y,1,HKD,,0264.HK
+1929,CHOW TAI FOOK,Equity,Equity Securities (Main Board),200,KYG211461085,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1929.HK
+2416,EDIANYUN,Equity,Equity Securities (Main Board),500,KYG3057B1041,,Y, ,Y, ,Y,,,Y,1,HKD,,2416.HK
+1091,SOUTH MANGANESE,Equity,Equity Securities (Main Board),"1,000",BMG8291R1043,,Y, ,Y, ,Y,,,Y,1,HKD,,1091.HK
+1156,CHINANEWENERGY,Equity,Equity Securities (Main Board),"4,000",JE00B3RWLF12,,Y, ,Y, ,Y,,,Y,1,HKD,,1156.HK
+901,SDMC,Equity,Equity Securities (Main Board),100,CNE100007KL6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0901.HK
+3689,KANGHUA HEALTH,Equity,Equity Securities (Main Board),200,CNE100002B55,,Y, ,Y, ,Y,,,Y,1,HKD,,3689.HK
+3382,TIANJINPORT DEV,Equity,Equity Securities (Main Board),"2,000",KYG886801060,,Y, ,Y, ,Y,,,Y,1,HKD,,3382.HK
+262,DESON DEV INT'L,Equity,Equity Securities (Main Board),"5,000",BMG2734F1656,,Y, ,Y, ,Y,,,Y,1,HKD,,0262.HK
+1870,GREEN POWER GP,Equity,Equity Securities (Main Board),"2,500",KYG0073U1085,,Y, ,Y, ,Y,,,Y,1,HKD,,1870.HK
+8439,SOMERLEY CAP,Equity,Equity Securities (GEM),"2,000",KYG826111075,,Y, ,Y, ,Y,,,Y,1,HKD,,8439.HK
+177,JIANGSU EXPRESS,Equity,Equity Securities (Main Board),"2,000",CNE1000003J5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0177.HK
+889,DATRONIX HOLD,Equity,Equity Securities (Main Board),"2,000",BMG2660A1071,,Y, ,Y, ,Y,,,Y,1,HKD,,0889.HK
+1907,CHINA RISUN GP,Equity,Equity Securities (Main Board),"1,000",KYG2120H1065,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1907.HK
+2112,GRACE LIFE-TECH,Equity,Equity Securities (Main Board),"2,000",KYG3164G1038,,Y, ,Y, ,Y,,,Y,1,HKD,,2112.HK
+3728,CHING LEE,Equity,Equity Securities (Main Board),"20,000",KYG2118S1066,,Y, ,Y, ,Y,,,Y,1,HKD,,3728.HK
+267,CITIC,Equity,Equity Securities (Main Board),"1,000",HK0267001375,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0267.HK
+1629,CHAMP ALLI INTL,Equity,Equity Securities (Main Board),"4,000",KYG2121P1072,,Y, ,Y, ,Y,,,Y,1,HKD,,1629.HK
+3903,HANHUA HOLDING,Equity,Equity Securities (Main Board),"2,000",CNE100001S99,,Y, ,Y, ,Y,,,Y,1,HKD,,3903.HK
+598,SINOTRANS,Equity,Equity Securities (Main Board),"1,000",CNE1000004F1,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0598.HK
+3858,JIAXIN INTL RES,Equity,Equity Securities (Main Board),400,HK0001188587,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3858.HK
+992,LENOVO GROUP,Equity,Equity Securities (Main Board),"2,000",HK0992009065,,Y,Y,Y,Y,Y,,,Y,1,HKD,80992.0,0992.HK
+2661,QINGSONG HEALTH,Equity,Equity Securities (Main Board),200,KYG7314Y1044,,Y, ,Y,Y,Y,,,Y,1,HKD,,2661.HK
+425,MINTH GROUP,Equity,Equity Securities (Main Board),100,KYG6145U1094,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0425.HK
+509,SUNSHINE,Equity,Equity Securities (Main Board),"10,000",KYG2091K1388,,Y, ,Y, ,Y,,,Y,1,HKD,,0509.HK
+2866,COSCO SHIP DEV,Equity,Equity Securities (Main Board),"1,000",CNE100000536,,Y,Y,Y, ,Y,,,Y,1,HKD,,2866.HK
+1039,CHANGYOU INT GP,Equity,Equity Securities (Main Board),"1,000",KYG2122D1034,,Y, ,Y, ,Y,,,Y,1,HKD,,1039.HK
+780,TONGCHENGTRAVEL,Equity,Equity Securities (Main Board),400,KYG8918W1069,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0780.HK
+9996,PEIJIA-B,Equity,Equity Securities (Main Board),"1,000",KYG6981F1090,,Y,Y,Y, ,Y,,,Y,1,HKD,,9996.HK
+3328,BANKCOMM,Equity,Equity Securities (Main Board),"1,000",CNE100000205,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3328.HK
+637,LEE KEE,Equity,Equity Securities (Main Board),"2,000",KYG542761039,,Y, ,Y, ,Y,,,Y,1,HKD,,0637.HK
+9973,CHERY AUTO,Equity,Equity Securities (Main Board),100,CNE1000073Z4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9973.HK
+146,TAI PING CARPET,Equity,Equity Securities (Main Board),"1,000",BMG8659F1068,,Y, ,Y, ,Y,,,Y,1,HKD,,0146.HK
+8237,LINK HOLDINGS,Equity,Equity Securities (GEM),"6,000",KYG5496E1364,,Y, ,Y, ,Y,,,Y,1,HKD,,8237.HK
+1159,SMART DIGI TECH,Equity,Equity Securities (Main Board),"2,000",BMG5137Y1113,,Y, ,Y, ,Y,,,Y,1,HKD,,1159.HK
+8140,BOSATECH,Equity,Equity Securities (GEM),"10,000",KYG1263R1039,,Y, ,Y, ,Y,,,Y,1,HKD,,8140.HK
+1195,KINGWELL GROUP,Equity,Equity Securities (Main Board),"4,000",KYG5267M1015,,Y, ,Y, ,Y,,,Y,1,HKD,,1195.HK
+915,DAOHE GLOBAL,Equity,Equity Securities (Main Board),"1,000",BMG2751X1314,,Y, ,Y, ,Y,,,Y,1,HKD,,0915.HK
+1265,TIANJINJINRAN,Equity,Equity Securities (Main Board),"10,000",CNE1000001C4,,Y, ,Y, ,Y,,,Y,1,HKD,,1265.HK
+1640,QIAN XUN TECH,Equity,Equity Securities (Main Board),"2,000",KYG7714M1069,,Y, ,Y, ,Y,,,Y,1,HKD,,1640.HK
+1406,CLARITY MEDICAL,Equity,Equity Securities (Main Board),"1,250",KYG2181S1084,,Y, ,Y, ,Y,,,Y,1,HKD,,1406.HK
+180,KADER HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG5206W1038,,Y, ,Y, ,Y,,,Y,1,HKD,,0180.HK
+6066,CSC,Equity,Equity Securities (Main Board),500,CNE100002B89,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6066.HK
+2635,NUOBIKAN,Equity,Equity Securities (Main Board),100,CNE100007C42,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2635.HK
+923,IWS,Equity,Equity Securities (Main Board),"2,000",KYG4812S1012,,Y, ,Y, ,Y,,,Y,1,HKD,,0923.HK
+315,SMARTONE TELE,Equity,Equity Securities (Main Board),500,BMG8219Z1059,,Y,Y,Y, ,Y,,,Y,1,HKD,,0315.HK
+1668,CHINASOUTHCITY,Equity,Equity Securities (Main Board),"2,000",HK0000056264,,Y, ,Y, ,Y,,,Y,1,HKD,,1668.HK
+8249,RUIYUAN IC TECH,Equity,Equity Securities (GEM),"5,000",CNE1000004Z9,,Y, ,Y, ,Y,,,Y,1,HKD,,8249.HK
+2706,HAIZHI TECH GP,Equity,Equity Securities (Main Board),200,CNE100007FC5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2706.HK
+3778,CHINA WEAVING,Equity,Equity Securities (Main Board),"2,000",KYG2116A1159,,Y, ,Y, ,Y,,,Y,1,HKD,,3778.HK
+1326,TRANSMIT ENT,Equity,Equity Securities (Main Board),"8,000",KYG9008D1079,,Y, ,Y, ,Y,,,Y,1,HKD,,1326.HK
+2683,WAHSUN HANDBAGS,Equity,Equity Securities (Main Board),"2,000",KYG9420H1083,,Y, ,Y, ,Y,,,Y,1,HKD,,2683.HK
+1213,MOBICON GROUP,Equity,Equity Securities (Main Board),"2,000",BMG6179G1096,,Y, ,Y, ,Y,,,Y,1,HKD,,1213.HK
+3313,ARTGO HOLDINGS,Equity,Equity Securities (Main Board),"5,000",KYG0509A1638,,Y, ,Y, ,Y,,,Y,1,HKD,,3313.HK
+2283,TK GROUP HLDG,Equity,Equity Securities (Main Board),"2,000",KYG889391069,,Y, ,Y, ,Y,,,Y,1,HKD,,2283.HK
+9686,XIKANG CLOUD,Equity,Equity Securities (Main Board),500,KYG6461A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,9686.HK
+3952,LAIFUAL,Equity,Equity Securities (Main Board),100,CNE100007R45,,Y, ,Y, ,Y,,,Y,1,HKD,,3952.HK
+571,ESUN HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG3135M1148,,Y, ,Y, ,Y,,,Y,1,HKD,,0571.HK
+8173,HEPHAESTUS HLDG,Equity,Equity Securities (GEM),"20,000",KYG4404S1057,,Y, ,Y, ,Y,,,Y,1,HKD,,8173.HK
+1302,LIFETECH SCI,Equity,Equity Securities (Main Board),"2,000",KYG548721177,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1302.HK
+2362,JINCHUAN INTL,Equity,Equity Securities (Main Board),"1,000",KYG5138B1023,,Y, ,Y, ,Y,,,Y,1,HKD,,2362.HK
+1045,APT SATELLITE,Equity,Equity Securities (Main Board),"2,000",BMG0438M1064,,Y, ,Y, ,Y,,,Y,1,HKD,,1045.HK
+236,SAN MIGUEL HK,Equity,Equity Securities (Main Board),"2,000",HK0236001209,,Y, ,Y, ,Y,,,Y,1,HKD,,0236.HK
+1003,HUANXI MEDIA,Equity,Equity Securities (Main Board),"10,000",BMG4643J1062,,Y, ,Y, ,Y,,,Y,1,HKD,,1003.HK
+8031,ETS GROUP,Equity,Equity Securities (GEM),"2,000",KYG314241152,,Y, ,Y, ,Y,,,Y,1,HKD,,8031.HK
+6082,BIREN TECH,Equity,Equity Securities (Main Board),200,CNE100007DD8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6082.HK
+8213,STARGLORY HLDGS,Equity,Equity Securities (GEM),"10,000",KYG844271141,,Y, ,Y, ,Y,,,Y,1,HKD,,8213.HK
+3618,CQRC BANK,Equity,Equity Securities (Main Board),"1,000",CNE100000X44,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3618.HK
+2600,CHALCO,Equity,Equity Securities (Main Board),"2,000",CNE1000001T8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2600.HK
+6882,EGL HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG3089V1023,,Y, ,Y, ,Y,,,Y,1,HKD,,6882.HK
+9968,HUIJING HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG4644T1031,,Y, ,Y, ,Y,,,Y,1,HKD,,9968.HK
+106,LANDSEA MGMT,Equity,Equity Securities (Main Board),"4,000",BMG5370A1018,,Y, ,Y, ,Y,,,Y,1,HKD,,0106.HK
+2481,SL GEMINI,Equity,Equity Securities (Main Board),"1,000",CNE100006376,,Y, ,Y, ,Y,,,Y,1,HKD,,2481.HK
+747,SHENYANG PUBLIC,Equity,Equity Securities (Main Board),"2,000",CNE100000460,,Y, ,Y, ,Y,,,Y,1,HKD,,0747.HK
+22,MEXAN,Equity,Equity Securities (Main Board),"2,000",BMG6051D1332,,Y, ,Y, ,Y,,,Y,1,HKD,,0022.HK
+369,WING TAI PPT,Equity,Equity Securities (Main Board),"2,000",BMG9716V1000,,Y, ,Y, ,Y,,,Y,1,HKD,,0369.HK
+3709,EEKA FASHION,Equity,Equity Securities (Main Board),500,KYG539641053,,Y,Y,Y, ,Y,,,Y,1,HKD,,3709.HK
+1001,HK SH ALLIANCE,Equity,Equity Securities (Main Board),"2,000",BMG8000T1027,,Y, ,Y, ,Y,,,Y,1,HKD,,1001.HK
+736,CHINA PPT INV,Equity,Equity Securities (Main Board),"3,000",BMG2157U2281,,Y, ,Y, ,Y,,,Y,1,HKD,,0736.HK
+6601,CHEERWIN GP,Equity,Equity Securities (Main Board),500,KYG2072S1003,,Y, ,Y, ,Y,,,Y,1,HKD,,6601.HK
+599,E. BON HOLDINGS,Equity,Equity Securities (Main Board),"16,000",KYG2917V1023,,Y, ,Y, ,Y,,,Y,1,HKD,,0599.HK
+1703,EASYHOLD GROUP,Equity,Equity Securities (Main Board),"5,000",KYG6875A1177,,Y, ,Y, ,Y,,,Y,1,HKD,,1703.HK
+137,JINHUI HOLDINGS,Equity,Equity Securities (Main Board),"1,000",HK0137031065,,Y, ,Y, ,Y,,,Y,1,HKD,,0137.HK
+2726,EPIWORLD,Equity,Equity Securities (Main Board),50,CNE100007J37,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2726.HK
+2526,DIAGENS-B,Equity,Equity Securities (Main Board),50,CNE100007JC7,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2526.HK
+9985,WL DELICIOUS,Equity,Equity Securities (Main Board),200,KYG9T20T1051,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9985.HK
+2407,GAUSH MEDITECH,Equity,Equity Securities (Main Board),100,KYG3902N1051,,Y, ,Y, ,Y,,,Y,1,HKD,,2407.HK
+8052,LUK HING ENT,Equity,Equity Securities (GEM),"20,000",KYG569701173,,Y, ,Y, ,Y,,,Y,1,HKD,,8052.HK
+8187,JIMU GROUP,Equity,Equity Securities (GEM),"5,000",KYG513771108,,Y, ,Y, ,Y,,,Y,1,HKD,,8187.HK
+2205,KANGQIAO SER,Equity,Equity Securities (Main Board),"1,000",KYG5224S1003,,Y, ,Y, ,Y,,,Y,1,HKD,,2205.HK
+326,CHINA STAR ENT,Equity,Equity Securities (Main Board),"2,000",BMG8437G3195,,Y,Y,Y, ,Y,,,Y,1,HKD,,0326.HK
+1878,SOUTHGOBI,Equity,Equity Securities (Main Board),50,CA8443751059,,Y, ,Y, ,Y,,,Y,1,HKD,,1878.HK
+1928,SANDS CHINA LTD,Equity,Equity Securities (Main Board),400,KYG7800X1079,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1928.HK
+3800,GCL TECH,Equity,Equity Securities (Main Board),"1,000",KYG3774X1088,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3800.HK
+1184,S.A.S. DRAGON,Equity,Equity Securities (Main Board),"2,000",BMG7814X1011,,Y, ,Y, ,Y,,,Y,1,HKD,,1184.HK
+1566,CA CULTURAL,Equity,Equity Securities (Main Board),"5,000",KYG211751154,,Y, ,Y, ,Y,,,Y,1,HKD,,1566.HK
+1476,FIN STREET SEC,Equity,Equity Securities (Main Board),"1,000",CNE100002334,,Y, ,Y, ,Y,,,Y,1,HKD,,1476.HK
+1548,GENSCRIPT B-1K,Equity,Equity Securities (Main Board),"1,000",KYG3825B1059,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1548.HK
+1894,HANG YICK HLDGS,Equity,Equity Securities (Main Board),"5,000",KYG429011193,,Y, ,Y, ,Y,,,Y,1,HKD,,1894.HK
+371,BJ ENT WATER,Equity,Equity Securities (Main Board),"2,000",BMG0957L1090,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0371.HK
+6667,MEGA GENOMICS,Equity,Equity Securities (Main Board),200,KYG5960G1047,,Y, ,Y, ,Y,,,Y,1,HKD,,6667.HK
+9863,LEAPMOTOR,Equity,Equity Securities (Main Board),100,CNE100005K77,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9863.HK
+1069,CN HEALTH TECH,Equity,Equity Securities (Main Board),"10,000",KYG2152K1269,,Y, ,Y, ,Y,,,Y,1,HKD,,1069.HK
+2286,CHEN XING,Equity,Equity Securities (Main Board),"1,000",KYG2087W1042,,Y, ,Y, ,Y,,,Y,1,HKD,,2286.HK
+2271,ZHONGAN SERVICE,Equity,Equity Securities (Main Board),"2,000",KYG989AC1091,,Y, ,Y, ,Y,,,Y,1,HKD,,2271.HK
+1410,EDVANCE INTL,Equity,Equity Securities (Main Board),"10,000",KYG290121048,,Y, ,Y, ,Y,,,Y,1,HKD,,1410.HK
+6868,TENFU,Equity,Equity Securities (Main Board),"1,000",KYG875941000,,Y, ,Y, ,Y,,,Y,1,HKD,,6868.HK
+1,CKH HOLDINGS,Equity,Equity Securities (Main Board),500,KYG217651051,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0001.HK
+45,HK&S HOTELS,Equity,Equity Securities (Main Board),500,HK0045000319,,Y,Y,Y, ,Y,,,Y,1,HKD,,0045.HK
+6178,EB SECURITIES,Equity,Equity Securities (Main Board),200,CNE1000029M4,,Y,Y,Y, ,Y,,,Y,1,HKD,,6178.HK
+2507,CIRRUS,Equity,Equity Securities (Main Board),100,KYG2151G1001,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2507.HK
+867,CMS,Equity,Equity Securities (Main Board),"1,000",KYG211081248,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0867.HK
+524,GW TERROIR,Equity,Equity Securities (Main Board),"10,000",BMG4080L1357,,Y, ,Y, ,Y,,,Y,1,HKD,,0524.HK
+1868,NEO-NEON,Equity,Equity Securities (Main Board),"2,000",KYG642571015,,Y, ,Y, ,Y,,,Y,1,HKD,,1868.HK
+1966,CHINA SCE GROUP,Equity,Equity Securities (Main Board),"1,000",KYG211901064,,Y, ,Y, ,Y,,,Y,1,HKD,,1966.HK
+6117,RIZHAO PORT JR,Equity,Equity Securities (Main Board),"2,000",CNE100003KK7,,Y, ,Y, ,Y,,,Y,1,HKD,,6117.HK
+2119,TSIT WING INTL,Equity,Equity Securities (Main Board),"2,000",BMG9113W1073,,Y, ,Y, ,Y,,,Y,1,HKD,,2119.HK
+8328,XY ELEC STORAGE,Equity,Equity Securities (GEM),"4,000",KYG9830W1096,,Y, ,Y, ,Y,,,Y,1,HKD,,8328.HK
+2268,WUXI XDC,Equity,Equity Securities (Main Board),500,KYG9808A1058,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2268.HK
+2288,RYKADAN CAPITAL,Equity,Equity Securities (Main Board),"1,000",KYG7750P1046,,Y, ,Y, ,Y,,,Y,1,HKD,,2288.HK
+895,DONGJIANG ENV,Equity,Equity Securities (Main Board),200,CNE1000001B6,,Y, ,Y, ,Y,,,Y,1,HKD,,0895.HK
+1392,HQVT,Equity,Equity Securities (Main Board),500,CNE100007Q46,,Y, ,Y,Y,Y,,,Y,1,HKD,,1392.HK
+520,XIABUXIABU,Equity,Equity Securities (Main Board),500,KYG982971072,,Y, ,Y, ,Y,,,Y,1,HKD,,0520.HK
+113,DICKSON CONCEPT,Equity,Equity Securities (Main Board),500,BMG275871231,,Y, ,Y, ,Y,,,Y,1,HKD,,0113.HK
+1965,LANDSEA LIFE,Equity,Equity Securities (Main Board),"1,000",KYG5371B1086,,Y, ,Y, ,Y,,,Y,1,HKD,,1965.HK
+1942,MOG DIGITECH,Equity,Equity Securities (Main Board),"2,000",KYG6185A1040,,Y, ,Y, ,Y,,,Y,1,HKD,,1942.HK
+2330,CHINA UPTOWN,Equity,Equity Securities (Main Board),"8,000",KYG2111Y1347,,Y, ,Y, ,Y,,,Y,1,HKD,,2330.HK
+6600,ONEROBOTICS,Equity,Equity Securities (Main Board),100,CNE100007DF3,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6600.HK
+526,LISI GP HOLD,Equity,Equity Securities (Main Board),"2,000",BMG2121N1020,,Y, ,Y, ,Y,,,Y,1,HKD,,0526.HK
+2282,MGM CHINA,Equity,Equity Securities (Main Board),400,KYG607441022,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2282.HK
+1981,CATHAY GP HLDGS,Equity,Equity Securities (Main Board),"1,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,1981.HK
+71,MIRAMAR HOTEL,Equity,Equity Securities (Main Board),"1,000",HK0071000456,,Y,Y,Y, ,Y,,,Y,1,HKD,,0071.HK
+2623,HK GOLD IND GP,Equity,Equity Securities (Main Board),500,KYG0112P1101,,Y, ,Y, ,Y,,,Y,1,HKD,,2623.HK
+2453,CONCORD HC GP,Equity,Equity Securities (Main Board),200,CNE100006BL7,,Y, ,Y, ,Y,,,Y,1,HKD,,2453.HK
+8220,BINGO GROUP,Equity,Equity Securities (GEM),"1,000",KYG1116Y1567,,Y, ,Y, ,Y,,,Y,1,HKD,,8220.HK
+8456,MANSION INTL,Equity,Equity Securities (GEM),"10,000",KYG579801567,,Y, ,Y, ,Y,,,Y,1,HKD,,8456.HK
+8136,IMS GROUP,Equity,Equity Securities (GEM),"10,000",KYG472571036,,Y, ,Y, ,Y,,,Y,1,HKD,,8136.HK
+580,SUN.KING TECH,Equity,Equity Securities (Main Board),"2,000",KYG857AW1047,,Y,Y,Y, ,Y,,,Y,1,HKD,,0580.HK
+2666,UNI MEDICAL,Equity,Equity Securities (Main Board),500,HK0000255361,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2666.HK
+1271,GRAND MING,Equity,Equity Securities (Main Board),"1,000",KYG406451065,,Y, ,Y, ,Y,,,Y,1,HKD,,1271.HK
+241,ALI HEALTH,Equity,Equity Securities (Main Board),"2,000",BMG0171K1018,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0241.HK
+1962,EVERGREEN PG,Equity,Equity Securities (Main Board),"2,000",KYG322541072,,Y, ,Y, ,Y,,,Y,1,HKD,,1962.HK
+536,TRADELINK,Equity,Equity Securities (Main Board),"2,000",HK0536032532,,Y, ,Y, ,Y,,,Y,1,HKD,,0536.HK
+623,GOLDENBRIDGE GP,Equity,Equity Securities (Main Board),"1,000",HK0000046869,,Y, ,Y, ,Y,,,Y,1,HKD,,0623.HK
+1815,EVEREST GOLD,Equity,Equity Securities (Main Board),"1,000",KYG2582R1056,,Y, ,Y, ,Y,,,Y,1,HKD,,1815.HK
+1693,BGMC,Equity,Equity Securities (Main Board),"2,000",KYG1R51A1153,,Y, ,Y, ,Y,,,Y,1,HKD,,1693.HK
+3268,MEIG,Equity,Equity Securities (Main Board),100,CNE100007HF4,,Y, ,Y, ,Y,,,Y,1,HKD,,3268.HK
+888,BLOCKFIN HLDG,Equity,Equity Securities (Main Board),"2,000",BMG114281022,,Y, ,Y, ,Y,,,Y,1,HKD,,0888.HK
+1010,SKY BLUE 11,Equity,Equity Securities (Main Board),"2,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,1010.HK
+3839,CPBIO,Equity,Equity Securities (Main Board),500,BMG2151A1036,,Y, ,Y, ,Y,,,Y,1,HKD,,3839.HK
+391,MEI AH ENTER,Equity,Equity Securities (Main Board),"20,000",BMG5964A1523,,Y, ,Y, ,Y,,,Y,1,HKD,,0391.HK
+998,CITIC BANK,Equity,Equity Securities (Main Board),"1,000",CNE1000001Q4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0998.HK
+1164,CGN MINING,Equity,Equity Securities (Main Board),"5,000",KYG2029E1052,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1164.HK
+2476,VGT,Equity,Equity Securities (Main Board),100,CNE100007JY1,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2476.HK
+1541,IMMUNEONCO-B,Equity,Equity Securities (Main Board),200,CNE100006624,,Y, ,Y, ,Y,,,Y,1,HKD,,1541.HK
+471,SILKWAVE INC,Equity,Equity Securities (Main Board),"4,000",KYG2237A2003,,Y, ,Y, ,Y,,,Y,1,HKD,,0471.HK
+63,CHI ASIA VALLEY,Equity,Equity Securities (Main Board),"1,000",BMG2123P1059,,Y, ,Y, ,Y,,,Y,1,HKD,,0063.HK
+1731,PROSPEROUS IND,Equity,Equity Securities (Main Board),"4,000",KYG7283E1052,,Y, ,Y, ,Y,,,Y,1,HKD,,1731.HK
+1680,MACAU LEGEND,Equity,Equity Securities (Main Board),"4,000",BMG5764Z1187,,Y, ,Y, ,Y,,,Y,1,HKD,,1680.HK
+8005,YUXING INFOTECH,Equity,Equity Securities (GEM),"2,000",BMG9883P1344,,Y, ,Y, ,Y,,,Y,1,HKD,,8005.HK
+3231,EXCELLAND ROBOT,Equity,Equity Securities (Main Board),200,CNE100007VS8,,Y, ,Y, ,Y,,,Y,1,HKD,,3231.HK
+1490,AI X TECH,Equity,Equity Securities (Main Board),"4,000",KYG2R50A1062,,Y, ,Y, ,Y,,,Y,1,HKD,,1490.HK
+2427,GUANZE MEDICAL,Equity,Equity Securities (Main Board),"5,000",KYG4315D1060,,Y, ,Y, ,Y,,,Y,1,HKD,,2427.HK
+142,FIRST PACIFIC,Equity,Equity Securities (Main Board),"2,000",BMG348041077,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0142.HK
+206,CM-ENERGY,Equity,Equity Securities (Main Board),"1,000",KYG2124A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,0206.HK
+40,GOLD PEAK,Equity,Equity Securities (Main Board),"1,000",HK0040000298,,Y, ,Y, ,Y,,,Y,1,HKD,,0040.HK
+1373,IH RETAIL,Equity,Equity Securities (Main Board),"1,000",KYG487291000,,Y, ,Y, ,Y,,,Y,1,HKD,,1373.HK
+1759,SINO GAS HLDGS,Equity,Equity Securities (Main Board),"1,000",KYG8192K1094,,Y, ,Y, ,Y,,,Y,1,HKD,,1759.HK
+1428,BRIGHT SMART,Equity,Equity Securities (Main Board),"2,000",KYG1644A1004,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1428.HK
+3681,SINOMAB BIO-B,Equity,Equity Securities (Main Board),300,HK0000544194,,Y, ,Y, ,Y,,,Y,1,HKD,,3681.HK
+2314,LEE & MAN PAPER,Equity,Equity Securities (Main Board),"1,000",KYG5427W1309,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2314.HK
+8210,DLC ASIA,Equity,Equity Securities (GEM),"10,000",KYG3166C1006,,Y, ,Y, ,Y,,,Y,1,HKD,,8210.HK
+1187,COFOE MEDICAL,Equity,Equity Securities (Main Board),100,CNE100007KH4,,Y, ,Y, ,Y,,,Y,1,HKD,,1187.HK
+1606,CDB LEASING,Equity,Equity Securities (Main Board),"2,000",CNE1000027C9,,Y,Y,Y, ,Y,,,Y,1,HKD,,1606.HK
+8491,COOL LINK,Equity,Equity Securities (GEM),"5,000",KYG241891137,,Y, ,Y, ,Y,,,Y,1,HKD,,8491.HK
+8451,SUNLIGHT HLDGS,Equity,Equity Securities (GEM),"10,000",KYG8588E1052,,Y, ,Y, ,Y,,,Y,1,HKD,,8451.HK
+1608,VPOWER GROUP,Equity,Equity Securities (Main Board),"1,000",KYG939541085,,Y, ,Y, ,Y,,,Y,1,HKD,,1608.HK
+1896,MAOYAN ENT,Equity,Equity Securities (Main Board),200,KYG5804A1076,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1896.HK
+2672,BAIGE DIGITAL,Equity,Equity Securities (Main Board),200,CNE100007DB2,,Y, ,Y,Y,Y,,,Y,1,HKD,,2672.HK
+1933,ONEFORCE HLDGS,Equity,Equity Securities (Main Board),"4,000",KYG675611035,,Y, ,Y, ,Y,,,Y,1,HKD,,1933.HK
+1867,STD DEV GROUP,Equity,Equity Securities (Main Board),"10,000",KYG8T26D1062,,Y, ,Y, ,Y,,,Y,1,HKD,,1867.HK
+6603,IFBH,Equity,Equity Securities (Main Board),200,SGXZ26193953,,Y, ,Y, ,Y,,,Y,1,HKD,,6603.HK
+2030,CABBEEN,Equity,Equity Securities (Main Board),"1,000",KYG3164W1087,,Y, ,Y, ,Y,,,Y,1,HKD,,2030.HK
+254,NUR HOLDINGS,Equity,Equity Securities (Main Board),"20,000",HK0001185096,,Y, ,Y, ,Y,,,Y,1,HKD,,0254.HK
+1937,JIACHEN HOLDING,Equity,Equity Securities (Main Board),"5,000",KYG7395L1041,,Y, ,Y, ,Y,,,Y,1,HKD,,1937.HK
+1638,KAISA GROUP,Equity,Equity Securities (Main Board),"1,000",KYG521321003,,Y, ,Y, ,Y,,,Y,1,HKD,,1638.HK
+6099,CMSC,Equity,Equity Securities (Main Board),200,CNE1000029Z6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6099.HK
+430,ORIENTAL EXPL,Equity,Equity Securities (Main Board),"4,000",BMG6771J1053,,Y, ,Y, ,Y,,,Y,1,HKD,,0430.HK
+8042,KOS TALENT GP,Equity,Equity Securities (GEM),"10,000",KYG531501016,,Y, ,Y, ,Y,,,Y,1,HKD,,8042.HK
+8195,LEGENDARY EDU,Equity,Equity Securities (GEM),"2,000",KYG5450S1131,,Y, ,Y, ,Y,,,Y,1,HKD,,8195.HK
+9689,JTF INTL,Equity,Equity Securities (Main Board),"4,000",KYG520041016,,Y, ,Y, ,Y,,,Y,1,HKD,,9689.HK
+9955,CLOUDR,Equity,Equity Securities (Main Board),100,KYG2216H1011,,Y, ,Y, ,Y,,,Y,1,HKD,,9955.HK
+6682,PHANCY,Equity,Equity Securities (Main Board),100,CNE100005KD7,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6682.HK
+357,MEILAN AIRPORT,Equity,Equity Securities (Main Board),"1,000",CNE1000003B2,,Y, ,Y, ,Y,,,Y,1,HKD,,0357.HK
+2155,MORIMATSU INTL,Equity,Equity Securities (Main Board),"1,000",HK0000709128,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2155.HK
+2116,JS INNOV,Equity,Equity Securities (Main Board),"2,000",KYG5140A1004,,Y, ,Y, ,Y,,,Y,1,HKD,,2116.HK
+943,ZHONGZHENG INTL,Equity,Equity Securities (Main Board),"16,000",BMG989A52031,,Y, ,Y, ,Y,,,Y,1,HKD,,0943.HK
+8218,ECHO INT HOLD,Equity,Equity Securities (GEM),"12,000",KYG2919W1327,,Y, ,Y, ,Y,,,Y,1,HKD,,8218.HK
+1826,FDB HOLDINGS,Equity,Equity Securities (Main Board),"10,000",KYG8467E1017,,Y, ,Y, ,Y,,,Y,1,HKD,,1826.HK
+3692,HANSOH PHARMA,Equity,Equity Securities (Main Board),"2,000",KYG549581067,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3692.HK
+3833,XINXIN MINING,Equity,Equity Securities (Main Board),"1,000",CNE1000007G2,,Y, ,Y, ,Y,,,Y,1,HKD,,3833.HK
+3998,BOSIDENG,Equity,Equity Securities (Main Board),"2,000",KYG126521064,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3998.HK
+1278,CHINANEWTOWN,Equity,Equity Securities (Main Board),"2,500",VGG2156N1006,,Y, ,Y, ,Y,,,Y,1,HKD,,1278.HK
+8551,ZXZN QI-HSE-20K,Equity,Equity Securities (GEM),"20,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,8551.HK
+245,CHINA VERED FIN,Equity,Equity Securities (Main Board),"5,000",HK0001163432,,Y, ,Y, ,Y,,,Y,1,HKD,,0245.HK
+1707,GEOTECH HLDGS,Equity,Equity Securities (Main Board),"8,000",KYG3835R1083,,Y, ,Y, ,Y,,,Y,1,HKD,,1707.HK
+1771,SUNFONDA GP,Equity,Equity Securities (Main Board),"1,000",KYG8571A1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1771.HK
+1009,INT'L ENT,Equity,Equity Securities (Main Board),"10,000",KYG4843W1050,,Y,Y,Y, ,Y,,,Y,1,HKD,,1009.HK
+689,EPI (HOLDINGS),Equity,Equity Securities (Main Board),"15,000",BMG3155U1523,,Y, ,Y, ,Y,,,Y,1,HKD,,0689.HK
+1572,CHINA ART FIN,Equity,Equity Securities (Main Board),"4,000",KYG2120M1050,,Y, ,Y, ,Y,,,Y,1,HKD,,1572.HK
+1630,KIN SHING HLDGS,Equity,Equity Securities (Main Board),"6,000",KYG5281A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,1630.HK
+667,CHINA EAST EDU,Equity,Equity Securities (Main Board),500,KYG2120T1004,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0667.HK
+629,YUE DA INTL,Equity,Equity Securities (Main Board),"1,000",KYG9877S1021,,Y, ,Y, ,Y,,,Y,1,HKD,,0629.HK
+997,CHINLINK INTL,Equity,Equity Securities (Main Board),"8,000",BMG2113K1650,,Y, ,Y, ,Y,,,Y,1,HKD,,0997.HK
+6820,FRIENDTIMES,Equity,Equity Securities (Main Board),"2,000",KYG371BT1022,,Y, ,Y, ,Y,,,Y,1,HKD,,6820.HK
+521,CWT INT'L,Equity,Equity Securities (Main Board),"10,000",HK0521001989,,Y,Y,Y, ,Y,,,Y,1,HKD,,0521.HK
+2941,KING INTL I RTS,Equity,Equity Securities (Main Board),"5,000",KYG5924H1645,,Y, , , ,Y,,, ,1,HKD,,2941.HK
+2137,BRII-B,Equity,Equity Securities (Main Board),500,KYG1645A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,2137.HK
+8222,E LIGHTING,Equity,Equity Securities (GEM),"4,000",KYG3003A1013,,Y, ,Y, ,Y,,,Y,1,HKD,,8222.HK
+809,GLOBAL BIO-CHEM,Equity,Equity Securities (Main Board),"10,000",KYG3919S1479,,Y, ,Y, ,Y,,,Y,1,HKD,,0809.HK
+3991,CHANGHONG JH,Equity,Equity Securities (Main Board),"2,000",BMG2042K1045,,Y, ,Y, ,Y,,,Y,1,HKD,,3991.HK
+299,GLORY SUN LAND,Equity,Equity Securities (Main Board),"5,000",KYG3997X1253,,Y, ,Y, ,Y,,,Y,1,HKD,,0299.HK
+1204,BOARDWARE INTEL,Equity,Equity Securities (Main Board),"2,000",KYG1546A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,1204.HK
+590,LUK FOOK HOLD,Equity,Equity Securities (Main Board),"1,000",BMG5695X1258,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0590.HK
+6677,SINO-OCEAN SERV,Equity,Equity Securities (Main Board),500,KYG816CB1040,,Y, ,Y, ,Y,,,Y,1,HKD,,6677.HK
+18,ORIENTAL M G,Equity,Equity Securities (Main Board),"2,000",HK0018000155,,Y, ,Y, ,Y,,,Y,1,HKD,,0018.HK
+9890,TANWAN,Equity,Equity Securities (Main Board),200,KYG989M71072,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9890.HK
+995,ANHUIEXPRESSWAY,Equity,Equity Securities (Main Board),"2,000",CNE1000001X0,,Y,Y,Y, ,Y,,,Y,1,HKD,,0995.HK
+8023,KWONG MAN KEE,Equity,Equity Securities (GEM),"6,000",KYG532951046,,Y, ,Y, ,Y,,,Y,1,HKD,,8023.HK
+493,GOME RETAIL,Equity,Equity Securities (Main Board),"1,000",BMG3978C1249,,Y, ,Y, ,Y,,,Y,1,HKD,,0493.HK
+2497,FUJING HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG3R23C1048,,Y, ,Y, ,Y,,,Y,1,HKD,,2497.HK
+327,PAX GLOBAL,Equity,Equity Securities (Main Board),"1,000",BMG6955J1036,,Y,Y,Y, ,Y,,,Y,1,HKD,,0327.HK
+662,ASIA FINANCIAL,Equity,Equity Securities (Main Board),"2,000",BMG0532X1074,,Y,Y,Y, ,Y,,,Y,1,HKD,,0662.HK
+9676,SHIYUE DAOTIAN,Equity,Equity Securities (Main Board),300,CNE100006897,,Y,Y,Y, ,Y,,,Y,1,HKD,,9676.HK
+807,SIICENVIRONMENT,Equity,Equity Securities (Main Board),"1,000",SG1BI7000000,,Y,Y,Y, ,Y,,,Y,1,HKD,,0807.HK
+918,MAJESTIC DRAGON,Equity,Equity Securities (Main Board),"6,000",BMG8508Q1134,,Y, ,Y, ,Y,,,Y,1,HKD,,0918.HK
+8178,CHINA INFO TECH,Equity,Equity Securities (GEM),"2,000",KYG215501688,,Y, ,Y, ,Y,,,Y,1,HKD,,8178.HK
+290,GOFINTECH QUANT,Equity,Equity Securities (Main Board),500,            ,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0290.HK
+2530,NUMANS,Equity,Equity Securities (Main Board),"8,000",KYG6781U1085,,Y, ,Y, ,Y,,,Y,1,HKD,,2530.HK
+1803,BJ SPORTS & ENT,Equity,Equity Securities (Main Board),"5,000",KYG1145Y1281,,Y, ,Y, ,Y,,,Y,1,HKD,,1803.HK
+8480,FURNIWEB,Equity,Equity Securities (GEM),"4,000",KYG370041017,,Y, ,Y, ,Y,,,Y,1,HKD,,8480.HK
+2222,NVC INTL,Equity,Equity Securities (Main Board),"10,000",KYG6700A1186,,Y, ,Y, ,Y,,,Y,1,HKD,,2222.HK
+1024,KUAISHOU-W,Equity,Equity Securities (Main Board),100,KYG532631028,,Y,Y,Y,Y,Y,,,Y,1,HKD,81024.0,1024.HK
+1161,WATER OASIS GP,Equity,Equity Securities (Main Board),"2,000",KYG9477E1070,,Y, ,Y, ,Y,,,Y,1,HKD,,1161.HK
+211,STYLAND HOLD,Equity,Equity Securities (Main Board),"10,000",BMG8540A3088,,Y, ,Y, ,Y,,,Y,1,HKD,,0211.HK
+169,WANDA HOTEL DEV,Equity,Equity Securities (Main Board),"1,000",BMG9430N1039,,Y, ,Y, ,Y,,,Y,1,HKD,,0169.HK
+252,SE ASIA PPT,Equity,Equity Securities (Main Board),"2,000",HK0252001307,,Y, ,Y, ,Y,,,Y,1,HKD,,0252.HK
+2338,WEICHAI POWER,Equity,Equity Securities (Main Board),"1,000",CNE1000004L9,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2338.HK
+2367,GIANT BIOGENE,Equity,Equity Securities (Main Board),200,KYG3887G1091,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2367.HK
+1281,XINDA INV HLDGS,Equity,Equity Securities (Main Board),"1,000",KYG5636J1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1281.HK
+1736,PARENTING NET,Equity,Equity Securities (Main Board),"5,000",KYG2162T1334,,Y, ,Y, ,Y,,,Y,1,HKD,,1736.HK
+2779,CH XINHUA EDU,Equity,Equity Securities (Main Board),"1,000",KYG216231061,,Y, ,Y, ,Y,,,Y,1,HKD,,2779.HK
+1841,A.PLUS GROUP,Equity,Equity Securities (Main Board),"10,000",KYG0411B1014,,Y, ,Y, ,Y,,,Y,1,HKD,,1841.HK
+1872,GUAN CHAO HLDGS,Equity,Equity Securities (Main Board),"5,000",KYG4183A1195,,Y,Y,Y, ,Y,,,Y,1,HKD,,1872.HK
+3661,SG MICRO,Equity,Equity Securities (Main Board),100,CNE100007NR7,,Y, ,Y, ,Y,,,Y,1,HKD,,3661.HK
+983,SOCAM DEV,Equity,Equity Securities (Main Board),"2,000",BMG8249T1036,,Y, ,Y, ,Y,,,Y,1,HKD,,0983.HK
+6833,SINCO PHARMA,Equity,Equity Securities (Main Board),"4,000",KYG8154Y1052,,Y, ,Y, ,Y,,,Y,1,HKD,,6833.HK
+2373,BEAUTYFARM MED,Equity,Equity Securities (Main Board),500,KYG0929L1041,,Y,Y,Y, ,Y,,,Y,1,HKD,,2373.HK
+1005,MATRIX HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG5888V1265,,Y, ,Y, ,Y,,,Y,1,HKD,,1005.HK
+8121,GUOEN HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG428971272,,Y, ,Y, ,Y,,,Y,1,HKD,,8121.HK
+673,CHINA HEALTH,Equity,Equity Securities (Main Board),"6,000",BMG2107P2040,,Y, ,Y, ,Y,,,Y,1,HKD,,0673.HK
+788,CHINA TOWER,Equity,Equity Securities (Main Board),500,CNE100006V65,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0788.HK
+3752,ROKAE ROBOTICS,Equity,Equity Securities (Main Board),100,CNE100007RP2,,Y, ,Y, ,Y,,,Y,1,HKD,,3752.HK
+119,POLY PROPERTY,Equity,Equity Securities (Main Board),"1,000",HK0119000674,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0119.HK
+17,NEW WORLD DEV,Equity,Equity Securities (Main Board),"1,000",HK0000608585,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0017.HK
+1128,WYNN MACAU,Equity,Equity Securities (Main Board),400,KYG981491007,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1128.HK
+928,KING INTL-NEW,Equity,Equity Securities (Main Board),"5,000",KYG5924H1561,,Y, ,Y, ,Y,,,Y,1,HKD,,0928.HK
+1532,CHINA PARTYTIME,Equity,Equity Securities (Main Board),"3,000",KYG2163R1020,,Y, ,Y, ,Y,,,Y,1,HKD,,1532.HK
+999,XIAOCAIYUAN,Equity,Equity Securities (Main Board),800,KYG9833J1058,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0999.HK
+830,CSC DEVELOPMENT,Equity,Equity Securities (Main Board),"2,000",KYG8438L1014,,Y, ,Y, ,Y,,,Y,1,HKD,,0830.HK
+1711,ULFERTS,Equity,Equity Securities (Main Board),"10,000",HK0000387867,,Y, ,Y, ,Y,,,Y,1,HKD,,1711.HK
+9906,HONLIV HEALTH,Equity,Equity Securities (Main Board),"2,000",KYG4594A1040,,Y, ,Y, ,Y,,,Y,1,HKD,,9906.HK
+139,SMART FISH,Equity,Equity Securities (Main Board),"10,000",BMG2118J2052,,Y, ,Y, ,Y,,,Y,1,HKD,,0139.HK
+8513,MAXWIN INT HLDG,Equity,Equity Securities (GEM),"5,000",KYG4120P1129,,Y, ,Y, ,Y,,,Y,1,HKD,,8513.HK
+1057,ZHEJIANG SHIBAO,Equity,Equity Securities (Main Board),"2,000",CNE1000004W6,,Y, ,Y, ,Y,,,Y,1,HKD,,1057.HK
+737,BAY AREA DEV,Equity,Equity Securities (Main Board),500,KYG8088A1168,,Y, ,Y, ,Y,,,Y,1,HKD,80737.0,0737.HK
+1224,C C LAND,Equity,Equity Securities (Main Board),"1,000",BMG1985B1138,,Y, ,Y, ,Y,,,Y,1,HKD,,1224.HK
+643,CARRY WEALTH,Equity,Equity Securities (Main Board),"10,000",BMG1925S1017,,Y, ,Y, ,Y,,,Y,1,HKD,,0643.HK
+58,SUNWAY INT'L,Equity,Equity Securities (Main Board),"20,000",BMG858331389,,Y, ,Y, ,Y,,,Y,1,HKD,,0058.HK
+646,CHINA ENV TEC,Equity,Equity Securities (Main Board),"8,000",KYG2159B1115,,Y, ,Y, ,Y,,,Y,1,HKD,,0646.HK
+1899,XINGDA INT'L,Equity,Equity Securities (Main Board),"1,000",KYG9827V1068,,Y, ,Y, ,Y,,,Y,1,HKD,,1899.HK
+2320,HOP FUNG GROUP,Equity,Equity Securities (Main Board),"2,000",KYG459991025,,Y, ,Y, ,Y,,,Y,1,HKD,,2320.HK
+6818,CEB BANK,Equity,Equity Securities (Main Board),"1,000",CNE100001QW3,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6818.HK
+1866,CHINA XLX FERT,Equity,Equity Securities (Main Board),"1,000",SG1V07936171,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1866.HK
+9888,BIDU-W,Equity,Equity Securities (Main Board),50,KYG070341048,,Y,Y,Y,Y,Y,,,Y,1,HKD,89888.0,9888.HK
+1569,MINSHENG EDU,Equity,Equity Securities (Main Board),"2,000",KYG6145R1065,,Y, ,Y, ,Y,,,Y,1,HKD,,1569.HK
+1521,FRONTAGE,Equity,Equity Securities (Main Board),"2,000",KYG3679P1019,,Y, ,Y, ,Y,,,Y,1,HKD,,1521.HK
+855,CHINA WATER,Equity,Equity Securities (Main Board),"2,000",BMG210901242,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0855.HK
+2715,ESTUN,Equity,Equity Securities (Main Board),200,CNE100007F15,,Y, ,Y, ,Y,,,Y,1,HKD,,2715.HK
+2455,RUNHUA SERVICE,Equity,Equity Securities (Main Board),"2,000",KYG771601021,,Y, ,Y, ,Y,,,Y,1,HKD,,2455.HK
+8411,K W NELSON GP,Equity,Equity Securities (GEM),"10,000",KYG5335N1079,,Y, ,Y, ,Y,,,Y,1,HKD,,8411.HK
+8282,GAMEONE,Equity,Equity Securities (GEM),"12,000",KYG3729L1260,,Y, ,Y, ,Y,,,Y,1,HKD,,8282.HK
+2460,CR BEVERAGE,Equity,Equity Securities (Main Board),200,KYG2135N1060,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2460.HK
+817,CHINA JINMAO,Equity,Equity Securities (Main Board),"2,000",HK0817039453,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0817.HK
+956,CHINA SUNTIEN,Equity,Equity Securities (Main Board),"1,000",CNE100000TW9,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0956.HK
+851,SHENG YUAN HLDG,Equity,Equity Securities (Main Board),"10,000",BMG8115Q2095,,Y, ,Y, ,Y,,,Y,1,HKD,,0851.HK
+9886,DINGDANG HEALTH,Equity,Equity Securities (Main Board),500,KYG2762W1069,,Y, ,Y, ,Y,,,Y,1,HKD,,9886.HK
+1538,ZHONG AO HOME,Equity,Equity Securities (Main Board),"2,000",KYG9897C1033,,Y, ,Y, ,Y,,,Y,1,HKD,,1538.HK
+757,SOLARGIGA,Equity,Equity Securities (Main Board),"1,000",KYG8268W1024,,Y, ,Y, ,Y,,,Y,1,HKD,,0757.HK
+1832,SAI LEISURE,Equity,Equity Securities (Main Board),"1,000",KYG8629S1057,,Y, ,Y, ,Y,,,Y,1,HKD,,1832.HK
+1612,VINCENT MED,Equity,Equity Securities (Main Board),"2,000",KYG9367D1025,,Y, ,Y, ,Y,,,Y,1,HKD,,1612.HK
+9913,CHI KAN HLDGS,Equity,Equity Securities (Main Board),"4,000",KYG4465C1069,,Y, ,Y, ,Y,,,Y,1,HKD,,9913.HK
+3931,CALB,Equity,Equity Securities (Main Board),100,CNE100005LL8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3931.HK
+3978,BESTSTUDY EDU,Equity,Equity Securities (Main Board),"1,000",KYG2121W1024,,Y,Y,Y, ,Y,,,Y,1,HKD,,3978.HK
+2195,UNITY ENT,Equity,Equity Securities (Main Board),"10,000",KYG9460D1161,,Y, ,Y, ,Y,,,Y,1,HKD,,2195.HK
+1773,TIANLI INT HLDG,Equity,Equity Securities (Main Board),"1,000",KYG888461038,,Y,Y,Y, ,Y,,,Y,1,HKD,,1773.HK
+1847,GHPC,Equity,Equity Securities (Main Board),"1,000",CNE100003NG9,,Y, ,Y, ,Y,,,Y,1,HKD,,1847.HK
+8611,JUFEEL,Equity,Equity Securities (GEM),"5,000",KYG614201088,,Y, ,Y, ,Y,,,Y,1,HKD,,8611.HK
+53,GUOCO GROUP,Equity,Equity Securities (Main Board),"1,000",BMG420981224,,Y,Y,Y, ,Y,,,Y,1,HKD,,0053.HK
+10,HANG LUNG GROUP,Equity,Equity Securities (Main Board),"1,000",HK0010000088,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0010.HK
+8172,LAJIN ENT,Equity,Equity Securities (GEM),"20,000",BMG5351M1165,,Y, ,Y, ,Y,,,Y,1,HKD,,8172.HK
+38,FIRST TRACTOR,Equity,Equity Securities (Main Board),"2,000",CNE100000320,,Y,Y,Y, ,Y,,,Y,1,HKD,,0038.HK
+1953,SFQ GLOBAL,Equity,Equity Securities (Main Board),"5,000",KYG7569L1041,,Y, ,Y, ,Y,,,Y,1,HKD,,1953.HK
+620,DTXS SILK ROAD,Equity,Equity Securities (Main Board),"2,000",BMG2R28T1049,,Y, ,Y, ,Y,,,Y,1,HKD,,0620.HK
+554,HANS GP HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG4382G1073,,Y, ,Y, ,Y,,,Y,1,HKD,,0554.HK
+1949,PLATT NERA,Equity,Equity Securities (Main Board),"4,000",KYG7S47A1260,,Y, ,Y, ,Y,,,Y,1,HKD,,1949.HK
+1851,GINGKO EDU,Equity,Equity Securities (Main Board),"2,000",KYG2121K1085,,Y, ,Y, ,Y,,,Y,1,HKD,,1851.HK
+1723,MOON INC,Equity,Equity Securities (Main Board),"10,000",KYG451571072,,Y, ,Y, ,Y,,,Y,1,HKD,,1723.HK
+3301,RONSHINECHINA,Equity,Equity Securities (Main Board),500,KYG763681023,,Y, ,Y, ,Y,,,Y,1,HKD,,3301.HK
+6696,MANY IDEA CLOUD,Equity,Equity Securities (Main Board),"1,000",KYG5913R1166,,Y, ,Y, ,Y,,,Y,1,HKD,,6696.HK
+2518,AUTOHOME-S,Equity,Equity Securities (Main Board),100,KYG066341028,,Y,Y,Y, ,Y,,,Y,1,HKD,,2518.HK
+1110,KINGWORLD,Equity,Equity Securities (Main Board),"4,000",KYG5268M1006,,Y, ,Y, ,Y,,,Y,1,HKD,,1110.HK
+610,WAI KEE HOLD,Equity,Equity Securities (Main Board),"2,000",BMG942051043,,Y, ,Y, ,Y,,,Y,1,HKD,,0610.HK
+948,ALPHA PRO HLDGS,Equity,Equity Securities (Main Board),"10,000",BMG6847W1148,,Y, ,Y, ,Y,,,Y,1,HKD,,0948.HK
+2209,YESASIA HLDGS,Equity,Equity Securities (Main Board),"1,000",HK0000748381,,Y, ,Y, ,Y,,,Y,1,HKD,,2209.HK
+1975,SUN HING PRINT,Equity,Equity Securities (Main Board),"4,000",KYG8587B1023,,Y, ,Y, ,Y,,,Y,1,HKD,,1975.HK
+2327,MEILLEUREHEALTH,Equity,Equity Securities (Main Board),"6,000",BMG5975D1048,,Y, ,Y, ,Y,,,Y,1,HKD,,2327.HK
+1809,PRINX CHENGSHAN,Equity,Equity Securities (Main Board),500,KYG7255W1096,,Y, ,Y, ,Y,,,Y,1,HKD,,1809.HK
+2693,JINYAN KAOLIN,Equity,Equity Securities (Main Board),500,CNE100007B84,,Y, ,Y, ,Y,,,Y,1,HKD,,2693.HK
+1701,TU YI HLDG,Equity,Equity Securities (Main Board),"4,000",KYG9138B1041,,Y, ,Y, ,Y,,,Y,1,HKD,,1701.HK
+974,SKL,Equity,Equity Securities (Main Board),"1,000",KYG2163D1034,,Y, ,Y, ,Y,,,Y,1,HKD,,0974.HK
+882,TIANJIN DEV,Equity,Equity Securities (Main Board),"2,000",HK0882007260,,Y, ,Y, ,Y,,,Y,1,HKD,,0882.HK
+1513,LIVZON PHARMA,Equity,Equity Securities (Main Board),100,CNE100001QV5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1513.HK
+2358,JIU RONG HOLD,Equity,Equity Securities (Main Board),"10,000",KYG5139B1014,,Y, ,Y, ,Y,,,Y,1,HKD,,2358.HK
+2360,BEST MART 360,Equity,Equity Securities (Main Board),"2,000",KYG1065A1004,,Y, ,Y, ,Y,,,Y,1,HKD,,2360.HK
+6816,PROSPER CONS,Equity,Equity Securities (Main Board),"2,000",KYG7279E1017,,Y, ,Y, ,Y,,,Y,1,HKD,,6816.HK
+1748,XIN YUAN ENT,Equity,Equity Securities (Main Board),"2,000",KYG9831M1006,,Y, ,Y, ,Y,,,Y,1,HKD,,1748.HK
+1908,C&D INTL GROUP,Equity,Equity Securities (Main Board),"1,000",KYG3165D1097,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1908.HK
+570,TRAD CHI MED,Equity,Equity Securities (Main Board),"2,000",HK0000056256,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0570.HK
+8340,ZIJING INTL FIN,Equity,Equity Securities (GEM),"5,000",KYG9360V1418,,Y, ,Y, ,Y,,,Y,1,HKD,,8340.HK
+149,CH AGRI-PROD EX,Equity,Equity Securities (Main Board),"5,000",BMG2150P2343,,Y, ,Y, ,Y,,,Y,1,HKD,,0149.HK
+2934,CHINA SANDI,Equity,Equity Securities (Main Board),30,BMG2118U1273,,Y, ,Y, ,Y,,,Y,1,HKD,,2934.HK
+1652,FUSEN PHARM,Equity,Equity Securities (Main Board),"1,000",KYG370981030,,Y, ,Y, ,Y,,,Y,1,HKD,,1652.HK
+3393,WASION HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG9463P1081,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3393.HK
+1982,NAMESON HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG6362E1017,,Y, ,Y, ,Y,,,Y,1,HKD,,1982.HK
+156,LIPPO CHINA RES,Equity,Equity Securities (Main Board),"2,000",HK0000936234,,Y, ,Y, ,Y,,,Y,1,HKD,,0156.HK
+1345,SH PIONEER HLDG,Equity,Equity Securities (Main Board),"1,000",KYG2162L1068,,Y, ,Y, ,Y,,,Y,1,HKD,,1345.HK
+2249,NEXCHIP,Equity,Equity Securities (Main Board),100,CNE100007Q87,,Y, ,Y, ,Y,,,Y,1,HKD,,2249.HK
+2125,STRAWBEAR ENT,Equity,Equity Securities (Main Board),"1,000",KYG8533A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,2125.HK
+8402,PLATEAU TL,Equity,Equity Securities (GEM),"5,000",KYG417431080,,Y, ,Y, ,Y,,,Y,1,HKD,,8402.HK
+6887,SUNSHINE PHARMA,Equity,Equity Securities (Main Board),100,CNE1000070M8,,Y,Y,Y, ,Y,,,Y,1,HKD,,6887.HK
+2596,YIBIN BANK,Equity,Equity Securities (Main Board),"1,000",CNE100006QK7,,Y,Y,Y, ,Y,,,Y,1,HKD,,2596.HK
+296,EMPEROR E HOTEL,Equity,Equity Securities (Main Board),"5,000",BMG313891027,,Y, ,Y, ,Y,,,Y,1,HKD,,0296.HK
+1772,GANFENGLITHIUM,Equity,Equity Securities (Main Board),200,CNE1000031W9,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1772.HK
+2255,HAICHANG HLDG,Equity,Equity Securities (Main Board),"1,000",KYG4231A1114,,Y,Y,Y, ,Y,,,Y,1,HKD,,2255.HK
+2197,CLOVER BIO-B,Equity,Equity Securities (Main Board),500,KYG2280A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,2197.HK
+2192,MEDLIVE,Equity,Equity Securities (Main Board),500,KYG5961B1041,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2192.HK
+9879,MIGAO GROUP,Equity,Equity Securities (Main Board),"1,000",KYG58Y0B1054,,Y, ,Y, ,Y,,,Y,1,HKD,,9879.HK
+483,BAUHAUS INT'L,Equity,Equity Securities (Main Board),"2,000",KYG1080K1094,,Y, ,Y, ,Y,,,Y,1,HKD,,0483.HK
+686,BJ ENERGY INTL,Equity,Equity Securities (Main Board),"2,000",BMG1146K2008,,Y, ,Y, ,Y,,,Y,1,HKD,,0686.HK
+90,PUXING ENERGY,Equity,Equity Securities (Main Board),"2,000",KYG730761049,,Y, ,Y, ,Y,,,Y,1,HKD,,0090.HK
+9600,NEWLINK TECH,Equity,Equity Securities (Main Board),800,KYG6462B1068,,Y, ,Y, ,Y,,,Y,1,HKD,,9600.HK
+66,MTR CORPORATION,Equity,Equity Securities (Main Board),500,HK0066009694,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0066.HK
+330,ESPRIT HOLDINGS,Equity,Equity Securities (Main Board),"10,000",BMG3122U2026,,Y, ,Y, ,Y,,,Y,1,HKD,,0330.HK
+1877,JUNSHI BIO,Equity,Equity Securities (Main Board),200,CNE100003FF7,,Y,Y,Y, ,Y,,,Y,1,HKD,,1877.HK
+3919,GOLDENPOWER,Equity,Equity Securities (Main Board),"4,000",KYG3959Y1456,,Y, ,Y, ,Y,,,Y,1,HKD,,3919.HK
+2535,WK GROUP,Equity,Equity Securities (Main Board),"10,000",KYG9727S1049,,Y, ,Y, ,Y,,,Y,1,HKD,,2535.HK
+8646,CHINA HONGGUANG,Equity,Equity Securities (GEM),"3,000",KYG2164A1085,,Y, ,Y, ,Y,,,Y,1,HKD,,8646.HK
+2516,FAR INTL,Equity,Equity Securities (Main Board),"4,000",KYG3320T1067,,Y, ,Y, ,Y,,,Y,1,HKD,,2516.HK
+2562,SYNAGISTICS,Equity,Equity Securities (Main Board),500,KYG4515L2058,,Y, ,Y, ,Y,,,Y,1,HKD,,2562.HK
+1364,GUMING,Equity,Equity Securities (Main Board),400,KYG4212T1058,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1364.HK
+1489,GC CONSTRUCTION,Equity,Equity Securities (Main Board),"5,000",KYG3774A1085,,Y, ,Y, ,Y,,,Y,1,HKD,,1489.HK
+2223,CASABLANCA,Equity,Equity Securities (Main Board),"2,000",KYG192861063,,Y, ,Y, ,Y,,,Y,1,HKD,,2223.HK
+8420,NEXION TECH,Equity,Equity Securities (GEM),"5,000",KYG6528R1039,,Y, ,Y, ,Y,,,Y,1,HKD,,8420.HK
+1138,COSCO SHIP ENGY,Equity,Equity Securities (Main Board),"2,000",CNE1000002S8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1138.HK
+1958,BAIC MOTOR,Equity,Equity Securities (Main Board),500,CNE100001TJ4,,Y,Y,Y, ,Y,,,Y,1,HKD,,1958.HK
+8645,BYTE META,Equity,Equity Securities (GEM),"6,000",KYG6561R1011,,Y, ,Y, ,Y,,,Y,1,HKD,,8645.HK
+609,TIANDE CHEMICAL,Equity,Equity Securities (Main Board),"4,000",KYG887551060,,Y, ,Y, ,Y,,,Y,1,HKD,,0609.HK
+9903,ILUVATAR COREX,Equity,Equity Securities (Main Board),100,CNE100007DV0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9903.HK
+340,TONGGUAN GOLD,Equity,Equity Securities (Main Board),"2,000",BMG8919D1074,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0340.HK
+2625,JIANGSU HORIZON,Equity,Equity Securities (Main Board),"1,000",CNE100006V57,,Y, ,Y, ,Y,,,Y,1,HKD,,2625.HK
+8281,CH GOLD CLASSIC,Equity,Equity Securities (GEM),"8,000",KYG2119E1061,,Y, ,Y, ,Y,,,Y,1,HKD,,8281.HK
+6123,YTO INTL EXP,Equity,Equity Securities (Main Board),"2,000",KYG9877D1051,,Y, ,Y, ,Y,,,Y,1,HKD,,6123.HK
+1209,CHINA RES MIXC,Equity,Equity Securities (Main Board),200,KYG2122G1064,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1209.HK
+821,VC HOLDINGS,Equity,Equity Securities (Main Board),"8,000",HK0001171682,,Y, ,Y, ,Y,,,Y,1,HKD,,0821.HK
+2581,BENQ HOLDING,Equity,Equity Securities (Main Board),500,KYG0993A1094,,Y, ,Y, ,Y,,,Y,1,HKD,,2581.HK
+8356,TSUN YIP HLDGS,Equity,Equity Securities (GEM),"2,000",KYG2238D1126,,Y, ,Y, ,Y,,,Y,1,HKD,,8356.HK
+2473,XXF,Equity,Equity Securities (Main Board),"2,500",KYG9831F1138,,Y, ,Y,Y,Y,,,Y,1,HKD,,2473.HK
+1682,HP LIVING TECH,Equity,Equity Securities (Main Board),"4,000",BMG428891086,,Y, ,Y, ,Y,,,Y,1,HKD,,1682.HK
+797,7ROAD,Equity,Equity Securities (Main Board),"2,000",KYG806101013,,Y, ,Y, ,Y,,,Y,1,HKD,,0797.HK
+2012,SUNSHINE OIL,Equity,Equity Securities (Main Board),"1,000",CA8678423044,,Y, ,Y, ,Y,,,Y,1,HKD,,2012.HK
+1323,HUASHENG INTL,Equity,Equity Securities (Main Board),"20,000",KYG4643T1123,,Y, ,Y, ,Y,,,Y,1,HKD,,1323.HK
+8437,RMH HOLDINGS,Equity,Equity Securities (GEM),"8,000",KYG7610R1267,,Y, ,Y, ,Y,,,Y,1,HKD,,8437.HK
+1346,LEVER STYLE,Equity,Equity Securities (Main Board),"4,000",KYG5462W1024,,Y, ,Y, ,Y,,,Y,1,HKD,,1346.HK
+3737,ZHONGZHIPHARM,Equity,Equity Securities (Main Board),"1,000",KYG989611085,,Y, ,Y, ,Y,,,Y,1,HKD,,3737.HK
+2227,SOLIS HOLDINGS,Equity,Equity Securities (Main Board),"4,000",KYG8274E1044,,Y, ,Y, ,Y,,,Y,1,HKD,,2227.HK
+480,HKR INT'L,Equity,Equity Securities (Main Board),800,KYG4520J1040,,Y, ,Y, ,Y,,,Y,1,HKD,,0480.HK
+2348,DAWNRAYS PHARMA,Equity,Equity Securities (Main Board),"4,000",KYG2687M1006,,Y, ,Y, ,Y,,,Y,1,HKD,,2348.HK
+8017,TRADEGO,Equity,Equity Securities (GEM),"4,000",KYG8985W1042,,Y, ,Y, ,Y,,,Y,1,HKD,,8017.HK
+2187,ZHIXIN GP HLDG,Equity,Equity Securities (Main Board),"2,000",KYG989A41070,,Y, ,Y, ,Y,,,Y,1,HKD,,2187.HK
+2008,PHOENIX TV,Equity,Equity Securities (Main Board),"1,000",KYG706261255,,Y, ,Y, ,Y,,,Y,1,HKD,,2008.HK
+6963,SUNSHINE INS,Equity,Equity Securities (Main Board),500,CNE100005MM4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6963.HK
+116,CHOW SANG SANG,Equity,Equity Securities (Main Board),"1,000",BMG2113M1203,,Y,Y,Y, ,Y,,,Y,1,HKD,,0116.HK
+2098,ZALL SMARTCOM,Equity,Equity Securities (Main Board),"1,000",KYG9888C1125,,Y, ,Y, ,Y,,,Y,1,HKD,,2098.HK
+1611,BITFIRE GROUP,Equity,Equity Securities (Main Board),500,VGG4671J1012,,Y, ,Y, ,Y,,,Y,1,HKD,,1611.HK
+500,FRONTIER SER,Equity,Equity Securities (Main Board),"1,000",BMG3729C1001,,Y, ,Y, ,Y,,,Y,1,HKD,,0500.HK
+8668,YING HAI GROUP,Equity,Equity Securities (GEM),"10,000",KYG9843B1005,,Y, ,Y, ,Y,,,Y,1,HKD,,8668.HK
+548,SHENZHENEXPRESS,Equity,Equity Securities (Main Board),"2,000",CNE100000478,,Y,Y,Y, ,Y,,,Y,1,HKD,,0548.HK
+1978,LH GROUP,Equity,Equity Securities (Main Board),"2,000",KYG547241029,,Y, ,Y, ,Y,,,Y,1,HKD,,1978.HK
+34,KOWLOON DEV,Equity,Equity Securities (Main Board),"1,000",HK0034000254,,Y,Y,Y, ,Y,,,Y,1,HKD,,0034.HK
+8162,LOCO HK,Equity,Equity Securities (GEM),"10,000",HK0000207610,,Y, ,Y, ,Y,,,Y,1,HKD,,8162.HK
+3836,HARMONY AUTO,Equity,Equity Securities (Main Board),500,KYG2118N1079,,Y, ,Y, ,Y,,,Y,1,HKD,,3836.HK
+1142,E&P GLOBAL,Equity,Equity Securities (Main Board),"2,000",KYG813461764,,Y, ,Y, ,Y,,,Y,1,HKD,,1142.HK
+2888,STANCHART,Equity,Equity Securities (Main Board),50,GB0004082847,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2888.HK
+6929,ORBUSNEICH,Equity,Equity Securities (Main Board),500,KYG6773B1005,,Y, ,Y, ,Y,,,Y,1,HKD,,6929.HK
+2149,BATELAB,Equity,Equity Securities (Main Board),100,CNE100006B10,,Y, ,Y, ,Y,,,Y,1,HKD,,2149.HK
+1400,MOODY TECH HLDG,Equity,Equity Securities (Main Board),"10,000",BMG622381454,,Y, ,Y, ,Y,,,Y,1,HKD,,1400.HK
+235,CSC HOLDINGS,Equity,Equity Securities (Main Board),"5,000",HK0235034623,,Y, ,Y, ,Y,,,Y,1,HKD,,0235.HK
+3319,A-LIVING,Equity,Equity Securities (Main Board),250,CNE100002RY5,,Y,Y,Y, ,Y,,,Y,1,HKD,,3319.HK
+1695,S&P INTL HLDG,Equity,Equity Securities (Main Board),"5,000",KYG773601086,,Y, ,Y, ,Y,,,Y,1,HKD,,1695.HK
+1686,SUNEVISION,Equity,Equity Securities (Main Board),"1,000",KYG857001054,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1686.HK
+6189,ADWAY,Equity,Equity Securities (Main Board),500,CNE100002B71,,Y, ,Y, ,Y,,,Y,1,HKD,,6189.HK
+6938,RIBOLIFE-B,Equity,Equity Securities (Main Board),200,CNE100007DS6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6938.HK
+975,MONGOL MINING,Equity,Equity Securities (Main Board),"3,000",KYG6264V1361,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0975.HK
+3698,HUISHANG BANK,Equity,Equity Securities (Main Board),"1,000",CNE100001QP7,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3698.HK
+8270,CHINA CBM,Equity,Equity Securities (GEM),"10,000",BMG2152N2038,,Y, ,Y, ,Y,,,Y,1,HKD,,8270.HK
+1256,ESWIN COMPUTING,Equity,Equity Securities (Main Board),"2,000",CNE100007ZC3,,Y, ,Y, ,Y,,,Y,1,HKD,,1256.HK
+1255,TATA HEALTH,Equity,Equity Securities (Main Board),"2,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,1255.HK
+2171,CARSGEN-B,Equity,Equity Securities (Main Board),500,KYG1996C1006,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2171.HK
+1935,JH EDUCATION,Equity,Equity Securities (Main Board),"2,000",KYG6578D1034,,Y, ,Y, ,Y,,,Y,1,HKD,,1935.HK
+2714,MUYUAN,Equity,Equity Securities (Main Board),100,CNE100007CV2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2714.HK
+2102,TAK LEE MACH,Equity,Equity Securities (Main Board),"10,000",KYG866501011,,Y, ,Y, ,Y,,,Y,1,HKD,,2102.HK
+1413,FEG HOLDINGS,Equity,Equity Securities (Main Board),"7,000",KYG5329A1031,,Y, ,Y, ,Y,,,Y,1,HKD,,1413.HK
+5,HSBC HOLDINGS,Equity,Equity Securities (Main Board),400,GB0005405286,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0005.HK
+3757,ROBOTECHNIK,Equity,Equity Securities (Main Board),50,CNE100007Z45,,Y, ,Y, ,Y,,,Y,1,HKD,,3757.HK
+6639,ARRAIL GROUP,Equity,Equity Securities (Main Board),500,KYG0567M1096,,Y, ,Y, ,Y,,,Y,1,HKD,,6639.HK
+6196,BANKOFZHENGZHOU,Equity,Equity Securities (Main Board),"1,000",CNE1000023P0,,Y,Y,Y, ,Y,,,Y,1,HKD,,6196.HK
+6866,ZUOLI KECHUANG,Equity,Equity Securities (Main Board),"2,000",CNE100001TL0,,Y, ,Y, ,Y,,,Y,1,HKD,,6866.HK
+3330,LINGBAO GOLD,Equity,Equity Securities (Main Board),100,CNE1000001H3,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3330.HK
+1952,EVEREST MED,Equity,Equity Securities (Main Board),500,KYG3224E1061,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1952.HK
+444,SINCEREWATCH HK,Equity,Equity Securities (Main Board),"10,000",KYG814791268,,Y, ,Y, ,Y,,,Y,1,HKD,,0444.HK
+1088,CHINA SHENHUA,Equity,Equity Securities (Main Board),500,CNE1000002R0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1088.HK
+6980,BAMA TEA,Equity,Equity Securities (Main Board),100,CNE100007507,,Y, ,Y, ,Y,,,Y,1,HKD,,6980.HK
+1616,A METAVERSE,Equity,Equity Securities (Main Board),"2,000",KYG8558L1059,,Y, ,Y, ,Y,,,Y,1,HKD,,1616.HK
+880,SJM HOLDINGS,Equity,Equity Securities (Main Board),"1,000",HK0880043028,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0880.HK
+8299,GT GOLD,Equity,Equity Securities (GEM),"24,000",KYG4136P1303,,Y,Y,Y, ,Y,,,Y,1,HKD,,8299.HK
+42,NE ELECTRIC,Equity,Equity Securities (Main Board),"2,000",CNE1000003V0,,Y, ,Y, ,Y,,,Y,1,HKD,,0042.HK
+2393,YESTAR HEALTH,Equity,Equity Securities (Main Board),"2,500",KYG9843W1125,,Y, ,Y, ,Y,,,Y,1,HKD,,2393.HK
+8067,OUC HOLDINGS,Equity,Equity Securities (GEM),"1,000",HK0000231891,,Y, ,Y, ,Y,,,Y,1,HKD,,8067.HK
+2667,TONGRENTANGCARE,Equity,Equity Securities (Main Board),500,CNE1000078Q2,,Y, ,Y, ,Y,,,Y,1,HKD,,2667.HK
+188,SUNWAH KINGSWAY,Equity,Equity Securities (Main Board),"5,000",BMG8587P1196,,Y, ,Y, ,Y,,,Y,1,HKD,,0188.HK
+1483,NET-A-GO TECH,Equity,Equity Securities (Main Board),"2,000",KYG6426H1083,,Y, ,Y, ,Y,,,Y,1,HKD,,1483.HK
+505,XINGYE ALLOY,Equity,Equity Securities (Main Board),"1,000",KYG9831C1024,,Y, ,Y, ,Y,,,Y,1,HKD,,0505.HK
+1172,MAGNUSCONCORDIA,Equity,Equity Securities (Main Board),"20,000",KYG5792H1065,,Y, ,Y, ,Y,,,Y,1,HKD,,1172.HK
+2685,QUANTGROUP,Equity,Equity Securities (Main Board),500,KYG7388D1016,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2685.HK
+8198,CRYPTO FLOW,Equity,Equity Securities (GEM),"4,000",KYG5656D1189,,Y, ,Y, ,Y,,,Y,1,HKD,,8198.HK
+168,TSINGTAO BREW,Equity,Equity Securities (Main Board),500,CNE1000004K1,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0168.HK
+2540,LESI GROUP,Equity,Equity Securities (Main Board),"2,500",KYG5456E1008,,Y, ,Y, ,Y,,,Y,1,HKD,,2540.HK
+611,CNE TECH CORP,Equity,Equity Securities (Main Board),"2,000",BMG2115P1059,,Y, ,Y, ,Y,,,Y,1,HKD,,0611.HK
+1810,XIAOMI-W,Equity,Equity Securities (Main Board),200,KYG9830T1067,,Y,Y,Y,Y,Y,,,Y,1,HKD,81810.0,1810.HK
+372,PT INTL DEV,Equity,Equity Securities (Main Board),"30,000",BMG7S93G1428,,Y, ,Y, ,Y,,,Y,1,HKD,,0372.HK
+1939,SHANGSHAN GOLD,Equity,Equity Securities (Main Board),"2,000",HK0000448487,,Y, ,Y, ,Y,,,Y,1,HKD,,1939.HK
+522,ASMPT,Equity,Equity Securities (Main Board),100,KYG0535Q1331,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0522.HK
+8417,DADI EDU,Equity,Equity Securities (GEM),"10,000",KYG2616M1069,,Y, ,Y, ,Y,,,Y,1,HKD,,8417.HK
+1466,BAIJIN LIFE SCI,Equity,Equity Securities (Main Board),"8,000",KYG0130B1014,,Y, ,Y, ,Y,,,Y,1,HKD,,1466.HK
+1906,BONNY HLDG,Equity,Equity Securities (Main Board),"10,000",KYG1449A1076,,Y, ,Y, ,Y,,,Y,1,HKD,,1906.HK
+704,HUSCOKE HLDGS,Equity,Equity Securities (Main Board),"5,000",BMG4709B1129,,Y, ,Y, ,Y,,,Y,1,HKD,,0704.HK
+1599,UCD,Equity,Equity Securities (Main Board),"1,000",CNE100001SV1,,Y, ,Y, ,Y,,,Y,1,HKD,,1599.HK
+13,HUTCHMED,Equity,Equity Securities (Main Board),500,KYG4672N1198,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0013.HK
+1742,HPC HOLDINGS,Equity,Equity Securities (Main Board),"5,000",KYG169491027,,Y, ,Y, ,Y,,,Y,1,HKD,,1742.HK
+1085,HXTL,Equity,Equity Securities (Main Board),"2,000",SG1T38930320,,Y, ,Y, ,Y,,,Y,1,HKD,,1085.HK
+30,YNBY INTL,Equity,Equity Securities (Main Board),"2,000",BMG0865U1009,,Y,Y,Y, ,Y,,,Y,1,HKD,,0030.HK
+1940,CGII HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG2122B1077,,Y, ,Y, ,Y,,,Y,1,HKD,,1940.HK
+6622,ZHAOKE OPHTH-B,Equity,Equity Securities (Main Board),500,KYG989M51017,,Y, ,Y, ,Y,,,Y,1,HKD,,6622.HK
+9882,BEST LINKING,Equity,Equity Securities (Main Board),"2,000",KYG106581138,,Y, ,Y, ,Y,,,Y,1,HKD,,9882.HK
+2246,GOGOX,Equity,Equity Securities (Main Board),"2,000",KYG9482E1180,,Y, ,Y, ,Y,,,Y,1,HKD,,2246.HK
+313,RICHLY FIELD,Equity,Equity Securities (Main Board),"25,000",BMG7568A1172,,Y, ,Y, ,Y,,,Y,1,HKD,,0313.HK
+6158,ZHENRO PPT,Equity,Equity Securities (Main Board),"1,000",KYG9897E1098,,Y, ,Y, ,Y,,,Y,1,HKD,,6158.HK
+1786,CRCCE,Equity,Equity Securities (Main Board),500,CNE1000023F1,,Y, ,Y, ,Y,,,Y,1,HKD,,1786.HK
+8283,ZHONGSHI MINAN,Equity,Equity Securities (GEM),"5,000",KYG9897M1270,,Y, ,Y, ,Y,,,Y,1,HKD,,8283.HK
+1333,BRETON,Equity,Equity Securities (Main Board),200,CNE100006WR0,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1333.HK
+960,LONGFOR GROUP,Equity,Equity Securities (Main Board),500,KYG5635P1090,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0960.HK
+1327,LUXXU GROUP,Equity,Equity Securities (Main Board),"20,000",KYG5713B1216,,Y, ,Y, ,Y,,,Y,1,HKD,,1327.HK
+1921,DALIPAL HLDG,Equity,Equity Securities (Main Board),"2,000",KYG2643G1064,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1921.HK
+6166,CIG,Equity,Equity Securities (Main Board),50,CNE1000075T2,,Y,Y,Y, ,Y,,,Y,1,HKD,,6166.HK
+2419,DEKON AGR,Equity,Equity Securities (Main Board),100,CNE1000068G4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2419.HK
+9616,NEUTECH GROUP,Equity,Equity Securities (Main Board),800,KYG6460B1086,,Y, ,Y, ,Y,,,Y,1,HKD,,9616.HK
+2340,ISP HOLDINGS,Equity,Equity Securities (Main Board),"4,000",BMG8646Z1086,,Y, ,Y, ,Y,,,Y,1,HKD,,2340.HK
+2619,XJ ELECTRICS,Equity,Equity Securities (Main Board),"1,000",CNE100006Z61,,Y, ,Y, ,Y,,,Y,1,HKD,,2619.HK
+26,CHINA MOTOR BUS,Equity,Equity Securities (Main Board),200,HK0026000205,,Y, ,Y, ,Y,,,Y,1,HKD,,0026.HK
+346,YANCHANG PETRO,Equity,Equity Securities (Main Board),"5,000",BMG9833W1221,,Y, ,Y, ,Y,,,Y,1,HKD,,0346.HK
+993,XINKONG INT CAP,Equity,Equity Securities (Main Board),"1,000",BMG4643L1019,,Y, ,Y, ,Y,,,Y,1,HKD,,0993.HK
+115,GRAND FIELD GP,Equity,Equity Securities (Main Board),"2,000",BMG4054H3005,,Y, ,Y, ,Y,,,Y,1,HKD,,0115.HK
+2168,KAISA PROSPER,Equity,Equity Securities (Main Board),250,KYG522441032,,Y, ,Y, ,Y,,,Y,1,HKD,,2168.HK
+581,CHINA ORIENTAL,Equity,Equity Securities (Main Board),"2,000",BMG2108V1019,,Y,Y,Y, ,Y,,,Y,1,HKD,,0581.HK
+210,DAPHNE INT'L,Equity,Equity Securities (Main Board),"2,000",KYG2830J1031,,Y, ,Y, ,Y,,,Y,1,HKD,,0210.HK
+6657,BAIWANG CO,Equity,Equity Securities (Main Board),100,CNE100006K01,,Y, ,Y, ,Y,,,Y,1,HKD,,6657.HK
+1318,MAO GEPING,Equity,Equity Securities (Main Board),100,CNE100006PM5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1318.HK
+8300,JIN MI FANG GP,Equity,Equity Securities (GEM),"20,000",KYG770951005,,Y, ,Y, ,Y,,,Y,1,HKD,,8300.HK
+1145,COURAGE INV,Equity,Equity Securities (Main Board),"20,000",BMG246371113,,Y, ,Y, ,Y,,,Y,1,HKD,,1145.HK
+8308,GUDOU HLDGS,Equity,Equity Securities (GEM),"4,000",KYG419791085,,Y, ,Y, ,Y,,,Y,1,HKD,,8308.HK
+1671,TIANBAO ENERGY,Equity,Equity Securities (Main Board),"2,000",CNE100002ZK7,,Y, ,Y, ,Y,,,Y,1,HKD,,1671.HK
+6877,TE HEALTHCARE,Equity,Equity Securities (Main Board),"5,000",KYG2R50B1046,,Y, ,Y, ,Y,,,Y,1,HKD,,6877.HK
+411,LAM SOON (HK),Equity,Equity Securities (Main Board),"1,000",HK0411006957,,Y, ,Y, ,Y,,,Y,1,HKD,,0411.HK
+2101,FULU HOLDINGS,Equity,Equity Securities (Main Board),500,KYG3691U1040,,Y, ,Y, ,Y,,,Y,1,HKD,,2101.HK
+1647,GRANDSHORES,Equity,Equity Securities (Main Board),"5,000",KYG406581093,,Y, ,Y, ,Y,,,Y,1,HKD,,1647.HK
+1393,HIDILI INDUSTRY,Equity,Equity Securities (Main Board),"1,000",KYG444031069,,Y, ,Y, ,Y,,,Y,1,HKD,,1393.HK
+3999,DACHAN FOOD,Equity,Equity Securities (Main Board),"1,000",KYG261441086,,Y, ,Y, ,Y,,,Y,1,HKD,,3999.HK
+1004,C SMARTERENERGY,Equity,Equity Securities (Main Board),"10,000",BMG2116L1375,,Y, ,Y, ,Y,,,Y,1,HKD,,1004.HK
+8501,SANBASE CORP,Equity,Equity Securities (GEM),"2,000",KYG7786R1083,,Y, ,Y, ,Y,,,Y,1,HKD,,8501.HK
+3988,BANK OF CHINA,Equity,Equity Securities (Main Board),"1,000",CNE1000001Z5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3988.HK
+104,ASIA COMM HOLD,Equity,Equity Securities (Main Board),"5,000",BMG0532V2009,,Y, ,Y, ,Y,,,Y,1,HKD,,0104.HK
+2202,CHINA VANKE,Equity,Equity Securities (Main Board),100,CNE100001SR9,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2202.HK
+114,HERALD HOLD,Equity,Equity Securities (Main Board),"5,000",BMG4410A1062,,Y, ,Y, ,Y,,,Y,1,HKD,,0114.HK
+8307,MEDICSKIN,Equity,Equity Securities (GEM),"4,000",KYG595641070,,Y, ,Y, ,Y,,,Y,1,HKD,,8307.HK
+8385,PROSPEROUSPRINT,Equity,Equity Securities (GEM),"10,000",HK0000949963,,Y, ,Y, ,Y,,,Y,1,HKD,,8385.HK
+6855,ASCENTAGE,Equity,Equity Securities (Main Board),100,KYG0519B1023,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6855.HK
+1609,STAR SPORTS MED,Equity,Equity Securities (Main Board),50,CNE100007KK8,,Y, ,Y,Y,Y,,,Y,1,HKD,,1609.HK
+2502,JINYUAN HCHEM,Equity,Equity Securities (Main Board),"2,000",CNE100006BD4,,Y, ,Y, ,Y,,,Y,1,HKD,,2502.HK
+3658,NEW HOPE SERV,Equity,Equity Securities (Main Board),"1,000",KYG6486M1042,,Y, ,Y, ,Y,,,Y,1,HKD,,3658.HK
+2670,YUNJI-NEW,Equity,Equity Securities (Main Board),100,CNE100007523,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2670.HK
+8373,INDIGO STAR,Equity,Equity Securities (GEM),"5,000",KYG4790A1141,,Y, ,Y, ,Y,,,Y,1,HKD,,8373.HK
+794,COME SURE GROUP,Equity,Equity Securities (Main Board),"2,000",KYG2298N1097,,Y, ,Y, ,Y,,,Y,1,HKD,,0794.HK
+868,XINYI GLASS,Equity,Equity Securities (Main Board),"1,000",KYG9828G1082,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0868.HK
+1853,CHUNCHENG HEAT,Equity,Equity Securities (Main Board),"2,500",CNE100003N84,,Y, ,Y, ,Y,,,Y,1,HKD,,1853.HK
+1334,RUICHANG INTL,Equity,Equity Securities (Main Board),"2,500",KYG7714G1091,,Y, ,Y, ,Y,,,Y,1,HKD,,1334.HK
+9638,FERRETTI,Equity,Equity Securities (Main Board),100,IT0005383291,,Y,Y,Y, ,Y,,,Y,1,HKD,,9638.HK
+8547,PACIFIC LEGEND,Equity,Equity Securities (GEM),"10,000",KYG685511118,,Y, ,Y, ,Y,,,Y,1,HKD,,8547.HK
+8036,EBROKER GROUP,Equity,Equity Securities (GEM),"10,000",KYG292091066,,Y, ,Y, ,Y,,,Y,1,HKD,,8036.HK
+1338,BAWANG GROUP,Equity,Equity Securities (Main Board),"2,000",KYG090381032,,Y, ,Y, ,Y,,,Y,1,HKD,,1338.HK
+727,SINOPROS CORP,Equity,Equity Securities (Main Board),"10,000",HK0001131157,,Y, ,Y, ,Y,,,Y,1,HKD,,0727.HK
+8532,POLYFAIR HLDGS,Equity,Equity Securities (GEM),"16,000",KYG715921105,,Y, ,Y, ,Y,,,Y,1,HKD,,8532.HK
+6915,JIANGXI BIO,Equity,Equity Securities (Main Board),500,CNE100007Q61,,Y, ,Y, ,Y,,,Y,1,HKD,,6915.HK
+708,EVERG VEHICLE,Equity,Equity Securities (Main Board),500,HK0000264595,,Y, ,Y, ,Y,,,Y,1,HKD,,0708.HK
+8371,TASTEGOURMET GP,Equity,Equity Securities (GEM),"4,000",KYG868911010,,Y, ,Y, ,Y,,,Y,1,HKD,,8371.HK
+1957,MBV INTL,Equity,Equity Securities (Main Board),"2,500",KYG5954V1095,,Y, ,Y, ,Y,,,Y,1,HKD,,1957.HK
+328,ALCO HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG0R33J2028,,Y, ,Y, ,Y,,,Y,1,HKD,,0328.HK
+8430,C&N HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG3167E1136,,Y, ,Y, ,Y,,,Y,1,HKD,,8430.HK
+588,BEIJING N STAR,Equity,Equity Securities (Main Board),"2,000",CNE100000262,,Y, ,Y, ,Y,,,Y,1,HKD,,0588.HK
+258,TOMSON GROUP,Equity,Equity Securities (Main Board),"2,000",KYG8917R1083,,Y, ,Y, ,Y,,,Y,1,HKD,,0258.HK
+1580,DA SEN HLDGS,Equity,Equity Securities (Main Board),"30,000",KYG2659Y1162,,Y, ,Y, ,Y,,,Y,1,HKD,,1580.HK
+496,KASEN,Equity,Equity Securities (Main Board),"1,000",KYG5216Q1047,,Y, ,Y, ,Y,,,Y,1,HKD,,0496.HK
+8035,JANCO HOLDINGS,Equity,Equity Securities (GEM),"10,000",KYG5017F1090,,Y, ,Y, ,Y,,,Y,1,HKD,,8035.HK
+1669,GIC GROUP,Equity,Equity Securities (Main Board),"2,000",KYG3932P1046,,Y, ,Y, ,Y,,,Y,1,HKD,,1669.HK
+1203,GUANGNAN (HOLD),Equity,Equity Securities (Main Board),"2,000",HK1203033175,,Y, ,Y, ,Y,,,Y,1,HKD,,1203.HK
+1947,MEIHAO GROUP,Equity,Equity Securities (Main Board),"5,000",KYG5966K1094,,Y, ,Y, ,Y,,,Y,1,HKD,,1947.HK
+2235,MICROTECH MED-B,Equity,Equity Securities (Main Board),100,CNE100004QN6,,Y, ,Y, ,Y,,,Y,1,HKD,,2235.HK
+3369,QHD PORT,Equity,Equity Securities (Main Board),500,CNE100001QR3,,Y, ,Y, ,Y,,,Y,1,HKD,,3369.HK
+373,ALLIED GROUP,Equity,Equity Securities (Main Board),"2,000",HK0000650413,,Y,Y,Y, ,Y,,,Y,1,HKD,,0373.HK
+2020,ANTA SPORTS,Equity,Equity Securities (Main Board),200,KYG040111059,,Y,Y,Y,Y,Y,,,Y,1,HKD,82020.0,2020.HK
+8189,TEDA BIOMEDICAL,Equity,Equity Securities (GEM),"5,000",CNE1000004H7,,Y, ,Y, ,Y,,,Y,1,HKD,,8189.HK
+3997,TSO,Equity,Equity Securities (Main Board),"2,000",KYG873111093,,Y, ,Y, ,Y,,,Y,1,HKD,,3997.HK
+723,RELIANCE GLO HL,Equity,Equity Securities (Main Board),"30,000",BMG8598B2080,,Y, ,Y, ,Y,,,Y,1,HKD,,0723.HK
+640,INFINITY DEV,Equity,Equity Securities (Main Board),"2,000",KYG4772A1168,,Y, ,Y, ,Y,,,Y,1,HKD,,0640.HK
+733,HOPEFLUENT,Equity,Equity Securities (Main Board),"2,000",KYG459921071,,Y, ,Y, ,Y,,,Y,1,HKD,,0733.HK
+1586,LEON INSPECTION,Equity,Equity Securities (Main Board),"4,000",KYG2163G1064,,Y, ,Y, ,Y,,,Y,1,HKD,,1586.HK
+616,ASSET CHAIN,Equity,Equity Securities (Main Board),"5,000",BMG0094B1476,,Y, ,Y, ,Y,,,Y,1,HKD,,0616.HK
+8290,AHSAY BACKUP,Equity,Equity Securities (GEM),"10,000",KYG0132C1078,,Y, ,Y, ,Y,,,Y,1,HKD,,8290.HK
+3380,LOGAN GROUP,Equity,Equity Securities (Main Board),"1,000",KYG555551095,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3380.HK
+617,PALIBURG HOLD,Equity,Equity Securities (Main Board),"2,000",BMG687662301,,Y, ,Y, ,Y,,,Y,1,HKD,,0617.HK
+3798,HOMELAND ITL,Equity,Equity Securities (Main Board),"2,000",KYG6647P1037,,Y, ,Y, ,Y,,,Y,1,HKD,,3798.HK
+2595,GENFLEET-B,Equity,Equity Securities (Main Board),200,CNE1000074L2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2595.HK
+8047,CHINA OCEAN GP,Equity,Equity Securities (GEM),"4,000",            ,,Y, ,Y, ,Y,,,Y,1,HKD,,8047.HK
+9698,GDS-SW,Equity,Equity Securities (Main Board),100,KYG3902L1095,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9698.HK
+8040,COOLPOINT INNO,Equity,Equity Securities (GEM),"5,000",KYG2R66A1080,,Y, ,Y, ,Y,,,Y,1,HKD,,8040.HK
+2585,MOKINGRAN,Equity,Equity Securities (Main Board),200,CNE100006NX7,,Y,Y,Y, ,Y,,,Y,1,HKD,,2585.HK
+6068,WISDOM EDU INTL,Equity,Equity Securities (Main Board),"2,000",KYG972281037,,Y, ,Y, ,Y,,,Y,1,HKD,,6068.HK
+2503,ZHONGSHENJIANYE,Equity,Equity Securities (Main Board),"4,000",KYG989MA1008,,Y, ,Y, ,Y,,,Y,1,HKD,,2503.HK
+3986,GIGADEVICE,Equity,Equity Securities (Main Board),100,CNE100007DJ5,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3986.HK
+8027,KPM HOLDING,Equity,Equity Securities (GEM),"10,000",KYG5314U1224,,Y, ,Y, ,Y,,,Y,1,HKD,,8027.HK
+388,HKEX,Equity,Equity Securities (Main Board),100,HK0388045442,,Y,Y,Y,Y,Y,,,Y,1,HKD,80388.0,0388.HK
+2196,FOSUN PHARMA,Equity,Equity Securities (Main Board),500,CNE100001M79,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2196.HK
+1167,JACOBIO-B,Equity,Equity Securities (Main Board),300,KYG4987A1094,,Y,Y,Y, ,Y,,,Y,1,HKD,,1167.HK
+3650,KEEP,Equity,Equity Securities (Main Board),100,KYG5244R1083,,Y, ,Y, ,Y,,,Y,1,HKD,,3650.HK
+3822,SAM WOO CONS,Equity,Equity Securities (Main Board),"4,000",KYG7785L1288,,Y, ,Y, ,Y,,,Y,1,HKD,,3822.HK
+1811,CGN NEW ENERGY,Equity,Equity Securities (Main Board),"2,000",BMG202981087,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1811.HK
+1418,SINOMAX GROUP,Equity,Equity Securities (Main Board),"2,000",KYG8191A1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1418.HK
+579,JNCEC,Equity,Equity Securities (Main Board),"2,000",CNE100001336,,Y,Y,Y, ,Y,,,Y,1,HKD,,0579.HK
+8033,VODATEL NETWORK,Equity,Equity Securities (GEM),"2,000",BMG938831093,,Y, ,Y, ,Y,,,Y,1,HKD,,8033.HK
+27,GALAXY ENT,Equity,Equity Securities (Main Board),"1,000",HK0027032686,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0027.HK
+218,SWHYHK,Equity,Equity Securities (Main Board),"5,000",HK0218001102,,Y, ,Y, ,Y,,,Y,1,HKD,,0218.HK
+1511,UISEE TECH,Equity,Equity Securities (Main Board),50,CNE100007LH2,,Y, ,Y,Y,Y,,,Y,1,HKD,,1511.HK
+2356,DAHSING BANKING,Equity,Equity Securities (Main Board),400,HK2356013600,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2356.HK
+2720,RIDGE OUTDOOR,Equity,Equity Securities (Main Board),500,KYG7570P1028,,Y, ,Y, ,Y,,,Y,1,HKD,,2720.HK
+8416,HM INTL HLDGS,Equity,Equity Securities (GEM),"5,000",KYG452881009,,Y, ,Y, ,Y,,,Y,1,HKD,,8416.HK
+6969,SMOORE INTL,Equity,Equity Securities (Main Board),"1,000",KYG8245V1023,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6969.HK
+1912,CONTEL,Equity,Equity Securities (Main Board),"5,000",KYG2521A1067,,Y, ,Y, ,Y,,,Y,1,HKD,,1912.HK
+2038,FIH,Equity,Equity Securities (Main Board),"1,000",KYG3472Y1199,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2038.HK
+1477,OCUMENSION-B,Equity,Equity Securities (Main Board),500,KYG674111011,,Y,Y,Y, ,Y,,,Y,1,HKD,,1477.HK
+251,SEA HOLDINGS,Equity,Equity Securities (Main Board),"2,000",BMG7946B1000,,Y, ,Y, ,Y,,,Y,1,HKD,,0251.HK
+1705,B & S INTL HLDG,Equity,Equity Securities (Main Board),"4,000",KYG1535R1056,,Y, ,Y, ,Y,,,Y,1,HKD,,1705.HK
+838,EVA HOLDINGS,Equity,Equity Securities (Main Board),"2,000",KYG321481015,,Y, ,Y, ,Y,,,Y,1,HKD,,0838.HK
+9995,REMEGEN,Equity,Equity Securities (Main Board),500,CNE1000048G6,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9995.HK
+1825,STERLING GP,Equity,Equity Securities (Main Board),"2,000",KYG847771386,,Y, ,Y, ,Y,,,Y,1,HKD,,1825.HK
+6633,QINGCI GAMES,Equity,Equity Securities (Main Board),500,KYG7309C1096,,Y, ,Y, ,Y,,,Y,1,HKD,,6633.HK
+1335,SHEEN TAI,Equity,Equity Securities (Main Board),"2,000",KYG8079L1133,,Y, ,Y, ,Y,,,Y,1,HKD,,1335.HK
+2487,CUTIA-B,Equity,Equity Securities (Main Board),200,KYG2606C1006,,Y, ,Y, ,Y,,,Y,1,HKD,,2487.HK
+639,SHOUGANG RES,Equity,Equity Securities (Main Board),"2,000",HK0639031506,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0639.HK
+287,WINFAIR INV,Equity,Equity Securities (Main Board),"2,000",HK0287001470,,Y, ,Y, ,Y,,,Y,1,HKD,,0287.HK
+9877,JENSCARE-B,Equity,Equity Securities (Main Board),200,CNE100005KC9,,Y,Y,Y, ,Y,,,Y,1,HKD,,9877.HK
+1798,DATANG RENEW,Equity,Equity Securities (Main Board),"1,000",CNE100000X69,,Y,Y,Y, ,Y,,,Y,1,HKD,,1798.HK
+1889,SANAI HEALTH GP,Equity,Equity Securities (Main Board),"5,000",KYG7785S1158,,Y, ,Y, ,Y,,,Y,1,HKD,,1889.HK
+2225,JINHAI MED TECH,Equity,Equity Securities (Main Board),"5,000",KYG5140Y1162,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2225.HK
+8275,CHINA NEW CONS,Equity,Equity Securities (GEM),"20,000",KYG1142R1424,,Y, ,Y, ,Y,,,Y,1,HKD,,8275.HK
+355,CENTURY C INT'L,Equity,Equity Securities (Main Board),"4,000",BMG2020F1683,,Y, ,Y, ,Y,,,Y,1,HKD,,0355.HK
+1660,SEVEN ELEMENTS,Equity,Equity Securities (Main Board),"8,000",KYG9898R1175,,Y, ,Y, ,Y,,,Y,1,HKD,,1660.HK
+899,ZHONG JIA GX,Equity,Equity Securities (Main Board),"10,000",BMG0536F4092,,Y, ,Y, ,Y,,,Y,1,HKD,,0899.HK
+600,AXERA,Equity,Equity Securities (Main Board),100,CNE100007FD3,,Y, ,Y,Y,Y,,,Y,1,HKD,,0600.HK
+1792,CMON,Equity,Equity Securities (Main Board),"2,000",KYG223911176,,Y, ,Y, ,Y,,,Y,1,HKD,,1792.HK
+1432,CHINASHENGMU-PF,Equity,Equity Securities (Main Board),"1,000",KYG2117U1022,,Y,Y,Y, ,Y,,,Y,1,HKD,,1432.HK
+1098,ROAD KING INFRA,Equity,Equity Securities (Main Board),"1,000",BMG760581097,,Y, ,Y, ,Y,,,Y,1,HKD,,1098.HK
+894,MAN YUE TECH,Equity,Equity Securities (Main Board),"2,000",BMG5803Y1066,,Y, ,Y, ,Y,,,Y,1,HKD,,0894.HK
+3639,YIDA CHINA,Equity,Equity Securities (Main Board),"2,000",KYG9843H1074,,Y, ,Y, ,Y,,,Y,1,HKD,,3639.HK
+568,SHANDONG MOLONG,Equity,Equity Securities (Main Board),400,CNE1000001N1,,Y, ,Y, ,Y,,,Y,1,HKD,,0568.HK
+3309,C-MER MEDICAL,Equity,Equity Securities (Main Board),"2,000",KYG2R51A1053,,Y, ,Y, ,Y,,,Y,1,HKD,,3309.HK
+1696,SISRAM MED,Equity,Equity Securities (Main Board),400,IL0011418113,,Y, ,Y, ,Y,,,Y,1,HKD,,1696.HK
+2687,ABLE DIGITAL,Equity,Equity Securities (Main Board),50,CNE100007BD2,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2687.HK
+9887,LEADS BIOLABS-B,Equity,Equity Securities (Main Board),100,CNE1000070H8,,Y,Y,Y,Y,Y,,,Y,1,HKD,,9887.HK
+434,BOYAA,Equity,Equity Securities (Main Board),"1,000",KYG127751058,,Y, ,Y, ,Y,,,Y,1,HKD,,0434.HK
+831,CR ASIA,Equity,Equity Securities (Main Board),"2,000",KYG239801080,,Y, ,Y, ,Y,,,Y,1,HKD,,0831.HK
+1691,JS GLOBAL LIFE,Equity,Equity Securities (Main Board),500,KYG2S85A1045,,Y,Y,Y, ,Y,,,Y,1,HKD,,1691.HK
+8163,NOIZ GROUP,Equity,Equity Securities (GEM),"20,000",KYG6021S1949,,Y, ,Y, ,Y,,,Y,1,HKD,,8163.HK
+1900,CHINA ITS,Equity,Equity Securities (Main Board),"1,000",KYG2161M1050,,Y, ,Y, ,Y,,,Y,1,HKD,,1900.HK
+1086,GOODBABY INTL,Equity,Equity Securities (Main Board),"1,000",KYG398141013,,Y, ,Y, ,Y,,,Y,1,HKD,,1086.HK
+1268,MEIDONG AUTO,Equity,Equity Securities (Main Board),"2,000",KYG211921021,,Y, ,Y, ,Y,,,Y,1,HKD,,1268.HK
+2161,JBM HEALTHCARE,Equity,Equity Securities (Main Board),"2,000",KYG1090B1077,,Y, ,Y, ,Y,,,Y,1,HKD,,2161.HK
+216,CHINNEY INV,Equity,Equity Securities (Main Board),"4,000",HK0216001088,,Y, ,Y, ,Y,,,Y,1,HKD,,0216.HK
+85,CE HUADA TECH,Equity,Equity Securities (Main Board),"2,000",BMG2122L1054,,Y, ,Y, ,Y,,,Y,1,HKD,,0085.HK
+8395,ZXZN QI-HSE-5K,Equity,Equity Securities (GEM),"5,000",KYG9035N1025,,Y, ,Y, ,Y,,,Y,1,HKD,,8395.HK
+2005,SSY GROUP,Equity,Equity Securities (Main Board),"2,000",KYG8406X1034,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2005.HK
+1750,REM GROUP HLDGS,Equity,Equity Securities (Main Board),"10,000",KYG749541010,,Y, ,Y, ,Y,,,Y,1,HKD,,1750.HK
+157,NATURAL BEAUTY,Equity,Equity Securities (Main Board),"10,000",KYG640061027,,Y, ,Y, ,Y,,,Y,1,HKD,,0157.HK
+1737,A & S GROUP,Equity,Equity Securities (Main Board),"10,000",KYG2957H1048,,Y, ,Y, ,Y,,,Y,1,HKD,,1737.HK
+1290,CHINA HUIRONG,Equity,Equity Securities (Main Board),"2,000",KYG211731024,,Y, ,Y, ,Y,,,Y,1,HKD,,1290.HK
+1235,TRAVEL EXPERT,Equity,Equity Securities (Main Board),"5,000",KYG9042P1081,,Y, ,Y, ,Y,,,Y,1,HKD,,1235.HK
+8487,ISP GLOBAL,Equity,Equity Securities (GEM),"2,000",KYG4970A1085,,Y, ,Y, ,Y,,,Y,1,HKD,,8487.HK
+6812,WINSON HLDGS HK,Equity,Equity Securities (Main Board),"5,000",KYG971751063,,Y, ,Y, ,Y,,,Y,1,HKD,,6812.HK
+363,SHANGHAI IND H,Equity,Equity Securities (Main Board),"1,000",HK0363006039,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0363.HK
+1661,CH FRONTIER TEC,Equity,Equity Securities (Main Board),"6,000",KYG9722N1189,,Y, ,Y, ,Y,,,Y,1,HKD,,1661.HK
+8018,FINSOFT FIN,Equity,Equity Securities (GEM),"10,000",KYG3461G1863,,Y, ,Y, ,Y,,,Y,1,HKD,,8018.HK
+152,SHENZHEN INT'L,Equity,Equity Securities (Main Board),500,BMG8086V1467,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0152.HK
+2880,LIAONING PORT,Equity,Equity Securities (Main Board),"2,000",CNE1000002Y6,,Y, ,Y, ,Y,,,Y,1,HKD,,2880.HK
+353,ENERGY INTINV,Equity,Equity Securities (Main Board),"4,000",KYG3041H1598,,Y, ,Y, ,Y,,,Y,1,HKD,,0353.HK
+3933,UNITED LAB,Equity,Equity Securities (Main Board),"2,000",KYG8813K1085,,Y,Y,Y,Y,Y,,,Y,1,HKD,,3933.HK
+834,SHENGRONG HLDG,Equity,Equity Securities (Main Board),"4,000",BMG2110F1023,,Y, ,Y, ,Y,,,Y,1,HKD,,0834.HK
+1202,SIWI SCI & TECH,Equity,Equity Securities (Main Board),"2,000",CNE1000002C2,,Y, ,Y, ,Y,,,Y,1,HKD,,1202.HK
+619,SOUTH CHINA FIN,Equity,Equity Securities (Main Board),"2,000",HK0000460706,,Y, ,Y, ,Y,,,Y,1,HKD,,0619.HK
+919,MODERNHEALTHTEC,Equity,Equity Securities (Main Board),"4,000",KYG618101003,,Y, ,Y, ,Y,,,Y,1,HKD,,0919.HK
+1122,QINGLING MOTORS,Equity,Equity Securities (Main Board),"2,000",CNE1000003Y4,,Y, ,Y, ,Y,,,Y,1,HKD,,1122.HK
+2033,TIME WATCH,Equity,Equity Securities (Main Board),"2,000",KYG8879M1050,,Y, ,Y, ,Y,,,Y,1,HKD,,2033.HK
+6051,YOUZAN,Equity,Equity Securities (Main Board),"5,000",BMG2164J2089,,Y, ,Y, ,Y,,,Y,1,HKD,,6051.HK
+150,HYPEBEAST,Equity,Equity Securities (Main Board),"2,800",KYG468321040,,Y, ,Y, ,Y,,,Y,1,HKD,,0150.HK
+1150,MILAN STATION,Equity,Equity Securities (Main Board),"10,000",KYG611701171,,Y, ,Y, ,Y,,,Y,1,HKD,,1150.HK
+1955,JOHNSON HLDGS,Equity,Equity Securities (Main Board),"2,000",KYG4588A1022,,Y, ,Y, ,Y,,,Y,1,HKD,,1955.HK
+3860,EPS HEALTH TECH,Equity,Equity Securities (Main Board),"5,000",KYG3121P1054,,Y, ,Y, ,Y,,,Y,1,HKD,,3860.HK
+2263,FU SHEK FIN,Equity,Equity Securities (Main Board),"10,000",KYG3709G1055,,Y, ,Y, ,Y,,,Y,1,HKD,,2263.HK
+1879,XIZHI TECH-P,Equity,Equity Securities (Main Board),15,CNE100007KM4,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1879.HK
+818,HI SUN TECH,Equity,Equity Securities (Main Board),"3,000",BMG4512G1261,,Y, ,Y, ,Y,,,Y,1,HKD,,0818.HK
+604,SHENZHEN INVEST,Equity,Equity Securities (Main Board),"2,000",HK0604011236,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0604.HK
+6098,CG SERVICES,Equity,Equity Securities (Main Board),"1,000",KYG2453A1085,,Y,Y,Y,Y,Y,,,Y,1,HKD,,6098.HK
+1022,FEIYU,Equity,Equity Securities (Main Board),"1,500",KYG337691037,,Y, ,Y, ,Y,,,Y,1,HKD,,1022.HK
+8482,WAN LEADER,Equity,Equity Securities (GEM),"10,000",KYG943091382,,Y, ,Y, ,Y,,,Y,1,HKD,,8482.HK
+608,HIGH FASHION,Equity,Equity Securities (Main Board),"2,000",BMG4453K1027,,Y, ,Y, ,Y,,,Y,1,HKD,,0608.HK
+718,TAI UNITED HOLD,Equity,Equity Securities (Main Board),"5,000",BMG8661J1045,,Y, ,Y, ,Y,,,Y,1,HKD,,0718.HK
+1072,DONGFANG ELEC,Equity,Equity Securities (Main Board),200,CNE100000304,,Y,Y,Y,Y,Y,,,Y,1,HKD,,1072.HK
+664,TONGSHIFU,Equity,Equity Securities (Main Board),100,CNE100007J78,,Y, ,Y, ,Y,,,Y,1,HKD,,0664.HK
+382,EDVANTAGE GROUP,Equity,Equity Securities (Main Board),"2,000",KYG2901A1067,,Y, ,Y, ,Y,,,Y,1,HKD,,0382.HK
+1762,WANKA ONLINE,Equity,Equity Securities (Main Board),"1,000",KYG943071087,,Y,Y,Y, ,Y,,,Y,1,HKD,,1762.HK
+472,NEW SILKROAD,Equity,Equity Securities (Main Board),"10,000",BMG6479N1011,,Y, ,Y, ,Y,,,Y,1,HKD,,0472.HK
+762,CHINA UNICOM,Equity,Equity Securities (Main Board),"2,000",HK0000049939,,Y,Y,Y,Y,Y,,,Y,1,HKD,,0762.HK
+2688,ENN ENERGY,Equity,Equity Securities (Main Board),100,KYG3066L1014,,Y,Y,Y,Y,Y,,,Y,1,HKD,,2688.HK
+911,QIANHAI HEALTH,Equity,Equity Securities (Main Board),"10,000",KYG7307F1129,,Y, ,Y, ,Y,,,Y,1,HKD,,0911.HK
+128,ENM HOLDINGS,Equity,Equity Securities (Main Board),"4,000",HK0128011282,,Y, ,Y, ,Y,,,Y,1,HKD,,0128.HK
+668,ANKER,Equity,Equity Securities (Main Board),100,CNE100007QJ7,,Y, ,Y, ,Y,,,Y,1,HKD,,0668.HK
+2086,LEADWAY TECH,Equity,Equity Securities (Main Board),"1,000",KYG4527E1089,,Y, ,Y, ,Y,,,Y,1,HKD,,2086.HK
+1855,ZONQING LTD,Equity,Equity Securities (Main Board),"2,000",KYG989A21197,,Y, ,Y, ,Y,,,Y,1,HKD,,1855.HK

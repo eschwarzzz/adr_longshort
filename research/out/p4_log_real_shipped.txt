@@ -1,0 +1,18 @@
+flat 20bp, base borrow (backtest as built) 0.75
+per-name costs 0.5x spread, base borrow 0.51
+per-name costs 1x spread, base borrow 0.32
+flat 20bp, IBKR fee (obs/imputed) 0.4
+flat 20bp, IBKR fee, skip unavailable 0.45
+per-name 0.5x, IBKR fee 0.17
+per-name 0.5x, IBKR fee, skip unavailable 0.19
+per-name 1x, IBKR fee, skip unavailable -0.03
+                                                 final  cagr    vol  sharpe  sharpe_m  maxdd  worst_m       fees     borrow   interest  cost_bp_traded  borrow_rate  sharpe_2021_26  sharpe_2010_15
+variant                                                                                                                                                                                            
+flat 20bp, base borrow (backtest as built)  1806108.77  7.99  11.07    0.75      1.01 -15.02    -4.60  200300.95  231754.74  208545.78           19.86         6.62            0.99            0.55
+per-name costs 0.5x spread, base borrow     1160969.76  5.17  11.14    0.51      0.67 -18.50    -4.70  532550.86  195728.70  149120.83           63.26         6.62            0.59            0.45
+per-name costs 1x spread, base borrow        824293.05  3.04  11.24    0.32      0.42 -22.07    -4.82  670033.47  170447.25  112494.94           92.28         6.62            0.33            0.37
+flat 20bp, IBKR fee (obs/imputed)            946853.93  3.90  11.11    0.40      0.52 -19.69    -5.21  167686.70  754727.91  142497.26           19.83        28.09            0.25            0.50
+flat 20bp, IBKR fee, skip unavailable        984706.54  4.14  10.23    0.45      0.50 -22.59    -6.97  212451.32  382826.34  156600.97           19.82        10.35            0.06            0.82
+per-name 0.5x, IBKR fee                      613132.77  1.23  11.19    0.17      0.19 -23.34    -5.69  422136.59  591664.15  102807.30           58.65        28.09           -0.13            0.41
+per-name 0.5x, IBKR fee, skip unavailable    628253.57  1.38  10.32    0.19      0.20 -30.54    -7.14  491535.31  316950.66  109821.05           55.08        10.35           -0.32            0.67
+per-name 1x, IBKR fee, skip unavailable      433214.42 -0.85  10.43   -0.03     -0.05 -43.63    -7.32  629220.97  271419.17   80842.64           81.93        10.35           -0.59            0.54

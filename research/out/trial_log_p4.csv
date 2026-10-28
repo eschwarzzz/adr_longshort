@@ -1,0 +1,41 @@
+trial_id,phase,description,metric_summary,file
+p4-01,4.2,"free-source coverage of held shorts (iBorrowDesk, Reg SHO, SEC FTD, FINRA SI)","ibd files 380, tickers with fee data 305",research/out/p4_coverage.csv
+p4-02,4.2,"observed IBKR fee vs assumed tiered schedule, held names with iBorrowDesk data","short obs 150, median fee 67.41%",research/out/p4_fee_vs_assumed.csv
+p4-03,4.2,"log-fee regression on proxies (core), grouped CV by ticker","R2 0.61, CV R2 0.59, n 3105",research/out/p4_fee_model.csv
+p4-04,4.2,log-fee regression on proxies + FINRA days-to-cover,"R2 0.63, CV R2 0.61",research/out/p4_fee_model.csv
+p4-05,4.2,availability flag (pre-stated rule) and share of short P&L in unavailable names,"2010-26 share of P&L 50%, 2021-26 68%",research/out/p4_unavailable_pnl.csv
+p4-06,4.2,unit short leg net of base / harsh / best-estimate fee (descriptive),gross 0.74; base 0.59; harsh 0.42; best 0.05; avail_only_best 0.12,research/out/p4_short_leg_by_fee_summary.csv
+p4-07,4.2,"borrow panel for every short-eligible ticker-month and held long, three forecast files, frozen fee model","rows 9975; pool observed share shipped 8.7%, corrected 8.3%, reuse 8.3%",research/out/p4_all_coverage.csv
+p4-08,4.2,unit short leg of each book under gross / base / harsh / best-estimate fee / available-only (descriptive),shipped best 0.06; corrected best 0.07; reuse best -0.02,research/out/p4_all_short_leg.csv
+P4-009,P4,2026-10-19T17:41:37,"realistic account [corrected]: flat 20bp, base borrow (backtest as built)","sharpe 0.68 final 1,607,804",research/out/p4_realistic_corrected.csv
+P4-010,P4,2026-10-19T17:41:37,"realistic account [corrected_reuse]: flat 20bp, base borrow (backtest as built)","sharpe 0.62 final 1,343,541",research/out/p4_realistic_corrected_reuse.csv
+P4-011,P4,2026-10-19T17:41:37,"realistic account [shipped]: flat 20bp, base borrow (backtest as built)","sharpe 0.75 final 1,806,109",research/out/p4_realistic_shipped.csv
+P4-012,P4,2026-10-19T17:41:40,"realistic account [corrected]: per-name costs 0.5x spread, base borrow","sharpe 0.52 final 1,183,208",research/out/p4_realistic_corrected.csv
+P4-013,P4,2026-10-19T17:41:40,"realistic account [corrected_reuse]: per-name costs 0.5x spread, base borrow","sharpe 0.44 final 991,175",research/out/p4_realistic_corrected_reuse.csv
+P4-014,P4,2026-10-19T17:41:41,"realistic account [shipped]: per-name costs 0.5x spread, base borrow","sharpe 0.51 final 1,160,970",research/out/p4_realistic_shipped.csv
+P4-015,P4,2026-10-19T17:41:44,"realistic account [corrected]: per-name costs 1x spread, base borrow","sharpe 0.37 final 893,939",research/out/p4_realistic_corrected.csv
+P4-016,P4,2026-10-19T17:41:44,"realistic account [corrected_reuse]: per-name costs 1x spread, base borrow","sharpe 0.28 final 739,364",research/out/p4_realistic_corrected_reuse.csv
+P4-017,P4,2026-10-19T17:41:45,"realistic account [shipped]: per-name costs 1x spread, base borrow","sharpe 0.32 final 824,293",research/out/p4_realistic_shipped.csv
+P4-018,P4,2026-10-19T17:41:47,"realistic account [corrected_reuse]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.40 final 911,665",research/out/p4_realistic_corrected_reuse.csv
+P4-019,P4,2026-10-19T17:41:47,"realistic account [corrected]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.48 final 1,101,186",research/out/p4_realistic_corrected.csv
+P4-020,P4,2026-10-19T17:41:48,"realistic account [shipped]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.40 final 946,854",research/out/p4_realistic_shipped.csv
+P4-021,P4,2026-10-19T17:41:51,"realistic account [corrected]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.53 final 1,170,176",research/out/p4_realistic_corrected.csv
+P4-022,P4,2026-10-19T17:41:51,"realistic account [corrected_reuse]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.40 final 918,283",research/out/p4_realistic_corrected_reuse.csv
+P4-023,P4,2026-10-19T17:41:53,"realistic account [shipped]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.45 final 984,707",research/out/p4_realistic_shipped.csv
+P4-024,P4,2026-10-19T17:41:56,"realistic account [corrected]: per-name 0.5x, IBKR fee","sharpe 0.32 final 814,888",research/out/p4_realistic_corrected.csv
+P4-025,P4,2026-10-19T17:41:56,"realistic account [corrected_reuse]: per-name 0.5x, IBKR fee","sharpe 0.23 final 675,921",research/out/p4_realistic_corrected_reuse.csv
+P4-026,P4,2026-10-19T17:41:57,"realistic account [shipped]: per-name 0.5x, IBKR fee","sharpe 0.17 final 613,133",research/out/p4_realistic_shipped.csv
+P4-027,P4,2026-10-19T17:42:01,"realistic account [corrected_reuse]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.24 final 693,888",research/out/p4_realistic_corrected_reuse.csv
+P4-028,P4,2026-10-19T17:42:01,"realistic account [corrected]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.37 final 870,468",research/out/p4_realistic_corrected.csv
+P4-029,P4,2026-10-19T17:42:03,"realistic account [shipped]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.19 final 628,254",research/out/p4_realistic_shipped.csv
+P4-030,P4,2026-10-19T17:42:06,"realistic account [corrected_reuse]: per-name 1x, IBKR fee, skip unavailable","sharpe 0.07 final 516,983",research/out/p4_realistic_corrected_reuse.csv
+P4-031,P4,2026-10-19T17:42:06,"realistic account [corrected]: per-name 1x, IBKR fee, skip unavailable","sharpe 0.20 final 648,688",research/out/p4_realistic_corrected.csv
+P4-032,P4,2026-10-19T17:42:08,"realistic account [shipped]: per-name 1x, IBKR fee, skip unavailable","sharpe -0.03 final 433,214",research/out/p4_realistic_shipped.csv
+P4-033,P4,2026-10-19T17:43:08,"realistic [corrected_reuse] per-name 0.5x, IBKR fee",sharpe 0.23,research/out/p4_borrow_aware_real.csv
+P4-034,P4,2026-10-19T17:43:13,"realistic [corrected_reuse] per-name 0.5x, IBKR fee, borrow-aware rank",sharpe 0.21,research/out/p4_borrow_aware_real.csv
+P4-035,P4,2026-10-19T17:43:18,"realistic [corrected_reuse] per-name 0.5x, IBKR fee, borrow-aware + skip unavailable",sharpe 0.20,research/out/p4_borrow_aware_real.csv
+P4-036,P4,2026-10-19T17:43:22,"realistic [corrected_reuse] flat 20bp, IBKR fee, borrow-aware rank",sharpe 0.36,research/out/p4_borrow_aware_real.csv
+P4-037,P4,2026-10-19T17:43:25,"realistic [shipped] per-name 0.5x, IBKR fee",sharpe 0.17,research/out/p4_borrow_aware_real.csv
+P4-038,P4,2026-10-19T17:43:30,"realistic [shipped] per-name 0.5x, IBKR fee, borrow-aware rank",sharpe 0.16,research/out/p4_borrow_aware_real.csv
+P4-039,P4,2026-10-19T17:43:35,"realistic [shipped] per-name 0.5x, IBKR fee, borrow-aware + skip unavailable",sharpe 0.15,research/out/p4_borrow_aware_real.csv
+P4-040,P4,2026-10-19T17:43:40,"realistic [shipped] flat 20bp, IBKR fee, borrow-aware rank",sharpe 0.38,research/out/p4_borrow_aware_real.csv

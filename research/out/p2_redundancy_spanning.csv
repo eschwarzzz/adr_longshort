@@ -1,0 +1,13 @@
+universe,feature,r2_on_other15,top_corr
+all tradeable,beta_12m,0.39333193831999824,"vol_3m +0.42, ivol_12m +0.40, vol_1m +0.35"
+all tradeable,minret_1m,0.7996065295568549,"vol_1m -0.83, vol_3m -0.71, ivol_12m -0.61"
+all tradeable,illiq_1m,0.9147565110473577,"dolvol_1m -0.91, ivol_12m +0.52, vol_3m +0.40"
+all tradeable,maxret_1m,0.8432920621046308,"vol_1m +0.87, vol_3m +0.71, ivol_12m +0.59"
+all tradeable,age,0.19627058500668615,"ivol_12m -0.41, vol_3m -0.36, vol_1m -0.33"
+all tradeable,zero_1m,0.17391754530011339,"dolvol_1m -0.38, illiq_1m +0.34, mom_36_13 -0.15"
+liquid,beta_12m,0.4419168246403091,"vol_3m +0.54, ivol_12m +0.53, vol_1m +0.45"
+liquid,minret_1m,0.7955804432446969,"vol_1m -0.82, vol_3m -0.72, ivol_12m -0.62"
+liquid,illiq_1m,0.8937879711175523,"dolvol_1m -0.89, ivol_12m +0.51, vol_3m +0.44"
+liquid,maxret_1m,0.8403098890428401,"vol_1m +0.87, vol_3m +0.73, ivol_12m +0.62"
+liquid,age,0.27446979835136676,"ivol_12m -0.50, vol_3m -0.44, vol_1m -0.41"
+liquid,zero_1m,0.09645918186257174,"dolvol_1m -0.28, illiq_1m +0.23, high52 -0.11"

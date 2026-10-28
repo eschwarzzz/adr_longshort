@@ -1,0 +1,3 @@
+trial_id,phase,timestamp,description,metric_summary,file
+P6-001,P6,2026-10-19T17:52:21,candidate drop5: full backtest,"sharpe 0.50 monthly 0.56 final 1,083,399",research/out/p6_drop5_variants.csv
+P6-002,P6,2026-10-19T17:57:29,candidate all: full backtest,"sharpe 0.62 monthly 0.69 final 1,343,091",research/out/p6_all_variants.csv

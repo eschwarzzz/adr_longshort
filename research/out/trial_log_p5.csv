@@ -1,0 +1,16 @@
+trial_id,phase,description,metric_summary,file
+p5_china_shipped,5,"China, shipped (mean ADV, $5k rule, adjusted $1)",rule LS 1.37 net 1.02 (191 m); all-tradeable LS 0.95; IC 0.080,research/out/p5_monthly_p5_china_shipped.csv
+p5_china_corrected,5,"China, corrected",rule LS 1.22 net 0.87 (187 m); all-tradeable LS 1.18; IC 0.089,research/out/p5_monthly_p5_china_corrected.csv
+p5_gc_native,5,"Greater China (China + HK/Macau ext.), native",rule LS 1.24 net 0.88 (190 m); all-tradeable LS 1.09; IC 0.089,research/out/p5_monthly_p5_gc_native.csv
+p5_gc_extonly,5,"HK/Macau ext. names only, scored by the Greater China model",rule LS nan net nan (0 m); all-tradeable LS 0.23; IC 0.085,research/out/p5_monthly_p5_gc_extonly.csv
+p5_foreign_native,5,"Non-China Asia foreign listings (US exchanges), native",rule LS nan net nan (1 m); all-tradeable LS 0.86; IC 0.128,research/out/p5_monthly_p5_foreign_native.csv
+p5_foreign_transfer,5,"Non-China Asia foreign listings (US exchanges), China forests",rule LS nan net nan (1 m); all-tradeable LS 1.44; IC 0.065,research/out/p5_monthly_p5_foreign_transfer.csv
+p5_us_native,5,"US microcaps (random 800, survivors), native",rule LS 0.64 net 0.20 (201 m); all-tradeable LS 0.79; IC 0.055,research/out/p5_monthly_p5_us_native.csv
+p5_us_transfer,5,"US microcaps (random 800, survivors), China forests",rule LS 0.50 net -0.04 (201 m); all-tradeable LS 0.65; IC 0.058,research/out/p5_monthly_p5_us_transfer.csv
+p5_hk_native,5,"HKEX small caps (random 1,000, HK$1 floor), native",rule LS 0.54 net -0.07 (201 m); all-tradeable LS 0.91; IC 0.050,research/out/p5_monthly_p5_hk_native.csv
+p5_hk_transfer,5,"HKEX small caps (random 1,000, HK$1 floor), China forests",rule LS 0.52 net -0.09 (201 m); all-tradeable LS 0.95; IC 0.054,research/out/p5_monthly_p5_hk_transfer.csv
+p5_gc_native_v2,5,"Greater China (China + HK/Macau ext.), native (HKD, AMTD added; CPRI dropped)",rule LS 1.16 net 0.84; all-tradeable LS 0.99; IC 0.089,research/out/p5_monthly_p5_gc_native.csv
+p5_gc_extonly_v2,5,"HK/Macau ext. names only, scored by the Greater China model (HKD, AMTD added; CPRI dropped)",rule LS nan net nan; all-tradeable LS -1.30; IC 0.079,research/out/p5_monthly_p5_gc_extonly.csv
+p5_hk_short_native,5,"HKEX Miller test (native): Q1 vs EW, non-shortable vs shortable",Q1 -22.2%/yr vs 1.7%/yr,research/out/p5_hk_shortable.csv
+p5_hk_short_transfer,5,"HKEX Miller test (transfer): Q1 vs EW, non-shortable vs shortable",Q1 -26.1%/yr vs 0.1%/yr,research/out/p5_hk_shortable.csv
+p5_hkd,5,AMTD Digital (HKD) entry and book check,"liquid-pool months 21, shorted 11",research/out/p5_hkd_book.csv

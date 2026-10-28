@@ -1,0 +1,92 @@
+baseline vs shipped p_RF: rows 19532, max |diff| 1.2e-16 [11s]
+{'variant': 'baseline (16)', 'ic': np.float64(0.08), 'ic_t': np.float64(6.967), 'ic_liq': np.float64(0.081), 'r2_pct': np.float64(0.347), 'ls_ret': np.float64(46.276), 'ls_sharpe': np.float64(1.366), 'net_sharpe': np.float64(1.017), 'sh_10_15': np.float64(1.398), 'sh_16_20': np.float64(1.18), 'sh_21_26': np.float64(1.5)}
+drop ret_1m: IC 0.080, LS 1.29, t -0.50 [21s]
+drop mom_6_1: IC 0.085, LS 1.13, t -1.50 [30s]
+drop mom_12_1: IC 0.081, LS 1.24, t -0.46 [39s]
+drop mom_36_13: IC 0.080, LS 1.31, t -0.49 [48s]
+drop vol_1m: IC 0.080, LS 1.23, t -0.72 [57s]
+drop vol_3m: IC 0.083, LS 1.29, t -0.53 [68s]
+drop ivol_12m: IC 0.081, LS 1.13, t -1.75 [81s]
+drop beta_12m: IC 0.086, LS 1.34, t -0.10 [95s]
+drop maxret_1m: IC 0.083, LS 1.36, t -0.08 [110s]
+drop minret_1m: IC 0.084, LS 1.35, t +0.10 [128s]
+drop dolvol_1m: IC 0.082, LS 1.26, t -1.02 [148s]
+drop dolvol_trend: IC 0.079, LS 1.15, t -1.93 [169s]
+drop illiq_1m: IC 0.082, LS 1.36, t -0.24 [192s]
+drop zero_1m: IC 0.093, LS 1.69, t +1.95 [214s]
+drop high52: IC 0.069, LS 1.23, t -1.48 [238s]
+drop age: IC 0.081, LS 1.36, t -0.65 [256s]
+drop family trend: IC 0.077, LS 1.20, t -0.67 [269s]
+drop family risk: IC 0.075, LS 1.11, t -1.35 [281s]
+drop family liquidity: IC 0.088, LS 1.49, t +0.26 [294s]
+drop family other: IC 0.076, LS 1.31, t -0.53 [309s]
+only family trend: IC 0.063, LS 0.96, t -1.85 [315s]
+only family risk: IC 0.057, LS 0.84, t -1.93 [324s]
+only family liquidity: IC 0.048, LS 0.85, t -2.09 [330s]
+only family other: IC 0.054, LS 0.81, t -2.33 [335s]
+only zero_1m+high52: IC 0.057, LS 0.72, t -2.90 [340s]
+only top4 (zero,high52,ivol,mom_6_1): IC 0.070, LS 1.10, t -1.40 [347s]
+                                         ic   ic_t  ic_liq  r2_pct  ls_ret  ls_sharpe  net_sharpe  sh_10_15  sh_16_20  sh_21_26  diff_t_vs_base
+variant                                                                                                                                        
+baseline (16)                         0.080  6.967   0.081   0.347  46.276      1.366       1.017     1.398     1.180     1.500           0.000
+drop ret_1m                           0.080  6.979   0.080   0.358  44.310      1.293       0.944     1.600     1.023     1.303          -0.503
+drop mom_6_1                          0.085  7.593   0.082   0.282  40.368      1.130       0.790     1.340     0.867     1.209          -1.499
+drop mom_12_1                         0.081  7.033   0.083   0.303  44.364      1.241       0.902     1.751     1.129     1.050          -0.463
+drop mom_36_13                        0.080  7.047   0.082   0.308  44.545      1.311       0.958     1.621     1.250     1.168          -0.488
+drop vol_1m                           0.080  7.040   0.082   0.320  43.637      1.227       0.889     1.645     1.009     1.123          -0.719
+drop vol_3m                           0.083  7.341   0.085   0.291  44.409      1.293       0.944     1.598     1.372     1.048          -0.529
+drop ivol_12m                         0.081  7.096   0.082   0.307  38.781      1.128       0.780     1.774     0.980     0.835          -1.751
+drop beta_12m                         0.086  7.523   0.085   0.355  45.888      1.337       0.973     1.805     1.180     1.160          -0.104
+drop maxret_1m                        0.083  7.291   0.084   0.318  45.997      1.359       1.004     1.711     1.173     1.297          -0.075
+drop minret_1m                        0.084  7.312   0.085   0.314  46.667      1.352       1.009     1.735     1.241     1.214           0.101
+drop dolvol_1m                        0.082  7.238   0.083   0.309  42.974      1.262       0.913     1.550     1.211     1.131          -1.019
+drop dolvol_trend                     0.079  7.027   0.078   0.331  39.128      1.151       0.795     1.289     1.199     1.054          -1.933
+drop illiq_1m                         0.082  7.200   0.084   0.323  45.519      1.358       1.004     1.767     1.218     1.229          -0.236
+drop zero_1m                          0.093  8.235   0.101   0.238  55.648      1.694       1.344     2.187     1.424     1.612           1.950
+drop high52                           0.069  6.310   0.077   0.246  39.318      1.232       0.853     1.347     1.066     1.287          -1.477
+drop age                              0.081  7.165   0.085   0.290  44.157      1.363       0.993     1.778     1.089     1.316          -0.647
+drop family trend                     0.077  6.678   0.078   0.303  43.093      1.204       0.857     1.444     0.857     1.355          -0.675
+drop family risk                      0.075  6.763   0.074   0.289  38.111      1.108       0.761     1.604     1.325     0.626          -1.348
+drop family liquidity                 0.088  7.912   0.093   0.210  47.639      1.487       1.135     2.001     1.318     1.332           0.261
+drop family other                     0.076  6.896   0.082   0.253  43.778      1.307       0.941     1.456     1.158     1.304          -0.531
+only family trend                     0.063  6.272   0.069   0.057  29.952      0.963       0.601     1.210     1.495     0.478          -1.847
+only family risk                      0.057  5.290   0.071   0.064  29.437      0.838       0.499     0.699     0.616     1.106          -1.932
+only family liquidity                 0.048  4.903   0.055   0.061  27.729      0.849       0.416     0.588     0.925     1.044          -2.087
+only family other                     0.054  5.169   0.053   0.158  26.398      0.810       0.483     1.029     0.933     0.612          -2.329
+only zero_1m+high52                   0.057  5.385   0.055   0.152  24.552      0.718       0.368     1.376     0.291     0.618          -2.898
+only top4 (zero,high52,ivol,mom_6_1)  0.070  6.082   0.069   0.275  38.118      1.096       0.751     1.345     1.306     0.785          -1.403
+perm ret_1m: IC drop 0.0028, LS drop 0.04 [351s]
+perm mom_6_1: IC drop 0.0029, LS drop 0.15 [354s]
+perm mom_12_1: IC drop 0.0041, LS drop 0.08 [358s]
+perm mom_36_13: IC drop 0.0027, LS drop 0.08 [362s]
+perm vol_1m: IC drop 0.0017, LS drop 0.06 [366s]
+perm vol_3m: IC drop -0.0016, LS drop 0.07 [370s]
+perm ivol_12m: IC drop 0.0120, LS drop 0.23 [374s]
+perm beta_12m: IC drop 0.0046, LS drop 0.07 [378s]
+perm maxret_1m: IC drop 0.0029, LS drop 0.10 [383s]
+perm minret_1m: IC drop 0.0013, LS drop 0.04 [387s]
+perm dolvol_1m: IC drop -0.0000, LS drop 0.09 [391s]
+perm dolvol_trend: IC drop 0.0052, LS drop 0.16 [395s]
+perm illiq_1m: IC drop -0.0000, LS drop 0.02 [399s]
+perm zero_1m: IC drop 0.0013, LS drop 0.11 [403s]
+perm high52: IC drop 0.0313, LS drop 0.33 [407s]
+perm age: IC drop -0.0021, LS drop 0.16 [411s]
+              ic_drop  ls_sharpe_drop  ls_sharpe_sd  mdi_mean_2010_26
+feature                                                              
+high52          0.031           0.328         0.104             0.110
+ivol_12m        0.012           0.235         0.071             0.071
+age            -0.002           0.162         0.027             0.056
+dolvol_trend    0.005           0.162         0.036             0.056
+mom_6_1         0.003           0.150         0.056             0.059
+zero_1m         0.001           0.110         0.023             0.197
+maxret_1m       0.003           0.103         0.058             0.041
+dolvol_1m      -0.000           0.086         0.009             0.027
+mom_12_1        0.004           0.080         0.059             0.048
+mom_36_13       0.003           0.077         0.075             0.036
+beta_12m        0.005           0.070         0.018             0.067
+vol_3m         -0.002           0.067         0.059             0.057
+vol_1m          0.002           0.059         0.052             0.044
+ret_1m          0.003           0.040         0.048             0.056
+minret_1m       0.001           0.037         0.013             0.055
+illiq_1m       -0.000           0.016         0.036             0.020
+DONE [419s]

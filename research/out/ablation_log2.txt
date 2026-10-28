@@ -1,0 +1,31 @@
+baseline vs shipped p_RF: rows 19532, max |diff| 1.2e-16 [22s]
+{'variant': 'baseline (16)', 'ic': np.float64(0.08), 'ic_t': np.float64(6.967), 'ic_liq': np.float64(0.081), 'r2_pct': np.float64(0.347), 'ls_ret': np.float64(46.276), 'ls_sharpe': np.float64(1.366), 'net_sharpe': np.float64(1.017), 'sh_10_15': np.float64(1.398), 'sh_16_20': np.float64(1.18), 'sh_21_26': np.float64(1.5)}
+greedy 2010: ['vol_3m', 'ivol_12m', 'dolvol_trend', 'illiq_1m', 'beta_12m', 'mom_6_1', 'vol_1m', 'maxret_1m'] [34s]
+greedy 2011: ['age', 'ivol_12m', 'zero_1m', 'dolvol_trend', 'vol_1m', 'beta_12m', 'ret_1m', 'vol_3m'] [46s]
+greedy 2012: ['high52', 'ret_1m', 'maxret_1m', 'mom_36_13', 'zero_1m', 'minret_1m', 'vol_3m', 'beta_12m'] [58s]
+greedy 2013: ['dolvol_trend', 'vol_3m', 'illiq_1m', 'maxret_1m', 'zero_1m', 'mom_36_13', 'ivol_12m', 'high52'] [65s]
+greedy 2014: ['dolvol_trend', 'vol_3m', 'mom_6_1', 'vol_1m', 'zero_1m', 'mom_36_13', 'mom_12_1', 'ret_1m'] [73s]
+greedy 2015: ['dolvol_trend', 'age', 'vol_3m', 'high52', 'mom_6_1', 'mom_12_1', 'illiq_1m', 'maxret_1m'] [81s]
+greedy 2016: ['age', 'beta_12m', 'mom_36_13', 'maxret_1m', 'dolvol_1m', 'ivol_12m', 'zero_1m', 'mom_12_1'] [91s]
+greedy 2017: ['high52', 'dolvol_1m', 'maxret_1m', 'mom_12_1', 'minret_1m', 'mom_36_13', 'ret_1m', 'mom_6_1'] [102s]
+greedy 2018: ['mom_6_1', 'illiq_1m', 'beta_12m', 'dolvol_1m', 'mom_36_13', 'vol_1m', 'minret_1m', 'vol_3m'] [111s]
+greedy 2019: ['illiq_1m', 'ivol_12m', 'mom_6_1', 'ret_1m', 'beta_12m', 'maxret_1m', 'mom_12_1', 'dolvol_1m'] [120s]
+greedy 2020: ['illiq_1m', 'ivol_12m', 'maxret_1m', 'dolvol_1m', 'zero_1m', 'vol_3m', 'vol_1m', 'beta_12m'] [131s]
+greedy 2021: ['illiq_1m', 'vol_3m', 'mom_6_1', 'mom_12_1', 'maxret_1m', 'ivol_12m', 'high52', 'vol_1m'] [144s]
+greedy 2022: ['high52', 'vol_3m', 'dolvol_1m', 'maxret_1m', 'mom_36_13', 'ivol_12m', 'illiq_1m', 'dolvol_trend'] [158s]
+greedy 2023: ['high52', 'ivol_12m', 'ret_1m', 'dolvol_trend', 'mom_36_13', 'dolvol_1m', 'illiq_1m', 'vol_1m'] [175s]
+greedy 2024: ['maxret_1m', 'dolvol_1m', 'mom_12_1', 'ivol_12m', 'beta_12m', 'illiq_1m', 'dolvol_trend', 'ret_1m'] [195s]
+greedy 2025: ['ivol_12m', 'maxret_1m', 'minret_1m', 'dolvol_1m', 'illiq_1m', 'age', 'vol_1m', 'beta_12m'] [212s]
+greedy 2026: ['vol_1m', 'ivol_12m', 'dolvol_1m', 'ret_1m', 'vol_3m', 'age', 'mom_36_13', 'maxret_1m'] [224s]
+               ic   ic_t  ic_liq  r2_pct  ls_ret  ls_sharpe  net_sharpe  sh_10_15  sh_16_20  sh_21_26  diff_t_vs_base
+variant                                                                                                              
+greedy k=1  0.047  4.602   0.051   0.137  21.655      0.666       0.279     0.555     0.733     0.738          -2.410
+greedy k=2  0.076  7.604   0.087   0.118  38.329      1.159       0.786     1.389     1.534     0.925          -0.883
+greedy k=3  0.086  8.053   0.092   0.102  42.568      1.187       0.847     1.141     1.347     1.180          -0.409
+greedy k=4  0.079  7.586   0.089   0.130  39.158      1.157       0.792     0.707     1.367     1.396          -0.828
+greedy k=5  0.079  7.411   0.086   0.103  38.516      1.179       0.802     1.077     1.194     1.280          -0.974
+greedy k=6  0.080  7.725   0.090   0.098  36.133      1.071       0.705     1.045     0.714     1.342          -1.279
+greedy k=7  0.081  7.550   0.083   0.143  42.355      1.185       0.837     0.892     0.959     1.594          -0.480
+greedy k=8  0.086  7.995   0.095   0.154  42.372      1.289       0.909     1.083     1.277     1.495          -0.557
+features in the first four picks, count of years (of 17): {'ivol_12m': 8, 'maxret_1m': 8, 'dolvol_1m': 7, 'vol_3m': 6, 'dolvol_trend': 6, 'illiq_1m': 6, 'high52': 5, 'ret_1m': 4, 'mom_6_1': 4, 'age': 3, 'mom_12_1': 3, 'mom_36_13': 2, 'vol_1m': 2, 'beta_12m': 2, 'zero_1m': 1, 'minret_1m': 1}
+DONE [266s]

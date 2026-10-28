@@ -1,0 +1,1 @@
+NYSE/NYSE American threshold lists: blocked by Cloudflare rate limit (error 1015) on 2026-10-19 after ~50 requests; first urllib pass got bot pages. Not used. Nasdaq-listed names carry 79% of short gross P&L (NYSE-listed -5%).

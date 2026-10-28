@@ -1,0 +1,60 @@
+trial_id,phase,timestamp,description,metric_summary,file
+P3-001,P3,2026-10-19T16:12:10,3.1 book: short only (naked),"unit net 0.26 harsh 0.10; acct 0.75 final 575,917 maxdd -6.3",research/out/p3_hedges.csv
+P3-002,P3,2026-10-19T16:12:32,3.1 book: short + current long leg (baseline),"unit net 0.81 harsh 0.61; acct 0.68 final 1,607,804 maxdd -17.2",research/out/p3_hedges.csv
+P3-003,P3,2026-10-19T16:12:51,3.1 book: short + PGJ x1,"unit net 0.51 harsh 0.29; acct 0.42 final 1,012,898 maxdd -30.7",research/out/p3_hedges.csv
+P3-004,P3,2026-10-19T16:13:13,3.1 book: short + PGJ beta-matched,"unit net 0.50 harsh 0.27; acct 0.46 final 1,036,711 maxdd -27.6",research/out/p3_hedges.csv
+P3-005,P3,2026-10-19T16:13:29,3.1 book: short + KWEB x1,"unit net 0.45 harsh 0.25; acct 0.39 final 895,583 maxdd -31.3",research/out/p3_hedges.csv
+P3-006,P3,2026-10-19T16:13:46,3.1 book: short + KWEB beta-matched,"unit net 0.44 harsh 0.24; acct 0.40 final 799,356 maxdd -26.2",research/out/p3_hedges.csv
+P3-007,P3,2026-10-19T16:14:04,3.1 book: short + FXI x1,"unit net 0.39 harsh 0.19; acct 0.30 final 795,650 maxdd -31.5",research/out/p3_hedges.csv
+P3-008,P3,2026-10-19T16:14:24,3.1 book: short + FXI beta-matched,"unit net 0.33 harsh 0.13; acct 0.29 final 710,570 maxdd -26.6",research/out/p3_hedges.csv
+P3-009,P3,2026-10-19T16:14:41,3.1 book: short + MCHI x1,"unit net 0.41 harsh 0.21; acct 0.28 final 754,568 maxdd -30.9",research/out/p3_hedges.csv
+P3-010,P3,2026-10-19T16:14:55,3.1 book: short + MCHI beta-matched,"unit net 0.35 harsh 0.14; acct 0.25 final 691,926 maxdd -27.3",research/out/p3_hedges.csv
+P3-011,P3,2026-10-19T16:15:13,3.1 book: short + VW x1,"unit net 0.72 harsh 0.50; acct 0.66 final 1,486,555 maxdd -19.1",research/out/p3_hedges.csv
+P3-012,P3,2026-10-19T16:15:34,3.1 book: short + VW beta-matched,"unit net 0.55 harsh 0.32; acct 0.53 final 918,524 maxdd -14.1",research/out/p3_hedges.csv
+P3-013,P3,2026-10-19T16:15:50,3.1 book: short + EW x1,"unit net 0.45 harsh 0.17; acct 0.37 final 913,135 maxdd -25.0",research/out/p3_hedges.csv
+P3-014,P3,2026-10-19T16:16:07,3.1 book: short + EW beta-matched,"unit net 0.41 harsh 0.12; acct 0.34 final 893,412 maxdd -23.6",research/out/p3_hedges.csv
+P3-015,P3,2026-10-19T16:17:36,3.1 book: short only (naked),"unit net 0.26 harsh 0.10; acct 0.21 final 663,454 maxdd -30.9",research/out/p3_hedges.csv
+P3-016,P3,2026-10-19T16:17:51,3.1 book: short + current long leg (baseline),"unit net 0.81 harsh 0.61; acct 0.68 final 1,607,804 maxdd -17.2",research/out/p3_hedges.csv
+P3-017,P3,2026-10-19T16:18:04,3.1 book: short + PGJ x1,"unit net 0.51 harsh 0.29; acct 0.42 final 1,012,898 maxdd -30.7",research/out/p3_hedges.csv
+P3-018,P3,2026-10-19T16:18:14,3.1 book: short + PGJ beta-matched,"unit net 0.50 harsh 0.27; acct 0.40 final 973,060 maxdd -31.1",research/out/p3_hedges.csv
+P3-019,P3,2026-10-19T16:18:22,3.1 book: short + KWEB x1,"unit net 0.45 harsh 0.25; acct 0.39 final 895,583 maxdd -31.3",research/out/p3_hedges.csv
+P3-020,P3,2026-10-19T16:18:31,3.1 book: short + KWEB beta-matched,"unit net 0.44 harsh 0.24; acct 0.36 final 850,659 maxdd -32.3",research/out/p3_hedges.csv
+P3-021,P3,2026-10-19T16:18:40,3.1 book: short + FXI x1,"unit net 0.39 harsh 0.19; acct 0.30 final 795,650 maxdd -31.5",research/out/p3_hedges.csv
+P3-022,P3,2026-10-19T16:18:50,3.1 book: short + FXI beta-matched,"unit net 0.33 harsh 0.13; acct 0.25 final 719,269 maxdd -31.5",research/out/p3_hedges.csv
+P3-023,P3,2026-10-19T16:18:57,3.1 book: short + MCHI x1,"unit net 0.41 harsh 0.21; acct 0.28 final 754,568 maxdd -30.9",research/out/p3_hedges.csv
+P3-024,P3,2026-10-19T16:19:07,3.1 book: short + MCHI beta-matched,"unit net 0.35 harsh 0.14; acct 0.24 final 693,130 maxdd -30.3",research/out/p3_hedges.csv
+P3-025,P3,2026-10-19T16:19:17,3.1 book: short + VW x1,"unit net 0.72 harsh 0.50; acct 0.66 final 1,486,555 maxdd -19.1",research/out/p3_hedges.csv
+P3-026,P3,2026-10-19T16:19:26,3.1 book: short + VW beta-matched,"unit net 0.55 harsh 0.32; acct 0.47 final 1,088,599 maxdd -22.2",research/out/p3_hedges.csv
+P3-027,P3,2026-10-19T16:19:35,3.1 book: short + EW x1,"unit net 0.45 harsh 0.17; acct 0.37 final 913,135 maxdd -25.0",research/out/p3_hedges.csv
+P3-028,P3,2026-10-19T16:19:46,3.1 book: short + EW beta-matched,"unit net 0.41 harsh 0.12; acct 0.33 final 829,307 maxdd -22.9",research/out/p3_hedges.csv
+P3-029,P3,2026-10-19T16:20:50,3.2 hedge-break diagnostics by year,shorts<24m 48% -> 22%; short beta PGJ 1.12 -> 1.04,research/out/p3_hedge_break.csv
+P3-030,P3,2026-10-19T16:21:44,"3.2 hedge-break diagnostics by year, SHIPPED baseline",shorts<24m 44% -> 33%; short beta PGJ 1.09 -> 0.92,research/out/p3_hedge_break_shipped.csv
+P3-031,P3,2026-10-19T16:22:42,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts.csv
+P3-032,P3,2026-10-19T16:22:58,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.72 (t vs base -1.05); acct 0.61 harsh 0.36; worst day -8.1%,research/out/p3_shorts.csv
+P3-033,P3,2026-10-19T16:23:11,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.75 (t vs base -0.73); acct 0.64 harsh 0.34; worst day -8.1%,research/out/p3_shorts.csv
+P3-034,P3,2026-10-19T16:23:24,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts.csv
+P3-035,P3,2026-10-19T16:23:37,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts.csv
+P3-036,P3,2026-10-19T16:23:48,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.37 (t vs base -2.04); acct 0.39 harsh 0.08; worst day -6.7%,research/out/p3_shorts.csv
+P3-037,P3,2026-10-19T16:24:00,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts.csv
+P3-038,P3,2026-10-19T16:24:12,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.28); acct 0.07 harsh -0.21; worst day -8.0%,research/out/p3_shorts.csv
+P3-039,P3,2026-10-19T16:24:23,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.55 (t vs base -2.45); acct 0.50 harsh 0.23; worst day -8.6%,research/out/p3_shorts.csv
+P3-040,P3,2026-10-19T16:24:59,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts.csv
+P3-041,P3,2026-10-19T16:25:09,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.65 (t vs base -1.33); acct 0.58 harsh 0.49; worst day -8.4%,research/out/p3_shorts.csv
+P3-042,P3,2026-10-19T16:25:21,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.59 (t vs base -1.49); acct 0.54 harsh 0.48; worst day -8.7%,research/out/p3_shorts.csv
+P3-043,P3,2026-10-19T16:25:32,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts.csv
+P3-044,P3,2026-10-19T16:25:43,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts.csv
+P3-045,P3,2026-10-19T16:25:54,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.48 (t vs base -2.24); acct 0.49 harsh 0.39; worst day -7.4%,research/out/p3_shorts.csv
+P3-046,P3,2026-10-19T16:26:04,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts.csv
+P3-047,P3,2026-10-19T16:26:15,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.16); acct 0.12 harsh 0.04; worst day -9.9%,research/out/p3_shorts.csv
+P3-048,P3,2026-10-19T16:26:25,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.53 (t vs base -1.86); acct 0.50 harsh 0.42; worst day -8.9%,research/out/p3_shorts.csv
+P3-049,P3,2026-10-19T17:42:24,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts_p4all.csv
+P3-050,P3,2026-10-19T17:42:26,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.65 (t vs base -1.33); acct 0.58 harsh 0.49; worst day -8.4%,research/out/p3_shorts_p4all.csv
+P3-051,P3,2026-10-19T17:42:28,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.59 (t vs base -1.49); acct 0.54 harsh 0.48; worst day -8.7%,research/out/p3_shorts_p4all.csv
+P3-052,P3,2026-10-19T17:42:30,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts_p4all.csv
+P3-053,P3,2026-10-19T17:42:32,"3.3-3.5 variant: borrow-aware, P4 fee",unit net 0.20 (t vs base -2.76); acct 0.14 harsh 0.07; worst day -13.7%,research/out/p3_shorts_p4all.csv
+P3-054,P3,2026-10-19T17:42:34,"3.3-3.5 variant: borrow-aware, P4 fee + skip unavailable",unit net 0.19 (t vs base -2.79); acct 0.12 harsh 0.06; worst day -13.7%,research/out/p3_shorts_p4all.csv
+P3-055,P3,2026-10-19T17:42:36,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts_p4all.csv
+P3-056,P3,2026-10-19T17:42:39,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.48 (t vs base -2.24); acct 0.49 harsh 0.39; worst day -7.4%,research/out/p3_shorts_p4all.csv
+P3-057,P3,2026-10-19T17:42:41,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts_p4all.csv
+P3-058,P3,2026-10-19T17:42:43,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.16); acct 0.12 harsh 0.04; worst day -9.9%,research/out/p3_shorts_p4all.csv
+P3-059,P3,2026-10-19T17:42:45,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.53 (t vs base -1.86); acct 0.50 harsh 0.42; worst day -8.9%,research/out/p3_shorts_p4all.csv

@@ -1,0 +1,26 @@
+ticker,name,ipo_year,src,first_year,gap
+AEHL,Antelope  Enterprise Holdings,2010.0,screener+uscc2025,2007,3.0
+ATXG,Addentax Group  Corp.,2022.0,screener+uscc2025,2018,4.0
+BHAT,Blue Hat  Interactive  Entertainment  Technology,2019.0,uscc+uscc2025,2007,12.0
+CBPO,"China Biologic  Products  Holdings, Inc.",2010.0,uscc,2008,2.0
+CCCL,"China Ceramics  Co., Ltd.",2010.0,uscc,2007,3.0
+CD,ChinData,2020.0,screener+uscc,2015,5.0
+CHR,"Cheer Holding, Inc",2021.0,screener+uscc2025,2018,3.0
+CIH,China Index  Holdings,2019.0,uscc,2000,19.0
+CO,Global Cord  Blood  Corporation,2009.0,uscc,2007,2.0
+CPHI,"China Pharma  Holdings, Inc.",2009.0,screener+uscc+uscc2025,2002,7.0
+CREG,China Recycling  Energy  Corporation,2010.0,uscc+uscc2025,1999,11.0
+CTK,CooTek  (Cayman) Inc.,2018.0,uscc,2007,11.0
+ENFY,"Enlightify, Inc.",2009.0,uscc2025,1999,10.0
+GSX,GSX Technology,2019.0,uscc,2012,7.0
+HMI,Huami  Corporation,2018.0,uscc,2000,18.0
+ITP,(prev.  ONP)  IT Tech  Packaging  (previously  Orient Paper  Inc.),2009.0,screener+uscc,2007,2.0
+KNDI,"Kandi  Technologies  Group, Inc.",2013.0,screener+uscc+uscc2025,2007,6.0
+MOXC,"Moxian, Inc.",2016.0,uscc,2014,2.0
+MVST,"Microvast Holdings,  Inc.",2021.0,uscc2025,2019,2.0
+NEW,Puxin Limited  American  Depositary  Shares,2018.0,uscc,2000,18.0
+SVA,"Sinovac  Biotech, Ltd.  $460     Health Care    66.  SECO Secoo Holding  Limited",2017.0,uscc,2012,5.0
+TAOP,Taoping Inc. $47    $0  Technology    116.  MDJH MDJM LTD,2019.0,uscc+uscc2025,2006,13.0
+TKAT,Takung Art Co.  Ltd,2017.0,uscc,2015,2.0
+WEI,Weidai Ltd.,2018.0,uscc,2000,18.0
+WSG,Wanda Sports  Group,2019.0,uscc,2014,5.0

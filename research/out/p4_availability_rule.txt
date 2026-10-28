@@ -1,0 +1,6 @@
+a short name-month (formed at month-end ym, held in ym+1) is UNAVAILABLE if any of
+   (1) iBorrowDesk observed: available shares on the last observation on/before the formation date (else the first in the
+       holding month) < shares needed for the position, or the mean observed fee over the holding month > 100%/yr;
+   (2) on a Reg SHO threshold list for >= 50% of the formation month's trading days;
+   (3) no iBorrowDesk observation and the imputed fee > 100%/yr.
+  Shares needed = (dollars_side / n_short in results/bt500k_rf_monthly.csv at the formation date) / month-end close.

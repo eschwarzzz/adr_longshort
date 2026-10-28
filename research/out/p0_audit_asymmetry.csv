@@ -1,0 +1,6 @@
+side_shipped,direction,real move,unknown,verified error,total
+long,down,0,2,6,8
+long,up,0,0,2,2
+not held,down,1,22,342,365
+not held,up,44,24,426,494
+short,up,1,0,1,2

@@ -1,0 +1,309 @@
+trial_id,phase,description,metric_summary,file,log
+P0-001,P0,"baseline variant shipped: {'real_price': False, 'no_cap': False, 'median_adv': False, 'next_filter': 'shipped'}","rows scored 19,532, liquid 12,061, names 339",research/out/p0_pred_shipped.csv,trial_log_p0.csv
+P0-002,P0,"baseline variant fix_price: {'real_price': True, 'no_cap': True, 'median_adv': False, 'next_filter': 'shipped'}","rows scored 21,292, liquid 12,807, names 394",research/out/p0_pred_fix_price.csv,trial_log_p0.csv
+P0-003,P0,"baseline variant fix_next: {'real_price': False, 'no_cap': False, 'median_adv': False, 'next_filter': 'truncation'}","rows scored 19,690, liquid 12,156, names 339",research/out/p0_pred_fix_next.csv,trial_log_p0.csv
+P0-004,P0,"baseline variant fix_adv: {'real_price': False, 'no_cap': False, 'median_adv': True, 'next_filter': 'shipped'}","rows scored 17,579, liquid 10,721, names 333",research/out/p0_pred_fix_adv.csv,trial_log_p0.csv
+P0-005,P0,"baseline variant corrected: {'real_price': True, 'no_cap': True, 'median_adv': True, 'next_filter': 'truncation'}","rows scored 19,150, liquid 11,232, names 388",research/out/p0_pred_corrected.csv,trial_log_p0.csv
+P0-006,P0,account on baseline variant shipped,"sharpe 0.75, unit 1.34, final 1,794,470",research/out/p0_monthly_shipped.csv,trial_log_p0.csv
+P0-007,P0,account on baseline variant fix_price,"sharpe 0.69, unit 1.24, final 1,672,940",research/out/p0_monthly_fix_price.csv,trial_log_p0.csv
+P0-008,P0,account on baseline variant fix_next,"sharpe 0.75, unit 1.32, final 1,800,856",research/out/p0_monthly_fix_next.csv,trial_log_p0.csv
+P0-009,P0,account on baseline variant fix_adv,"sharpe 0.56, unit 1.01, final 1,232,060",research/out/p0_monthly_fix_adv.csv,trial_log_p0.csv
+P0-010,P0,account on baseline variant corrected,"sharpe 0.68, unit 1.11, final 1,607,804",research/out/p0_monthly_corrected.csv,trial_log_p0.csv
+P0-011,P0,"restored-P&L test: corrected, shipped cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-012,P0,"restored-P&L test: corrected, only verified errors removed",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-013,P0,"restored-P&L test: corrected, shipped cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-014,P0,"restored-P&L test: corrected, only verified errors removed",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-015,P0,"restored-P&L test: corrected, no cleaning",sharpe 0.68 worst month -12.2% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-016,P0,"restored-P&L test: shipped book, shipped cleaning",sharpe 0.75 worst month -4.6% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-017,P0,"restored-P&L test: shipped book, only verified errors removed",sharpe 0.75 worst month -4.6% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-018,P0,"restored-P&L test: shipped book, no cleaning",sharpe 0.72 worst month -4.5% call days 0,research/out/p0_restored_accounts.csv,trial_log_p0.csv
+P0-019,P0,stress test corrected book,"worst intraday single 2.45, shock200 max loss 13.4%",research/out/p0_stress_corrected.csv,trial_log_p0.csv
+P0-020,P0,stress test shipped book,"worst intraday single 8.09, shock200 max loss 13.1%",research/out/p0_stress_shipped.csv,trial_log_p0.csv
+P0-021,P0,corrected + ticker-reuse truncation,acct sharpe 0.62 unit 0.98,research/out/p0_reuse_compare.csv,trial_log_p0.csv
+P0-022,P0,"survivorship sizing from SEC Form 25 (diagnostic, not a selection)",266 China/HK operating issuers finally delisted 2009-26 (+21 delisted to OTC still reporting); 17 have prices through delisting,research/out/p07_by_year.csv,trial_log_p0.csv
+P1-001,P1,1.1 feature IC/quintiles by liquidity set; zero_1m distribution; forest importance full vs liquid-only,"zero_1m IC: >=$100k (scored)=-0.021, >=$1m=-0.023, >=$3m=-0.007",research/out/p1_zero_ic.csv,trial_log_p1.csv
+P1-002,P1,recency: A shipped freeze,"unit 1.13, net 0.81, acct 0.68, t_vs_A 0.00",research/out/p1_recency.csv,trial_log_p1.csv
+P1-003,P1,recency: B 1-yr validation,"unit 0.85, net 0.52, acct 0.38, t_vs_A -2.04",research/out/p1_recency.csv,trial_log_p1.csv
+P1-004,P1,recency: C retrain through Y-1,"unit 0.77, net 0.45, acct 0.34, t_vs_A -2.33",research/out/p1_recency.csv,trial_log_p1.csv
+P1-005,P1,recency: D6 rolling 6y,"unit 1.04, net 0.69, acct 0.56, t_vs_A -0.94",research/out/p1_recency.csv,trial_log_p1.csv
+P1-006,P1,recency: D8 rolling 8y,"unit 1.12, net 0.78, acct 0.61, t_vs_A -0.51",research/out/p1_recency.csv,trial_log_p1.csv
+P1-007,P1,recency: R recency-weighted,"unit 1.23, net 0.88, acct 0.72, t_vs_A 0.10",research/out/p1_recency.csv,trial_log_p1.csv
+P1-008,P1,recency: Q quarterly refit,"unit 0.93, net 0.60, acct 0.48, t_vs_A -1.36",research/out/p1_recency.csv,trial_log_p1.csv
+P1-009,P1,recency: selected by trailing LS,"unit 1.16, net 0.82, acct 0.65, t_vs_A -0.34",research/out/p1_recency.csv,trial_log_p1.csv
+P1-010,P1,recency: selected by trailing IC,"unit 1.06, net 0.72, acct 0.57, t_vs_A -1.06",research/out/p1_recency.csv,trial_log_p1.csv
+P1-011,P1,models: Huber,"unit 0.60, net 0.33, acct 0.27, t_vs_A -2.12",research/out/p1_models.csv,trial_log_p1.csv
+P1-012,P1,models: OLS,"unit 0.73, net 0.41, acct 0.38, t_vs_A -2.19",research/out/p1_models.csv,trial_log_p1.csv
+P1-013,P1,models: blend RF+Huber,"unit 1.00, net 0.71, acct 0.56, t_vs_A -0.45",research/out/p1_models.csv,trial_log_p1.csv
+P1-014,P1,models: blend RF+OLS,"unit 1.02, net 0.72, acct 0.63, t_vs_A -0.87",research/out/p1_models.csv,trial_log_p1.csv
+P1-015,P1,models: model selected by trailing LS,"unit 0.77, net 0.48, acct 0.40, t_vs_A -2.33",research/out/p1_models.csv,trial_log_p1.csv
+P1-016,P1,models: model selected by trailing IC,"unit 0.64, net 0.37, acct 0.31, t_vs_A -2.07",research/out/p1_models.csv,trial_log_p1.csv
+P1-017,P1,1.3 seed 0 RF,unit 1.13 acct 0.68,research/out/p1_seed0_2010.csv,trial_log_p1.csv
+P1-018,P1,1.3 seed 0 blend RF+OLS,unit 1.02 acct 0.63,research/out/p1_seed0_2010.csv,trial_log_p1.csv
+P1-019,P1,1.3 seed 1 RF,unit 1.26 acct 0.78,research/out/p1_seed1_2010.csv,trial_log_p1.csv
+P1-020,P1,1.3 seed 1 blend RF+OLS,unit 1.01 acct 0.64,research/out/p1_seed1_2010.csv,trial_log_p1.csv
+P1-021,P1,1.3 seed 2 RF,unit 0.96 acct 0.56,research/out/p1_seed2_2010.csv,trial_log_p1.csv
+P1-022,P1,1.3 seed 2 blend RF+OLS,unit 1.00 acct 0.57,research/out/p1_seed2_2010.csv,trial_log_p1.csv
+P1-023,P1,1.3 seed 3 RF,unit 1.13 acct 0.69,research/out/p1_seed3_2010.csv,trial_log_p1.csv
+P1-024,P1,1.3 seed 3 blend RF+OLS,unit 1.11 acct 0.69,research/out/p1_seed3_2010.csv,trial_log_p1.csv
+P1-025,P1,1.3 seed 4 RF,unit 1.14 acct 0.65,research/out/p1_seed4_2010.csv,trial_log_p1.csv
+P1-026,P1,1.3 seed 4 blend RF+OLS,unit 1.05 acct 0.64,research/out/p1_seed4_2010.csv,trial_log_p1.csv
+P2-001,P2,2.1 feature set base (fixed hp),"unit 1.33, net 0.99, acct 0.76, t 0.05",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-002,P2,2.1 feature set +zero_1m (fixed hp),"unit 0.93, net 0.62, acct 0.52, t -1.48",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-003,P2,2.1 feature set +ret_1m (fixed hp),"unit 1.21, net 0.85, acct 0.70, t -0.64",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-004,P2,2.1 feature set +vol_1m (fixed hp),"unit 1.30, net 0.92, acct 0.71, t -0.43",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-005,P2,2.1 feature set +vol_3m (fixed hp),"unit 1.09, net 0.76, acct 0.57, t -0.89",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-006,P2,2.1 feature set +ivol_12m (fixed hp),"unit 1.20, net 0.86, acct 0.67, t -0.26",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-007,P2,2.1 feature set +beta_12m (fixed hp),"unit 1.30, net 0.95, acct 0.76, t 0.37",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-008,P2,2.1 feature set +maxret_1m (fixed hp),"unit 1.36, net 1.00, acct 0.75, t 0.45",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-009,P2,2.1 feature set +minret_1m (fixed hp),"unit 1.18, net 0.86, acct 0.67, t 0.31",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-010,P2,2.1 feature set +dolvol_1m (fixed hp),"unit 1.25, net 0.91, acct 0.75, t 0.51",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-011,P2,2.1 feature set +dolvol_trend (fixed hp),"unit 1.18, net 0.85, acct 0.70, t 0.25",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-012,P2,2.1 feature set +illiq_1m (fixed hp),"unit 1.06, net 0.74, acct 0.63, t -0.61",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-013,P2,2.1 feature set +age (fixed hp),"unit 1.19, net 0.88, acct 0.75, t 0.81",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-014,P2,2.1 feature set base+zero_1m (single) (fixed hp),"unit 0.93, net 0.62, acct 0.52, t -1.48",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-015,P2,2.1 feature set base+ret_1m (single) (fixed hp),"unit 1.27, net 0.92, acct 0.73, t -0.32",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-016,P2,2.1 feature set base+vol_1m (single) (fixed hp),"unit 1.27, net 0.91, acct 0.75, t -0.43",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-017,P2,2.1 feature set base+vol_3m (single) (fixed hp),"unit 1.15, net 0.83, acct 0.63, t -0.45",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-018,P2,2.1 feature set base+ivol_12m (single) (fixed hp),"unit 1.15, net 0.83, acct 0.62, t -0.31",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-019,P2,2.1 feature set base+beta_12m (single) (fixed hp),"unit 0.94, net 0.64, acct 0.51, t -1.26",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-020,P2,2.1 feature set base+maxret_1m (single) (fixed hp),"unit 1.28, net 0.95, acct 0.75, t 0.05",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-021,P2,2.1 feature set base+minret_1m (single) (fixed hp),"unit 1.09, net 0.74, acct 0.58, t -1.06",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-022,P2,2.1 feature set base+dolvol_1m (single) (fixed hp),"unit 0.99, net 0.64, acct 0.54, t -1.46",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-023,P2,2.1 feature set base+dolvol_trend (single) (fixed hp),"unit 1.08, net 0.74, acct 0.55, t -1.13",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-024,P2,2.1 feature set base+illiq_1m (single) (fixed hp),"unit 1.07, net 0.72, acct 0.58, t -1.18",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-025,P2,2.1 feature set base+age (single) (fixed hp),"unit 1.10, net 0.80, acct 0.69, t -0.59",research/out/p2_buildup.csv,trial_log_p2.csv
+P2-026,P2,2.2 single high52 (fixed hp),"unit 0.98, net 0.62, t -1.43",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-027,P2,2.2 single ivol_12m (fixed hp),"unit 0.13, net -0.14, t -3.25",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-028,P2,2.2 single mom_6_1 (fixed hp),"unit 0.11, net -0.25, t -3.80",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-029,P2,2.2 single dolvol_trend (fixed hp),"unit 0.64, net 0.30, t -1.72",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-030,P2,2.2 single mom_12_1 (fixed hp),"unit 0.38, net 0.01, t -3.04",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-031,P2,2.2 single vol_1m (fixed hp),"unit 0.20, net -0.24, t -3.52",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-032,P2,2.2 single dolvol_1m (fixed hp),"unit 0.36, net -0.11, t -3.23",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-033,P2,2.2 single zero_1m (fixed hp),"unit 0.11, net -0.33, t -3.57",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-034,P2,2.2 pair high52+ivol_12m (fixed hp),"unit 0.85, net 0.56, t -1.19",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-035,P2,2.2 base+high52+ivol_12m (fixed hp),"unit 1.15, net 0.83, t -0.31",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-036,P2,2.2 pair high52+mom_6_1 (fixed hp),"unit 0.88, net 0.54, t -1.82",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-037,P2,2.2 base+high52+mom_6_1 (fixed hp),"unit 1.33, net 0.99, t 0.05",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-038,P2,2.2 pair high52+dolvol_trend (fixed hp),"unit 0.95, net 0.61, t -1.31",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-039,P2,2.2 base+high52+dolvol_trend (fixed hp),"unit 1.08, net 0.74, t -1.13",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-040,P2,2.2 pair high52+mom_12_1 (fixed hp),"unit 1.21, net 0.88, t -0.22",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-041,P2,2.2 base+high52+mom_12_1 (fixed hp),"unit 1.33, net 0.99, t 0.05",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-042,P2,2.2 pair high52+vol_1m (fixed hp),"unit 0.90, net 0.56, t -1.61",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-043,P2,2.2 base+high52+vol_1m (fixed hp),"unit 1.27, net 0.91, t -0.43",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-044,P2,2.2 pair high52+dolvol_1m (fixed hp),"unit 0.91, net 0.52, t -1.65",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-045,P2,2.2 base+high52+dolvol_1m (fixed hp),"unit 0.99, net 0.64, t -1.46",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-046,P2,2.2 pair high52+zero_1m (fixed hp),"unit 1.23, net 0.88, t -0.04",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-047,P2,2.2 base+high52+zero_1m (fixed hp),"unit 0.93, net 0.62, t -1.48",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-048,P2,2.2 pair ivol_12m+mom_6_1 (fixed hp),"unit 0.88, net 0.53, t -1.49",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-049,P2,2.2 base+ivol_12m+mom_6_1 (fixed hp),"unit 1.15, net 0.83, t -0.31",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-050,P2,2.2 pair ivol_12m+dolvol_trend (fixed hp),"unit 1.04, net 0.71, t -0.47",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-051,P2,2.2 base+ivol_12m+dolvol_trend (fixed hp),"unit 1.19, net 0.84, t -0.63",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-052,P2,2.2 pair ivol_12m+mom_12_1 (fixed hp),"unit 0.72, net 0.40, t -1.90",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-053,P2,2.2 base+ivol_12m+mom_12_1 (fixed hp),"unit 1.15, net 0.83, t -0.31",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-054,P2,2.2 pair ivol_12m+vol_1m (fixed hp),"unit 0.48, net 0.16, t -2.29",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-055,P2,2.2 base+ivol_12m+vol_1m (fixed hp),"unit 1.29, net 0.92, t -0.47",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-056,P2,2.2 pair ivol_12m+dolvol_1m (fixed hp),"unit 0.57, net 0.21, t -2.13",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-057,P2,2.2 base+ivol_12m+dolvol_1m (fixed hp),"unit 1.35, net 0.97, t -0.19",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-058,P2,2.2 pair ivol_12m+zero_1m (fixed hp),"unit 0.32, net -0.01, t -3.04",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-059,P2,2.2 base+ivol_12m+zero_1m (fixed hp),"unit 0.96, net 0.63, t -1.61",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-060,P2,2.2 pair mom_6_1+dolvol_trend (fixed hp),"unit 0.51, net 0.19, t -2.11",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-061,P2,2.2 base+mom_6_1+dolvol_trend (fixed hp),"unit 1.08, net 0.74, t -1.13",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-062,P2,2.2 pair mom_6_1+mom_12_1 (fixed hp),"unit 0.57, net 0.26, t -1.94",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-063,P2,2.2 base+mom_6_1+mom_12_1 (fixed hp),"unit 1.33, net 0.99, t 0.05",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-064,P2,2.2 pair mom_6_1+vol_1m (fixed hp),"unit 0.50, net 0.11, t -3.11",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-065,P2,2.2 base+mom_6_1+vol_1m (fixed hp),"unit 1.27, net 0.91, t -0.43",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-066,P2,2.2 pair mom_6_1+dolvol_1m (fixed hp),"unit 0.59, net 0.25, t -2.03",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-067,P2,2.2 base+mom_6_1+dolvol_1m (fixed hp),"unit 0.99, net 0.64, t -1.46",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-068,P2,2.2 pair mom_6_1+zero_1m (fixed hp),"unit 0.57, net 0.21, t -2.33",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-069,P2,2.2 base+mom_6_1+zero_1m (fixed hp),"unit 0.93, net 0.62, t -1.48",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-070,P2,2.2 pair dolvol_trend+mom_12_1 (fixed hp),"unit 0.50, net 0.13, t -2.75",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-071,P2,2.2 base+dolvol_trend+mom_12_1 (fixed hp),"unit 1.08, net 0.74, t -1.13",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-072,P2,2.2 pair dolvol_trend+vol_1m (fixed hp),"unit 0.82, net 0.39, t -2.24",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-073,P2,2.2 base+dolvol_trend+vol_1m (fixed hp),"unit 1.10, net 0.76, t -0.99",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-074,P2,2.2 pair dolvol_trend+dolvol_1m (fixed hp),"unit 0.86, net 0.46, t -1.46",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-075,P2,2.2 base+dolvol_trend+dolvol_1m (fixed hp),"unit 1.14, net 0.79, t -0.93",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-076,P2,2.2 pair dolvol_trend+zero_1m (fixed hp),"unit 0.60, net 0.23, t -1.88",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-077,P2,2.2 base+dolvol_trend+zero_1m (fixed hp),"unit 1.04, net 0.71, t -1.08",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-078,P2,2.2 pair mom_12_1+vol_1m (fixed hp),"unit 0.59, net 0.24, t -2.39",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-079,P2,2.2 base+mom_12_1+vol_1m (fixed hp),"unit 1.27, net 0.91, t -0.43",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-080,P2,2.2 pair mom_12_1+dolvol_1m (fixed hp),"unit 0.54, net 0.14, t -2.62",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-081,P2,2.2 base+mom_12_1+dolvol_1m (fixed hp),"unit 0.99, net 0.64, t -1.46",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-082,P2,2.2 pair mom_12_1+zero_1m (fixed hp),"unit 0.45, net 0.09, t -2.70",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-083,P2,2.2 base+mom_12_1+zero_1m (fixed hp),"unit 0.93, net 0.62, t -1.48",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-084,P2,2.2 pair vol_1m+dolvol_1m (fixed hp),"unit 0.48, net 0.06, t -2.81",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-085,P2,2.2 base+vol_1m+dolvol_1m (fixed hp),"unit 1.17, net 0.81, t -0.81",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-086,P2,2.2 pair vol_1m+zero_1m (fixed hp),"unit 0.25, net -0.14, t -3.52",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-087,P2,2.2 base+vol_1m+zero_1m (fixed hp),"unit 1.17, net 0.83, t -0.61",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-088,P2,2.2 pair dolvol_1m+zero_1m (fixed hp),"unit 0.35, net -0.15, t -3.22",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-089,P2,2.2 base+dolvol_1m+zero_1m (fixed hp),"unit 1.18, net 0.80, t -1.01",research/out/p2_pairs.csv,trial_log_p2.csv
+P2-090,P2,2.3/2.4 all16|s0 (grid hp),"unit 1.13, net 0.81, acct 0.68, t 0.00",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-091,P2,2.3/2.4 drop zero_1m|s0 (grid hp),"unit 1.13, net 0.79, acct 0.69, t -0.63",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-092,P2,2.3/2.4 drop beta_12m|s0 (grid hp),"unit 1.26, net 0.93, acct 0.76, t 0.77",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-093,P2,2.3/2.4 drop minret_1m|s0 (grid hp),"unit 1.19, net 0.85, acct 0.69, t -0.14",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-094,P2,2.3/2.4 drop illiq_1m|s0 (grid hp),"unit 1.18, net 0.84, acct 0.69, t -0.42",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-095,P2,2.3/2.4 drop maxret_1m|s0 (grid hp),"unit 1.25, net 0.93, acct 0.75, t 0.88",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-096,P2,2.3/2.4 drop age|s0 (grid hp),"unit 1.02, net 0.70, acct 0.59, t -1.50",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-097,P2,2.3/2.4 drop five|s0 (grid hp),"unit 1.32, net 0.96, acct 0.78, t 0.55",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-098,P2,2.3/2.4 drop five+zero_1m|s0 (grid hp),"unit 1.23, net 0.87, acct 0.69, t -0.26",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-099,P2,2.3/2.4 selected(val LS)|s0 (grid hp),"unit 1.13, net 0.82, acct 0.68, t 0.21",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-100,P2,2.3/2.4 selected(val IC)|s0 (grid hp),"unit 1.22, net 0.89, acct 0.73, t -0.03",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-101,P2,2.3/2.4 all16|s1 (grid hp),"unit 1.26, net 0.92, acct 0.78, t 0.58",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-102,P2,2.3/2.4 drop zero_1m|s1 (grid hp),"unit 1.11, net 0.77, acct 0.65, t -0.94",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-103,P2,2.3/2.4 drop beta_12m|s1 (grid hp),"unit 0.98, net 0.65, acct 0.58, t -1.74",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-104,P2,2.3/2.4 drop minret_1m|s1 (grid hp),"unit 1.14, net 0.82, acct 0.78, t -0.27",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-105,P2,2.3/2.4 drop illiq_1m|s1 (grid hp),"unit 1.10, net 0.78, acct 0.65, t -0.56",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-106,P2,2.3/2.4 drop maxret_1m|s1 (grid hp),"unit 1.09, net 0.77, acct 0.64, t -0.53",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-107,P2,2.3/2.4 drop age|s1 (grid hp),"unit 1.13, net 0.81, acct 0.70, t -0.09",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-108,P2,2.3/2.4 drop five|s1 (grid hp),"unit 1.13, net 0.79, acct 0.74, t -0.48",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-109,P2,2.3/2.4 drop five+zero_1m|s1 (grid hp),"unit 1.49, net 1.14, acct 0.88, t 1.24",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-110,P2,2.3/2.4 selected(val LS)|s1 (grid hp),"unit 1.21, net 0.86, acct 0.74, t -0.20",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-111,P2,2.3/2.4 selected(val IC)|s1 (grid hp),"unit 1.15, net 0.81, acct 0.68, t -0.54",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-112,P2,2.3/2.4 all16|s2 (grid hp),"unit 0.93, net 0.61, acct 0.56, t -2.03",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-113,P2,2.3/2.4 drop zero_1m|s2 (grid hp),"unit 1.16, net 0.83, acct 0.72, t -0.35",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-114,P2,2.3/2.4 drop beta_12m|s2 (grid hp),"unit 1.22, net 0.89, acct 0.70, t 0.40",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-115,P2,2.3/2.4 drop minret_1m|s2 (grid hp),"unit 0.99, net 0.66, acct 0.51, t -1.79",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-116,P2,2.3/2.4 drop illiq_1m|s2 (grid hp),"unit 1.01, net 0.68, acct 0.56, t -1.62",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-117,P2,2.3/2.4 drop maxret_1m|s2 (grid hp),"unit 1.26, net 0.93, acct 0.74, t 0.88",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-118,P2,2.3/2.4 drop age|s2 (grid hp),"unit 1.04, net 0.73, acct 0.62, t -0.39",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-119,P2,2.3/2.4 drop five|s2 (grid hp),"unit 1.16, net 0.82, acct 0.67, t -0.42",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-120,P2,2.3/2.4 drop five+zero_1m|s2 (grid hp),"unit 1.45, net 1.11, acct 0.85, t 1.15",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-121,P2,2.3/2.4 selected(val LS)|s2 (grid hp),"unit 1.07, net 0.74, acct 0.62, t -1.14",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-122,P2,2.3/2.4 selected(val IC)|s2 (grid hp),"unit 1.08, net 0.74, acct 0.60, t -0.98",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-123,P2,2.3/2.4 all16|s3 (grid hp),"unit 1.16, net 0.84, acct 0.72, t 0.41",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-124,P2,2.3/2.4 drop zero_1m|s3 (grid hp),"unit 1.15, net 0.82, acct 0.71, t -0.36",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-125,P2,2.3/2.4 drop beta_12m|s3 (grid hp),"unit 1.11, net 0.79, acct 0.67, t 0.04",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-126,P2,2.3/2.4 drop minret_1m|s3 (grid hp),"unit 1.08, net 0.76, acct 0.66, t -0.66",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-127,P2,2.3/2.4 drop illiq_1m|s3 (grid hp),"unit 1.13, net 0.80, acct 0.68, t -0.45",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-128,P2,2.3/2.4 drop maxret_1m|s3 (grid hp),"unit 1.05, net 0.74, acct 0.61, t -0.67",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-129,P2,2.3/2.4 drop age|s3 (grid hp),"unit 1.17, net 0.84, acct 0.72, t 0.11",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-130,P2,2.3/2.4 drop five|s3 (grid hp),"unit 1.17, net 0.82, acct 0.66, t -0.39",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-131,P2,2.3/2.4 drop five+zero_1m|s3 (grid hp),"unit 1.45, net 1.09, acct 0.84, t 0.93",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-132,P2,2.3/2.4 selected(val LS)|s3 (grid hp),"unit 1.13, net 0.81, acct 0.72, t -0.13",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-133,P2,2.3/2.4 selected(val IC)|s3 (grid hp),"unit 1.15, net 0.83, acct 0.71, t -0.25",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-134,P2,2.3/2.4 all16|s4 (grid hp),"unit 1.12, net 0.78, acct 0.63, t -0.62",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-135,P2,2.3/2.4 drop zero_1m|s4 (grid hp),"unit 1.07, net 0.73, acct 0.64, t -1.07",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-136,P2,2.3/2.4 drop beta_12m|s4 (grid hp),"unit 1.27, net 0.92, acct 0.74, t 0.35",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-137,P2,2.3/2.4 drop minret_1m|s4 (grid hp),"unit 1.40, net 1.05, acct 0.86, t 1.05",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-138,P2,2.3/2.4 drop illiq_1m|s4 (grid hp),"unit 1.00, net 0.67, acct 0.54, t -1.90",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-139,P2,2.3/2.4 drop maxret_1m|s4 (grid hp),"unit 1.23, net 0.89, acct 0.68, t 0.09",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-140,P2,2.3/2.4 drop age|s4 (grid hp),"unit 1.21, net 0.88, acct 0.72, t 0.17",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-141,P2,2.3/2.4 drop five|s4 (grid hp),"unit 1.26, net 0.92, acct 0.82, t 0.45",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-142,P2,2.3/2.4 drop five+zero_1m|s4 (grid hp),"unit 1.46, net 1.09, acct 0.83, t 0.72",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-143,P2,2.3/2.4 selected(val LS)|s4 (grid hp),"unit 1.03, net 0.69, acct 0.56, t -1.47",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P2-144,P2,2.3/2.4 selected(val IC)|s4 (grid hp),"unit 1.08, net 0.75, acct 0.62, t -1.00",research/out/p2_confirm_all_seeds.csv,trial_log_p2.csv
+P3-001,P3,3.1 book: short only (naked),"unit net 0.26 harsh 0.10; acct 0.75 final 575,917 maxdd -6.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-002,P3,3.1 book: short + current long leg (baseline),"unit net 0.81 harsh 0.61; acct 0.68 final 1,607,804 maxdd -17.2",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-003,P3,3.1 book: short + PGJ x1,"unit net 0.51 harsh 0.29; acct 0.42 final 1,012,898 maxdd -30.7",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-004,P3,3.1 book: short + PGJ beta-matched,"unit net 0.50 harsh 0.27; acct 0.46 final 1,036,711 maxdd -27.6",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-005,P3,3.1 book: short + KWEB x1,"unit net 0.45 harsh 0.25; acct 0.39 final 895,583 maxdd -31.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-006,P3,3.1 book: short + KWEB beta-matched,"unit net 0.44 harsh 0.24; acct 0.40 final 799,356 maxdd -26.2",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-007,P3,3.1 book: short + FXI x1,"unit net 0.39 harsh 0.19; acct 0.30 final 795,650 maxdd -31.5",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-008,P3,3.1 book: short + FXI beta-matched,"unit net 0.33 harsh 0.13; acct 0.29 final 710,570 maxdd -26.6",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-009,P3,3.1 book: short + MCHI x1,"unit net 0.41 harsh 0.21; acct 0.28 final 754,568 maxdd -30.9",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-010,P3,3.1 book: short + MCHI beta-matched,"unit net 0.35 harsh 0.14; acct 0.25 final 691,926 maxdd -27.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-011,P3,3.1 book: short + VW x1,"unit net 0.72 harsh 0.50; acct 0.66 final 1,486,555 maxdd -19.1",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-012,P3,3.1 book: short + VW beta-matched,"unit net 0.55 harsh 0.32; acct 0.53 final 918,524 maxdd -14.1",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-013,P3,3.1 book: short + EW x1,"unit net 0.45 harsh 0.17; acct 0.37 final 913,135 maxdd -25.0",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-014,P3,3.1 book: short + EW beta-matched,"unit net 0.41 harsh 0.12; acct 0.34 final 893,412 maxdd -23.6",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-015,P3,3.1 book: short only (naked),"unit net 0.26 harsh 0.10; acct 0.21 final 663,454 maxdd -30.9",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-016,P3,3.1 book: short + current long leg (baseline),"unit net 0.81 harsh 0.61; acct 0.68 final 1,607,804 maxdd -17.2",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-017,P3,3.1 book: short + PGJ x1,"unit net 0.51 harsh 0.29; acct 0.42 final 1,012,898 maxdd -30.7",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-018,P3,3.1 book: short + PGJ beta-matched,"unit net 0.50 harsh 0.27; acct 0.40 final 973,060 maxdd -31.1",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-019,P3,3.1 book: short + KWEB x1,"unit net 0.45 harsh 0.25; acct 0.39 final 895,583 maxdd -31.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-020,P3,3.1 book: short + KWEB beta-matched,"unit net 0.44 harsh 0.24; acct 0.36 final 850,659 maxdd -32.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-021,P3,3.1 book: short + FXI x1,"unit net 0.39 harsh 0.19; acct 0.30 final 795,650 maxdd -31.5",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-022,P3,3.1 book: short + FXI beta-matched,"unit net 0.33 harsh 0.13; acct 0.25 final 719,269 maxdd -31.5",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-023,P3,3.1 book: short + MCHI x1,"unit net 0.41 harsh 0.21; acct 0.28 final 754,568 maxdd -30.9",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-024,P3,3.1 book: short + MCHI beta-matched,"unit net 0.35 harsh 0.14; acct 0.24 final 693,130 maxdd -30.3",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-025,P3,3.1 book: short + VW x1,"unit net 0.72 harsh 0.50; acct 0.66 final 1,486,555 maxdd -19.1",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-026,P3,3.1 book: short + VW beta-matched,"unit net 0.55 harsh 0.32; acct 0.47 final 1,088,599 maxdd -22.2",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-027,P3,3.1 book: short + EW x1,"unit net 0.45 harsh 0.17; acct 0.37 final 913,135 maxdd -25.0",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-028,P3,3.1 book: short + EW beta-matched,"unit net 0.41 harsh 0.12; acct 0.33 final 829,307 maxdd -22.9",research/out/p3_hedges.csv,trial_log_p3.csv
+P3-029,P3,3.2 hedge-break diagnostics by year,shorts<24m 48% -> 22%; short beta PGJ 1.12 -> 1.04,research/out/p3_hedge_break.csv,trial_log_p3.csv
+P3-030,P3,"3.2 hedge-break diagnostics by year, SHIPPED baseline",shorts<24m 44% -> 33%; short beta PGJ 1.09 -> 0.92,research/out/p3_hedge_break_shipped.csv,trial_log_p3.csv
+P3-031,P3,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-032,P3,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.72 (t vs base -1.05); acct 0.61 harsh 0.36; worst day -8.1%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-033,P3,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.75 (t vs base -0.73); acct 0.64 harsh 0.34; worst day -8.1%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-034,P3,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-035,P3,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-036,P3,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.37 (t vs base -2.04); acct 0.39 harsh 0.08; worst day -6.7%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-037,P3,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-038,P3,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.28); acct 0.07 harsh -0.21; worst day -8.0%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-039,P3,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.55 (t vs base -2.45); acct 0.50 harsh 0.23; worst day -8.6%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-040,P3,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-041,P3,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.65 (t vs base -1.33); acct 0.58 harsh 0.49; worst day -8.4%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-042,P3,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.59 (t vs base -1.49); acct 0.54 harsh 0.48; worst day -8.7%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-043,P3,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-044,P3,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-045,P3,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.48 (t vs base -2.24); acct 0.49 harsh 0.39; worst day -7.4%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-046,P3,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-047,P3,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.16); acct 0.12 harsh 0.04; worst day -9.9%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-048,P3,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.53 (t vs base -1.86); acct 0.50 harsh 0.42; worst day -8.9%,research/out/p3_shorts.csv,trial_log_p3.csv
+P3-049,P3,"3.3-3.5 variant: baseline (EW shorts, forecast rank)",unit net 0.81 (t vs base 0.00); acct 0.68 harsh 0.52; worst day -7.8%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-050,P3,"3.3-3.5 variant: borrow-aware, base schedule",unit net 0.65 (t vs base -1.33); acct 0.58 harsh 0.49; worst day -8.4%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-051,P3,"3.3-3.5 variant: borrow-aware, harsh schedule",unit net 0.59 (t vs base -1.49); acct 0.54 harsh 0.48; worst day -8.7%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-052,P3,"3.3-3.5 variant: inverse-vol shorts (cap 2x EW, 15%)",unit net 0.65 (t vs base -2.80); acct 0.58 harsh 0.41; worst day -8.0%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-053,P3,"3.3-3.5 variant: borrow-aware, P4 fee",unit net 0.20 (t vs base -2.76); acct 0.14 harsh 0.07; worst day -13.7%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-054,P3,"3.3-3.5 variant: borrow-aware, P4 fee + skip unavailable",unit net 0.19 (t vs base -2.79); acct 0.12 harsh 0.06; worst day -13.7%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-055,P3,"3.3-3.5 variant: short + VW x1, inverse-vol shorts",unit net 0.55 (t vs base -2.04); acct 0.53 harsh 0.33; worst day -7.4%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-056,P3,"3.3-3.5 variant: short + VW x1, borrow-aware base + inverse-vol",unit net 0.48 (t vs base -2.24); acct 0.49 harsh 0.39; worst day -7.4%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-057,P3,"3.3-3.5 variant: short + FXI x1, inverse-vol shorts",unit net 0.21 (t vs base -3.33); acct 0.18 harsh 0.01; worst day -9.0%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-058,P3,"3.3-3.5 variant: short + FXI x1, borrow-aware base + inverse-vol",unit net 0.08 (t vs base -3.16); acct 0.12 harsh 0.04; worst day -9.9%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+P3-059,P3,3.3-3.5 variant: borrow-aware base + inverse-vol (long leg),unit net 0.53 (t vs base -1.86); acct 0.50 harsh 0.42; worst day -8.9%,research/out/p3_shorts_p4all.csv,trial_log_p3.csv
+p4-01,4.2,"free-source coverage of held shorts (iBorrowDesk, Reg SHO, SEC FTD, FINRA SI)","ibd files 380, tickers with fee data 305",research/out/p4_coverage.csv,trial_log_p4.csv
+p4-02,4.2,"observed IBKR fee vs assumed tiered schedule, held names with iBorrowDesk data","short obs 150, median fee 67.41%",research/out/p4_fee_vs_assumed.csv,trial_log_p4.csv
+p4-03,4.2,"log-fee regression on proxies (core), grouped CV by ticker","R2 0.61, CV R2 0.59, n 3105",research/out/p4_fee_model.csv,trial_log_p4.csv
+p4-04,4.2,log-fee regression on proxies + FINRA days-to-cover,"R2 0.63, CV R2 0.61",research/out/p4_fee_model.csv,trial_log_p4.csv
+p4-05,4.2,availability flag (pre-stated rule) and share of short P&L in unavailable names,"2010-26 share of P&L 50%, 2021-26 68%",research/out/p4_unavailable_pnl.csv,trial_log_p4.csv
+p4-06,4.2,unit short leg net of base / harsh / best-estimate fee (descriptive),gross 0.74; base 0.59; harsh 0.42; best 0.05; avail_only_best 0.12,research/out/p4_short_leg_by_fee_summary.csv,trial_log_p4.csv
+p4-07,4.2,"borrow panel for every short-eligible ticker-month and held long, three forecast files, frozen fee model","rows 9975; pool observed share shipped 8.7%, corrected 8.3%, reuse 8.3%",research/out/p4_all_coverage.csv,trial_log_p4.csv
+p4-08,4.2,unit short leg of each book under gross / base / harsh / best-estimate fee / available-only (descriptive),shipped best 0.06; corrected best 0.07; reuse best -0.02,research/out/p4_all_short_leg.csv,trial_log_p4.csv
+P4-009,P4,"realistic account [corrected]: flat 20bp, base borrow (backtest as built)","sharpe 0.68 final 1,607,804",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-010,P4,"realistic account [corrected_reuse]: flat 20bp, base borrow (backtest as built)","sharpe 0.62 final 1,343,541",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-011,P4,"realistic account [shipped]: flat 20bp, base borrow (backtest as built)","sharpe 0.75 final 1,806,109",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-012,P4,"realistic account [corrected]: per-name costs 0.5x spread, base borrow","sharpe 0.52 final 1,183,208",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-013,P4,"realistic account [corrected_reuse]: per-name costs 0.5x spread, base borrow","sharpe 0.44 final 991,175",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-014,P4,"realistic account [shipped]: per-name costs 0.5x spread, base borrow","sharpe 0.51 final 1,160,970",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-015,P4,"realistic account [corrected]: per-name costs 1x spread, base borrow","sharpe 0.37 final 893,939",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-016,P4,"realistic account [corrected_reuse]: per-name costs 1x spread, base borrow","sharpe 0.28 final 739,364",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-017,P4,"realistic account [shipped]: per-name costs 1x spread, base borrow","sharpe 0.32 final 824,293",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-018,P4,"realistic account [corrected_reuse]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.40 final 911,665",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-019,P4,"realistic account [corrected]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.48 final 1,101,186",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-020,P4,"realistic account [shipped]: flat 20bp, IBKR fee (obs/imputed)","sharpe 0.40 final 946,854",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-021,P4,"realistic account [corrected]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.53 final 1,170,176",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-022,P4,"realistic account [corrected_reuse]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.40 final 918,283",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-023,P4,"realistic account [shipped]: flat 20bp, IBKR fee, skip unavailable","sharpe 0.45 final 984,707",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-024,P4,"realistic account [corrected]: per-name 0.5x, IBKR fee","sharpe 0.32 final 814,888",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-025,P4,"realistic account [corrected_reuse]: per-name 0.5x, IBKR fee","sharpe 0.23 final 675,921",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-026,P4,"realistic account [shipped]: per-name 0.5x, IBKR fee","sharpe 0.17 final 613,133",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-027,P4,"realistic account [corrected_reuse]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.24 final 693,888",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-028,P4,"realistic account [corrected]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.37 final 870,468",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-029,P4,"realistic account [shipped]: per-name 0.5x, IBKR fee, skip unavailable","sharpe 0.19 final 628,254",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-030,P4,"realistic account [corrected_reuse]: per-name 1x, IBKR fee, skip unavailable","sharpe 0.07 final 516,983",research/out/p4_realistic_corrected_reuse.csv,trial_log_p4.csv
+P4-031,P4,"realistic account [corrected]: per-name 1x, IBKR fee, skip unavailable","sharpe 0.20 final 648,688",research/out/p4_realistic_corrected.csv,trial_log_p4.csv
+P4-032,P4,"realistic account [shipped]: per-name 1x, IBKR fee, skip unavailable","sharpe -0.03 final 433,214",research/out/p4_realistic_shipped.csv,trial_log_p4.csv
+P4-033,P4,"realistic [corrected_reuse] per-name 0.5x, IBKR fee",sharpe 0.23,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-034,P4,"realistic [corrected_reuse] per-name 0.5x, IBKR fee, borrow-aware rank",sharpe 0.21,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-035,P4,"realistic [corrected_reuse] per-name 0.5x, IBKR fee, borrow-aware + skip unavailable",sharpe 0.20,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-036,P4,"realistic [corrected_reuse] flat 20bp, IBKR fee, borrow-aware rank",sharpe 0.36,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-037,P4,"realistic [shipped] per-name 0.5x, IBKR fee",sharpe 0.17,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-038,P4,"realistic [shipped] per-name 0.5x, IBKR fee, borrow-aware rank",sharpe 0.16,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-039,P4,"realistic [shipped] per-name 0.5x, IBKR fee, borrow-aware + skip unavailable",sharpe 0.15,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+P4-040,P4,"realistic [shipped] flat 20bp, IBKR fee, borrow-aware rank",sharpe 0.38,research/out/p4_borrow_aware_real.csv,trial_log_p4.csv
+p5_china_shipped,5,"China, shipped (mean ADV, $5k rule, adjusted $1)",rule LS 1.37 net 1.02 (191 m); all-tradeable LS 0.95; IC 0.080,research/out/p5_monthly_p5_china_shipped.csv,trial_log_p5.csv
+p5_china_corrected,5,"China, corrected",rule LS 1.22 net 0.87 (187 m); all-tradeable LS 1.18; IC 0.089,research/out/p5_monthly_p5_china_corrected.csv,trial_log_p5.csv
+p5_gc_native,5,"Greater China (China + HK/Macau ext.), native",rule LS 1.24 net 0.88 (190 m); all-tradeable LS 1.09; IC 0.089,research/out/p5_monthly_p5_gc_native.csv,trial_log_p5.csv
+p5_gc_extonly,5,"HK/Macau ext. names only, scored by the Greater China model",rule LS nan net nan (0 m); all-tradeable LS 0.23; IC 0.085,research/out/p5_monthly_p5_gc_extonly.csv,trial_log_p5.csv
+p5_foreign_native,5,"Non-China Asia foreign listings (US exchanges), native",rule LS nan net nan (1 m); all-tradeable LS 0.86; IC 0.128,research/out/p5_monthly_p5_foreign_native.csv,trial_log_p5.csv
+p5_foreign_transfer,5,"Non-China Asia foreign listings (US exchanges), China forests",rule LS nan net nan (1 m); all-tradeable LS 1.44; IC 0.065,research/out/p5_monthly_p5_foreign_transfer.csv,trial_log_p5.csv
+p5_us_native,5,"US microcaps (random 800, survivors), native",rule LS 0.64 net 0.20 (201 m); all-tradeable LS 0.79; IC 0.055,research/out/p5_monthly_p5_us_native.csv,trial_log_p5.csv
+p5_us_transfer,5,"US microcaps (random 800, survivors), China forests",rule LS 0.50 net -0.04 (201 m); all-tradeable LS 0.65; IC 0.058,research/out/p5_monthly_p5_us_transfer.csv,trial_log_p5.csv
+p5_hk_native,5,"HKEX small caps (random 1,000, HK$1 floor), native",rule LS 0.54 net -0.07 (201 m); all-tradeable LS 0.91; IC 0.050,research/out/p5_monthly_p5_hk_native.csv,trial_log_p5.csv
+p5_hk_transfer,5,"HKEX small caps (random 1,000, HK$1 floor), China forests",rule LS 0.52 net -0.09 (201 m); all-tradeable LS 0.95; IC 0.054,research/out/p5_monthly_p5_hk_transfer.csv,trial_log_p5.csv
+p5_gc_native_v2,5,"Greater China (China + HK/Macau ext.), native (HKD, AMTD added; CPRI dropped)",rule LS 1.16 net 0.84; all-tradeable LS 0.99; IC 0.089,research/out/p5_monthly_p5_gc_native.csv,trial_log_p5.csv
+p5_gc_extonly_v2,5,"HK/Macau ext. names only, scored by the Greater China model (HKD, AMTD added; CPRI dropped)",rule LS nan net nan; all-tradeable LS -1.30; IC 0.079,research/out/p5_monthly_p5_gc_extonly.csv,trial_log_p5.csv
+p5_hk_short_native,5,"HKEX Miller test (native): Q1 vs EW, non-shortable vs shortable",Q1 -22.2%/yr vs 1.7%/yr,research/out/p5_hk_shortable.csv,trial_log_p5.csv
+p5_hk_short_transfer,5,"HKEX Miller test (transfer): Q1 vs EW, non-shortable vs shortable",Q1 -26.1%/yr vs 0.1%/yr,research/out/p5_hk_shortable.csv,trial_log_p5.csv
+p5_hkd,5,AMTD Digital (HKD) entry and book check,"liquid-pool months 21, shorted 11",research/out/p5_hkd_book.csv,trial_log_p5.csv
+P6-001,P6,candidate drop5: full backtest,"sharpe 0.50 monthly 0.56 final 1,083,399",research/out/p6_drop5_variants.csv,trial_log_p6.csv
+P6-002,P6,candidate all: full backtest,"sharpe 0.62 monthly 0.69 final 1,343,091",research/out/p6_all_variants.csv,trial_log_p6.csv

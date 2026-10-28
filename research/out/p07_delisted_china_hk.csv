@@ -1,0 +1,288 @@
+cik,name,former,tickers,biz,inc,sic,delist_date,type,late_filer,ipo_filing,older_files,spac,year,universe_ticker,in_universe,prices_cover_delisting,has_any_prices,graveyard
+28367,Cogo Group Inc.,"Cogo Group, Inc.;Comtech Group Inc;TRIDENT ROWAN GROUP INC;DETOMASO INDUSTRIES INC",,F4,MD,3670,2011-08-10,exchange-initiated,False,1997-02-11,0,False,2011,,False,False,False,False
+710846,"Fushi Copperweld, Inc.",FUSHI INTERNATIONAL INC;PARALLEL TECHNOLOGIES INC,,F4,NV,3357,2012-12-26,take-private/M&A,True,,0,False,2012,,False,False,False,False
+714284,"SORL Auto Parts, Inc.",SORL Auto Parts Inc;ENCHANTED VILLAGE INC,,F4,DE,3714,2020-05-15,take-private/M&A,True,2006-08-31,0,False,2020,SORL,True,True,True,False
+721693,Smart Powerr Corp.,CHINA RECYCLING ENERGY CORP;CHINA DIGITAL WIRELESS INC;BOULDER ACQUISITIONS  INC;BOULDER BREWING CO,CREG,F4,NV,7389,2026-10-08,exchange-initiated,False,2019-05-24,0,False,2026,CREG,True,True,True,False
+753224,China Nutrifruit Group LTD,FASHION TECH INTERNATIONAL INC,,F4,NV,2033,2012-06-15,exchange-initiated,False,2008-10-14,0,False,2012,,False,False,False,False
+786368,China Ritar Power Corp.,CONCEPT VENTURES CORP;CONCEPT CAPITAL CORP,,F4,UT,3690,2011-07-05,voluntary,True,2007-05-14,0,False,2011,,False,False,False,False
+790024,"CHINA SHEN ZHOU MINING & RESOURCES, INC.",EARTH PRODUCTS & TECHNOLOGIES INC;ENVIRONMENTAL PLASMA ARC TECHNOLOGY INC,,F4,NV,1000,2013-06-20,exchange-initiated,True,,0,False,2013,,False,False,False,False
+798985,"CHINA SKY ONE MEDICAL, INC.",COMET TECHNOLOGIES INC,,F4,NV,2834,2012-03-14,exchange-initiated,False,2008-04-11,0,False,2012,,False,False,False,False
+807630,MAN SANG HOLDINGS INC,,,K3,NV,5094,2009-08-31,take-private/M&A,False,,0,False,2009,,False,False,False,False
+808011,WINNER MEDICAL GROUP INC,LAS VEGAS RESORTS CORP,,F4,NV,3842,2012-12-11,take-private/M&A,False,,0,False,2012,,False,False,False,False
+808047,QKL Stores Inc.,"QKL Stores, Inc.;FORME CAPITAL INC",,F4,DE,5411,2016-05-19,exchange-initiated,True,2008-05-09,0,False,2016,,False,False,False,False
+817129,TELESTONE TECHNOLOGIES CORP,MILESTONE CAPITAL INC,,F4,CO,3669,2013-07-19,exchange-initiated,True,,0,False,2013,,False,False,False,False
+846546,BONSO ELECTRONICS INTERNATIONAL INC,,,K3,K3,3679,2023-06-23,voluntary,True,,0,False,2023,,False,False,False,False
+857949,Enlightify Inc.,"China Green Agriculture, Inc.;DISCOVERY TECHNOLOGIES INC;DISCOVERY TECHNOLOGIES INC /KS/",,F4,NV,2870,2025-10-27,exchange-initiated,True,2008-02-08,0,False,2025,ENFY,True,True,True,False
+908732,SINOPEC SHANGHAI PETROCHEMICAL CO LTD,,SPTJF,F4,,2821,2022-08-26,voluntary,False,,0,False,2022,,False,False,False,False
+943184,"Ever-Glory International Group, Inc.",ANDEAN DEVELOPMENT CORP,,F4,FL,2300,2022-12-21,voluntary,True,1996-11-13,0,False,2022,,False,False,False,False
+1004673,Entertainment Gaming Asia Inc.,"Elixir Gaming Technologies, Inc.;VENDINGDATA CORP;CVI TECHNOLOGY INC;CASINOVATIONS INC",,K3,NV,3990,2017-06-21,take-private/M&A,True,2001-07-13,0,False,2017,,False,False,False,False
+1027454,Renewable Energy Trade Board Corp,CHINA TECHNOLOGY DEVELOPMENT GROUP CORP;TRAMFORD INTERNATIONAL LTD,,K3,,7372,2013-02-11,voluntary,False,2010-10-21,0,False,2013,,False,False,False,False
+1028637,CORGI INTERNATIONAL LTD,ZINDART LTD;ZINDART INDUSTRIAL CO LTD,,K3,,3944,2009-06-23,exchange-initiated,True,1996-12-16,0,False,2009,,False,False,False,False
+1030475,CHINA EASTERN AIRLINES CORP LTD,,,F4,,4512,2023-01-23,voluntary,False,,1,False,2023,CEA,True,True,True,False
+1041668,CHINA SOUTHERN AIRLINES CO LTD,,CHKIF,F4,F4,4512,2023-01-23,voluntary,False,,0,False,2023,ZNH,True,True,True,False
+1044577,"China Precision Steel, Inc.",ORALABS HOLDING CORP,,K3,CO,3312,2014-07-10,exchange-initiated,True,,0,False,2014,,False,False,False,False
+1046692,LJ INTERNATIONAL INC,,,K3,,3911,2013-07-30,take-private/M&A,False,2002-06-07,0,False,2013,,False,False,False,False
+1051846,"QIAO XING UNIVERSAL RESOURCES, INC",QIAO XING UNIVERSAL TELEPHONE INC,,F4,,3661,2012-06-15,take-private/M&A,True,,0,False,2012,,False,False,False,False
+1057708,GLOBAL-TECH ADVANCED INNOVATIONS INC.,GLOBAL TECH APPLIANCES INC,,K3,,3634,2016-03-21,take-private/M&A,False,,0,False,2016,,False,False,False,False
+1076770,CDC CORP,CHINADOTCOM CORP;CHINA COM CORP,,K3,K3,7372,2012-01-27,exchange-initiated,True,2004-07-19,0,False,2012,,False,False,False,False
+1076939,SKYSTAR BIO-PHARMACEUTICAL CO,CYBER GROUP NETWORK CORP;HOLLYWOOD ENTERTAINMENT NETWORK INC/CA,,F4,NV,2834,2016-02-23,exchange-initiated,True,2008-05-07,0,False,2016,,False,False,False,False
+1080360,"CHINA VALVES TECHNOLOGY, INC","INTERCONTINENTAL RESOURCES, INC;ANGLOTAJIK MINERALS INC;ICONET INC;DIGITAL VIDEO DISPLAY TECHNOLOGY CORP",,F4,NV,3490,2012-09-21,voluntary,False,2008-10-10,0,False,2012,,False,False,False,False
+1081206,China TransInfo Technology Corp.,INTRA ASIA ENTERTAINMENT CORP;GLOTECH INDUSTRIES INC;R & R RANCHING INC,,F4,NV,7373,2012-10-31,take-private/M&A,False,,0,False,2012,,False,False,False,False
+1086142,"DUOYUAN PRINTING, INC.",ASIAN FINANCIAL INC,,F4,WY,3555,2011-10-06,exchange-initiated,True,2007-03-22,0,False,2011,,False,False,False,False
+1089590,NEW DRAGON ASIA CORP,BIO AQUA SYSTEMS INC,,F4,FL,2000,2011-07-19,exchange-initiated,True,,0,False,2011,,False,False,False,False
+1090514,AMERICAN ORIENTAL BIOENGINEERING INC,ORIENTAL BIOENGINEERING INC;INTERNET GOLF ASSOCIATION INC,,F4,CO,2834,2012-06-14,exchange-initiated,True,2007-06-28,0,False,2012,,False,False,False,False
+1091164,"Jiangbo Pharmaceuticals, Inc.","Genesis Pharmaceuticals Enterprises, Inc.;GENESIS TECHNOLOGY GROUP INC;NEWAGECITIES COM INC",,F4,FL,2834,2011-10-06,exchange-initiated,False,2008-07-14,0,False,2011,,False,False,False,False
+1091325,"CHINA YIDA HOLDING, CO.",INTELISYS AVIATION SYSTEMS OF AMERICA INC;APTA HOLDINGS INC,,F4,,7310,2016-07-08,take-private/M&A,False,2008-05-06,0,False,2016,,False,False,False,False
+1094005,SINA CORP,SINA COM,,F4,,7372,2021-03-22,take-private/M&A,False,,0,False,2021,SINA,True,False,True,False
+1095595,CNOOC LTD,,,F4,,1311,2021-10-12,exchange-initiated,False,,0,False,2021,CEO,True,True,True,False
+1097086,Hong Kong Television Network Ltd,CITY TELECOM (H.K.) LTD;CITY TELECOM H K LTD,,K3,K3,4813,2015-12-08,voluntary,False,,0,False,2015,,False,False,False,False
+1099290,Hongli Clean Energy Technologies Corp.,"SINOCOKING COAL & COKE CHEMICAL INDUSTRIES, INC.;ABLEAUCTIONS COM INC",,F4,FL,3312,2017-10-06,exchange-initiated,True,2000-10-19,0,False,2017,,False,False,False,False
+1099977,CHINA MARINE FOOD GROUP LTD,NEW PARADIGM PRODUCTIONS INC,,F4,NV,2090,2013-11-01,voluntary,False,2007-12-14,0,False,2013,,False,False,False,False
+1100969,"ASIAINFO-LINKAGE, INC",ASIAINFO HOLDINGS INC,,F4,DE,7372,2014-01-15,take-private/M&A,False,1999-12-21,0,False,2014,,False,False,False,False
+1104188,SOHU COM INC,,,F4,DE,7374,2018-05-31,exchange-initiated,False,2000-02-04,0,False,2018,,False,False,False,False
+1108329,PETROCHINA CO LTD,,PCCYF;PTCCY,F4,F4,1311,2022-08-29,voluntary,False,,0,False,2022,PTR,True,True,True,False
+1111817,LONGWEI PETROLEUM INVESTMENT HOLDING LTD,TABATHA II INC,,F4,CO,5171,2013-03-22,exchange-initiated,False,2007-10-25,0,False,2013,,False,False,False,False
+1113866,CHINA UNICOM (HONG KONG) Ltd,CHINA UNICOM LTD,,F4,,4812,2021-05-07,exchange-initiated,False,,0,False,2021,CHU,True,False,True,False
+1117795,CHINA MOBILE LTD /ADR/,CHINA MOBILE HONG KONG LTD /ADR/;CHINA MOBILE HONG KONG LTD,,F4,K3,4813,2021-05-07,exchange-initiated,False,2000-11-01,0,False,2021,CHL,True,False,True,False
+1120096,Sino Clean Energy Inc,China West Coal Energy Inc;ENDO NETWORKS INC;DISCOUNT MORTGAGE SOURCE INC,,F4,NV,2860,2012-12-07,exchange-initiated,True,2010-06-16,0,False,2012,,False,False,False,False
+1120830,"China Natural Gas, Inc.",COVENTURE INTERNATIONAL INC;LIQUIDPURE CORP,,F4,DE,4923,2012-04-20,exchange-initiated,True,2008-03-14,0,False,2012,CHNR,True,True,True,False
+1123658,CHINA PETROLEUM & CHEMICAL CORP,,SNPMF,F4,,2911,2022-08-29,voluntary,False,,0,False,2022,SNP,True,True,True,False
+1144320,NEW ENERGY SYSTEMS GROUP,CHINA DIGITAL COMMUNICATION GROUP;JASMINES GARDEN,,F4,NV,3690,2013-04-23,voluntary,True,,0,False,2013,,False,False,False,False
+1158420,Green Giant Inc.,CHINA HGS REAL ESTATE INC.;CHINA AGRO SCIENCES CORP.;M GAB DEVELOPMENT CORP,,F4,F4,6500,2024-06-28,exchange-initiated,True,2021-06-25,0,False,2024,HGSH,True,False,True,True
+1160165,"ShengdaTech, Inc.",ZEOLITE EXPLORATION CO,,F4,,2890,2011-12-16,exchange-initiated,True,,0,False,2011,,False,False,False,False
+1161611,ALUMINUM CORP OF CHINA LTD,,ALMMF,F4,,3334,2022-08-22,voluntary,False,,1,False,2022,ACH,True,True,True,False
+1162862,"Wonder Auto Technology, Inc",MGCC INVESTMENT STRATEGIES INC,,F4,NV,3714,2012-01-06,exchange-initiated,True,2006-06-23,0,False,2012,,False,False,False,False
+1166389,CHINA AGRITECH INC,BASIC EMPIRE CORP,,F4,DE,2870,2011-07-13,exchange-initiated,True,2007-08-20,0,False,2011,,False,False,False,False
+1168556,TIENS BIOTECH GROUP USA INC,STRATEGIKA INC,,F4,,2834,2011-08-16,take-private/M&A,True,,0,False,2011,,False,False,False,False
+1260625,"CHINA SECURITY & SURVEILLANCE TECHNOLOGY, INC.",APEX WEALTH ENTERPRISES LTD,,F4,DE,3669,2011-09-16,take-private/M&A,False,2003-09-18,0,False,2011,,False,False,False,False
+1261888,CHINACAST EDUCATION CORP,GREAT WALL ACQUISITION CORP,,F4,DE,8200,2012-06-27,exchange-initiated,True,2003-12-04,0,False,2012,,False,False,False,False
+1266719,"Harbin Electric, Inc",TORCH EXECUTIVE SERVICES LTD,,F4,,3621,2011-11-02,take-private/M&A,False,,0,False,2011,,False,False,False,False
+1267482,SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORP,,,F4,,3674,2019-06-03,voluntary,False,2004-02-11,0,False,2019,SMI,True,False,False,False
+1268896,CHINA LIFE INSURANCE CO LTD,,CILJF;CILFY,F4,F4,6311,2022-08-22,voluntary,False,,1,False,2022,LFC,True,True,True,False
+1271940,"CHINA FIRE & SECURITY GROUP, INC.",UNIPRO FINANCIAL SERVICES INC,,F4,,3990,2011-11-04,take-private/M&A,False,2007-01-03,0,False,2011,,False,False,False,False
+1277092,ZHONGPIN INC.,STRONG TECHNICAL INC,,F4,DE,2011,2013-06-27,take-private/M&A,False,2006-04-12,0,False,2013,,False,False,False,False
+1278308,SHANDA INTERACTIVE ENTERTAINMENT LTD,,,F4,E9,7389,2012-02-14,take-private/M&A,False,2004-04-02,0,False,2012,,False,False,False,False
+1285137,KONGZHONG CORP,,,F4,E9,4822,2017-04-13,take-private/M&A,False,2004-06-04,0,False,2017,,False,False,False,False
+1285735,NINETOWNS INTERNET TECHNOLOGY GROUP CO LTD,NINETOWNS DIGITAL WORLD TRADE HOLDINGS LTD,,F4,,7372,2014-05-30,take-private/M&A,True,2004-11-03,0,False,2014,,False,False,False,False
+1287668,"China CGame, Inc.","China Architectural Engineering, Inc.;SRKP 1 INC",,F4,DE,8711,2012-04-20,exchange-initiated,True,2007-09-28,0,False,2012,,False,False,False,False
+1290903,"eLong, Inc.",,,F4,E9,4700,2016-05-31,take-private/M&A,False,2004-10-07,0,False,2016,,False,False,False,False
+1293257,Hutchison Telecommunications International LTD,,,F4,E9,4813,2010-05-25,take-private/M&A,False,2004-09-03,0,False,2010,,False,False,False,False
+1294435,"Ku6 Media Co., Ltd","Hurray! Holding Co., Ltd.",,F4,E9,4899,2016-07-12,take-private/M&A,False,2005-01-12,0,False,2016,,False,False,False,False
+1295484,"51JOB, INC.",,,F4,E9,7361,2022-05-06,take-private/M&A,True,2004-07-07,0,False,2022,JOBS,True,False,True,False
+1297024,Orsus Xelent Technologies Inc,UNIVERSAL FLIRTS CORP.,,F4,DE,3661,2011-11-03,exchange-initiated,True,2008-02-05,0,False,2011,,False,False,False,False
+1297830,China Finance Online Co. LTD,,,F4,K3,6211,2022-01-31,voluntary,True,2004-09-21,0,False,2022,JRJC,True,False,True,False
+1300734,"SHINECO, INC.","SupCor, Inc.;Supcor, Inc.;SUPCOR, INC.",,F4,,0100,2025-11-20,exchange-initiated,True,2015-03-16,0,False,2025,TYHT,True,False,True,False
+1303330,"China Housing & Land Development, Inc.",Pacific Northwest Productions Inc.,,F4,NV,1520,2016-02-19,take-private/M&A,False,2008-03-14,0,False,2016,,False,False,False,False
+1311369,China Infrastructure Investment CORP,"LEARNING QUEST TECHNOLOGIES, INC.",,F4,NV,4700,2012-04-13,exchange-initiated,True,,0,False,2012,,False,False,False,False
+1312547,New Oriental Energy & Chemical Corp.,Sports Source Inc,,F4,DE,2860,2011-06-03,exchange-initiated,False,,0,False,2011,EDU,True,True,True,False
+1314183,Jingwei International LTD,Neoview Holdings Inc.,,F4,NV,7389,2012-03-20,take-private/M&A,False,,0,False,2012,,False,False,False,False
+1316317,China Techfaith Wireless Communication Technology LTD,,,F4,E9,7389,2019-09-23,exchange-initiated,True,2005-04-07,0,False,2019,CNTF,True,False,False,False
+1327364,"Shengkai Innovations, Inc.","Southern Sauce Company, Inc.",,F4,FL,3490,2013-07-19,exchange-initiated,False,2008-08-07,0,False,2013,,False,False,False,False
+1329365,eFuture Holding Inc.,eFuture Information Technology Inc.,,F4,E9,7371,2017-01-11,take-private/M&A,False,2005-06-21,0,False,2017,,False,False,False,False
+1330017,Focus Media Holding LTD,,,F4,E9,7311,2013-05-23,take-private/M&A,False,2005-06-14,0,False,2013,,False,False,False,False
+1332639,Seaspan CORP,,,F4,,4412,2019-04-30,take-private/M&A,False,2005-07-21,0,False,2019,,False,False,False,False
+1335106,China Shenghuo Pharmaceutical Holdings Inc,SRKP 8 INC,,F4,,2834,2012-04-30,voluntary,False,2007-06-18,0,False,2012,,False,False,False,False
+1336644,UNIVERSAL TRAVEL GROUP,"TAM of Henderson, Inc.;Hair Therapists, Inc.",,F4,NV,4700,2012-04-26,voluntary,True,,0,False,2012,,False,False,False,False
+1338578,"CHINA GENGSHENG MINERALS, INC.","CHINA MINERALS TECHNOLOGIES, INC.;POINT ACQUISITION CORP;Leadpoint Consolidated Mines CO",,F4,NV,3990,2014-05-27,voluntary,True,2007-05-14,0,False,2014,,False,False,False,False
+1341088,Vimicro International CORP,,,F4,E9,3674,2015-12-18,take-private/M&A,False,2005-10-24,0,False,2015,,False,False,False,False
+1342068,"Actions Semiconductor Co., Ltd.",,,F4,E9,3674,2016-12-19,take-private/M&A,False,2005-10-24,0,False,2016,,False,False,False,False
+1342803,"Suntech Power Holdings Co., Ltd.",,,F4,,3674,2014-02-14,exchange-initiated,False,2005-11-01,0,False,2014,,False,False,False,False
+1346610,SOS Ltd,China Rapid Finance Ltd;China Risk Finance LLC,SOS,F4,E9,6200,2025-09-08,exchange-initiated,True,2017-03-31,0,False,2025,SOS,True,True,True,False
+1347510,China GrenTech CORP LTD,,,F4,E9,4812,2012-04-17,take-private/M&A,False,2006-03-13,0,False,2012,,False,False,False,False
+1350684,"China Information Technology, Inc.","China Information Security Technology, Inc.;China Public Security Technology, Inc.;Irish Mag, Inc.",,F4,,7372,2012-11-01,exchange-initiated,False,2008-05-14,0,False,2012,,False,False,False,False
+1355042,China Auto Logistics Inc,FRESH IDEAS MEDIA INC,,F4,NV,5010,2018-09-27,exchange-initiated,True,,0,False,2018,,False,False,False,False
+1357450,"Hollysys Automation Technologies, Ltd.",HLS SYSTEMS INTERNATIONAL LTD,,F4,D8,3620,2024-07-25,exchange-initiated,False,2007-08-14,0,False,2024,,False,False,False,False
+1361916,ASIA TIME CORP,SRKP 9 INC;SKRP 9 INC,,F4,,5094,2009-04-23,exchange-initiated,False,2007-02-14,0,False,2009,,False,False,False,False
+1362718,"TIANYIN PHARMACEUTICAL CO., INC.","VISCORP, INC.",,F4,DE,2834,2016-05-18,exchange-initiated,True,2008-02-15,0,False,2016,,False,False,False,False
+1365742,"Acorn International, Inc.",,,F4,E9,5900,2021-02-01,take-private/M&A,False,2007-04-03,0,False,2021,ATV,True,False,True,False
+1368308,"Highpower International, Inc.","Hong Kong Highpower Technology, Inc.;SRKP 11 INC;SKRP 11 INC",,F4,DE,3690,2019-10-31,take-private/M&A,True,2007-11-13,0,False,2019,HPJ,True,False,False,False
+1369868,"China Biologic Products Holdings, Inc.","China Biologic Products, Inc.",,F4,,2836,2021-04-20,take-private/M&A,False,2009-07-24,0,False,2021,CBPO,True,False,True,False
+1371541,"Hanwha Q CELLS Co., Ltd.","Hanwha SolarOne Co., Ltd.;Solarfun Power Holdings Co., Ltd.",,F4,F4,3674,2019-01-16,take-private/M&A,False,2006-12-11,0,False,2019,,False,False,False,False
+1373060,Mindray Medical International LTD,,,F4,E9,3841,2016-03-04,take-private/M&A,False,2006-09-06,0,False,2016,,False,False,False,False
+1376972,Homeinns Hotel Group,Home Inns & Hotels Management Inc.,,F4,E9,7011,2016-04-01,take-private/M&A,False,2006-10-04,0,False,2016,,False,False,False,False
+1378564,Zhaopin Ltd,,,F4,E9,7363,2017-10-02,take-private/M&A,True,2014-05-05,0,False,2017,,False,False,False,False
+1381074,Baijiayun Group Ltd,"Fuwei Films (Holdings), Co. Ltd.",RTCJF,F4,E9,7372,2025-08-08,exchange-initiated,True,2006-11-24,0,False,2025,RTC,True,False,False,False
+1382158,Trina Solar LTD,,,F4,F4,3674,2017-03-14,take-private/M&A,False,2006-12-06,0,False,2017,,False,False,False,False
+1382696,"FUQI INTERNATIONAL, INC.",,,F4,DE,3911,2011-06-03,exchange-initiated,True,2007-07-02,0,False,2011,,False,False,False,False
+1383790,3SBio Inc.,,,F4,E9,2834,2013-05-29,take-private/M&A,False,2007-01-19,0,False,2013,,False,False,False,False
+1384360,Simcere Pharmaceutical Group,,,F4,E9,2834,2013-12-24,take-private/M&A,False,2007-03-23,0,False,2013,,False,False,False,False
+1385424,"LDK Solar Co., Ltd.",,,F4,E9,3674,2014-10-14,exchange-initiated,True,2007-05-11,0,False,2014,,False,False,False,False
+1385598,"JA Solar Holdings Co., Ltd.",,,F4,E9,3674,2018-07-16,take-private/M&A,False,2007-01-16,0,False,2018,,False,False,False,False
+1386607,"Qiao Xing Mobile Communication Co., Ltd.",,,F4,,3661,2012-06-07,take-private/M&A,True,2007-04-17,0,False,2012,,False,False,False,False
+1386608,TONGJITANG CHINESE MEDICINES CO,,,F4,E9,2834,2011-04-21,take-private/M&A,False,2007-02-26,0,False,2011,,False,False,False,False
+1388855,"Deer Consumer Products, Inc.",Tag Events Corp.,,F4,NV,3634,2013-03-22,exchange-initiated,True,2009-05-29,0,False,2013,,False,False,False,False
+1389476,XINHUA SPORTS & ENTERTAINMENT Ltd,XINHUA FINANCE MEDIA LTD,,F4,E9,4899,2011-03-22,exchange-initiated,True,2007-02-21,0,False,2011,,False,False,False,False
+1394029,YINGLI GREEN ENERGY HOLDING CO LTD,,,F4,E9,3674,2018-07-17,exchange-initiated,True,2007-05-11,0,False,2018,,False,False,False,False
+1396016,Exceed Co Ltd.,"2020 ChinaCap Acquirco, Inc.",,K3,D8,3140,2015-05-21,take-private/M&A,True,2007-04-20,0,False,2015,,False,False,False,False
+1396247,"China Sunergy Co., Ltd.",,,F4,E9,3674,2016-03-17,exchange-initiated,True,2007-04-25,0,False,2016,,False,False,False,False
+1398551,"Yongye International, Inc.","Yongye Biotechnology International, Inc.;Golden Tan, Inc",,F4,NV,2870,2014-07-07,take-private/M&A,True,2008-05-15,0,False,2014,,False,False,False,False
+1399067,"China MediaExpress Holdings, Inc.","TM Entertainment & Media, Inc.",,K3,DE,7310,2010-01-29,take-private/M&A,False,2007-06-18,0,False,2010,,False,False,False,False
+1399521,LIHUA INTERNATIONAL INC.,PLASTRON ACQUISITION CORP I,,F4,DE,3350,2014-07-10,exchange-initiated,False,2008-12-15,0,False,2014,,False,False,False,False
+1403132,WuXi PharmaTech (Cayman) Inc.,,,F4,E9,2834,2015-12-11,take-private/M&A,False,2007-07-24,0,False,2015,,False,False,False,False
+1403794,"ZST Digital Networks, Inc.",SRKP 18 INC,,F4,DE,3663,2012-04-16,voluntary,True,2009-06-30,0,False,2012,,False,False,False,False
+1403795,"NIVS IntelliMedia Technology Group, Inc.",SRKP 19 INC,,F4,DE,3651,2011-07-19,exchange-initiated,True,2008-08-13,0,False,2011,,False,False,False,False
+1403849,"Perfect World Co., Ltd.",,,F4,E9,7389,2015-07-28,take-private/M&A,False,2007-07-02,0,False,2015,,False,False,False,False
+1405503,"China Digital TV Holding Co., Ltd.",,,F4,E9,7372,2017-10-25,exchange-initiated,False,2007-09-14,0,False,2017,,False,False,False,False
+1405658,E-HOUSE (CHINA) HOLDINGS LTD,,,F4,E9,6531,2016-08-16,take-private/M&A,False,2007-07-10,0,False,2016,,False,False,False,False
+1406574,"SINOHUB, INC.","Liberty Alliance, Inc.",,F4,DE,5065,2012-10-10,exchange-initiated,False,2008-10-24,0,False,2012,,False,False,False,False
+1411419,ChinaEdu CORP,,,F4,E9,8200,2014-04-24,take-private/M&A,False,2007-11-26,0,False,2014,,False,False,False,False
+1411825,NOAH EDUCATION HOLDINGS LTD.,,,F4,E9,7372,2014-07-31,take-private/M&A,False,2007-09-24,0,False,2014,,False,False,False,False
+1412494,LONGTOP FINANCIAL TECHNOLOGIES LTD,,,F4,E9,7371,2011-08-17,exchange-initiated,False,2007-10-02,0,False,2011,,False,False,False,False
+1413263,"CHINA JO-JO DRUGSTORES, INC.",KERRISDALE MINING CORP,,F4,NV,5912,2021-07-29,exchange-initiated,False,2009-12-21,0,False,2021,CJJD,True,False,True,False
+1414850,China Nepstar Chain Drugstore Ltd.,,,F4,E9,5912,2016-08-04,take-private/M&A,False,2007-10-17,0,False,2016,,False,False,False,False
+1415016,Giant Interactive Group Inc.,,,F4,E9,7389,2014-07-21,take-private/M&A,False,2007-10-12,0,False,2014,,False,False,False,False
+1415841,CDC Software CORP,,,K3,,7372,2012-04-20,exchange-initiated,True,2009-07-16,0,False,2012,,False,False,False,False
+1417961,VanceInfo Technologies Inc.,,,F4,E9,7371,2012-11-20,exchange-initiated,False,2007-11-23,0,False,2012,,False,False,False,False
+1418133,"Biostar Pharmaceuticals, Inc.",,,F4,MD,2834,2019-01-08,exchange-initiated,True,,0,False,2019,,False,False,False,False
+1418225,WSP Holdings LTD,,,F4,E9,3533,2014-11-12,take-private/M&A,True,2007-11-13,0,False,2014,,False,False,False,False
+1419723,Gushan Environmental Energy LTD,,,F4,E9,2860,2012-10-18,take-private/M&A,True,2007-12-03,0,False,2012,,False,False,False,False
+1421525,"China Intelligent Lighting & Electronics, Inc.",SRKP 22 Inc,,F4,DE,3640,2011-07-19,exchange-initiated,True,2010-02-16,0,False,2011,,False,False,False,False
+1421526,"CHINA ELECTRIC MOTOR, INC.",SRKP 21 Inc,,F4,DE,3621,2011-10-06,exchange-initiated,True,2009-10-14,0,False,2011,,False,False,False,False
+1421561,China Shengda Packaging Group Inc.,China Packaging Group Inc.;Healthplace CORP,,F4,NV,2650,2015-09-15,take-private/M&A,False,2010-07-29,0,False,2015,,False,False,False,False
+1430452,Pansoft CO LTD,,,F4,D8,7371,2012-11-09,take-private/M&A,True,2008-05-14,0,False,2012,,False,False,False,False
+1434220,7 Days Group Holdings LTD,,,F4,E9,7011,2013-07-08,take-private/M&A,False,2009-11-02,0,False,2013,,False,False,False,False
+1438644,China Distance Education Holdings LTD,,,F4,E9,8200,2021-03-19,take-private/M&A,False,2008-07-07,0,False,2021,DL,True,False,True,False
+1439229,China Mass Media Corp.,China Mass Media International Advertising Corp.,,F4,E9,7311,2012-04-05,exchange-initiated,True,2008-07-11,0,False,2012,,False,False,False,False
+1442596,YOUKU TUDOU INC.,YOUKU INC.;YOUKU.COM INC.;YOUKU.COM INC,,F4,E9,3663,2016-04-06,take-private/M&A,False,2010-11-15,0,False,2016,,False,False,False,False
+1449801,China Gerui Advanced Materials Group Ltd,Golden Green Enterprises Ltd.,,F4,D8,3310,2015-12-14,exchange-initiated,True,2009-02-17,0,False,2015,,False,False,False,False
+1458696,Changyou.com Ltd,,,F4,E9,7372,2020-04-17,take-private/M&A,False,2009-03-17,0,False,2020,CYOU,True,True,True,False
+1460801,"Tri-Tech Holding, Inc.",,,F4,E9,8711,2014-12-11,exchange-initiated,False,2009-04-03,0,False,2014,,False,False,False,False
+1463398,Chemspec International Ltd,,,F4,F4,2890,2011-08-19,take-private/M&A,False,2009-05-26,0,False,2011,,False,False,False,False
+1465317,DUOYUAN GLOBAL WATER INC.,,,F4,D8,3550,2012-06-05,exchange-initiated,True,2009-06-01,0,False,2012,,False,False,False,False
+1468944,CHINA METRO-RURAL HOLDINGS Ltd,Man Sang International (B.V.I.) Ltd,,D8,D8,6500,2016-08-19,take-private/M&A,False,,0,False,2016,,False,False,False,False
+1469606,Andatee China Marine Fuel Services Corp,,,F4,DE,5171,2015-10-23,exchange-initiated,False,2009-08-27,0,False,2015,,False,False,False,False
+1470157,Shanda Games Ltd,,,F4,E9,7389,2015-11-18,take-private/M&A,False,2009-09-03,0,False,2015,,False,False,False,False
+1472353,China Real Estate Information Corp,,,F4,E9,6531,2012-04-23,take-private/M&A,False,2009-09-29,0,False,2012,,False,False,False,False
+1474952,China Nuokang Bio-Pharmaceutical Inc.,,,F4,E9,2834,2013-02-06,take-private/M&A,False,2009-11-20,0,False,2013,,False,False,False,False
+1477324,IFM Investments Ltd,,,F4,E9,6531,2015-02-03,exchange-initiated,False,2010-01-05,0,False,2015,,False,False,False,False
+1485487,Charm Communications Inc.,,,F4,,7311,2014-09-24,take-private/M&A,True,2010-04-09,0,False,2014,,False,False,False,False
+1485538,Ossen Innovation Co. Ltd.,Ultra Glory International Ltd.,,F4,D8,3312,2021-09-10,take-private/M&A,True,2010-08-03,0,False,2021,OSN,True,False,True,False
+1485933,Trunkbow International Holdings Ltd,Bay Peak 5 Acquisition Corp.,,F4,NV,7372,2014-04-14,take-private/M&A,True,2010-10-14,0,False,2014,,False,False,False,False
+1486299,BIQI INTERNATIONAL HOLDINGS CORP,"RENMIN TIANLI GROUP, INC.;AOXIN TIANLI GROUP, INC.;Tianli Agritech, Inc.",,F4,D8,0200,2019-10-11,exchange-initiated,False,2010-03-17,0,False,2019,BIQI,True,False,False,False
+1487295,Camelot Information Systems Inc.,,,F4,D8,7371,2014-03-28,take-private/M&A,False,2010-06-25,0,False,2014,,False,False,False,False
+1487839,Luokung Technology Corp.,Kingtone Wirelessinfo Solution Holding Ltd,,F4,D8,7371,2025-07-21,exchange-initiated,False,2010-04-13,0,False,2025,LKCO,True,False,True,False
+1489077,"TIBET PHARMACEUTICALS, INC.","Shangri-La Tibetan Pharmaceuticals, Inc.",,K3,D8,2834,2012-05-09,exchange-initiated,False,2010-05-14,0,False,2012,,False,False,False,False
+1489784,Lizhan Environmental Corp,,,F4,E9,2200,2012-10-15,voluntary,True,2010-08-19,0,False,2012,,False,False,False,False
+1489895,AutoNavi Holdings Ltd,,,F4,E9,7372,2014-07-17,take-private/M&A,False,2010-06-09,0,False,2014,,False,False,False,False
+1490366,CHINA NEW BORUN Corp,,,F4,E9,2082,2019-07-03,exchange-initiated,True,2010-04-27,0,False,2019,BORN,True,False,False,False
+1491487,"Takung Art Co., Ltd","Takung Art Co., Ltd.;Cardigant Medical Inc.",,K3,DE,5990,2023-09-18,take-private/M&A,True,2011-08-16,0,False,2023,TKAT,True,False,True,False
+1492966,"Nord Anglia Education, Inc.",,,K3,E9,8200,2017-09-06,take-private/M&A,False,2014-02-18,0,False,2017,,False,False,False,False
+1493637,"RDA Microelectronics, Inc.",,,F4,E9,3674,2014-07-18,exchange-initiated,False,2010-10-21,0,False,2014,,False,False,False,False
+1493639,Pactera Technology International Ltd.,HiSoft Technology International Ltd,,F4,E9,7371,2014-03-27,take-private/M&A,False,2010-06-17,0,False,2014,,False,False,False,False
+1495660,China Kanghui Holdings,,,F4,E9,3841,2012-11-06,exchange-initiated,False,2010-07-23,0,False,2012,,False,False,False,False
+1497862,SYSWIN Inc.,,,F4,E9,6531,2013-04-10,take-private/M&A,False,2010-11-04,0,False,2013,,False,False,False,False
+1499470,ShangPharma Corp,,,F4,E9,2834,2013-04-03,take-private/M&A,False,2010-09-30,0,False,2013,,False,False,False,False
+1499506,Le Gaga Holdings Ltd,,,K3,E9,0100,2014-12-02,take-private/M&A,False,2010-10-08,0,False,2014,,False,False,False,False
+1499599,Tudou Holdings Ltd,,,F4,E9,7374,2012-08-23,exchange-initiated,False,2010-11-09,0,False,2012,,False,False,False,False
+1499619,Xueda Education Group,,,F4,,8200,2016-06-06,take-private/M&A,False,2010-10-15,0,False,2016,,False,False,False,False
+1499673,Lentuo International Inc.,,,F4,,5500,2015-05-29,exchange-initiated,True,2010-11-18,0,False,2015,,False,False,False,False
+1499744,E-COMMERCE CHINA DANGDANG INC.,,,F4,E9,5990,2016-09-21,take-private/M&A,False,2010-11-17,0,False,2016,,False,False,False,False
+1499781,BITAUTO HOLDINGS LTD,,,F4,E9,7374,2020-11-05,take-private/M&A,False,2010-10-29,0,False,2020,BITA,True,False,True,False
+1499934,"Country Style Cooking Restaurant Chain Co., Ltd.",,,F4,E9,5812,2016-04-21,take-private/M&A,False,2010-09-07,0,False,2016,,False,False,False,False
+1500108,Global Education & Technology Group Ltd,,,F4,E9,8200,2011-12-20,exchange-initiated,False,2010-09-17,0,False,2011,,False,False,False,False
+1500252,SKY-MOBI Ltd,,,F4,E9,7372,2016-11-16,take-private/M&A,False,2010-11-19,0,False,2016,,False,False,False,False
+1500308,iSoftStone Holdings Ltd,,,F4,,7371,2014-09-02,take-private/M&A,False,2010-11-23,0,False,2014,,False,False,False,False
+1500689,CHINA MING YANG WIND POWER GROUP LTD,,,F4,E9,3510,2016-06-24,take-private/M&A,False,2010-09-07,0,False,2016,,False,False,False,False
+1501176,ZUOAN FASHION LTD,,,F4,E9,2320,2015-10-05,exchange-initiated,True,2011-01-04,0,False,2015,,False,False,False,False
+1501775,Mecox Lane Ltd,,,F4,E9,2300,2016-04-14,take-private/M&A,False,2010-10-06,0,False,2016,,False,False,False,False
+1502505,SinoTech Energy Ltd,,,F4,E9,1311,2012-01-06,exchange-initiated,False,2010-10-12,0,False,2012,,False,False,False,False
+1504796,Bona Film Group Ltd,,,F4,,7822,2016-04-08,take-private/M&A,False,2010-11-17,0,False,2016,,False,False,False,False
+1507051,Taomee Holdings Ltd,,,F4,,7389,2016-06-24,take-private/M&A,True,2011-05-18,0,False,2016,,False,False,False,False
+1508913,Qihoo 360 Technology Co Ltd,,,F4,,7371,2016-07-18,take-private/M&A,False,2011-03-14,0,False,2016,,False,False,False,False
+1509986,Link Motion Inc.,NQ Mobile Inc.;NetQin Mobile Inc.,,F4,E9,7372,2019-01-09,exchange-initiated,True,2011-03-15,0,False,2019,,False,False,False,False
+1511683,JIAYUAN.COM INTERNATIONAL LTD,,,F4,E9,7374,2016-05-13,exchange-initiated,True,2011-04-20,0,False,2016,,False,False,False,False
+1517130,Pingtan Marine Enterprise Ltd.,China Growth Equity Investment Ltd,,F4,E9,0900,2023-05-02,exchange-initiated,True,2011-04-06,0,False,2023,PME,True,False,True,False
+1517492,eHi Car Services Ltd,,,F4,,7510,2019-04-10,take-private/M&A,False,2014-10-03,0,False,2019,EHIC,True,False,False,False
+1519380,"Viewtran Group, Inc.","Cogo Group, Inc.;Cogo Group Cayman, Inc.",,F4,,3670,2015-05-04,voluntary,True,,0,False,2015,,False,False,False,False
+1524190,"iKang Healthcare Group, Inc.","iKang Guobin Healthcare Group, Inc.",,F4,,8011,2019-01-18,take-private/M&A,True,2014-03-03,0,False,2019,,False,False,False,False
+1525494,58.com Inc.,,,F4,E9,7370,2020-09-18,take-private/M&A,False,2013-09-27,0,False,2020,,False,False,False,False
+1527635,Acquity Group Ltd,,,K3,,7389,2013-07-09,exchange-initiated,False,2012-03-08,0,False,2013,,False,False,False,False
+1528752,China Mobile Games & Entertainment Group Ltd,,,F4,,7372,2015-08-10,exchange-initiated,False,2012-08-20,0,False,2015,CHL,True,True,True,False
+1543268,Bit Brother Ltd,"Urban Tea, Inc.;Delta Technology Holdings Ltd;CIS Acquisition Ltd.",,F4,D8,5812,2024-04-25,exchange-initiated,False,2012-03-20,0,False,2024,MYT,True,False,True,False
+1551060,Qunar Cayman Islands Ltd.,,,F4,E9,7370,2017-02-28,take-private/M&A,False,2013-09-30,0,False,2017,,False,False,False,False
+1556266,"BAIYU Holdings, Inc.","TD Holdings, Inc.;Bat Group, Inc.;China Bat Group, Inc.;China Commercial Credit Inc",,F4,DE,5050,2025-05-30,exchange-initiated,False,2013-06-07,0,False,2025,GLG,True,False,True,False
+1584133,Sungy Mobile Ltd,GODV Technology Ltd;Sungy Data Ltd.,,F4,E9,7372,2015-11-17,take-private/M&A,False,2013-10-22,0,False,2015,,False,False,False,False
+1594124,"Sky Solar Holdings, Ltd.",Sky Power Holdings Ltd.,,F4,E9,4911,2020-10-09,take-private/M&A,True,2014-09-18,0,False,2020,,False,False,False,False
+1596856,Leju Holdings Ltd,,,F4,E9,6500,2024-04-29,exchange-initiated,False,2014-03-12,0,False,2024,LEJU,True,False,True,False
+1596964,Hailiang Education Group Inc.,,,F4,E9,8200,2022-09-15,take-private/M&A,True,2014-12-24,0,False,2022,HLG,True,False,True,False
+1597680,Jumei International Holding Ltd,,,F4,E9,5990,2020-04-15,take-private/M&A,False,2014-04-11,0,False,2020,,False,False,False,False
+1600527,iDreamSky Technology Ltd,,,F4,E9,7372,2016-09-07,take-private/M&A,False,2014-07-03,0,False,2016,,False,False,False,False
+1607741,Yulong Eco-Materials Ltd,,,F4,E9,3270,2019-03-12,exchange-initiated,True,2014-12-19,0,False,2019,,False,False,False,False
+1617113,CSOP ETF Trust,,,F4,DE,,2018-10-01,exchange-initiated,False,,0,False,2018,,False,False,False,False
+1620664,"China Customer Relations Centers, Inc.",,,F4,VA,7389,2021-07-06,take-private/M&A,True,2014-10-14,0,False,2021,CCRC,True,False,True,False
+1625042,E-Compass Acquisition Corp.,,,F4,E9,6770,2017-02-10,take-private/M&A,False,2015-05-11,0,True,2017,,False,False,False,False
+1633441,Secoo Holding Ltd,,,F4,E9,5990,2025-08-07,exchange-initiated,True,2017-08-25,0,False,2025,SECO,True,False,True,False
+1637921,FULING GLOBAL INC.,,,F4,E9,3089,2020-11-23,take-private/M&A,False,2015-07-28,0,False,2020,FORK,True,False,True,False
+1647338,Gridsum Holding Inc.,,,F4,E9,7372,2021-03-25,take-private/M&A,False,2016-08-26,0,False,2021,GSUM,True,False,True,False
+1661125,Yintech Investment Holdings Ltd,,,F4,E9,6200,2020-11-18,take-private/M&A,False,2016-04-04,0,False,2020,YIN,True,False,True,False
+1663641,Ando Holdings Ltd.,PC Mobile Media Corp.,,K3,NV,7310,2020-08-25,voluntary,True,2016-01-19,0,False,2020,,False,False,False,False
+1678022,"Newater Technology, Inc.",,,F4,D8,4950,2021-07-13,take-private/M&A,True,2017-04-18,0,False,2021,NEWA,True,False,True,False
+1679450,Hunter Maritime Acquisition Corp.,,,F4,1T,4731,2019-09-23,exchange-initiated,False,2016-10-11,0,False,2019,,False,False,False,False
+1697805,"XYNOMIC PHARMACEUTICALS HOLDINGS, INC.",Bison Capital Acquisition Corp.;Bison Capital Acquisition Corp,,F4,D8,2834,2019-05-15,take-private/M&A,False,2017-05-31,0,False,2019,BCAC,True,False,False,False
+1709505,BEST Inc.,,,F4,E9,4210,2025-03-10,take-private/M&A,False,2017-06-26,0,False,2025,,False,False,False,False
+1709563,SSLJ. COM Ltd,,,F4,E9,7340,2019-07-29,voluntary,True,2017-11-07,0,False,2019,,False,False,False,False
+1713947,SOGOU INC.,,,F4,E9,7371,2021-09-24,take-private/M&A,False,2017-10-13,0,False,2021,SOGO,True,False,True,False
+1722380,Meta Data Ltd,OneSmart International Education Group Ltd;OneSmart Education Group Ltd,,F4,,8200,2024-11-06,exchange-initiated,False,2018-03-02,0,False,2024,ONE,True,False,True,False
+1726189,Puxin Ltd,,,F4,E9,8200,2022-05-25,exchange-initiated,True,2018-05-18,0,False,2022,,False,False,False,False
+1729089,"Puhui Wealth Investment Management Co., Ltd.",,,F4,E9,6282,2023-07-10,exchange-initiated,True,2018-05-21,0,False,2023,PHCF,True,False,True,False
+1731176,Tottenham Acquisition I Ltd,,,K3,D8,2834,2020-12-30,take-private/M&A,False,2018-07-05,0,False,2020,,False,False,False,False
+1734902,Weidai Ltd.,,,F4,,6199,2022-06-01,exchange-initiated,False,2018-08-10,0,False,2022,WEI,True,False,True,False
+1737422,New Frontier Health Corp,New Frontier Corp,,F4,NY,8060,2022-01-27,take-private/M&A,True,2018-06-04,0,False,2022,NFH,True,False,True,False
+1738758,"Cheer Holding, Inc.",GLORY STAR NEW MEDIA GROUP HOLDINGS Ltd;TKK SYMPHONY ACQUISITION Corp,CHR,F4,E9,7374,2025-02-14,exchange-initiated,False,2018-07-30,0,False,2025,CHR,True,True,True,False
+1742056,LAIX Inc.,LingoChamp Inc.,,F4,E9,8200,2022-04-22,exchange-initiated,False,2018-08-31,0,False,2022,LAIX,True,False,True,False
+1743858,Longevity Acquisition Corp,,,F4,D8,6770,2021-03-22,take-private/M&A,False,2018-08-08,0,True,2021,LOAC,True,False,True,False
+1748621,Alberton Acquisition Corp,,,K3,D8,1700,2022-07-19,exchange-initiated,True,2018-10-02,0,False,2022,,False,False,False,False
+1749797,China Index Holdings Ltd,,,F4,E9,7374,2023-04-17,take-private/M&A,True,2019-05-10,0,False,2023,CIH,True,False,True,False
+1753268,Ruhnn Holding Ltd,,,F4,E9,5961,2021-04-20,take-private/M&A,True,2019-03-06,0,False,2021,RUHN,True,False,True,False
+1754323,"X3 Holdings Co., Ltd.","Powerbridge Technologies Co., Ltd.",XTKGF,U0,E9,7371,2026-07-14,exchange-initiated,False,2019-01-04,0,False,2026,XTKG,True,False,False,False
+1758736,Molecular Data Inc.,,,F4,E9,7389,2022-10-27,exchange-initiated,True,2019-12-06,0,False,2022,MKD,True,False,True,False
+1759136,Blue Hat Interactive Entertainment Technology,,BHATF,F4,E9,5160,2026-07-14,exchange-initiated,False,2019-03-04,0,False,2026,BHAT,True,False,True,False
+1763197,ECMOHO Ltd,,,F4,E9,5961,2022-10-27,exchange-initiated,True,2019-09-26,0,False,2022,MOHO,True,False,True,False
+1768910,Greencity Acquisition Corp,,,F4,E9,6770,2023-07-10,exchange-initiated,True,2020-06-19,0,True,2023,,False,False,False,True
+1771279,Wanda Sports Group Co Ltd,,,F4,K3,7900,2021-01-19,take-private/M&A,False,2019-06-07,0,False,2021,WSG,True,False,True,False
+1773086,Yunhong International,China Yunhong Holdings Ltd,,F4,E9,6770,2021-12-06,voluntary,True,2019-06-28,0,True,2021,,False,False,False,False
+1775085,China Liberal Education Holdings Ltd,,,F4,E9,8200,2025-08-07,exchange-initiated,True,2019-08-05,0,False,2025,CLEU,True,False,False,False
+1776539,SEASPAN CAPITAL LTD.,,,F4,A1,,2020-02-27,take-private/M&A,False,,0,False,2020,,False,False,False,False
+1780262,Newborn Acquisition Corp,,,F4,,3790,2021-03-22,take-private/M&A,False,2020-01-03,0,False,2021,,False,False,False,False
+1780531,"ONECONNECT FINANCIAL TECHNOLOGY CO., LTD.",,,F4,,7370,2025-11-21,take-private/M&A,False,2019-11-13,0,False,2025,OCFT,True,False,True,False
+1782594,Genetron Holdings Ltd,,,F4,E9,8071,2024-03-28,take-private/M&A,True,2019-11-21,0,False,2024,,False,False,False,False
+1785154,Phoenix Tree Holdings Ltd,,,F4,E9,6513,2021-04-23,exchange-initiated,False,2019-10-28,0,False,2021,,False,False,False,False
+1791278,BlueCity Holdings Ltd,,,F4,E9,7374,2022-08-12,take-private/M&A,False,2020-06-16,0,False,2022,,False,False,False,True
+1793862,Dada Nexus Ltd,,,F4,E9,7370,2025-06-16,take-private/M&A,False,2020-05-12,0,False,2025,DADA,True,False,False,True
+1807192,Chindata Group Holdings Ltd,BCPE Bridge Stack Ltd,,F4,E9,7370,2023-12-18,take-private/M&A,False,2020-09-08,0,False,2023,CD,True,True,True,True
+1809158,Kuke Music Holding Ltd,,,F4,E9,8200,2025-11-05,exchange-initiated,True,2020-12-18,0,False,2025,KUKE,True,False,False,True
+1815086,Bridgetown Holdings Ltd,,,F4,E9,6770,2023-10-12,take-private/M&A,False,2020-09-23,0,True,2023,,False,False,False,True
+1816723,Graphex Group Ltd,,,K3,E9,3620,2025-05-23,exchange-initiated,True,2022-03-07,0,False,2025,,False,False,False,True
+1818605,Distoken Acquisition Corp,,,F4,E9,6770,2025-07-09,take-private/M&A,True,2020-09-15,0,True,2025,,False,False,False,True
+1818787,Primavera Capital Acquisition Corp.,,,K3,,6770,2022-12-15,take-private/M&A,False,2021-01-06,0,True,2022,,False,False,False,True
+1822792,Goldenbridge Acquisition Ltd,,,K3,,6770,2023-05-17,exchange-initiated,True,2020-09-08,0,True,2023,,False,False,False,True
+1824185,HH&L Acquisition Co.,,,K3,,8071,2024-02-23,take-private/M&A,False,2021-01-20,0,False,2024,,False,False,False,True
+1826492,Gracell Biotechnologies Inc.,,,F4,E9,2834,2024-02-22,exchange-initiated,False,2020-12-18,0,False,2024,,False,False,False,True
+1826553,Silver Crest Acquisition Corp,,,F4,E9,6770,2022-09-28,take-private/M&A,False,2020-12-23,0,True,2022,,False,False,False,True
+1829949,Onion Global Ltd,,,F4,E9,5961,2023-01-04,exchange-initiated,True,2021-04-07,0,False,2023,,False,False,False,True
+1830531,Provident Acquisition Corp.,,,K3,E9,7372,2022-10-28,take-private/M&A,True,2020-12-22,0,False,2022,,False,False,False,True
+1831236,Bridgetown 2 Holdings Ltd,Bridgetown 2 Holdings Limited,,F4,E9,6770,2022-03-17,take-private/M&A,False,2020-12-31,0,True,2022,,False,False,False,True
+1838937,Zhangmen Education Inc.,Global Online Education Inc.,,F4,,8200,2022-06-17,exchange-initiated,False,2021-05-19,0,False,2022,,False,False,False,True
+1843121,Magnum Opus Acquisition Ltd,,,K3,,6770,2024-02-08,exchange-initiated,True,2021-03-01,0,True,2024,,False,False,False,True
+1844389,Ace Global Business Acquisition Ltd,,,F4,,6770,2024-06-03,exchange-initiated,False,2021-02-09,0,True,2024,,False,False,False,True
+1848000,Lakeshore Acquisition I Corp.,,,F4,E9,6770,2022-12-06,take-private/M&A,False,2021-04-12,0,True,2022,,False,False,False,True
+1848097,SPK Acquisition Corp.,,,F4,DE,2836,2022-12-29,take-private/M&A,False,2021-04-23,0,False,2022,,False,False,False,True
+1851682,Missfresh Ltd,,,F4,E9,5990,2024-02-15,exchange-initiated,True,2021-06-08,0,False,2024,,False,False,False,True
+1851908,Black Spade Acquisition Co,,,K3,E9,6770,2023-06-26,voluntary,False,2021-06-29,0,True,2023,,False,False,False,True
+1852061,Generation Asia I Acquisition Ltd,,,F4,E9,6770,2024-03-28,voluntary,False,2021-10-22,0,True,2024,,False,False,False,True
+1853084,Blue Safari Group Acquisition Corp,,,K3,D8,7374,2023-04-13,take-private/M&A,True,2021-05-06,0,False,2023,,False,False,False,True
+1854593,Gobi Acquisition Corp.,,,K3,E9,6770,2022-08-01,voluntary,False,2021-06-09,0,True,2022,,False,False,False,True
+1856948,Chenghe Acquisition Co.,,,K3,K3,6770,2023-10-12,exchange-initiated,False,2022-04-01,0,True,2023,,False,False,False,True
+1867287,Lakeshore Acquisition II Corp.,,,F4,E9,6770,2024-03-11,take-private/M&A,False,2022-01-28,0,True,2024,,False,False,False,True
+1874074,MultiMetaVerse Holdings Ltd,Model Performance Mini Corp.,,F4,,7372,2025-06-23,exchange-initiated,True,2023-02-07,0,False,2025,,False,False,False,True
+1875496,"YanGuFang International Group Co., Ltd",,,F4,E9,2000,2024-04-09,exchange-initiated,True,2022-08-05,0,False,2024,,False,False,False,True
+1894370,Hainan Manaslu Acquisition Corp.,,,F4,DE,6770,2023-08-17,take-private/M&A,False,2021-11-24,0,True,2023,,False,False,False,True
+1897971,Global Lights Acquisition Corp,,,F4,E9,6770,2025-07-14,exchange-initiated,True,2023-09-22,0,True,2025,,False,False,False,True
+1899658,"WANG & LEE GROUP, Inc.",,,K3,D8,1700,2025-11-21,exchange-initiated,True,2022-06-21,0,False,2025,,False,False,False,True
+1946399,"LakeShore Biopharma Co., Ltd.","YS Biopharma Co., Ltd.;YishengBio Co., Ltd",,F4,E9,2834,2025-11-14,exchange-initiated,True,2023-04-12,0,False,2025,,False,False,False,True
+1954042,ZEEKR Intelligent Technology Holding Ltd,,,F4,E9,3711,2025-12-22,exchange-initiated,False,2023-11-09,0,False,2025,ZK,True,False,False,True
+1954705,Fuxing China Group Ltd,,,F4,F4,3990,2025-12-22,voluntary,False,2024-04-02,0,False,2025,,False,False,False,True
+1962738,"CASI Pharmaceuticals, Inc.","CASI Pharmaceuticals Holdings, Inc.",CASIF,F4,E9,2834,2026-06-23,exchange-initiated,True,,0,False,2026,CASI,True,False,True,False
+2025065,Black Spade Acquisition II Co,,,K3,E9,6770,2025-06-11,take-private/M&A,False,2024-06-21,0,True,2025,,False,False,False,True
+2046573,Pitanium Ltd,,,,K3,2844,2026-10-01,exchange-initiated,False,2025-02-14,0,False,2026,,False,False,False,False
+2049717,JM Group Ltd,,,K3,E9,5090,2026-06-23,exchange-initiated,True,2025-08-13,0,False,2026,,False,False,False,True
